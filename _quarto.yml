@@ -1,93 +1,67 @@
+# All website project options: https://quarto.org/docs/reference/projects/websites.html
 project:
   type: website
-  output-dir: files
+  output-dir: site-files
+  preview: 
+    browser: true
 
 website:
-  title: "Tormey E Reimer" # Website title
-  description: "This is both my personal website and a playground for learning to use Quarto." # Website description
-  favicon: pictures/pgntree-shiny-gold-star.png # The path to the favicon for this website
-  # site-url: # Base URL for published website
-  # site-path: # Path to site (defaults to /). Not required if you specify site-url.
-  # repo-url: # Base URL for website source code repository
-  # repo-link-target: # The value of the target attribute for repo links
-  # repo-link-rel: # The value of the rel attribute for repo links
-  # repo-subdir: # Subdirectory of repository containing website
-  # repo-branch: # Branch of website source code (defaults to main)
-  # issue-url: # URL to use for the ‘report an issue’ repository action.
-  # repo-actions: # Links to source repository actions (none or one or more of edit, source, issue)
+  title: "Tormey E Reimer"
+  description: "Welcome to my personal website."
+  favicon: pictures/pgntree-shiny-gold-star.png # Choose a new favicon
+  site-url: https://www.drtreimer.com
+  repo-url: https://github.com/stormeyseas/personal-website
   reader-mode: true # Displays a ‘reader-mode’ tool which allows users to hide the sidebar and table of contents when viewing a page.
-  # google-analytics: # Enable Google Analytics for this website
-  cookie-consent: false # Quarto includes the ability to request cookie consent before enabling scripts that set cookies, using Cookie Consent. The user’s cookie preferences will automatically control Google Analytics (if enabled) and can be used to control custom scripts you add as well. For more information see Custom Scripts and Cookie Consent.
-  search: true # Site search (true or false to enable/disable, or provide custom Search Options
-  # I'm going to try creating a bunch of different sidebars to see if I can put a "dummy" one on the homepage.
-  sidebar:
-    - id: sidebar2 
+  # Create a bunch of different sidebars and put a "dummy" one on the homepage.
+  sidebar: 
+    - id: dummysidebar 
       title: " "
       style: "docked"
-      background: light 
-      foreground: light 
+      background: light
+      foreground: light
       border: false
-    - id: sidebar1 # The identifier for this sidebar.
-      title: "Test title" # The sidebar title. Uses the project title if none is specified.
-      # logo: # Path to a logo image that will be displayed in the sidebar.
-      search: true # Include a search control in the sidebar.
-      # tools: # List of sidebar tools (see Sidebar Tools)
-      contents: "auto" # List of navigation items to appear in the sidebar. Can also include section entries which in turn contain sub-lists of navigation items.
-      style: "docked" # The style of sidebar (docked or floating).
-      background: light # The sidebar’s background color (named or hex color).
-      foreground: dark # The sidebar’s foreground color (named or hex color).
-      border: true # Whether to show a border on the sidebar (defaults to true for ‘docked’ sidebars)
-      alignment: "left" # Alignment of the items within the sidebar (left, right, or center)
-      # collapse-level: # The depth at which the sidebar contents should be collapsed by default.
-      # pinned: # When collapsed, pin the collapsed sidebar to the top of the page.
-      # header: # Markdown to place above sidebar content (text or file path)
-      # footer: # Markdown to place below sidebar content (text or file path)
+    - id: normalsidebar
+      title: "Look around" # Uses the project title if none is specified
+      contents: "auto"
+      style: "docked"
+      background: light
+      foreground: dark
+      border: true # defaults to true for ‘docked’, false for 'floating'
+      alignment: 'left'
   navbar: # Navbar options (see Navbar)
-    title: " " # The navbar title. Uses the project title if none is specified.
-    # logo: pictures/pgntree-shiny-gold-star.png # Path to a logo image that will be displayed to the left of the title.
-    # logo-alt: "Shiny star is shiny" # Alternate text for the logo image.
-    # logo-href: # Target href from navbar logo / title. By default, the logo and title link to the root page of the site (/index.html).
-    background: dark # The navbar’s background color (named or hex color).
-    foreground: light # The navbar’s foreground color (named or hex color).
-    search: true # Include a search box in the navbar.
-    pinned: true # Always show the navbar (keeping it pinned).
-    collapse: true # Collapse the navbar into a menu when the display becomes narrow.
-    # collapse-below: # The responsive breakpoint below which the navbar will collapse into a menu (sm, md, lg (default), xl, xxl).
-    left: # List of items for the left side of the navbar (see Nav Items)
+    title: " " # Uses the project title if none is specified.
+    background: dark 
+    foreground: light
+    pinned: true
+    collapse: true
+    # List of items for the each section of the navbar (left, right, center)
+    left: 
       - href: index.qmd
         text: "Home"
       - href: page1.qmd
         text: "Colours"
+    right:
       - href: page2.qmd
         text: "Blog"
-    # right: # List of items for the left side of the navbar (see Nav Items)
     toggle-position: left # The position of the collapsed navbar toggle when in responsive mode
-  # body-header: # Markdown to insert at the beginning of each page’s body (below the title and author block).
-  # body-footer: # Markdown to insert below each page’s body.
-  # margin-header: # Markdown to place above margin content (text or file path)
-  # margin-footer: # Markdown to place below margin content (text or file path)
-  page-navigation: true # Provide next and previous article links in footer
-  back-to-top-navigation: true # Provide a ‘back to top’ navigation button
-  # bread-crumbs: # Whether to show navigation breadcrumbs for pages more than 1 level deep
-  page-footer: # Page footer. Text content or page footer definition.
-    left: <br>Contact me at tormey.reimer@utas.edu.au # Footer left content
-    right: <i>I acknowledge the traditional owners of the land on which I live and work.<br>Sovereignty was never ceded</i> ![](pictures/Australian_Aboriginal_flag.png){height=14 fig-valign=top} # Footer right content
-    center: <br>Copyright 2024, Tormey Reimer # Footer center content
-    border: false # Footer border (true, false, or a border color)
-    background: dark # Footer background color
-    foreground: light # Footer foreground color
-  # image: # Default site thumbnail image for twitter /open-graph
-  # image-alt: # Default site thumbnail image alt text for twitter /open-graph
-  # comments: # 
-  # open-graph: # Generate Open Graph metadata (see Open Graph options)
-  # twitter-card: # Generate Twitter Card metadata (see Twitter Card options)
-  # other-links: # A list of other links to appear below the TOC.
-  # code-links: # A list of code links to appear with this document.
+  page-navigation: false # Provide next and previous article links in footer
+  back-to-top-navigation: true
+  # Page footer. Text content or page footer definition.
+  page-footer: 
+    left: |
+      Contact: [tormey.reimer@utas.edu.au](mailto:tormey.reimer@utas.edu.au)
+    right: |
+      <i>I acknowledge the traditional owners of the land on which I live and work. Sovereignty was never ceded</i> ![](resources/pictures/Australian_Aboriginal_flag.png){height=14 fig-valign=top}
+    border: false
+    background: dark
+    foreground: light
 
 format:
   html:
     theme: lux
+    # This is where custom theme elements will go
     page-layout: full
+    # This grid doesn't seem to work
     # grid:
     #   sidebar-width: 	200px
     #   body-width: 	900px
