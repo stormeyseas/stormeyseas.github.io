@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "pages/about.html",
+    "href": "pages/about.html",
+    "title": "Tormey E Reimer",
+    "section": "",
+    "text": "Main heading\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dignissim ex sit amet augue consequat, vel gravida purus ullamcorper. Etiam interdum metus in tincidunt elementum. Praesent placerat elit at eleifend eleifend. Vivamus consequat tempus sollicitudin. Pellentesque condimentum libero vel finibus pretium.\n\n\n\nSecondary heading\n\n\n\n\n\n\n\n\n\n\n\nFirst row of stuff\n\n\nUt eget lorem et odio facilisis placerat. Nam ac est elementum, ornare enim sit amet, aliquam magna. Morbi varius neque ante, non tristique velit pulvinar at. Praesent sit amet velit metus.\nUt vel metus quis ligula convallis sollicitudin. Etiam dapibus rhoncus nibh eget ullamcorper. Morbi enim ligula, aliquet vel libero et, egestas commodo nunc. Pellentesque cursus finibus ligula, vitae mollis nibh gravida vitae.\n\n\n\n\nSecond row of stuff\n\n\nAliquam condimentum aliquet sem, id vestibulum ante faucibus eu. Fusce vestibulum tellus ac luctus feugiat. Fusce semper venenatis dui, in porta urna cursus sit amet.\nEtiam efficitur interdum enim id pretium. In elit diam, iaculis a elit vel, sollicitudin ultricies magna. Nam gravida massa fermentum, viverra dui in, fermentum eros. Phasellus sit amet feugiat dolor. Nunc feugiat semper est at condimentum. Sed mollis eu nibh nec dictum. Suspendisse lacinia nisi orci, a sodales arcu fringilla fringilla. Pellentesque a nunc in odio ornare porttitor id ut felis."
+  },
+  {
+    "objectID": "pages/blog.html",
+    "href": "pages/blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "As we learn and experiment, we end up doing a lot of work that doesn’t actually make it into any final product. I often think about the time that went into that work, and I wonder if anyone else has ever tried to solve the same problem before or since. How many times have we quietly reinvented the wheel?\nThis is my random collection of musings, templates, code snippets, and other bits and pieces that I’ve created over the years but don’t have anywhere to publish.\n\n\nLaying out figures with ggplot2\n\np1 = ggplot(data = iris, \n            aes(x = Sepal.Length, \n                y = Petal.Length, \n                color = as.factor(Species))) +\n    geom_point() +\n    theme_classic()"
+  },
+  {
+    "objectID": "pages/index.html",
+    "href": "pages/index.html",
+    "title": "Tormey E Reimer",
+    "section": "",
+    "text": "You found my website!\n\n\nUnfortunately, there’s nothing here. You’re either very lucky, very bored, or a cheeky miscreant. You should check back later…"
+  },
+  {
+    "objectID": "pages/about.html#secondary-heading",
+    "href": "pages/about.html#secondary-heading",
+    "title": "Tormey E Reimer",
+    "section": "Secondary heading",
+    "text": "Secondary heading"
+  }
+]

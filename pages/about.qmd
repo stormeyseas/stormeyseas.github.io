@@ -1,0 +1,53 @@
+---
+format: html
+toc: false
+sidebar: false
+---
+
+::: h1
+Main heading
+:::
+
+::: {.body style="margin-top: 1.5em; margin-bottom: 2em;"}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dignissim ex sit amet augue consequat, vel gravida purus ullamcorper. Etiam interdum metus in tincidunt elementum. Praesent placerat elit at eleifend eleifend. Vivamus consequat tempus sollicitudin. Pellentesque condimentum libero vel finibus pretium.
+:::
+
+<hr>
+
+::: h2
+Secondary heading
+:::
+
+::: grid
+::: g-col-4
+![](/resources/pictures/splash.jpg){fig-alt="Splash!" fig-align="center" width="100%"}
+:::
+
+::: g-col-8
+::: h3
+First row of stuff
+:::
+
+::: p
+Ut eget lorem et odio facilisis placerat. Nam ac est elementum, ornare enim sit amet, aliquam magna. Morbi varius neque ante, non tristique velit pulvinar at. Praesent sit amet velit metus.
+
+Ut vel metus quis ligula convallis sollicitudin. Etiam dapibus rhoncus nibh eget ullamcorper. Morbi enim ligula, aliquet vel libero et, egestas commodo nunc. Pellentesque cursus finibus ligula, vitae mollis nibh gravida vitae.
+:::
+:::
+
+::: g-col-8
+::: h3
+Second row of stuff
+:::
+
+::: p
+Aliquam condimentum aliquet sem, id vestibulum ante faucibus eu. Fusce vestibulum tellus ac luctus feugiat. Fusce semper venenatis dui, in porta urna cursus sit amet.
+
+Etiam efficitur interdum enim id pretium. In elit diam, iaculis a elit vel, sollicitudin ultricies magna. Nam gravida massa fermentum, viverra dui in, fermentum eros. Phasellus sit amet feugiat dolor. Nunc feugiat semper est at condimentum. Sed mollis eu nibh nec dictum. Suspendisse lacinia nisi orci, a sodales arcu fringilla fringilla. Pellentesque a nunc in odio ornare porttitor id ut felis.
+:::
+:::
+
+::: g-col-4
+![](/resources/pictures/splash.jpg){fig-alt="Splash!" fig-align="center" width="100%"}
+:::
+:::

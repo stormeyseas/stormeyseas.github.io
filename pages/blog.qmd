@@ -1,0 +1,33 @@
+---
+title: "Blog"
+---
+
+As we learn and experiment, we end up doing a lot of work that doesn't actually make it into any final product. I often think about the time that went into that work, and I wonder if anyone else has ever tried to solve the same problem before or since. How many times have we quietly reinvented the wheel?
+
+This is my random collection of musings, templates, code snippets, and other bits and pieces that I've created over the years but don't have anywhere to publish. 
+
+-------------------------------------
+
+### Laying out figures with ggplot2
+
+```{r}
+#| echo: false
+library(ggplot2)
+```
+
+
+```{r}
+#| code-overflow: wrap
+p1 = ggplot(data = iris, 
+            aes(x = Sepal.Length, 
+                y = Petal.Length, 
+                color = as.factor(Species))) +
+    geom_point() +
+    theme_classic()
+```
+
+```{r}
+#| echo: false
+p1
+```
+
