@@ -51,3 +51,5 @@ Etiam efficitur interdum enim id pretium. In elit diam, iaculis a elit vel, soll
 ![](/resources/pictures/splash.jpg){fig-alt="Splash!" fig-align="center" width="100%"}
 :::
 :::
+
+

@@ -76,7 +76,8 @@ code {
   background-color:var(code-bg);
 }
 
-.vertical-center {
+.vertical-center,
+vertical-center {
   margin: 0;
   position: absolute;
   top: 50%;
