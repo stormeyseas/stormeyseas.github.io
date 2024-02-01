@@ -1,0 +1,17 @@
+---
+# All options for the HTML format: https://quarto.org/docs/reference/formats/html.html
+format: html
+toc: false
+page-layout: full
+grid:
+  sidebar-width: 0px
+  body-width: 900px
+  margin-width: 0px
+  gutter-width: 30px
+---
+
+::: {.h1 style="text-align: center"}
+Quarto
+:::
+
+![](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMnNud2Y0bGFkdDVpZXgzOTBiY2kwMmsxMHNhbmVoaW16bWdsM3Z3eCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/gu9XBXiz60HlO5p9Nz/giphy.gif){fig-alt="Loading science....." fig-align="center"}
