@@ -75,3 +75,11 @@ code {
   color:var(code-color);
   background-color:var(code-bg);
 }
+
+.phantom-light {
+    background-color:var(--light);
+}
+
+.phantom-dark {
+    background-color:var(--dark);
+}
