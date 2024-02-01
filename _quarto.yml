@@ -10,8 +10,8 @@ website:
   description: "Welcome to my personal website."
   favicon: pictures/pgntree-shiny-gold-star.png # Choose a new favicon
   site-url: https://www.drtreimer.com
-  repo-url: https://github.com/stormeyseas/personal-website
-  reader-mode: true # Displays a ‘reader-mode’ tool which allows users to hide the sidebar and table of contents when viewing a page.
+  repo-url: https://github.com/stormeyseas/stormeyseas.github.io
+  reader-mode: false # Displays a ‘reader-mode’ tool which allows users to hide the sidebar and table of contents when viewing a page.
   # Create a bunch of different sidebars and put a "dummy" one on the homepage.
   sidebar: 
     - id: dummysidebar 
@@ -28,10 +28,8 @@ website:
       foreground: dark
       border: true # defaults to true for ‘docked’, false for 'floating'
       alignment: 'left'
-  navbar: # Navbar options (see Navbar)
+  navbar: # Navbar options (see https://quarto.org/docs/reference/projects/websites.html#navbar)
     title: " " # Uses the project title if none is specified.
-    background: dark 
-    foreground: light
     pinned: true
     collapse: true
     # List of items for the each section of the navbar (left, right, center)
