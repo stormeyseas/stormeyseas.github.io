@@ -16,6 +16,6 @@ Cool stuff coming soon!
 
 ![](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMnNud2Y0bGFkdDVpZXgzOTBiY2kwMmsxMHNhbmVoaW16bWdsM3Z3eCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/gu9XBXiz60HlO5p9Nz/giphy.gif){fig-alt="Loading science....." fig-align="center"}
 
-::: {.p style="text-align: center; font-size: 2.5em;"}
+::: {.body style="text-align: center; font-size: 2.5em;"}
 Check back later...
 :::

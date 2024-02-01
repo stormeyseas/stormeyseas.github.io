@@ -45,7 +45,7 @@ website:
         text: "Blog"
     toggle-position: left # The position of the collapsed navbar toggle when in responsive mode
   page-navigation: false # Provide next and previous article links in footer
-  back-to-top-navigation: true
+  back-to-top-navigation: false
   # Page footer. Text content or page footer definition.
   page-footer: 
     left: |
