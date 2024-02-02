@@ -7,7 +7,7 @@ toc: false
 ---
 
 ::: {.h1 style="text-align: center; font-size: 3em;"}
-Wow, you found my website!
+You found my website!
 :::
 
 ::: {.p style="text-align: center; font-size: 1.5em;"}
