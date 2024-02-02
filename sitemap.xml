@@ -2,14 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.drtreimer.com/pages/about.html</loc>
-    <lastmod>2024-02-02T02:17:01.531Z</lastmod>
+    <lastmod>2024-02-02T08:46:20.796Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.drtreimer.com/pages/example-page.html</loc>
+    <lastmod>2024-02-02T08:46:20.796Z</lastmod>
   </url>
   <url>
     <loc>https://www.drtreimer.com/pages/index.html</loc>
-    <lastmod>2024-02-02T02:17:01.535Z</lastmod>
+    <lastmod>2024-02-02T08:46:20.796Z</lastmod>
   </url>
   <url>
     <loc>https://www.drtreimer.com/pages/blog.html</loc>
-    <lastmod>2024-02-02T02:17:01.531Z</lastmod>
+    <lastmod>2024-02-02T08:46:20.796Z</lastmod>
   </url>
 </urlset>
