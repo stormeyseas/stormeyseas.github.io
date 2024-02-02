@@ -1,0 +1,127 @@
+---
+format: html
+toc: false
+sidebar: false
+---
+
+::: h1
+"Lightly" theme (H1)
+:::
+
+::: body
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dignissim ex sit amet augue consequat, vel gravida purus ullamcorper. Etiam interdum metus in tincidunt elementum. Praesent placerat elit at eleifend eleifend. Vivamus consequat tempus sollicitudin. Pellentesque condimentum libero vel finibus pretium.
+:::
+
+::: callout-warning
+This is a "warning" callout block.
+:::
+
+::: h2
+A tricky layout (H2)
+:::
+
+::: grid
+::: g-col-4
+<img src="/resources/pictures/splash.jpg" style="position:relative; top:30px; width:100%;"/>
+:::
+
+::: g-col-8
+::: h3
+First grid row (H2)
+:::
+
+::: p
+Ut eget lorem et odio facilisis placerat. Nam ac est elementum, ornare enim sit amet, aliquam magna. Morbi varius neque ante, non tristique velit pulvinar at. Praesent sit amet velit metus.
+
+Ut vel metus quis ligula convallis sollicitudin. Etiam dapibus rhoncus nibh eget ullamcorper. Morbi enim ligula, aliquet vel libero et, egestas commodo nunc.
+:::
+:::
+
+<!-- end of g-col -->
+:::
+
+<!-- end of grid -->
+
+::: callout-note
+This is a 'note' callout block.
+:::
+
+::: grid
+::: g-col-8
+::: h3
+Second grid row (H2)
+:::
+
+::: p
+Aliquam condimentum aliquet sem, id vestibulum ante faucibus eu. Fusce vestibulum tellus ac luctus feugiat. Fusce semper venenatis dui, in porta urna cursus sit amet.
+
+Etiam efficitur interdum enim id pretium. In elit diam, iaculis a elit vel, sollicitudin ultricies magna. Etiam efficitur interdum enim id pretium. In elit diam, iaculis a elit vel, sollicitudin ultricies magna.
+:::
+:::
+
+::: g-col-4
+<img src="/resources/pictures/splash.jpg" style="position:relative; top:25px; width:100%;"/>
+:::
+:::
+
+<!-- end of grid -->
+
+::: callout-tip
+This is a "tip" callout block.
+:::
+
+::: h2
+Code and links (H2)
+:::
+
+::: body
+Code and link appearance inline: `ggplot()` and `geom_point()` require package `ggplot2`, which is available from [CRAN](https://cran.r-project.org/web/packages/ggplot2/index.html).
+:::
+
+```{r, warning=F, fig.align='center'}
+library(ggplot2)
+ggplot(iris, aes(x = Sepal.Length, Sepal.Width, colour = as.factor(Species))) +
+    geom_point() +
+    theme_classic() +
+    theme(legend.position = "none")
+```
+
+::: h3
+Lists (H3
+:::
+
+::: body
+1.  Is this an ordered list?
+
+2.  Who knows, honestly
+
+3.  I think so!
+:::
+
+::: h4
+Different paragraphs (H4)
+:::
+
+::: body
+**This text is inside a "body" div.** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dignissim ex sit amet augue consequat, vel gravida purus ullamcorper. Etiam interdum metus in tincidunt elementum. Praesent placerat elit at eleifend eleifend. Vivamus consequat tempus sollicitudin. Pellentesque condimentum libero vel finibus pretium.
+:::
+
+**This text is not.** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dignissim ex sit amet augue consequat, vel gravida purus ullamcorper. Etiam interdum metus in tincidunt elementum. Praesent placerat elit at eleifend eleifend. Vivamus consequat tempus sollicitudin. Pellentesque condimentum libero vel finibus pretium.
+
+::: p
+**This text is in a "p" div.** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dignissim ex sit amet augue consequat, vel gravida purus ullamcorper. Etiam interdum metus in tincidunt elementum. Praesent placerat elit at eleifend eleifend. Vivamus consequat tempus sollicitudin. Pellentesque condimentum libero vel finibus pretium.
+:::
+
+::: callout-important
+Kind of looks like they're all the same.
+:::
+
+::: h5
+Would I even use this (H5)
+:::
+
+Probably not.
+
+::: {.body style="background-color: pink; outline: 3px solid black; padding: 15px; margin-top: 2.5em;"}
+I'm also pretty sure that I can change the background/visuals of blocks quite easily. Not sure I'd want to do this much (as the callouts are pretty much the same thing) but it's cool to know.
+:::
