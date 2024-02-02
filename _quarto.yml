@@ -40,6 +40,8 @@ website:
         text: "Home"
       - href: pages/about.qmd
         text: "About"
+      - href: pages/example-page.qmd
+        text: "Themes"
       - href: pages/blog.qmd
         text: "Blog"
     toggle-position: left # The position of the collapsed navbar toggle when in responsive mode
@@ -48,27 +50,44 @@ website:
   # Page footer. Text content or page footer definition. I want some links behind cute icons here
   page-footer: 
     left: |
-      <br>
-      Contact: [tormey.reimer@utas.edu.au](mailto:tormey.reimer@utas.edu.au)
-      <br>
-      ![https://github.com/stormeyseas/](/resources/pictures/star.png){height=0.8em fig-valign=top; fig-align=center margin-left=5px}
-      ![https://github.com/stormeyseas/](/resources/pictures/star.png){height=0.8em fig-valign=top; fig-align=center margin-left=5px}
-      ![https://github.com/stormeyseas/](/resources/pictures/star.png){height=0.8em fig-valign=top; fig-align=center margin-left=5px}
-      <br>
+      <br>[![](/resources/pictures/envelope-solid-light.svg){fig-alt="tormey.reimer@utas.edu.au" fig-align="center" height="1.5em" fig-valign="top" margin-left="5px"}](mailto:tormey.reimer@utas.edu.au)
+      [tormey.reimer@utas.edu.au](mailto:tormey.reimer@utas.edu.au)<br>
     right: |
-      <br>
-      <i>I acknowledge the traditional owners of the land on which I live and work. Sovereignty was never ceded </i>
-      ![](/resources/pictures/Australian_Aboriginal_flag.png){height=0.8em fig-valign=top}
-      <br>
-    border: false
-    background: dark
-    foreground: light
+      <i>I acknowledge the traditional owners of the land on which I live and work. 
+      <br>Sovereignty was never ceded </i>![](/resources/pictures/Australian_Aboriginal_flag.png){margin-left=10px height=1em fig-valign=top fig-align=center}
+      <br><br>
 
 format:
   html:
-    theme: lux
-    css: styles.css
-    # This is where custom theme elements will go
+    theme:
+      light: default
+      # [cosmo, theme-light.scss]
+      # cerulean
+      # cosmo
+      # cyborg
+      # darkly
+      # flatly
+      # journal
+      # litera
+      # lumen
+      # lux
+      # materia
+      # minty
+      # morph
+      # pulse
+      # quartz
+      # sandstone
+      # simplex
+      # sketchy
+      # slate
+      # solar
+      # spacelab
+      # superhero
+      # united
+      # vapor
+      # yeti
+      # zephyr
+    # css: styles.css
     page-layout: full
     toc: true
     fig-responsive: true

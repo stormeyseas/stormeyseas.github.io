@@ -4,13 +4,14 @@ format: html
 navbar: false
 sidebar: false
 toc: false
+theme: [cosmo, /theme-light.scss]
 ---
 
 ::: {.h1 style="text-align: center; font-size: 3em;"}
 Wow, you found my website!
 :::
 
-::: {.p style="text-align: center; font-size: 1.5em;"}
+::: {.body style="text-align: center; font-size: 1.5em;"}
 Unfortunately, there's nothing here. You're either very lucky, very bored, or a cheeky miscreant. You should check back later...
 :::
 
