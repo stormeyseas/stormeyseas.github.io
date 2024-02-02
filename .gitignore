@@ -49,7 +49,5 @@ po/*~
 rsconnect/
 
 /.quarto/
-_book
-/site-files/
 .Rprofile
 renv
