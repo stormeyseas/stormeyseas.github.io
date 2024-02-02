@@ -123,14 +123,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <a class="nav-link" href="../pages/about.html" rel="" target="">
  <span class="menu-text">About</span></a>
   </li>  
-</ul>
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
     <a class="nav-link" href="../pages/blog.html" rel="" target="">
  <span class="menu-text">Blog</span></a>
   </li>  
 </ul>
-            <div class="quarto-navbar-tools">
+            <div class="quarto-navbar-tools ms-auto">
 </div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
@@ -215,12 +213,17 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="laying-out-figures-with-ggplot2" class="level3">
 <h3 class="anchored" data-anchor-id="laying-out-figures-with-ggplot2">Laying out figures with ggplot2</h3>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-overflow-wrap code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>p1 <span class="ot">=</span> <span class="fu">ggplot</span>(<span class="at">data =</span> iris, </span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>            <span class="fu">aes</span>(<span class="at">x =</span> Sepal.Length, </span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>                <span class="at">y =</span> Petal.Length, </span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>                <span class="at">color =</span> <span class="fu">as.factor</span>(Species))) <span class="sc">+</span></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>    <span class="fu">geom_point</span>() <span class="sc">+</span></span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>    <span class="fu">theme_classic</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: package 'ggplot2' was built under R version 4.3.2</code></pre>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-overflow-wrap code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>p1 <span class="ot">=</span> <span class="fu">ggplot</span>(<span class="at">data =</span> iris, </span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>            <span class="fu">aes</span>(<span class="at">x =</span> Sepal.Length, </span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>                <span class="at">y =</span> Petal.Length, </span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>                <span class="at">color =</span> <span class="fu">as.factor</span>(Species))) <span class="sc">+</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>    <span class="fu">geom_point</span>() <span class="sc">+</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>    <span class="fu">theme_classic</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div class="cell">
 <div class="cell-output-display">
@@ -468,11 +471,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left">Contact: <a href="mailto:tormey.reimer@utas.edu.au">tormey.reimer@utas.edu.au</a></div>   
+    <div class="nav-footer-left"><br> Contact: <a href="mailto:tormey.reimer@utas.edu.au">tormey.reimer@utas.edu.au</a> <br> <img src="..\resources/pictures/star.png" style="height:0.8em" data-fig-valign="top;" data-fig-align="center" data-margin-left="5px" alt="https://github.com/stormeyseas/"> <img src="..\resources/pictures/star.png" style="height:0.8em" data-fig-valign="top;" data-fig-align="center" data-margin-left="5px" alt="https://github.com/stormeyseas/"> <img src="..\resources/pictures/star.png" style="height:0.8em" data-fig-valign="top;" data-fig-align="center" data-margin-left="5px" alt="https://github.com/stormeyseas/"> <br></div>   
     <div class="nav-footer-center">
       &nbsp;
     </div>
-    <div class="nav-footer-right"><i>I acknowledge the traditional owners of the land on which I live and work. Sovereignty was never ceded</i> <img src="resources/pictures/Australian_Aboriginal_flag.png" data-fig-valign="top" height="14"></div>
+    <div class="nav-footer-right"><br> <i>I acknowledge the traditional owners of the land on which I live and work. Sovereignty was never ceded </i> <img src="..\resources/pictures/Australian_Aboriginal_flag.png" style="height:0.8em" data-fig-valign="top"> <br></div>
   </div>
 </footer>
 

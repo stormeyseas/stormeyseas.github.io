@@ -4,6 +4,8 @@ project:
   output-dir: site-files
   preview: 
     browser: true
+execute:
+  freeze: auto # so R/Python code only runs locally even when pushing = publishing live
 
 website:
   title: "Tormey E Reimer"
