@@ -50,6 +50,6 @@ rsconnect/
 
 /.quarto/
 _book
-_site
+/site-files/
 .Rprofile
 renv
