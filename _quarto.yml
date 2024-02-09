@@ -59,14 +59,14 @@ website:
 format:
   html:
     theme:
-      light: [yeti, custom-variables-bootstrap.css] # lightly # default
+      light: [yeti, resources/styling/custom-variables-bootstrap.css] # lightly # default
       # [cosmo, theme-light.scss]
       # lumen - Nice colours
       # lux - Pretty spacing/fonts
       # morph #background colour might be good for code
       # solar - also a nice colour palette
       # superhero - also a nice colour palette
-    css: styles.css
+    css: resources/styling/styles.css
     page-layout: full
     toc: true
     fig-responsive: true
