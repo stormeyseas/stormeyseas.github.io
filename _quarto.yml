@@ -1,7 +1,7 @@
 # All website project options: https://quarto.org/docs/reference/projects/websites.html
 project:
   type: website
-  output-dir: site-files
+  output-dir: output
   preview: 
     browser: true
 execute:
