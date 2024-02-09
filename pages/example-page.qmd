@@ -5,15 +5,11 @@ sidebar: false
 ---
 
 ::: h1
-"Lightly" theme (H1)
+Themes (H1)
 :::
 
-::: body
+::: {.body}
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dignissim ex sit amet augue consequat, vel gravida purus ullamcorper. Etiam interdum metus in tincidunt elementum. Praesent placerat elit at eleifend eleifend. Vivamus consequat tempus sollicitudin. Pellentesque condimentum libero vel finibus pretium.
-:::
-
-::: callout-warning
-This is a "warning" callout block.
 :::
 
 ::: h2
@@ -42,10 +38,6 @@ Ut vel metus quis ligula convallis sollicitudin. Etiam dapibus rhoncus nibh eget
 
 <!-- end of grid -->
 
-::: callout-note
-This is a 'note' callout block.
-:::
-
 ::: grid
 ::: g-col-8
 ::: h3
@@ -66,8 +58,24 @@ Etiam efficitur interdum enim id pretium. In elit diam, iaculis a elit vel, soll
 
 <!-- end of grid -->
 
+::: callout-note
+This is a 'note' callout block.
+:::
+
 ::: callout-tip
 This is a "tip" callout block.
+:::
+
+::: callout-caution
+This is a "caution" callout block.
+:::
+
+::: callout-warning
+This is a "warning" callout block.
+:::
+
+::: callout-important
+Kind of looks like they're all the same.
 :::
 
 ::: h2
@@ -110,10 +118,6 @@ Different paragraphs (H4)
 
 ::: p
 **This text is in a "p" div.** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dignissim ex sit amet augue consequat, vel gravida purus ullamcorper. Etiam interdum metus in tincidunt elementum. Praesent placerat elit at eleifend eleifend. Vivamus consequat tempus sollicitudin. Pellentesque condimentum libero vel finibus pretium.
-:::
-
-::: callout-important
-Kind of looks like they're all the same.
 :::
 
 ::: h5

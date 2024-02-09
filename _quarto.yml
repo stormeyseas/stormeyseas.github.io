@@ -50,44 +50,23 @@ website:
   # Page footer. Text content or page footer definition. I want some links behind cute icons here
   page-footer: 
     left: |
-      <br>[![](/resources/pictures/envelope-solid-light.svg){fig-alt="tormey.reimer@utas.edu.au" fig-align="center" height="1.5em" fig-valign="top" margin-left="5px"}](mailto:tormey.reimer@utas.edu.au)
-      [tormey.reimer@utas.edu.au](mailto:tormey.reimer@utas.edu.au)<br>
+      <br>[![](/resources/pictures/envelope-solid-light.svg){fig-alt=tormey.reimer@utas.edu.au fig-align=center height=1.5em fig-valign=top margin-left=5px}](mailto:tormey.reimer@utas.edu.au) [tormey.reimer@utas.edu.au](mailto:tormey.reimer@utas.edu.au)
     right: |
-      <i>I acknowledge the traditional owners of the land on which I live and work. 
-      <br>Sovereignty was never ceded </i>![](/resources/pictures/Australian_Aboriginal_flag.png){margin-left=10px height=1em fig-valign=top fig-align=center}
+      <i>I acknowledge the traditional owners of the land on which I live and work.<br>Sovereignty was never ceded </i>
+      ![](/resources/pictures/Australian_Aboriginal_flag.png){margin-left=10px height=1em fig-valign=top fig-align=center}
       <br><br>
 
 format:
   html:
     theme:
-      light: default
+      light: [yeti, custom-variables-bootstrap.css] # lightly # default
       # [cosmo, theme-light.scss]
-      # cerulean
-      # cosmo
-      # cyborg
-      # darkly
-      # flatly
-      # journal
-      # litera
-      # lumen
-      # lux
-      # materia
-      # minty
-      # morph
-      # pulse
-      # quartz
-      # sandstone
-      # simplex
-      # sketchy
-      # slate
-      # solar
-      # spacelab
-      # superhero
-      # united
-      # vapor
-      # yeti
-      # zephyr
-    # css: styles.css
+      # lumen - Nice colours
+      # lux - Pretty spacing/fonts
+      # morph #background colour might be good for code
+      # solar - also a nice colour palette
+      # superhero - also a nice colour palette
+    css: styles.css
     page-layout: full
     toc: true
     fig-responsive: true
