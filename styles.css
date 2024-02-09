@@ -1,10 +1,9 @@
 /* css styles */
 .p, p,
 .body, body {
-    margin-bottom: 1.5em;
     text-align: left;
     font: 1em/160% Inter, sans-serif;
-    font-weight: 450;
+    font-weight: 350;
     color:var(--body-color);
     background-color:var(--body-bg);
 }
@@ -14,23 +13,26 @@
 .h3, h3,
 .h4, h4 {
     text-align: left;
-    line-height: 120%;
     margin-top: 1.5em;
-    margin-bottom: 1.5rem;
-    font-weight: bolder;
-    font-family: Nunito, sans-serif;
+    font-weight: 400;
 }
 
-.h1, h1 {
-    font-size: 160%;
-}
-
+.h1, h1,
 .h2, h2 {
-    font-size: 140%;
+  line-height: 120%;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border-bottom: 0px;
 }
 
-.h3, h3 {
-    font-size: 120%;
+.navbar {
+  font: 1em/160% Inter, sans-serif;
+  font-weight: 500;
+}
+
+.nav-footer {
+  background-color:var(--bs-blue);
+  color:var(--bs-gray-200);
 }
 
 code {
@@ -47,4 +49,35 @@ vertical-center {
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
+
+.callout.callout-style-default>div.callout-header {
+  background-color: lighten(var(--callout-color), 0.5);
+  border-bottom:none;
+  font-weight:600;
+  opacity: 75%;
+  font-size: 0.9rem;
+  padding-left: 0.75em;
+  padding-right:0.75em;
+}
+
+.callout-note {
+  background-color: #007da7;
+}
+
+.callout-important {
+  background-color: #5bc0de;
+}
+
+.callout-tip {
+  background-color: #43ac6a;
+}
+
+.callout-caution {
+  background-color: #e99002;
+}
+
+.callout-warning {
+  background-color: transparent;
+}
+
 
