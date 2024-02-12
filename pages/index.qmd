@@ -1,10 +1,9 @@
 ---
 # All options for the HTML format: https://quarto.org/docs/reference/formats/html.html
 format: html
-navbar: false
 sidebar: false
 toc: false
-theme: [cosmo, /theme-light.scss]
+theme: [yeti, /theme-light.scss]
 ---
 
 ::: {.h1 style="text-align: center; font-size: 3em;"}

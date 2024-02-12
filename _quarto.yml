@@ -8,65 +8,66 @@ execute:
   freeze: auto # so R/Python code only runs locally even when pushing = publishing live
 
 website:
-  title: "Tormey E Reimer"
+  title: "Tormey E. Reimer"
   description: "Welcome to my personal website."
-  favicon: pictures/pgntree-shiny-gold-star.png # Choose a new favicon
+  favicon: /resources/icons/water-solid-dark.svg
   site-url: https://www.drtreimer.com
   repo-url: https://github.com/stormeyseas/stormeyseas.github.io
   reader-mode: false # Displays a ‘reader-mode’ tool which allows users to hide the sidebar and table of contents when viewing a page.
   # Create a bunch of different sidebars and put a "dummy" one on the homepage.
   sidebar: 
-    - id: dummysidebar 
-      title: " "
+    - id: sidebar1 
+      # title: " "
       style: "docked"
-      background: light
-      foreground: light
       border: false
-    - id: normalsidebar
-      title: "Look around" # Uses the project title if none is specified
       contents: "auto"
-      style: "docked"
-      background: light
-      foreground: dark
-      border: true # defaults to true for ‘docked’, false for 'floating'
-      alignment: 'left'
-  navbar: # Navbar options (see https://quarto.org/docs/reference/projects/websites.html#navbar)
-    title: " " # Uses the project title if none is specified.
+      background: "light"
+      foreground: light
+
+# Navbar options (see https://quarto.org/docs/reference/projects/websites.html#navbar)
+  navbar: 
+    title: false
+    logo: "/resources/icons/water-solid-light.svg"
     pinned: true
     collapse: true
     # List of items for the each section of the navbar (left, right, center)
     left: 
       - href: pages/index.qmd
         text: "Home"
-      - href: pages/about.qmd
-        text: "About"
       - href: pages/example-page.qmd
-        text: "Themes"
+        text: "Examples"
       - href: pages/blog.qmd
         text: "Blog"
     toggle-position: left # The position of the collapsed navbar toggle when in responsive mode
   page-navigation: false # Provide next and previous article links in footer
   back-to-top-navigation: false
   # Page footer. Text content or page footer definition. I want some links behind cute icons here
-  page-footer: 
+  page-footer:
     left: |
-      <br>[![](/resources/pictures/envelope-solid-light.svg){fig-alt=tormey.reimer@utas.edu.au fig-align=center height=1.5em fig-valign=top margin-left=5px}](mailto:tormey.reimer@utas.edu.au) [tormey.reimer@utas.edu.au](mailto:tormey.reimer@utas.edu.au)
+      [![](/resources/icons/envelope-solid-light.svg){fig-alt="tormey.reimer@utas.edu.au" fig-align="center" height="1.5em" fig-valign="top" margin-left="5px" margin-left="10px"}](mailto:tormey.reimer@utas.edu.au) [tormey.reimer@utas.edu.au](mailto:tormey.reimer@utas.edu.au)<br>
+      [![](/resources/icons/researchgate-light.svg){fig-alt="ResearchGate" fig-align="center" height="1.5em" fig-valign="top" margin-left="10px" margin-right="10px"}](https://www.researchgate.net/profile/Tormey-Reimer)
+      [![](/resources/icons/orcid-light.svg){fig-alt="OrcID" fig-align="center" height="1.5em" fig-valign="top" margin-left="10px" margin-right="10px"}](https://orcid.org/0000-0002-5983-2798) 
+      [![](/resources/icons/linkedin-light.svg){fig-alt="LinkedIN" fig-align="center" height="1.5em" fig-valign="top" margin-left="10px" margin-right="10px"}](https://au.linkedin.com/in/tormey-reimer) 
+      [![](/resources/icons/google-scholar-light.svg){fig-alt="GoogleScholar" fig-align="center" height="1.5em" fig-valign="top" margin-left="10px" margin-right="10px"}](https://scholar.google.com.au/citations?user=H45vLccAAAAJ&hl=en) 
+      [![](/resources/icons/github-light.svg){fig-alt="Github" fig-align="center" height="1.5em" fig-valign="top" margin-left="10px" margin-right="10px"}](https://github.com) 
     right: |
-      <i>I acknowledge the traditional owners of the land on which I live and work.<br>Sovereignty was never ceded </i>
-      ![](/resources/pictures/Australian_Aboriginal_flag.png){margin-left=10px height=1em fig-valign=top fig-align=center}
-      <br><br>
+      <i>I acknowledge the traditional owners of the land on which I live and work.<br>
+      Sovereignty was never ceded </i>
+      ![](/resources/pictures/Australian_Aboriginal_Flag.png){margin-left=10px height=1em fig-valign=top fig-align=center}
+    background: dark
+    foreground: light
 
 format:
   html:
     theme:
-      light: [yeti, resources/styling/custom-variables-bootstrap.css] # lightly # default
-      # [cosmo, theme-light.scss]
-      # lumen - Nice colours
-      # lux - Pretty spacing/fonts
-      # morph #background colour might be good for code
-      # solar - also a nice colour palette
-      # superhero - also a nice colour palette
+      light: [yeti, resources/styling/yeti.scss]
+      dark: [yeti, resources/styling/yeti.scss]
     css: resources/styling/styles.css
     page-layout: full
-    toc: true
+    grid:
+      sidebar-width: 350px
+      body-width: 1250px
+      margin-width: 350px
+      gutter-width: 75px
+    toc: false
     fig-responsive: true

@@ -70,8 +70,8 @@ $navbar-hl:                    $light-grey;// The highlight color for links in t
 $sidebar-bg:                    $white;// The background color for a sidebar. Defaults to $light except when a navbar is present or when the style is floating. In that case it defaults to the $body-bg color.
 $sidebar-fg:                    $dark-blue;// The color of foreground elements (text and navigation) on the sidebar. If not specified, a contrasting color is automatically computed.
 $sidebar-hl:                    $light-grey;// The highlight color for links in the sidebar. If not specified, the $link-color is used.
-$footer-bg:                    $dark-blue;// The background color for the footer. Defaults to the $body-bg color.
-$footer-fg:                    $white;// The color of foreground elements (text and navigation) on the footer. If not specified, a contrasting color is automatically computed.
+$footer-bg:                     $primary;// The background color for the footer. Defaults to the $body-bg color.
+$footer-fg:                     $white;// The color of foreground elements (text and navigation) on the footer. If not specified, a contrasting color is automatically computed.
 
 // Callouts
 $callout-border-width:                    3px;// By default, Quarto does not display a left border on code blocks. Set this variable to a truthy value or a CSS color to enable the left border. Defaults to 5px.

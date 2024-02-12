@@ -1,0 +1,161 @@
+/* css styles */
+
+.title, title,
+.h4, h4,
+.h3, h3,
+.h2, h2,
+.h1, h1 {
+  font-family: Inter, sans-serif;
+  font-weight: bold;
+  color: #053c5e;
+  border-bottom: none;
+  letter-spacing: 120%;
+  line-height: 125%;
+  padding: 1.25em 0.5em 1em 0.5em;
+}
+
+.title, title {
+  font-size: 2.5rem;
+  font-weight: 750;
+  box-sizing: border-box;
+  padding-top: 1.75em;
+}
+
+.h1, h1 {
+  font-size: 2em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.h2, h2 {
+  font-size: 1.5em;
+  text-align: left;
+}
+
+.h4, h4,
+.h3, h3 {
+  text-align: left;
+  padding: 0.5em 0.5em 0.5em 0.5em;
+}
+
+.h3, h3 {
+  font-size: 1.25em;
+}
+
+.h4, h4,
+.p, p,
+.body, body {
+  font-family: Nunito, sans-serif;
+  font-size: 1em;
+  line-height: 130%;
+}
+
+.ol, ol {
+  text-align: left;
+}
+
+.bf, bf {
+  font-weight: bold;
+}
+
+/* Text spacing */
+
+.p, p,
+.body, body {
+  padding: 0em 0.5em 1em 0.5em;
+}
+p:first-child {
+  padding-top: 1em;
+}
+p:last-child {
+  padding-bottom: 2em;
+}
+
+/** Changes to default footer layout **/
+
+.nav-footer {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.nav-footer-center {
+  flex-grow: 0;
+}
+
+/** Quarto doesn't have any love for buttons **/
+
+.center-for-button {
+  text-align: center;
+
+}
+
+.my-button {
+  background-color: #343a40;
+  padding: 1em 1.5em;
+  display: block;
+  margin: 2em auto 3em auto;
+  border: none;
+}
+.my-button:hover {
+  background-color: #343a40;
+}
+
+.button-link {
+  font-size: 1.25em;
+  color: white;
+  text-decoration: none;
+  line-height: 1.5em;
+  text-transform: uppercase;
+}
+.button-link:hover {
+  color: lightgrey;
+}
+
+
+/** Image containers for cards and their descriptions **/
+
+.image-card {
+    box-shadow: 10px 10px 5px lightgrey;
+    width=250px;
+}
+
+.how-to-play {
+    position: relative;
+    border: 5px dashed #053c5e;
+    border-radius: 1em;
+    padding-block: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+/** Custom column and row types for quicker responsive layouts **/
+
+/* Columns */
+.flex-width {
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 0%;
+}
+
+.fixed-width {
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 0%;
+}
+
+.buffer-10 {
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+/* Rows */
+.max-width {
+  max-width: 100%;
+}
+
+figcaption {
+  text-align: left;
+  margin-top: 0.5em;
+  font-size: 0.75em;
+  font-style: italic;
+}

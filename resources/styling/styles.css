@@ -1,38 +1,112 @@
 /* css styles */
+
+.title, title,
+.h4, h4,
+.h3, h3,
+.h2, h2,
+.h1, h1 {
+  font-family: Inter, sans-serif;
+  font-weight: bold;
+  color:var(--primary);
+  border-bottom: none;
+  letter-spacing: 120%;
+  line-height: 125%;
+  padding: 1.25em 0.5em 1em 0.5em;
+}
+
+.title, title {
+  font-size: 2.5rem;
+  font-weight: 750;
+  box-sizing: border-box;
+  padding-top: 1.75em;
+}
+
+.h1, h1 {
+  font-size: 2em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.h2, h2 {
+  font-size: 1.5em;
+  text-align: left;
+}
+
+.h4, h4,
+.h3, h3 {
+  text-align: left;
+  padding: 0.5em 0.5em 0.5em 0.5em;
+}
+
+.h3, h3 {
+  font-size: 1.25em;
+}
+
+.h4, h4,
 .p, p,
 .body, body {
-    text-align: left;
-    font: 1em/160% Inter, sans-serif;
-    font-weight: 350;
-    color:var(--body-color);
-    background-color:var(--body-bg);
+  font-family: Nunito, sans-serif;
+  font-size: 1em;
+  line-height: 130%;
 }
 
-.h1, h1,
-.h2, h2, 
-.h3, h3,
-.h4, h4 {
-    text-align: left;
-    margin-top: 1.5em;
-    font-weight: 400;
+.ol, ol {
+  text-align: left;
 }
 
-.h1, h1,
-.h2, h2 {
-  line-height: 120%;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  border-bottom: 0px;
+.bf, bf {
+  font-weight: bold;
 }
+
+/* Text spacing */
+
+.p, p,
+.body, body {
+  padding: 0em 0.5em 1em 0.5em;
+}
+p:first-child {
+  padding-top: 1em;
+}
+p:last-child {
+  padding-bottom: 2em;
+}
+
+.cell-code, cell-code {
+  background-color: --var(bs-gray-300);
+  border: 1px solid --var(bs-gray-600);
+}
+
+/** Changes to default navbar **/
 
 .navbar {
-  font: 1em/160% Inter, sans-serif;
-  font-weight: 500;
+  font-size: 1.25em;
+  letter-spacing: 120%;
+  line-height: 125%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
+.navbar-brand {
+  width: 2em;
+}
+
+.navbar-brand > img {
+  width: 100%;
+}
+
+/** Changes to default footer layout **/
+
 .nav-footer {
-  background-color:var(--bs-blue);
-  color:var(--bs-gray-200);
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+} 
+
+.footer, footer {
+  margin: 0px;
+}
+
+.nav-footer-center {
+  flex-grow: 0;
 }
 
 code {

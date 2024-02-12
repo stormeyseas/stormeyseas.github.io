@@ -1,5 +1,10 @@
 /*-- scss:defaults --*/
 
+* {
+     margin: 0;
+     padding: 0;
+}
+
 $theme: "yeti" !default;
 
 //
@@ -7,7 +12,7 @@ $theme: "yeti" !default;
 //
 
 $white:    #fff !default;
-$gray-100: #f8f9fa !default;
+$gray-100: #f5f5f8 !default;
 $gray-200: #eee !default;
 $gray-300: #dee2e6 !default;
 $gray-400: #ccc !default;
@@ -29,7 +34,7 @@ $green:   #43ac6a !default;
 $teal:    #20c997 !default;
 $cyan:    #5bc0de !default;
 
-$primary:       $blue !default;
+$primary:       #104769 !default;
 $secondary:     $gray-200 !default;
 $success:       $green !default;
 $info:          $cyan !default;
@@ -67,9 +72,20 @@ $dropdown-border-color:             rgba($black, .1) !default;
 $dropdown-divider-bg:               rgba($black, .1) !default;
 
 // Navbar
+$navbar-bg:                         $primary;                 // The background color of the navbar. Default is $primary.
+$navbar-fg:                         $gray-100;                // The color of foreground elements (text and navigation) on the navbar. If not specified, a contrasting color is automatically computed.
+$navbar-hl:                         $gray-100;                // The highlight color for links in the navbar. If not specified, the $link-color is used or a contrasting color is automatically computed.
 
-$navbar-dark-color:                 rgba($white, .7) !default;
-$navbar-dark-hover-color:           $white !default;
+$code-block-bg:                     $gray-200; 	              // By default, Quarto sets a background on code blocks by adding transparency to the theme’s progress-bg color. Set this variable to truthy value or a CSS color.
+$code-block-bg-padding:             0.5em; 	                  // The padding applied to the code block. Defaults to 0.4em.
+$code-block-bg-alpha:               -.8; 	                    // The amount to alter the transparency fo the progress-bg color. This is not used if an explicit background color is set. Defaults to -0.35.
+$btn-code-copy-color:               $primary;                 //  	The color used for the copy button at the top right of code blocks.
+$btn-code-copy-color-active:        darken($primary, 50%);    //The hover color used for the copy button at the top right of code blocks.
+
+// Sidebar
+
+$sidebar-bg:                        $gray-300;                 // The background color for a sidebar. Defaults to $light except when a navbar is present or when the style is floating. In that case it defaults to the $body-bg color.
+$sidebar-fg:                        $primary;                // The color of foreground elements (text and navigation) on the sidebar. If not specified, a contrasting color is automatically computed.
 
 // Pagination
 
@@ -100,14 +116,17 @@ $breadcrumb-border-radius:          3px !default;
 
 // Close
 
-$btn-close-color:            $gray-600 !default;
-$btn-close-opacity:          .6 !default;
-$btn-close-hover-opacity:    1 !default;
+$btn-close-color:                   $gray-600 !default;
+$btn-close-opacity:                 .6 !default;
+$btn-close-hover-opacity:           1 !default;
 
+// Footer
+
+$footer-bg:                         $primary;                 // The background color for the footer. Defaults to the $body-bg color.
+$footer-fg:                         $gray-100;                // The color of foreground elements (text and navigation) on the footer. If not specified, a contrasting color is automatically computed.
 
 
 /*-- scss:rules --*/
-
 
 // Variables
 
@@ -395,12 +414,6 @@ label,
     .page-link {
       border-radius: 3px;
     }
-  }
-}
-
-@include color-mode(dark) {
-  .pagination {
-    --bs-pagination-disabled-color: #{$gray-700};
   }
 }
 
