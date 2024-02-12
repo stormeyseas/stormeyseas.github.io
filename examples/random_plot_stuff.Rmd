@@ -1,0 +1,45 @@
+---
+title: "Testing"
+author: "Tormey Reimer"
+date: "2023-11-19"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+```{r pressure, echo=FALSE}
+layout_matrix = rbind(c(1, 2, 3),
+                      c(1, 4, 4))
+
+egg::ggarrange(ggplot(), ggplot(), ggplot(), ggplot(), 
+               # ncol = 3, nrow = 2, 
+               widths = c(1, 1, 1, 2), heights = c(2, 1, 1, 1), 
+               labels = c("A", "B", "C", "D"),
+               label.args = list(gp = gpar(fontfamily = "sans", 
+                                           fontsize = 12, fontface = "bold"), 
+                                 x = unit(1.95, "cm"), vjust = 1, hjust = 1), 
+               draw = T)
+
+g1 = gtable_frame(ggplotGrob(ggplot()), width = unit(1, "null"), height = unit(2, "null"), debug = TRUE)
+g2 = gtable_frame(ggplotGrob(ggplot()), width = unit(1, "null"), height = unit(1, "null"), debug = TRUE)
+g3 = gtable_frame(ggplotGrob(ggplot()), width = unit(1, "null"), height = unit(1, "null"), debug = TRUE)
+g4 = gtable_frame(ggplotGrob(ggplot()), width = unit(2, "null"), height = unit(1, "null"), debug = TRUE)
+
+g23 = gtable_frame(gtable_cbind(gtable_frame(ggplotGrob(ggplot())), 
+                                gtable_frame(ggplotGrob(ggplot()))), 
+                   width = unit(2, "null"), height = unit(1, "null"))
+g234 = gtable_frame(gtable_rbind(g23, 
+                                 gtable_frame(ggplotGrob(ggplot()))), 
+                    width = unit(2, "null"), height = unit(2, "null"))
+gcomb = gtable_frame(gtable_cbind(gtable_frame(ggplotGrob(ggplot())),
+                                  g234),
+                     width = unit(3, "null"), height = unit(2, "null"))
+
+grid.newpage()
+grid.draw(gcomb)
+```
+
