@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Tormey Reimer">
+<meta name="dcterms.date" content="2024-02-12">
+<meta name="description" content="This is a test post. In this post, I try out different functionalities in the hope of making a template.">
 
-<title>Tormey E. Reimer</title>
+<title>Tormey E. Reimer - Laying out figures with ggplot2</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -107,7 +110,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link rel="stylesheet" href="../resources/styling/styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="docked nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -145,143 +148,266 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#create-ggplot-from-grob" id="toc-create-ggplot-from-grob" class="nav-link active" data-scroll-target="#create-ggplot-from-grob">Create ggplot from grob</a></li>
+  <li><a href="#the-egg-package" id="toc-the-egg-package" class="nav-link" data-scroll-target="#the-egg-package">The egg package</a></li>
+  </ul>
+</nav>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    </div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../blog_posts/example-blog-post.html">Blog Posts</a></li><li class="breadcrumb-item"><a href="../blog_posts/example-blog-post.html">Laying out figures with ggplot2</a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title">Laying out figures with ggplot2</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Example</div>
+    <div class="quarto-category">ggplot2</div>
+  </div>
+  </div>
 
-
-
-<div class="h1">
-<p>“Lightly” theme (H1)</p>
+<div>
+  <div class="description">
+    This is a test post. In this post, I try out different functionalities in the hope of making a template.
+  </div>
 </div>
-<div class="body">
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Tormey Reimer </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">February 12, 2024</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>Why?</p>
+<div class="ol">
+<ol type="1">
+<li>Previously was using a combination of R, Powerpoint, and Latex to lay out figures.</li>
+</ol>
+</div>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dignissim ex sit amet augue consequat, vel gravida purus ullamcorper. Etiam interdum metus in tincidunt elementum. Praesent placerat elit at eleifend eleifend. Vivamus consequat tempus sollicitudin. Pellentesque condimentum libero vel finibus pretium.</p>
-</div>
-<div class="callout callout-style-default callout-warning callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Warning
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>This is a “warning” callout block.</p>
-</div>
-</div>
-<div class="h2">
-<p>A tricky layout (H2)</p>
-</div>
-<div class="grid">
-<div class="g-col-4">
-<p><img src="../resources/pictures/splash.jpg" style="position:relative; top:30px; width:100%;"></p>
-</div>
-<div class="g-col-8">
-<div class="h3">
-<p>First grid row (H2)</p>
-</div>
-<div class="p">
-<p>Ut eget lorem et odio facilisis placerat. Nam ac est elementum, ornare enim sit amet, aliquam magna. Morbi varius neque ante, non tristique velit pulvinar at. Praesent sit amet velit metus.</p>
-<p>Ut vel metus quis ligula convallis sollicitudin. Etiam dapibus rhoncus nibh eget ullamcorper. Morbi enim ligula, aliquet vel libero et, egestas commodo nunc.</p>
-</div>
-</div>
-<!-- end of g-col -->
-</div>
-<!-- end of grid -->
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Note
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>This is a ‘note’ callout block.</p>
-</div>
-</div>
-<div class="grid">
-<div class="g-col-8">
-<div class="h3">
-<p>Second grid row (H2)</p>
-</div>
-<div class="p">
-<p>Aliquam condimentum aliquet sem, id vestibulum ante faucibus eu. Fusce vestibulum tellus ac luctus feugiat. Fusce semper venenatis dui, in porta urna cursus sit amet.</p>
-<p>Etiam efficitur interdum enim id pretium. In elit diam, iaculis a elit vel, sollicitudin ultricies magna. Etiam efficitur interdum enim id pretium. In elit diam, iaculis a elit vel, sollicitudin ultricies magna.</p>
-</div>
-</div>
-<div class="g-col-4">
-<p><img src="../resources/pictures/splash.jpg" style="position:relative; top:25px; width:100%;"></p>
-</div>
-</div>
-<!-- end of grid -->
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Tip
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>This is a “tip” callout block.</p>
-</div>
-</div>
-<div class="h2">
-<p>Code and links (H2)</p>
-</div>
-<div class="body">
-<p>Code and link appearance inline: <code>ggplot()</code> and <code>geom_point()</code> require package <code>ggplot2</code>, which is available from <a href="https://cran.r-project.org/web/packages/ggplot2/index.html">CRAN</a>.</p>
+<!-- From https://cran.r-project.org/web/packages/egg/vignettes/Ecosystem.html -->
+<table class="table">
+<thead>
+<tr class="header">
+<th>Package</th>
+<th>Function(s)</th>
+<th>Compatible with <code>ggsave()</code></th>
+<th>Alignment</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>grid</td>
+<td>viewport, grid.layout</td>
+<td>no</td>
+<td>no</td>
+</tr>
+<tr class="even">
+<td>gridExtra</td>
+<td>grid.arrange</td>
+<td>yes</td>
+<td>no</td>
+</tr>
+<tr class="odd">
+<td>(r cookbook)</td>
+<td>multiplot</td>
+<td>no</td>
+<td>no</td>
+</tr>
+<tr class="even">
+<td>gtable</td>
+<td>multi_panel_figure</td>
+<td>yes</td>
+<td>yes</td>
+</tr>
+<tr class="odd">
+<td>cowplot</td>
+<td>plot_grid</td>
+<td>yes*</td>
+<td>yes*</td>
+</tr>
+<tr class="even">
+<td>multipanelfigure</td>
+<td>multi_panel_figure</td>
+<td>yes</td>
+<td>yes</td>
+</tr>
+<tr class="odd">
+<td>egg</td>
+<td>ggarrange</td>
+<td>yes</td>
+<td>yes</td>
+</tr>
+<tr class="even">
+<td>patchwork</td>
+<td>plot_layout</td>
+<td>yes</td>
+<td>yes</td>
+</tr>
+</tbody>
+</table>
+<div class="cell" data-layout-align="center">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">"pacman"</span>, <span class="at">repos=</span><span class="st">"https://cran.r-project.org"</span>)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="do">## package 'pacman' successfully unpacked and MD5 sums checked</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="do">## </span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="do">## The downloaded binary packages are in</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="do">##  C:\Users\PC\AppData\Local\Temp\RtmpobX1bs\downloaded_packages</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>pacman<span class="sc">::</span><span class="fu">p_load</span>(<span class="st">"egg"</span>, <span class="co"># https://cran.r-project.org/web/packages/egg/vignettes/Overview.html</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>               <span class="st">"grid"</span>, </span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>               <span class="st">"gtable"</span>,</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>               <span class="st">"ggpubr"</span>,</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>               <span class="st">"ggplot2"</span>,</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>               <span class="st">"ggplotify"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(iris, <span class="fu">aes</span>(<span class="at">x =</span> Sepal.Length, Sepal.Width, <span class="at">colour =</span> <span class="fu">as.factor</span>(Species))) <span class="sc">+</span></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    <span class="fu">geom_point</span>() <span class="sc">+</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    <span class="fu">theme_classic</span>() <span class="sc">+</span></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>    <span class="fu">theme</span>(<span class="at">legend.position =</span> <span class="st">"none"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Basically the same</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>gridExtra<span class="sc">::</span><span class="fu">grid.arrange</span>(plot1, plot1, <span class="at">nrow =</span> <span class="dv">1</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="about_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="672"></p>
+<p><img src="example-blog-post_files/figure-html/gridExtra ggpubr and egg-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>ggpubr<span class="sc">::</span><span class="fu">ggarrange</span>(plot1, plot1, <span class="at">nrow =</span> <span class="dv">1</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="example-blog-post_files/figure-html/gridExtra ggpubr and egg-2.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>egg<span class="sc">::</span><span class="fu">ggarrange</span>(plot1, plot1, <span class="at">nrow =</span> <span class="dv">1</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="example-blog-post_files/figure-html/gridExtra ggpubr and egg-3.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="672"></p>
 </figure>
 </div>
 </div>
 </div>
-<div class="h3">
-<p>Lists (H3</p>
+<div class="cell" data-layout-align="center">
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>gtab <span class="ot">=</span> <span class="fu">gtable_matrix</span>(<span class="at">name =</span> <span class="cn">NULL</span>,</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>                     <span class="at">grobs =</span> <span class="fu">matrix</span>(<span class="fu">list</span>(grob1, grob1), <span class="at">nrow =</span> <span class="dv">1</span>), </span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>                     <span class="at">widths =</span> <span class="fu">unit</span>(<span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">1</span>), <span class="st">"null"</span>), </span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>                     <span class="at">heights =</span> <span class="fu">unit</span>(<span class="dv">1</span>, <span class="st">"null"</span>))</span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>g1 <span class="ot">=</span> <span class="fu">expose_layout</span>(plot1) </span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>gtab <span class="ot">=</span> <span class="fu">gtable_matrix</span>(<span class="at">name =</span> <span class="cn">NULL</span>, </span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>                     <span class="at">grobs =</span> <span class="fu">matrix</span>(<span class="fu">list</span>(g1, g1), <span class="at">nrow =</span> <span class="dv">1</span>), </span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a>                     <span class="at">widths =</span> <span class="fu">unit</span>(<span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">1</span>), <span class="st">"null"</span>), </span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a>                     <span class="at">heights =</span> <span class="fu">unit</span>(<span class="dv">1</span>, <span class="st">"null"</span>))</span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a><span class="fu">grid.draw</span>(gtab)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="example-blog-post_files/figure-html/gtable-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="672"></p>
+</figure>
 </div>
-<div class="body">
-<ol type="1">
-<li><p>Is this an ordered list?</p></li>
-<li><p>Who knows, honestly</p></li>
-<li><p>I think so!</p></li>
-</ol>
 </div>
-<div class="h4">
-<p>Different paragraphs (H4)</p>
 </div>
-<div class="body">
-<p>This text is in a “body” div.</p>
+<section id="create-ggplot-from-grob" class="level2">
+<h2 class="anchored" data-anchor-id="create-ggplot-from-grob">Create ggplot from grob</h2>
+<div class="cell" data-layout-align="center">
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>ggplotify<span class="sc">::</span><span class="fu">as.ggplot</span>(g1)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="example-blog-post_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="672"></p>
+</figure>
 </div>
-<p>This text is not. Any difference?</p>
-<div class="p">
-<p>This text is in a “p” div.</p>
 </div>
-<div class="h5">
-<p>Would I even use this (H5)</p>
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>egg<span class="sc">::</span><span class="fu">ggarrange</span>(ggplotify<span class="sc">::</span><span class="fu">as.ggplot</span>(g1), ggplotify<span class="sc">::</span><span class="fu">as.ggplot</span>(g1), <span class="at">nrow =</span> <span class="dv">1</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="example-blog-post_files/figure-html/unnamed-chunk-1-2.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="672"></p>
+</figure>
 </div>
-<div class="body" style="background-color: pink; outline: 3px solid black; padding: 15px; margin-top: 2.5em;">
-<p>I’m also pretty sure that I can change the background/visuals of blocks quite easily. Not sure I’d want to do this much (as the callouts are pretty much the same thing) but it’s cool to know.</p>
+</div>
+</div>
+</section>
+<section id="the-egg-package" class="level2">
+<h2 class="anchored" data-anchor-id="the-egg-package">The egg package</h2>
+<div class="cell" data-layout-align="center">
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co"># https://cran.r-project.org/web/packages/egg/vignettes/Ecosystem.html</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>layout_matrix <span class="ot">=</span> <span class="fu">rbind</span>(<span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>), <span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">4</span>, <span class="dv">4</span>))</span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>egg<span class="sc">::</span><span class="fu">ggarrange</span>(<span class="fu">ggplot</span>(), <span class="fu">ggplot</span>(), <span class="fu">ggplot</span>(), <span class="fu">ggplot</span>(), </span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a>               <span class="co"># ncol = 3, nrow = 2, </span></span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a>               <span class="at">widths =</span> <span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">1</span>, <span class="dv">1</span>, <span class="dv">2</span>), <span class="at">heights =</span> <span class="fu">c</span>(<span class="dv">2</span>, <span class="dv">1</span>, <span class="dv">1</span>, <span class="dv">1</span>), </span>
+<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a>               <span class="at">labels =</span> <span class="fu">c</span>(<span class="st">"A"</span>, <span class="st">"B"</span>, <span class="st">"C"</span>, <span class="st">"D"</span>),</span>
+<span id="cb8-9"><a href="#cb8-9" aria-hidden="true" tabindex="-1"></a>               <span class="at">label.args =</span> <span class="fu">list</span>(<span class="at">gp =</span> <span class="fu">gpar</span>(<span class="at">fontfamily =</span> <span class="st">"sans"</span>, </span>
+<span id="cb8-10"><a href="#cb8-10" aria-hidden="true" tabindex="-1"></a>                                           <span class="at">fontsize =</span> <span class="dv">12</span>, <span class="at">fontface =</span> <span class="st">"bold"</span>), </span>
+<span id="cb8-11"><a href="#cb8-11" aria-hidden="true" tabindex="-1"></a>                                 <span class="at">x =</span> <span class="fu">unit</span>(<span class="fl">1.95</span>, <span class="st">"cm"</span>), <span class="at">vjust =</span> <span class="dv">1</span>, <span class="at">hjust =</span> <span class="dv">1</span>), </span>
+<span id="cb8-12"><a href="#cb8-12" aria-hidden="true" tabindex="-1"></a>               <span class="at">draw =</span> T)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="example-blog-post_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>g1 <span class="ot">=</span> <span class="fu">gtable_frame</span>(<span class="fu">ggplotGrob</span>(<span class="fu">ggplot</span>()), <span class="at">width =</span> <span class="fu">unit</span>(<span class="dv">1</span>, <span class="st">"null"</span>), <span class="at">height =</span> <span class="fu">unit</span>(<span class="dv">2</span>, <span class="st">"null"</span>), <span class="at">debug =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>g2 <span class="ot">=</span> <span class="fu">gtable_frame</span>(<span class="fu">ggplotGrob</span>(<span class="fu">ggplot</span>()), <span class="at">width =</span> <span class="fu">unit</span>(<span class="dv">1</span>, <span class="st">"null"</span>), <span class="at">height =</span> <span class="fu">unit</span>(<span class="dv">1</span>, <span class="st">"null"</span>), <span class="at">debug =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>g3 <span class="ot">=</span> <span class="fu">gtable_frame</span>(<span class="fu">ggplotGrob</span>(<span class="fu">ggplot</span>()), <span class="at">width =</span> <span class="fu">unit</span>(<span class="dv">1</span>, <span class="st">"null"</span>), <span class="at">height =</span> <span class="fu">unit</span>(<span class="dv">1</span>, <span class="st">"null"</span>), <span class="at">debug =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>g4 <span class="ot">=</span> <span class="fu">gtable_frame</span>(<span class="fu">ggplotGrob</span>(<span class="fu">ggplot</span>()), <span class="at">width =</span> <span class="fu">unit</span>(<span class="dv">2</span>, <span class="st">"null"</span>), <span class="at">height =</span> <span class="fu">unit</span>(<span class="dv">1</span>, <span class="st">"null"</span>), <span class="at">debug =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a>g23 <span class="ot">=</span> <span class="fu">gtable_frame</span>(<span class="fu">gtable_cbind</span>(<span class="fu">gtable_frame</span>(<span class="fu">ggplotGrob</span>(<span class="fu">ggplot</span>())), </span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a>                                <span class="fu">gtable_frame</span>(<span class="fu">ggplotGrob</span>(<span class="fu">ggplot</span>()))), </span>
+<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a>                   <span class="at">width =</span> <span class="fu">unit</span>(<span class="dv">2</span>, <span class="st">"null"</span>), <span class="at">height =</span> <span class="fu">unit</span>(<span class="dv">1</span>, <span class="st">"null"</span>))</span>
+<span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a>g234 <span class="ot">=</span> <span class="fu">gtable_frame</span>(<span class="fu">gtable_rbind</span>(g23, </span>
+<span id="cb9-10"><a href="#cb9-10" aria-hidden="true" tabindex="-1"></a>                                 <span class="fu">gtable_frame</span>(<span class="fu">ggplotGrob</span>(<span class="fu">ggplot</span>()))), </span>
+<span id="cb9-11"><a href="#cb9-11" aria-hidden="true" tabindex="-1"></a>                    <span class="at">width =</span> <span class="fu">unit</span>(<span class="dv">2</span>, <span class="st">"null"</span>), <span class="at">height =</span> <span class="fu">unit</span>(<span class="dv">2</span>, <span class="st">"null"</span>))</span>
+<span id="cb9-12"><a href="#cb9-12" aria-hidden="true" tabindex="-1"></a>gcomb <span class="ot">=</span> <span class="fu">gtable_frame</span>(<span class="fu">gtable_cbind</span>(<span class="fu">gtable_frame</span>(<span class="fu">ggplotGrob</span>(<span class="fu">ggplot</span>())),</span>
+<span id="cb9-13"><a href="#cb9-13" aria-hidden="true" tabindex="-1"></a>                                  g234),</span>
+<span id="cb9-14"><a href="#cb9-14" aria-hidden="true" tabindex="-1"></a>                     <span class="at">width =</span> <span class="fu">unit</span>(<span class="dv">3</span>, <span class="st">"null"</span>), <span class="at">height =</span> <span class="fu">unit</span>(<span class="dv">2</span>, <span class="st">"null"</span>))</span>
+<span id="cb9-15"><a href="#cb9-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-16"><a href="#cb9-16" aria-hidden="true" tabindex="-1"></a><span class="fu">grid.newpage</span>()</span>
+<span id="cb9-17"><a href="#cb9-17" aria-hidden="true" tabindex="-1"></a><span class="fu">grid.draw</span>(gcomb)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="example-blog-post_files/figure-html/unnamed-chunk-2-2.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="672"></p>
+</figure>
+</div>
+</div>
 </div>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
