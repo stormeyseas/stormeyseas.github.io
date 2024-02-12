@@ -1,0 +1,22 @@
+# Options specified here will apply to all posts in this folder
+# copied from https://albert-rapp.de/posts/13_quarto_blog_writing_guide/13_quarto_blog_writing_guide.html#create-your-first-blog-post
+
+# freeze computational output
+freeze: true
+
+# Enable banner style title blocks
+title-block-banner: false
+
+# Author name of all blog posts
+author: 'Tormey Reimer'
+
+# Table of content settings
+toc: true
+toc-depth: 3
+toc-location: left
+
+page-layout: article
+sidebar: false
+
+execute:
+  code-overflow: wrap

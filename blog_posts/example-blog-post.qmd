@@ -1,0 +1,129 @@
+---
+title: 'Laying out figures with ggplot2'
+date: '02-12-2024'
+categories: ['Example', 'ggplot2']
+description: 'This is a test post. In this post, I try out different functionalities in the hope of making a template.'
+execute: 
+  message: false
+  warning: false
+  # code-overflow: wrap
+editor_options: 
+  chunk_output_type: console
+knitr:
+  opts_chunk: 
+    fig.align: 'center'
+---
+
+Why?
+
+::: ol
+1.  Previously was using a combination of R, Powerpoint, and Latex to lay out figures.
+:::
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dignissim ex sit amet augue consequat, vel gravida purus ullamcorper. Etiam interdum metus in tincidunt elementum. Praesent placerat elit at eleifend eleifend. Vivamus consequat tempus sollicitudin. Pellentesque condimentum libero vel finibus pretium.
+
+<!-- From https://cran.r-project.org/web/packages/egg/vignettes/Ecosystem.html -->
+
+| Package | Function(s) | Compatible with `ggsave()` | Alignment |
+|------|------|------|------|
+| grid | viewport, grid.layout | no | no |
+| gridExtra | grid.arrange | yes | no |
+| (r cookbook) | multiplot | no | no |
+| gtable | multi_panel_figure | yes | yes |
+| cowplot | plot_grid | yes\* | yes\* |
+| multipanelfigure | multi_panel_figure | yes | yes |
+| egg | ggarrange | yes | yes |
+| patchwork | plot_layout | yes | yes |
+
+
+```{r}
+#| collapse: true
+
+install.packages("pacman", repos="https://cran.r-project.org")
+pacman::p_load("egg", # https://cran.r-project.org/web/packages/egg/vignettes/Overview.html
+               "grid", 
+               "gtable",
+               "ggpubr",
+               "ggplot2",
+               "ggplotify")
+```
+
+
+```{r default plot}
+#| echo: false
+
+# Default plot
+plot1 = ggplot(data = iris, 
+            aes(x = Sepal.Length, y = Petal.Length, color = as.factor(Species))) +
+    geom_point() +
+    theme_classic() + theme(legend.position = "none")
+
+# Default plot as a grob
+grob1 = ggplotGrob(plot1) 
+```
+
+```{r gridExtra ggpubr and egg}
+# Basically the same
+gridExtra::grid.arrange(plot1, plot1, nrow = 1)
+ggpubr::ggarrange(plot1, plot1, nrow = 1)
+egg::ggarrange(plot1, plot1, nrow = 1)
+```
+
+```{r gtable}
+gtab = gtable_matrix(name = NULL,
+                     grobs = matrix(list(grob1, grob1), nrow = 1), 
+                     widths = unit(c(1, 1), "null"), 
+                     heights = unit(1, "null"))
+
+g1 = expose_layout(plot1) 
+
+gtab = gtable_matrix(name = NULL, 
+                     grobs = matrix(list(g1, g1), nrow = 1), 
+                     widths = unit(c(1, 1), "null"), 
+                     heights = unit(1, "null"))
+
+grid.draw(gtab)
+```
+
+## Create ggplot from grob
+
+```{r}
+ggplotify::as.ggplot(g1)
+
+egg::ggarrange(ggplotify::as.ggplot(g1), ggplotify::as.ggplot(g1), nrow = 1)
+```
+
+## The `r 'egg'` package
+
+```{r}
+# https://cran.r-project.org/web/packages/egg/vignettes/Ecosystem.html
+
+layout_matrix = rbind(c(1, 2, 3), c(1, 4, 4))
+
+egg::ggarrange(ggplot(), ggplot(), ggplot(), ggplot(), 
+               # ncol = 3, nrow = 2, 
+               widths = c(1, 1, 1, 2), heights = c(2, 1, 1, 1), 
+               labels = c("A", "B", "C", "D"),
+               label.args = list(gp = gpar(fontfamily = "sans", 
+                                           fontsize = 12, fontface = "bold"), 
+                                 x = unit(1.95, "cm"), vjust = 1, hjust = 1), 
+               draw = T)
+
+g1 = gtable_frame(ggplotGrob(ggplot()), width = unit(1, "null"), height = unit(2, "null"), debug = TRUE)
+g2 = gtable_frame(ggplotGrob(ggplot()), width = unit(1, "null"), height = unit(1, "null"), debug = TRUE)
+g3 = gtable_frame(ggplotGrob(ggplot()), width = unit(1, "null"), height = unit(1, "null"), debug = TRUE)
+g4 = gtable_frame(ggplotGrob(ggplot()), width = unit(2, "null"), height = unit(1, "null"), debug = TRUE)
+
+g23 = gtable_frame(gtable_cbind(gtable_frame(ggplotGrob(ggplot())), 
+                                gtable_frame(ggplotGrob(ggplot()))), 
+                   width = unit(2, "null"), height = unit(1, "null"))
+g234 = gtable_frame(gtable_rbind(g23, 
+                                 gtable_frame(ggplotGrob(ggplot()))), 
+                    width = unit(2, "null"), height = unit(2, "null"))
+gcomb = gtable_frame(gtable_cbind(gtable_frame(ggplotGrob(ggplot())),
+                                  g234),
+                     width = unit(3, "null"), height = unit(2, "null"))
+
+grid.newpage()
+grid.draw(gcomb)
+```
