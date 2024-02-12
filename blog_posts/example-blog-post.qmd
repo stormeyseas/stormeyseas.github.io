@@ -36,7 +36,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dignissim ex sit 
 | patchwork | plot_layout | yes | yes |
 
 
-```{r}
+```{r setup}
 #| collapse: true
 
 install.packages("pacman", repos="https://cran.r-project.org")

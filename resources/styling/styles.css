@@ -105,6 +105,10 @@ p:last-child {
   margin: 0px;
 }
 
+.nav-footer a {
+  display: inline-block;
+}
+
 .nav-footer-center {
   flex-grow: 0;
 }
