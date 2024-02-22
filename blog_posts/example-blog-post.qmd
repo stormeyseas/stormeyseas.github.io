@@ -3,6 +3,27 @@ title: 'Laying out figures with ggplot2'
 date: '02-12-2024'
 categories: ['Example', 'ggplot2']
 description: 'This is a test post. In this post, I try out different functionalities in the hope of making a template.'
+<<<<<<< HEAD
+=======
+execute:
+  # eval	# Evaluate the code chunk (if false, just shows the code in the output)
+  # echo 	# Include the source code in output
+  output: true # 	Include the results of executing the code in the output (true, false, or asis to indicate that the output is raw markdown and should not have any of Quarto’s standard enclosing markdown)
+  message: false
+  warning: false # Include warnings in the output
+  error: false # Include errors in the output (note that this implies that errors executing code will not halt processing of the document).
+  # include: # Catch all for preventing any output (code or results) from being included (e.g. include: false suppresses all output from the code block).
+  # code-overflow: wrap
+editor_options: 
+  chunk_output_type: inline
+knitr:
+  opts_chunk: 
+    fig.align: "center"
+    fig-width: 8
+    fig-asp: 0.75
+    code-overflow: wrap
+toc: true
+>>>>>>> edee7c04a3dbe1e92eb18b4a4c33c3ff120d6647
 ---
 
 # Setup
@@ -375,9 +396,12 @@ egg::ggarrange(ggplotify::as.ggplot(g1), ggplotify::as.ggplot(g1), nrow = 1)
 ```{r}
 #| eval: FALSE
 
+<<<<<<< HEAD
 dt = data.frame(x = 1:10, y = 1:10)
 p1 = ggplot(data = dt, aes(x = 1:10, y = 1:10)) + geom_point()
 
+=======
+>>>>>>> edee7c04a3dbe1e92eb18b4a4c33c3ff120d6647
 # https://cran.r-project.org/web/packages/egg/vignettes/Ecosystem.html
 
 layout_matrix = rbind(c(1, 2, 3), c(1, 4, 4))
@@ -427,5 +451,8 @@ grid.newpage()
 grid.draw(gcomb)
 ```
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> edee7c04a3dbe1e92eb18b4a4c33c3ff120d6647

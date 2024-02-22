@@ -16,7 +16,11 @@ toc-depth: 3
 toc-location: left
 
 page-layout: article
+<<<<<<< HEAD
 # sidebar: false
+=======
+sidebar: false
+>>>>>>> edee7c04a3dbe1e92eb18b4a4c33c3ff120d6647
 grid:
   sidebar-width: 250px
   body-width: 1250px
