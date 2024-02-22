@@ -14,4 +14,4 @@ Wow, you found my website!
 Unfortunately, there's nothing here. You're either very lucky, very bored, or a cheeky miscreant. You should check back later...
 :::
 
-![](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMnNud2Y0bGFkdDVpZXgzOTBiY2kwMmsxMHNhbmVoaW16bWdsM3Z3eCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/gu9XBXiz60HlO5p9Nz/giphy.gif){fig-alt="Loading science....." fig-align="center" width="33%"}
+![Loading science.....](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMnNud2Y0bGFkdDVpZXgzOTBiY2kwMmsxMHNhbmVoaW16bWdsM3Z3eCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/gu9XBXiz60HlO5p9Nz/giphy.gif){fig-alt="Loading....." fig-align="center" width="33%"}

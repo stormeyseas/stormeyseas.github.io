@@ -68,6 +68,6 @@ format:
       sidebar-width: 350px
       body-width: 1250px
       margin-width: 350px
-      gutter-width: 75px
+      gutter-width: 2em
     toc: false
     fig-responsive: true

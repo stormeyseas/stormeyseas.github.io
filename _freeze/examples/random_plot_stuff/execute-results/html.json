@@ -1,6 +1,7 @@
 {
-  "hash": "65de4694d08281c9793e02bd574245b3",
+  "hash": "da1d5f365e458e3a7bb65614454d6f13",
   "result": {
+    "engine": "knitr",
     "markdown": "---\ntitle: \"Testing\"\nauthor: \"Tormey Reimer\"\ndate: \"2023-11-19\"\noutput: html_document\n---\n\n\n\n\n## R Markdown\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](random_plot_stuff_files/figure-html/pressure-1.png){width=672}\n:::\n\n::: {.cell-output-display}\n![](random_plot_stuff_files/figure-html/pressure-2.png){width=672}\n:::\n:::\n",
     "supporting": [
       "random_plot_stuff_files"
