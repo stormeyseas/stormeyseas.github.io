@@ -65,9 +65,9 @@ format:
     css: resources/styling/styles.css
     page-layout: full
     grid:
-      sidebar-width: 350px
+      sidebar-width: 250px
       body-width: 1250px
-      margin-width: 350px
-      gutter-width: 75px
+      margin-width: 150px
+      gutter-width: 2em
     toc: false
     fig-responsive: true
