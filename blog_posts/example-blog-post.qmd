@@ -23,7 +23,6 @@ knitr:
     fig-asp: 0.75
     code-overflow: wrap
 toc: true
->>>>>>> edee7c04a3dbe1e92eb18b4a4c33c3ff120d6647
 ---
 
 # Setup
@@ -396,12 +395,9 @@ egg::ggarrange(ggplotify::as.ggplot(g1), ggplotify::as.ggplot(g1), nrow = 1)
 ```{r}
 #| eval: FALSE
 
-<<<<<<< HEAD
 dt = data.frame(x = 1:10, y = 1:10)
 p1 = ggplot(data = dt, aes(x = 1:10, y = 1:10)) + geom_point()
 
-=======
->>>>>>> edee7c04a3dbe1e92eb18b4a4c33c3ff120d6647
 # https://cran.r-project.org/web/packages/egg/vignettes/Ecosystem.html
 
 layout_matrix = rbind(c(1, 2, 3), c(1, 4, 4))
@@ -451,8 +447,3 @@ grid.newpage()
 grid.draw(gcomb)
 ```
 
-<<<<<<< HEAD
-
-
-=======
->>>>>>> edee7c04a3dbe1e92eb18b4a4c33c3ff120d6647
