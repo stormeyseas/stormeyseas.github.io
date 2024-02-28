@@ -1,0 +1,49 @@
+---
+format: html
+title: "Click to see other sites:"
+toc: false
+sidebar: false
+---
+
+::: grid
+::: row
+::: g-col-4
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dignissim ex sit amet augue consequat, vel gravida purus ullamcorper. Etiam interdum metus in tincidunt elementum. Praesent placerat elit at eleifend eleifend. Vivamus consequat tempus sollicitudin. Pellentesque condimentum libero vel finibus pretium.
+
+<!-- end of column 1 -->
+:::
+
+::: g-col-8
+
+<!-- end of column 2 -->
+:::
+
+<!-- end of row -->
+:::
+
+<!-- end of grid -->
+:::
+
+::: row
+::: g-col-8
+Aliquam condimentum aliquet sem, id vestibulum ante faucibus eu. Fusce vestibulum tellus ac luctus feugiat. Fusce semper venenatis dui, in porta urna cursus sit amet.
+
+Etiam efficitur interdum enim id pretium. In elit diam, iaculis a elit vel, sollicitudin ultricies magna. Etiam efficitur interdum enim id pretium. In elit diam, iaculis a elit vel, sollicitudin ultricies magna.
+
+<!-- end of column 1 -->
+:::
+
+::: g-col-4
+Aliquam condimentum aliquet sem, id vestibulum ante faucibus eu. Fusce vestibulum tellus ac luctus feugiat. Fusce semper venenatis dui, in porta urna cursus sit amet.
+
+Etiam efficitur interdum enim id pretium. In elit diam, iaculis a elit vel, sollicitudin ultricies magna. Etiam efficitur interdum enim id pretium. In elit diam, iaculis a elit vel, sollicitudin ultricies magna.
+
+<!-- end of column 2 -->
+:::
+
+<!-- end of row -->
+:::
+
+<!-- end of grid -->
+:::
+

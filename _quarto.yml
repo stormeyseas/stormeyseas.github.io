@@ -5,7 +5,7 @@ project:
   preview: 
     browser: true
 execute:
-  freeze: auto # so R/Python code only runs locally even when pushing = publishing live
+  freeze: auto
 
 website:
   title: "Tormey E. Reimer"
@@ -27,7 +27,7 @@ website:
 # Navbar options (see https://quarto.org/docs/reference/projects/websites.html#navbar)
   navbar: 
     title: false
-    logo: "/resources/icons/water-solid-light.svg"
+    logo: /resources/icons/water-solid-light.svg
     pinned: true
     collapse: true
     # List of items for the each section of the navbar (left, right, center)
@@ -36,6 +36,8 @@ website:
         text: "Home"
       - href: pages/example-page.qmd
         text: "Examples"
+      - href: pages/other-sites.qmd
+        text: "Work"
       - href: pages/blog.qmd
         text: "Blog"
     toggle-position: left # The position of the collapsed navbar toggle when in responsive mode
