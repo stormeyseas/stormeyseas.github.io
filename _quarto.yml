@@ -48,10 +48,10 @@ website:
     left: |
       [![](/resources/icons/envelope-solid-light.svg){fig-alt="tormey.reimer@utas.edu.au" fig-align="center" height="1.5em" fig-valign="top" margin-left="5px" margin-left="10px"}](mailto:tormey.reimer@utas.edu.au) [tormey.reimer@utas.edu.au](mailto:tormey.reimer@utas.edu.au)<br>
       [![](/resources/icons/researchgate-light.svg){fig-alt="ResearchGate" fig-align="center" height="1.5em" fig-valign="top" margin-left="10px" margin-right="10px"}](https://www.researchgate.net/profile/Tormey-Reimer)
-      [![](/resources/icons/orcid-light.svg){fig-alt="OrcID" fig-align="center" height="1.5em" fig-valign="top" margin-left="10px" margin-right="10px"}](https://orcid.org/0000-0002-5983-2798) 
-      [![](/resources/icons/linkedin-light.svg){fig-alt="LinkedIN" fig-align="center" height="1.5em" fig-valign="top" margin-left="10px" margin-right="10px"}](https://au.linkedin.com/in/tormey-reimer) 
-      [![](/resources/icons/google-scholar-light.svg){fig-alt="GoogleScholar" fig-align="center" height="1.5em" fig-valign="top" margin-left="10px" margin-right="10px"}](https://scholar.google.com.au/citations?user=H45vLccAAAAJ&hl=en) 
-      [![](/resources/icons/github-light.svg){fig-alt="Github" fig-align="center" height="1.5em" fig-valign="top" margin-left="10px" margin-right="10px"}](https://github.com) 
+      [![](/resources/icons/orcid-light.svg){fig-alt="OrcID" fig-align="center" height="1.5em" fig-valign="top" margin-left="10px" margin-right="10px"}](https://orcid.org/0000-0002-5983-2798)
+      [![](/resources/icons/linkedin-light.svg){fig-alt="LinkedIN" fig-align="center" height="1.5em" fig-valign="top" margin-left="10px" margin-right="10px"}](https://au.linkedin.com/in/tormey-reimer)
+      [![](/resources/icons/google-scholar-light.svg){fig-alt="GoogleScholar" fig-align="center" height="1.5em" fig-valign="top" margin-left="10px" margin-right="10px"}](https://scholar.google.com.au/citations?user=H45vLccAAAAJ&hl=en)
+      [![](/resources/icons/github-light.svg){fig-alt="Github" fig-align="center" height="1.5em" fig-valign="top" margin-left="10px" margin-right="10px"}](https://github.com)
     right: |
       <i>I acknowledge the traditional owners of the land on which I live and work.<br>
       Sovereignty was never ceded </i>
@@ -73,3 +73,5 @@ format:
       gutter-width: 2em
     toc: false
     fig-responsive: true
+    include-after-body:
+      file: theming/footer.qmd

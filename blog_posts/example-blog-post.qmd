@@ -3,8 +3,6 @@ title: 'Laying out figures with ggplot2'
 date: '02-12-2024'
 categories: ['Example', 'ggplot2']
 description: 'This is a test post. In this post, I try out different functionalities in the hope of making a template.'
-<<<<<<< HEAD
-=======
 execute:
   # eval	# Evaluate the code chunk (if false, just shows the code in the output)
   # echo 	# Include the source code in output

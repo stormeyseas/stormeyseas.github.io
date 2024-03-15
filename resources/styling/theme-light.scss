@@ -91,3 +91,16 @@ hr {
   color: $orange;  /* old IE */
   background-color: #333;  /* Modern Browsers */
 }
+
+.footer-container {
+  background-color: ;$dark-blue;
+  p {
+    color: $$white;
+  }
+  p a {
+    color: $$white;
+  }
+  p a:hover {
+    color: $light-grey;
+  }
+}
