@@ -1,0 +1,33 @@
+https://happygitwithr.com
+
+Icons I want:
+- Google Scholar https://fontawesome.com/icons/google-scholar?f=brands&s=solid&pc=%23104769
+- Orchid https://fontawesome.com/icons/orcid?f=brands&s=solid&pc=%23104769
+- LinkedIn https://fontawesome.com/icons/linkedin?f=brands&s=solid&pc=%23104769
+- ResearchGate https://fontawesome.com/icons/researchgate?f=brands&s=solid&pc=%23104769
+- github https://fontawesome.com/icons/github?f=brands&s=solid&pc=%23104769
+- Email https://fontawesome.com/icons/envelope?f=classic&s=solid&pc=%23104769
+- Institution https://fontawesome.com/icons/landmark?f=classic&s=solid&pc=%23104769
+- Publications https://fontawesome.com/icons/scroll?f=classic&s=solid&pc=%23104769
+- Website https://fontawesome.com/icons/globe?f=classic&s=solid&pc=%23104769
+- blog https://fontawesome.com/icons/pen-nib?f=classic&s=solid&pc=%23104769
+
+Dark theme:
+- Google Scholar https://fontawesome.com/icons/google-scholar?f=brands&s=solid&pc=%23f5f5f8
+- Orchid https://fontawesome.com/icons/orcid?f=brands&s=solid&pc=%23f5f5f8
+- LinkedIn https://fontawesome.com/icons/linkedin?f=brands&s=solid&pc=%23f5f5f8
+- ResearchGate https://fontawesome.com/icons/researchgate?f=brands&s=solid&pc=%23f5f5f8
+- github https://fontawesome.com/icons/github?f=brands&s=solid&pc=%23f5f5f8
+- Email https://fontawesome.com/icons/envelope?f=classic&s=solid&pc=%23f5f5f8
+- Institution https://fontawesome.com/icons/landmark?f=classic&s=solid&pc=%23f5f5f8
+- Publications https://fontawesome.com/icons/scroll?f=classic&s=solid&pc=%23f5f5f8
+- Website https://fontawesome.com/icons/globe?f=classic&s=solid&pc=%23f5f5f8
+- blog https://fontawesome.com/icons/pen-nib?f=classic&s=solid&pc=%23f5f5f8
+
+#104769 dark blue
+#014249 dark teal
+
+#fc6c85
+
+col2rgb
+  
