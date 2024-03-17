@@ -27,27 +27,30 @@ toc: true
 
 ## Why?
 
-::: ol
 1.   Previously was using a combination of R, Powerpoint, and Latex to lay out figures.
 2.   However, it was a very finicking process. If I'm going to be using Quarto/R for most things would be nice to do things all in one place.
 3.   I really want to enable other students/academics to do things without reinventing the wheel.
-:::
 
 I like to use `pacman` (the package manager) because its function `p_load` acts like `library()` if the package is already installed and `install.packages()` if it isn't. You can also pass all your package names to it as a single vector. 
 
 ```{r setup, eval=FALSE}
 #| collapse: true
 
-install.packages("pacman", repos="https://cran.r-project.org", update = TRUE)
+packs = sort(c("grid", "gridExtra", "gtable", "multipanelfigure", "RColorBrewer", "tidyverse", "ggplot2", "cowplot", "egg", "ggpubr", "ggplotify", "RColorBrewer", "tidyverse"))
 
-# Basic plotting packages
-pacman::p_load("ggplot2", update = TRUE)
+# require(remotes)
+# install_version("ggplot2", version = "3.5.0")
+# install_version("cowplot", version = "1.1.3")
+# install_version("grid", version = "4.2.3")
+# install_version("gridExtra", version = "2.3")
+# install_version("gtable", version = "0.3.4")
+# install_version("egg", version = "0.4.5")
+# install_version("ggpubr", version = "0.6.0")
+# install_version("ggplotify", version = "0.1.2")
+# install_version("RColorBrewer", version = "1.1-3")
+# install_version("tidyverse", version = "2.0.0")
 
-# All the packages we need for laying out plots
-pacman::p_load("grid", "gridExtra", "gtable", "cowplot", "multipanelfigure", "egg", "patchwork", update = TRUE)
-
-# Extra stuff
-pacman::p_load("ggpubr", "ggplotify", "tidyverse", update = TRUE)
+lapply(packs, library, character.only = TRUE)
 ```
 
 So these are the packages I want to compare. A lot of the inspiration for this work came from the `egg` vignettes ([here](https://cran.r-project.org/web/packages/egg/vignettes/Ecosystem.html) and [here](https://cran.r-project.org/web/packages/egg/vignettes/Overview.html)), so make sure to check those out if you want further information. 

@@ -50,8 +50,3 @@ rsconnect/
 
 /.quarto/
 .Rprofile
-renv
-
-*.Rproj
-
-my_notes.txt
