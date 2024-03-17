@@ -1,7 +1,7 @@
 # All website project options: https://quarto.org/docs/reference/projects/websites.html
 project:
   type: website
-  output-dir: output
+  output-dir: docs
   preview: 
     browser: true
 execute:
@@ -16,7 +16,7 @@ website:
   title: "Tormey E. Reimer"
   description: "Welcome to my personal website."
   favicon: resources/icons/water-solid-dark.svg
-  # site-url: https://www.drtreimer.com
+  site-url: https://www.drtreimer.com
   repo-url: https://github.com/stormeyseas/stormeyseas.github.io
   reader-mode: false # Displays a ‘reader-mode’ tool which allows users to hide the sidebar and table of contents when viewing a page.
   # Create a bunch of different sidebars and put a "dummy" one on the homepage.
