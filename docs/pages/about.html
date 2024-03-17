@@ -20,40 +20,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
@@ -162,135 +128,74 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content page-columns page-full column-body" id="quarto-document-content">
 
 
 
 
-<div class="h1">
-<p>“Lightly” theme (H1)</p>
+<div class="grid justify-content-space-evenly text-center">
+<div class="g-col-4 align-self-center">
+<p><img src="https://via.placeholder.com/500x450.png" class="img-fluid"></p>
 </div>
-<div class="body">
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dignissim ex sit amet augue consequat, vel gravida purus ullamcorper. Etiam interdum metus in tincidunt elementum. Praesent placerat elit at eleifend eleifend. Vivamus consequat tempus sollicitudin. Pellentesque condimentum libero vel finibus pretium.</p>
-</div>
-<div class="callout callout-style-default callout-warning callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Warning
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>This is a “warning” callout block.</p>
-</div>
-</div>
-<div class="h2">
-<p>A tricky layout (H2)</p>
-</div>
-<div class="grid">
-<div class="g-col-4">
-<p><img src="../resources/pictures/splash.jpg" style="position:relative; top:30px; width:100%;"></p>
-</div>
-<div class="g-col-8">
-<div class="h3">
-<p>First grid row (H2)</p>
-</div>
-<div class="p">
+<section id="about-me" class="level1 g-col-8 align-self-center">
+<h1>About me</h1>
 <p>Ut eget lorem et odio facilisis placerat. Nam ac est elementum, ornare enim sit amet, aliquam magna. Morbi varius neque ante, non tristique velit pulvinar at. Praesent sit amet velit metus.</p>
-<p>Ut vel metus quis ligula convallis sollicitudin. Etiam dapibus rhoncus nibh eget ullamcorper. Morbi enim ligula, aliquet vel libero et, egestas commodo nunc.</p>
-</div>
-</div>
-<!-- end of g-col -->
-</div>
-<!-- end of grid -->
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Note
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>This is a ‘note’ callout block.</p>
-</div>
-</div>
-<div class="grid">
-<div class="g-col-8">
-<div class="h3">
-<p>Second grid row (H2)</p>
-</div>
-<div class="p">
 <p>Aliquam condimentum aliquet sem, id vestibulum ante faucibus eu. Fusce vestibulum tellus ac luctus feugiat. Fusce semper venenatis dui, in porta urna cursus sit amet.</p>
-<p>Etiam efficitur interdum enim id pretium. In elit diam, iaculis a elit vel, sollicitudin ultricies magna. Etiam efficitur interdum enim id pretium. In elit diam, iaculis a elit vel, sollicitudin ultricies magna.</p>
+</section>
+</div>
+<div class="line-behind column-screen-inset">
+<div class="span">
+
+</div>
+<section id="career-goals" class="level2">
+<h2 data-anchor-id="career-goals">Career goals</h2>
+</section>
+</div>
+<div class="grid justify-content-space-evenly" style="font-weight:250;">
+<div class="g-col-6 align-self-center">
+<ul>
+<li>Ut eget lorem et odio facilisis placerat. Nam ac est elementum, ornare enim sit amet, aliquam magna.</li>
+<li>Morbi varius neque ante, non tristique velit pulvinar at. Praesent sit amet velit metus.</li>
+<li>Aliquam condimentum aliquet sem, id vestibulum ante faucibus eu.</li>
+<li>Fusce vestibulum tellus ac luctus feugiat. Fusce semper venenatis dui, in porta urna cursus sit amet.</li>
+</ul>
+</div>
+<div class="g-col-6 align-self-center">
+<ul>
+<li>Ut eget lorem et odio facilisis placerat. Nam ac est elementum, ornare enim sit amet, aliquam magna.</li>
+<li>Morbi varius neque ante, non tristique velit pulvinar at. Praesent sit amet velit metus.</li>
+<li>Aliquam condimentum aliquet sem, id vestibulum ante faucibus eu.</li>
+<li>Fusce vestibulum tellus ac luctus feugiat. Fusce semper venenatis dui, in porta urna cursus sit amet.</li>
+</ul>
 </div>
 </div>
-<div class="g-col-4">
-<p><img src="../resources/pictures/splash.jpg" style="position:relative; top:25px; width:100%;"></p>
+<div class="line-behind column-screen-inset">
+<div class="span">
+
 </div>
+<section id="follow-me" class="level2">
+<h2 data-anchor-id="follow-me">Follow me</h2>
+</section>
 </div>
-<!-- end of grid -->
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
+<div class="grid justify-content-space-evenly text-center">
+<div class="g-col-2 align-self-center">
+<p><a href="https://scholar.google.com/citations?hl=en&amp;user=H45vLccAAAAJ&amp;view_op=list_works&amp;gmla=AKKJWFctSeG1-RPdHM1Sm6zw_pddPbBW_Q-LL5Oj-bJgbK4mEgjr4lTM7hprsdR1hMk-s2grckZTOogim9ha4lHJ"><img src="../resources/icons/google-scholar-dark.svg" class="img-fluid" style="width:60.0%" alt="Link to my Google Scholar"></a></p>
 </div>
-<div class="callout-title-container flex-fill">
-Tip
+<div class="g-col-2 align-self-center">
+<p><a href="https://au.linkedin.com/in/tormey-reimer"><img src="../resources/icons/linkedin-dark.svg" class="img-fluid" style="width:60.0%" alt="Link to my LinkedIn"></a></p>
 </div>
+<div class="g-col-2 align-self-center">
+<p><a href="https://orcid.org/0000-0002-5983-2798"><img src="../resources/icons/orcid-dark.svg" class="img-fluid" style="width:60.0%" alt="Link to my OrCID"></a></p>
 </div>
-<div class="callout-body-container callout-body">
-<p>This is a “tip” callout block.</p>
+<div class="g-col-2 align-self-center">
+<p><a href="https://www.researchgate.net/profile/Tormey-Reimer"><img src="../resources/icons/researchgate-dark.svg" class="img-fluid" style="width:60.0%" alt="Link to my ResearchGate"></a></p>
 </div>
+<div class="g-col-2 align-self-center">
+<p><a href="https://marinesocioecology.org/team/tormey-reimer/"><img src="../resources/icons/landmark-solid-dark.svg" class="img-fluid" style="width:60.0%" alt="Link to my current institution"></a></p>
 </div>
-<div class="h2">
-<p>Code and links (H2)</p>
+<div class="g-col-2 align-self-center">
+<p><a href="https://github.com/stormeyseas"><img src="../resources/icons/github-dark.svg" class="img-fluid" style="width:60.0%" alt="Link to my Github"></a></p>
 </div>
-<div class="body">
-<p>Code and link appearance inline: <code>ggplot()</code> and <code>geom_point()</code> require package <code>ggplot2</code>, which is available from <a href="https://cran.r-project.org/web/packages/ggplot2/index.html">CRAN</a>.</p>
-</div>
-<div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(iris, <span class="fu">aes</span>(<span class="at">x =</span> Sepal.Length, Sepal.Width, <span class="at">colour =</span> <span class="fu">as.factor</span>(Species))) <span class="sc">+</span></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    <span class="fu">geom_point</span>() <span class="sc">+</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    <span class="fu">theme_classic</span>() <span class="sc">+</span></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>    <span class="fu">theme</span>(<span class="at">legend.position =</span> <span class="st">"none"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="about_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-</div>
-<div class="h3">
-<p>Lists (H3</p>
-</div>
-<div class="body">
-<ol type="1">
-<li><p>Is this an ordered list?</p></li>
-<li><p>Who knows, honestly</p></li>
-<li><p>I think so!</p></li>
-</ol>
-</div>
-<div class="h4">
-<p>Different paragraphs (H4)</p>
-</div>
-<div class="body">
-<p>This text is in a “body” div.</p>
-</div>
-<p>This text is not. Any difference?</p>
-<div class="p">
-<p>This text is in a “p” div.</p>
-</div>
-<div class="h5">
-<p>Would I even use this (H5)</p>
-</div>
-<div class="body" style="background-color: pink; outline: 3px solid black; padding: 15px; margin-top: 2.5em;">
-<p>I’m also pretty sure that I can change the background/visuals of blocks quite easily. Not sure I’d want to do this much (as the callouts are pretty much the same thing) but it’s cool to know.</p>
 </div>
 
 
