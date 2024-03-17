@@ -6,6 +6,10 @@ project:
     browser: true
 execute:
   freeze: auto
+  
+profile: 
+  default: active
+  group: [active, inactive, semiactive]
 
 website:
   title: "Tormey E. Reimer"
@@ -31,16 +35,44 @@ website:
     pinned: true
     collapse: true
     # List of items for the each section of the navbar (left, right, center)
-    left: 
-      - href: pages/index.qmd
-        text: "Home"
-      - href: pages/example-page.qmd
-        text: "Examples"
-      - href: pages/other-sites.qmd
-        text: "Work"
-      - href: pages/blog.qmd
-        text: "Blog"
-    toggle-position: left # The position of the collapsed navbar toggle when in responsive mode
+    right: 
+      - text: "Home"
+        href: index.qmd
+      - text: "About"
+        href: pages/example-page.qmd
+        menu: 
+        - text: "Education"
+          href: pages/example-page.qmd
+          menu: 
+          - text: "PhD Research"
+            href: pages/example-page.qmd
+          - text: "Master's Degree"
+            href: pages/example-page.qmd
+        - text: "Skills"
+          href: pages/example-page.qmd
+          menu: 
+          - text: "Grants & Awards"
+            href: pages/example-page.qmd
+          - text: "Service"
+            href: pages/example-page.qmd
+        - text: "Interests"
+          href: pages/example-page.qmd
+      - text: "Projects"
+        href: pages/example-page.qmd
+        menu: 
+        - text: "Timeline"
+          href: pages/example-page.qmd
+        - text: "Collaborators"
+          href: pages/example-page.qmd
+        # - text: "Teaching"
+        #   href: pages/example-page.qmd
+      - text: "Publications"
+        href: pages/example-page.qmd
+      - text: "Blog"
+        href: pages/blog.qmd
+      - text: "Contact"
+        href: pages/example-page.qmd
+    toggle-position: right # The position of the collapsed navbar toggle when in responsive mode
   page-navigation: false # Provide next and previous article links in footer
   back-to-top-navigation: false
   # Page footer. Text content or page footer definition. I want some links behind cute icons here
@@ -66,12 +98,12 @@ format:
       dark: [yeti, resources/styling/yeti.scss]
     css: resources/styling/styles.css
     page-layout: full
-    grid:
-      sidebar-width: 250px
-      body-width: 1250px
-      margin-width: 150px
-      gutter-width: 2em
+    # grid:
+    #   sidebar-width: 250px
+    #   body-width: 1250px
+    #   margin-width: 150px
+    #   gutter-width: 0em
     toc: false
     fig-responsive: true
-    include-after-body:
-      file: theming/footer.qmd
+    # include-after-body:
+    #   file: theming/footer.qmd

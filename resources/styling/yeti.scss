@@ -52,10 +52,10 @@ $border-radius-lg:            0 !default;
 $border-radius-sm:            0 !default;
 
 // Fonts
-
-// stylelint-disable-next-line value-keyword-case
-$font-family-sans-serif:      "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
+@import url('https://fonts.googleapis.com/css2?family=GFS+Neohellenic:ital,wght@0,400;0,700;1,400;1,700&family=Lexend:wght@100..900&family=Ruluko&display=swap');
+$font-family-sans-serif:      "Lexend", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
 $headings-font-weight:        300 !default;
+$body-font-weight:            250 !default;
 
 // Tables
 
@@ -65,6 +65,9 @@ $table-bg-scale:              0% !default;
 
 $input-btn-padding-x:         .5rem !default;
 $btn-font-weight:             300 !default;
+$btn-padding-x:               1rem !default;
+$btn-padding-y:               .75rem !default;
+
 
 // Dropdowns
 
