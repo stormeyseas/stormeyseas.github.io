@@ -19,16 +19,17 @@
 }
 
 .h4, h4,
+.h5, h5,
 .p, p {
   font-size: 1em;
   line-height: 130%;
-  padding: 0.5em 0.5em 0.5em 0.5em;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
 }
 p:first-child {
-  padding-top: 1em;
+  padding-top: 1rem;
 }
 p:last-child {
-  padding-bottom: 1em;
+  padding-bottom: 1rem;
 }
 
 .h5, h5,
@@ -42,20 +43,20 @@ p:last-child {
   border-bottom: none;
   letter-spacing: 120%;
   line-height: 125%;
-  padding-bottom: 0.75em;
+  padding-bottom: 0.75rem;
 }
 
 .h4, h4,
 .h3, h3 {
   text-align: left;
-  padding-top: 1.15em;
+  padding-top: 1.15rem;
 }
 
 .h2, h2,
 .h1, h1 {
   text-transform: uppercase;
   text-align: center;
-  padding-top: 1.25em;
+  padding-top: 1.25rem;
 }
 
 .h4, h4 {

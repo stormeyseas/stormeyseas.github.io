@@ -101,6 +101,7 @@ $pagination-disabled-color:         $gray-400 !default;
 // Cards
 
 $card-inner-border-radius:          0 !default;
+$card-title-color:                  $primary;
 
 // Badges
 
@@ -136,6 +137,11 @@ $footer-fg:                         $gray-100;                // The color of fo
 $web-font-path: "https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" !default;
 @if $web-font-path {
   @import url($web-font-path);
+}
+
+.card-title {
+  margin-top: .75rem;
+  font-size: 1.25em;
 }
 
 // Navbar

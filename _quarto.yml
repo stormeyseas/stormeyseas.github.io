@@ -6,6 +6,7 @@ project:
     browser: true
 execute:
   freeze: auto
+anchor-sections: false
   
 profile: 
   default: active
@@ -32,7 +33,7 @@ website:
   navbar: 
     title: false
     logo: /resources/icons/water-solid-light.svg
-    pinned: true
+    pinned: false
     collapse: true
     # List of items for the each section of the navbar (left, right, center)
     right: 
