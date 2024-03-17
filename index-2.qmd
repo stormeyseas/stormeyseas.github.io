@@ -1,7 +1,6 @@
 ---
 # All options for the HTML format: https://quarto.org/docs/reference/formats/html.html
 format: html
-sidebar: false
 permalink: "/draft-home.html"
 ---
 
@@ -128,7 +127,7 @@ Title
 Some quick example text to build on the card title and make up the bulk of the card's content.
 
 ::: text-center
-[Read more](blog.qmd){.btn .btn-primary}
+[Read more](pages/blog.qmd){.btn .btn-primary}
 :::
 :::
 
@@ -147,7 +146,7 @@ Title
 Some quick example text to build on the card title and make up the bulk of the card's content.
 
 ::: text-center
-[Read more](blog.qmd){.btn .btn-primary}
+[Read more](pages/blog.qmd){.btn .btn-primary}
 :::
 :::
 
@@ -166,7 +165,7 @@ Title
 Some quick example text to build on the card title and make up the bulk of the card's content.
 
 ::: text-center
-[Read more](blog.qmd){.btn .btn-primary}
+[Read more](pages/blog.qmd){.btn .btn-primary}
 :::
 :::
 

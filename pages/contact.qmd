@@ -1,7 +1,5 @@
 ---
 format: html
-toc: false
-sidebar: false
 ---
 
 # Example page (H1)
