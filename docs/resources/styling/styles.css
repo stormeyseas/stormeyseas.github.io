@@ -4,8 +4,8 @@
 .p, p {
   font-family: Lexend;
   font-weight: 250;
-  padding: 0;
-  margin: 0;
+  padding: 0px;
+  margin: 0px;
 }
 
 .ruluko {
@@ -23,7 +23,6 @@
 .p, p {
   font-size: 1em;
   line-height: 130%;
-  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
 }
 p:first-child {
   padding-top: 1rem;
@@ -235,3 +234,46 @@ vertical-center {
   padding: 0px;
 }
 
+.wave-container {
+  padding: 0 !important;
+  margin: 0 !important;
+  object-fit: contain;
+  object-position: -50% 0;
+  overflow: visible;
+}
+
+#animate-1 {
+  position: relative;
+  width: 120vw;
+  height: 50px;
+  background-color: transparent !important;
+  
+  animation: move 4s ease infinite;
+  animation-delay: 1s;
+}
+
+#animate-2 {
+  position: relative;
+  width: 120vw;
+  height: 50px;
+  background-color: transparent !important;
+  
+  animation: move 4s ease infinite;
+  animation-delay: 0s;
+}
+
+#animate-3 {
+  position: relative;
+  width: 120vw;
+  height: 50px;
+  background-color: transparent !important;
+  
+  animation: move 4s ease infinite;
+  animation-delay: 2.1s;
+}
+
+@keyframes move {
+  50% {
+     transform: translate(-100px, 0px);
+  }
+}

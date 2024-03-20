@@ -20,6 +20,20 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dignissim ex sit 
 :::::
 ::::::
 
+::: column-screen
+::: {.wave-container #animate-3}
+![](resources/pictures/waves-3.png)
+:::
+
+::: {.wave-container #animate-1}
+![](resources/pictures/waves-1.png)
+:::
+
+::: {.wave-container #animate-2}
+![](resources/pictures/waves-2.png)
+:::
+:::
+
 ::: {.line-behind .column-screen-inset}
 ::: span
 :::
