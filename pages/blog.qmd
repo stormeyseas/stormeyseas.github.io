@@ -1,5 +1,7 @@
 ---
-title: "Blog"
+pagetitle: Blog | (Soon-to-be) Dr Tormey Reimer
+description-meta: |
+    Description to go here!
 sidebar: false
 listing:
   contents: /../blog_posts
@@ -8,15 +10,13 @@ listing:
   categories: true
   sort-ui: false
   filter-ui: false
-page-layout: full
-title-block-banner: false
+# page-layout: full
+# title-block-banner: false
 ---
 
----
-format: html
-toc: false
-sidebar: false
----
+::: {.column-screen .hero-img .hero-strip-page .align-items-end}
+# Blog {.hero-text-page}
+:::
 
 :::::: {.grid .justify-content-space-evenly .text-center}
 ::::: {.g-col-4 .align-self-center}

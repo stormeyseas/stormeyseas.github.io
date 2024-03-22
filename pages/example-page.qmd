@@ -1,10 +1,12 @@
 ---
-format: html
-toc: false
+pagetitle: Example page (H1) | (Soon-to-be) Dr Tormey Reimer
+description-meta: |
+    Description to go here!
 sidebar: false
 ---
-
-# Example page (H1)
+::: {.column-screen .hero-img .hero-strip-page .align-items-end}
+# Example page (H1) {.hero-text-page}
+:::
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dignissim ex sit amet augue consequat, vel gravida purus ullamcorper. Etiam interdum metus in tincidunt elementum. Praesent placerat elit at eleifend eleifend. Vivamus consequat tempus sollicitudin. Pellentesque condimentum libero vel finibus pretium.
 

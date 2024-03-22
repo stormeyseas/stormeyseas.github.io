@@ -5,8 +5,8 @@ description-meta: |
     (Soon-to-be) Dr Tormey Reimer is a computational biologist using her broad-ranging skills in simulations and statistics to help assess and manage marine resource sustainability.
 ---
 
-::: {.column-screen .hero-img .hero-strip .align-items-end}
-# Dr Tormey Reimer {.maintitle .hero-strip-text}
+::: {.column-screen .hero-img .hero-strip-homepage .align-items-end}
+# Dr Tormey Reimer {.hero-text-homepage}
 :::
 
 ::: text-center

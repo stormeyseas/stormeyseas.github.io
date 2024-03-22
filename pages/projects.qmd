@@ -1,9 +1,12 @@
 ---
-format: html
-toc: false
+pagetitle: Projects | (Soon-to-be) Dr Tormey Reimer
+description-meta: |
+    Description to go here!
 sidebar: false
-permalink: "/projects.html"
 ---
+::: {.column-screen .hero-img .hero-strip-page .align-items-end}
+# Projects {.hero-text-page}
+:::
 
 :::::: {.grid .justify-content-space-evenly .text-center}
 ::::: {.g-col-4 .align-self-center}

@@ -269,33 +269,10 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   flex-grow: 0;
 }
 
-// Homepage
+// Hero image 
 #quarto-content > * { // Removes the space at the top of the page
   margin-top: 0px;
   padding-top: 0px;
-}
-
-.hero-strip {
-  $hero-height: calc(50vh - 79px);
-  height: $hero-height;
-  //height: calc(100vw/3264*1836);
-}
-
-.hero-strip-text {
-  height: calc(var(--hero-height) - 80px);
-  //height: calc(100vw/3264*1836);
-}
-
-.hero-strip-page {
-  height: 250px;
-}
-
-.maintitle {
-  font-size: min(calc(8.5vw), 150px) !important;
-  text-align: center;
-  color: $white !important;
-  padding: 2.5%;
-  line-height: 115%;
 }
 
 .hero-img {
@@ -303,6 +280,38 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+// Homepage
+.hero-strip-homepage {
+  $hero-height: calc(50vh - 79px);
+  height: $hero-height;
+  //height: calc(100vw/3264*1836);
+}
+
+.hero-text-homepage {
+  height: calc(var(--hero-height) - 79px);
+  font-size: min(calc(8.5vw), 150px) !important;
+  text-align: center;
+  color: $white !important;
+  padding: 2.5%;
+  line-height: 115%;
+}
+
+// Hero banners for other pages
+.hero-strip-page {
+  $hero-height-page: calc(25vh - 79px);
+  height: $hero-height-page;
+  //height: calc(100vw/3264*1836);
+}
+
+.hero-text-page  {
+  height: calc(var(--hero-height-page) - 79px);
+  font-size: min(calc(5vw), 100px) !important;
+  text-align: center;
+  color: $white !important;
+  padding: 2.5%;
+  line-height: 115%;
 }
 
 // Card stuff

@@ -18,8 +18,8 @@ website:
   favicon: resources/icons/water-solid-dark.svg
   site-url: https://www.drtreimer.com
   repo-url: https://github.com/stormeyseas/stormeyseas.github.io
-  reader-mode: false # Displays a ‘reader-mode’ tool which allows users to hide the sidebar and table of contents when viewing a page.
-  # Create a bunch of different sidebars and put a "dummy" one on the homepage.
+  reader-mode: false
+  # Allows some pages to have a sidebar
   sidebar: 
     - id: sidebar1 
       # title: " "
