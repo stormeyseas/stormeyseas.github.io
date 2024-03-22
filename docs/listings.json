@@ -1,0 +1,9 @@
+[
+  {
+    "listing": "/pages/blog.html",
+    "items": [
+      "/blog_posts/example-blog-post.html",
+      "/blog_posts/example.html"
+    ]
+  }
+]
