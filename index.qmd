@@ -1,30 +1,21 @@
 ---
 # All options for the HTML format: https://quarto.org/docs/reference/formats/html.html
-format: html
-permalink: "/draft-home.html"
+pagetitle: Home | (Soon-to-be) Dr Tormey Reimer
+description-meta: |
+    (Soon-to-be) Dr Tormey Reimer is a computational biologist using her broad-ranging skills in simulations and statistics to help assess and manage marine resource sustainability.
 ---
 
-:::::: {.grid .justify-content-space-evenly}
-::::: {.g-col-8 .align-self-center}
-# Dr Tormey E Reimer
+::: {.column-screen .hero-img .hero-strip .align-items-end}
+# Dr Tormey Reimer {.maintitle .hero-strip-text}
+:::
 
+::: text-center
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dignissim ex sit amet augue consequat, vel gravida purus ullamcorper. Etiam interdum metus in tincidunt elementum. Praesent placerat elit at eleifend eleifend. Vivamus consequat tempus sollicitudin. Pellentesque condimentum libero vel finibus pretium.
 
-:::: text-center
 [About](pages/about.qmd){.btn .btn-primary}
-::::
-:::::
-
-::::: {.g-col-4 .align-self-center}
-![](resources/pictures/Tormey Reimer pic.jpg){width="95%" fig-alt="Picture of me!" style="max-width: 400px;"}
-:::::
-::::::
-
-::: {.line-behind .column-screen-inset}
-::: span
 :::
+
 ## Current project
-:::
 
 :::::: {.grid .justify-content-space-evenly}
 ::::: {.g-col-4 .align-self-center}
@@ -42,53 +33,55 @@ I know I'm supposed to be a scientist, but I also designed and built this whole 
 :::::
 ::::::
 
-::: {.line-behind .column-screen-inset}
-::: span
-:::
 ## Recent publications
+
+:::::: {.grid .justify-content-space-evenly .align-items-center}
+::::: {.g-col-12 .g-col-md-6}
+:::: {.grid .justify-content-space-evenly .align-items-center}
+::: {.g-col-6 .no-gaps}
+![](resources/pdf-images/High prevalence of vaterite.jpg){fig-alt="Scientific Reports snapshot"}
 :::
 
-:::::: {.grid .justify-content-space-evenly}
-::::: {.g-col-2 .align-self-center}
-![](https://via.placeholder.com/350x500){fig-alt="Image"}
-:::::
-
-::::: {.g-col-4 .align-self-center}
+::: {.g-col-6}
 #### [High prevalence of vaterite in sagittal otoliths causes hearing impairment in farmed fish](https://doi.org/10.1038/srep25249)
 
 Tormey Reimer, Tim Dempster, Fletcher Warren-Myers, Arne J. Jensen, Stephen E. Swearer
 
-*Scientific reports, 2016*
+*Scientific Reports*, 2016
+:::
+::::
+```{r include=FALSE}
+abstract = "The rapid growth of aquaculture raises questions about the welfare status of mass-produced species. Sagittal otoliths are primary hearing structures in the inner ear of all teleost (bony) fishes and are normally composed of aragonite, though abnormal vaterite replacement is sometimes seen in the wild. We provide the first widespread evaluation of the prevalence of vaterite in otoliths, showing that farmed fish have levels of vaterite replacement over 10 times higher than wild fish, regardless of species. We confirm this observation with extensive sampling of wild and farmed Atlantic salmon in Norway, the world’s largest producer and verify that vateritic otoliths are common in farmed salmon worldwide..."
 
-The rapid growth of aquaculture raises questions about the welfare status of mass-produced species. Sagittal otoliths are primary hearing structures in the inner ear of all teleost (bony) fishes and are normally composed of aragonite, though abnormal vaterite replacement is sometimes seen in the wild. We provide the first widespread evaluation of the prevalence of vaterite in otoliths, showing that...
-<!-- farmed fish have levels of vaterite replacement over 10 times higher than wild fish, regardless of species. We confirm this observation with extensive sampling of wild and farmed Atlantic salmon in Norway, the world’s largest producer and verify that vateritic otoliths are common in farmed salmon worldwide. Using a mechanistic model of otolith oscillation in response to sound, we demonstrate that average levels of vaterite replacement result in a 28–50% loss of otolith functionality across most of a salmonid’s known hearing -->
-
-##### [DOI: doi.org](https://doi.org/10.1038/srep25249)
+abs.1 = paste(ifelse(is.na(stringr::word(abstract, 1:70)), abstract, stringr::word(abstract, 1:70)), collapse = " ")
+```
+`r abs.1`... [Read more](https://doi.org/10.1038/srep25249)
 :::::
 
-::::: {.g-col-2 .align-self-center}
-![](https://via.placeholder.com/350x500){fig-alt="Image"}
-:::::
+::::: {.g-col-12 .g-col-md-6}
+:::: {.grid .justify-content-space-evenly .align-items-center}
+::: {.g-col-6 .no-gaps}
+![](resources/pdf-images/Rapid growth causes.jpg){fig-alt="Journal of Evolutionary Biology snapshot"}
+:::
 
-::::: {.g-col-4 .align-self-center}
+::: {.g-col-6}
 #### [Rapid growth causes abnormal vaterite formation in farmed fish otoliths](https://doi.org/10.1242/jeb.148056)
 
 Tormey Reimer, Tim Dempster, Anna Wargelius, Per Gunnar Fjelldal, Tom Hansen, Kevin A. Glover, Monica F. Solberg, Stephen E. Swearer
 
-*Journal of Evolutionary Biology, 2017*
+*Journal of Evolutionary Biology*, 2017
+:::
+::::
+```{r include=FALSE}
+abstract = "Sagittal otoliths are essential components of the sensory organs that enable all teleost fish to hear and maintain balance, and are primarily composed of calcium carbonate. A deformity, where aragonite (the normal crystal form) is replaced with vaterite, was first noted over 50 years ago but its underlying cause is unresolved. We evaluated the prevalence of vateritic otoliths from two captive rearing studies which suggested that fast growth, due to environmental rather than genetic control, led to vaterite development..."
 
-Sagittal otoliths are essential components of the sensory organs that enable all teleost fish to hear and maintain balance, and are primarily composed of calcium carbonate. A deformity, where aragonite (the normal crystal form) is replaced with vaterite, was first noted over 50 years ago but its underlying cause is unresolved. We evaluated the prevalence of vateritic otoliths...
-<!-- from two captive rearing studies which suggested that fast growth, due to environmental rather than genetic control, led to vaterite development. We then tested this by varying light and temperature to create phenotypes with different growth rates, which resulted in fast growers (5 times larger) having 3 times more vaterite than slow growers. A decrease in either the ratio of otolith matrix proteins (otolin-1/OMM-64) or [Ca2+]/[CO32−] may explain why fast growth causes vaterite deposition. As vaterite decreases hearing sensitivity, reducing -->
-
-##### [DOI: doi.org](https://doi.org/10.1242/jeb.148056)
+abs.2 = paste(ifelse(is.na(stringr::word(abstract, 1:70)), abstract, stringr::word(abstract, 1:70)), collapse = " ")
+```
+`r abs.2`... [Read more](https://doi.org/10.1242/jeb.148056)
 :::::
 ::::::
 
-::: {.line-behind .column-screen-inset}
-::: span
-:::
 ## Follow me
-:::
 
 :::::: {.grid .justify-content-space-evenly .text-center}
 ::::: {.g-col-2 .align-self-center}
@@ -116,77 +109,68 @@ Sagittal otoliths are essential components of the sensory organs that enable all
 :::::
 ::::::
 
-::: {.line-behind .column-screen-inset}
-::: span
-:::
-## Check out my blog!
-:::
+## Coming soon - my blog!
 
-:::::: {.grid .justify-content-space-evenly .px-2}
-::::: {.g-col-4 .align-self-center}
-:::: card
-![](https://via.placeholder.com/285x180){.card-img-top fig-alt="Image"}
+<!-- :::::: {.grid .justify-content-space-evenly .px-2} -->
+<!-- ::::: {.g-col-4 .align-self-center} -->
+<!-- :::: card -->
+<!-- ![](https://via.placeholder.com/285x180){.card-img-top fig-alt="Image"} -->
 
-::: card-title
-Title
-:::
+<!-- ::: card-title -->
+<!-- Title -->
+<!-- ::: -->
 
-::: card-text
-Some quick example text to build on the card title and make up the bulk of the card's content.
+<!-- ::: card-text -->
+<!-- Some quick example text to build on the card title and make up the bulk of the card's content. -->
 
-::: text-center
-[Read more](pages/blog.qmd){.btn .btn-primary}
-:::
-:::
+<!-- ::: text-center -->
+<!-- [Read more](pages/blog.qmd){.btn .btn-primary} -->
+<!-- ::: -->
+<!-- ::: -->
 
-::::
-:::::
+<!-- :::: -->
+<!-- ::::: -->
 
-::::: {.g-col-4 .align-self-center}
-:::: card
-![](https://via.placeholder.com/285x180){.card-img-top fig-alt="Image"}
+<!-- ::::: {.g-col-4 .align-self-center} -->
+<!-- :::: card -->
+<!-- ![](https://via.placeholder.com/285x180){.card-img-top fig-alt="Image"} -->
 
-::: card-title
-Title
-:::
+<!-- ::: card-title -->
+<!-- Title -->
+<!-- ::: -->
 
-::: card-text
-Some quick example text to build on the card title and make up the bulk of the card's content.
+<!-- ::: card-text -->
+<!-- Some quick example text to build on the card title and make up the bulk of the card's content. -->
 
-::: text-center
-[Read more](pages/blog.qmd){.btn .btn-primary}
-:::
-:::
+<!-- ::: text-center -->
+<!-- [Read more](pages/blog.qmd){.btn .btn-primary} -->
+<!-- ::: -->
+<!-- ::: -->
 
-::::
-:::::
+<!-- :::: -->
+<!-- ::::: -->
 
-::::: {.g-col-4 .align-self-center}
-:::: card
-![](https://via.placeholder.com/285x180){.card-img-top fig-alt="Image"}
+<!-- ::::: {.g-col-4 .align-self-center} -->
+<!-- :::: card -->
+<!-- ![](https://via.placeholder.com/285x180){.card-img-top fig-alt="Image"} -->
 
-::: card-title
-Title
-:::
+<!-- ::: card-title -->
+<!-- Title -->
+<!-- ::: -->
 
-::: card-text
-Some quick example text to build on the card title and make up the bulk of the card's content.
+<!-- ::: card-text -->
+<!-- Some quick example text to build on the card title and make up the bulk of the card's content. -->
 
-::: text-center
-[Read more](pages/blog.qmd){.btn .btn-primary}
-:::
-:::
+<!-- ::: text-center -->
+<!-- [Read more](pages/blog.qmd){.btn .btn-primary} -->
+<!-- ::: -->
+<!-- ::: -->
 
-::::
-:::::
+<!-- :::: -->
+<!-- ::::: -->
+<!-- :::::: -->
 
-::::::
-
-::: {.line-behind .column-screen-inset}
-::: span
-:::
 ## Get in touch
-:::
 
 :::::: {.grid .justify-content-space-evenly}
 ::::: {.g-col-4 .align-self-center}
