@@ -1,170 +1,86 @@
 [
   {
-    "objectID": "pages/timeline.html",
-    "href": "pages/timeline.html",
-    "title": "Top section",
-    "section": "",
-    "text": "Ut eget lorem et odio facilisis placerat. Nam ac est elementum, ornare enim sit amet, aliquam magna. Morbi varius neque ante, non tristique velit pulvinar at. Praesent sit amet velit metus.\nAliquam condimentum aliquet sem, id vestibulum ante faucibus eu. Fusce vestibulum tellus ac luctus feugiat. Fusce semper venenatis dui, in porta urna cursus sit amet.",
+    "objectID": "pages/timeline.html#top-section",
+    "href": "pages/timeline.html#top-section",
+    "title": "Timeline",
+    "section": "Top section",
+    "text": "Top section\nUt eget lorem et odio facilisis placerat. Nam ac est elementum, ornare enim sit amet, aliquam magna. Morbi varius neque ante, non tristique velit pulvinar at. Praesent sit amet velit metus.\nAliquam condimentum aliquet sem, id vestibulum ante faucibus eu. Fusce vestibulum tellus ac luctus feugiat. Fusce semper venenatis dui, in porta urna cursus sit amet.",
     "crumbs": [
       "About",
       "Pages",
-      "Top section"
-    ]
-  },
-  {
-    "objectID": "pages/timeline.html#section",
-    "href": "pages/timeline.html#section",
-    "title": "Top section",
-    "section": "Section",
-    "text": "Section",
-    "crumbs": [
-      "About",
-      "Pages",
-      "Top section"
-    ]
-  },
-  {
-    "objectID": "pages/service.html",
-    "href": "pages/service.html",
-    "title": "Top section",
-    "section": "",
-    "text": "Ut eget lorem et odio facilisis placerat. Nam ac est elementum, ornare enim sit amet, aliquam magna. Morbi varius neque ante, non tristique velit pulvinar at. Praesent sit amet velit metus.\nAliquam condimentum aliquet sem, id vestibulum ante faucibus eu. Fusce vestibulum tellus ac luctus feugiat. Fusce semper venenatis dui, in porta urna cursus sit amet.",
-    "crumbs": [
-      "About",
-      "Pages",
-      "Top section"
+      "Timeline"
     ]
   },
   {
     "objectID": "pages/service.html#section",
     "href": "pages/service.html#section",
-    "title": "Top section",
+    "title": "Service",
     "section": "Section",
     "text": "Section",
     "crumbs": [
       "About",
       "Pages",
-      "Top section"
-    ]
-  },
-  {
-    "objectID": "pages/projects.html",
-    "href": "pages/projects.html",
-    "title": "Top section",
-    "section": "",
-    "text": "Ut eget lorem et odio facilisis placerat. Nam ac est elementum, ornare enim sit amet, aliquam magna. Morbi varius neque ante, non tristique velit pulvinar at. Praesent sit amet velit metus.\nAliquam condimentum aliquet sem, id vestibulum ante faucibus eu. Fusce vestibulum tellus ac luctus feugiat. Fusce semper venenatis dui, in porta urna cursus sit amet.",
-    "crumbs": [
-      "About",
-      "Pages",
-      "Top section"
+      "Service"
     ]
   },
   {
     "objectID": "pages/projects.html#section",
     "href": "pages/projects.html#section",
-    "title": "Top section",
+    "title": "Projects",
     "section": "Section",
     "text": "Section",
     "crumbs": [
       "About",
       "Pages",
-      "Top section"
-    ]
-  },
-  {
-    "objectID": "pages/masters-degree.html",
-    "href": "pages/masters-degree.html",
-    "title": "Top section",
-    "section": "",
-    "text": "Ut eget lorem et odio facilisis placerat. Nam ac est elementum, ornare enim sit amet, aliquam magna. Morbi varius neque ante, non tristique velit pulvinar at. Praesent sit amet velit metus.\nAliquam condimentum aliquet sem, id vestibulum ante faucibus eu. Fusce vestibulum tellus ac luctus feugiat. Fusce semper venenatis dui, in porta urna cursus sit amet.",
-    "crumbs": [
-      "About",
-      "Pages",
-      "Top section"
+      "Projects"
     ]
   },
   {
     "objectID": "pages/masters-degree.html#section",
     "href": "pages/masters-degree.html#section",
-    "title": "Top section",
+    "title": "Master’s Research",
     "section": "Section",
     "text": "Section",
     "crumbs": [
       "About",
       "Pages",
-      "Top section"
-    ]
-  },
-  {
-    "objectID": "pages/grants-awards.html",
-    "href": "pages/grants-awards.html",
-    "title": "Top section",
-    "section": "",
-    "text": "Ut eget lorem et odio facilisis placerat. Nam ac est elementum, ornare enim sit amet, aliquam magna. Morbi varius neque ante, non tristique velit pulvinar at. Praesent sit amet velit metus.\nAliquam condimentum aliquet sem, id vestibulum ante faucibus eu. Fusce vestibulum tellus ac luctus feugiat. Fusce semper venenatis dui, in porta urna cursus sit amet.",
-    "crumbs": [
-      "About",
-      "Pages",
-      "Top section"
+      "Master's Research"
     ]
   },
   {
     "objectID": "pages/grants-awards.html#section",
     "href": "pages/grants-awards.html#section",
-    "title": "Top section",
+    "title": "Grants & Awards",
     "section": "Section",
     "text": "Section",
     "crumbs": [
       "About",
       "Pages",
-      "Top section"
-    ]
-  },
-  {
-    "objectID": "pages/education.html",
-    "href": "pages/education.html",
-    "title": "Top section",
-    "section": "",
-    "text": "Ut eget lorem et odio facilisis placerat. Nam ac est elementum, ornare enim sit amet, aliquam magna. Morbi varius neque ante, non tristique velit pulvinar at. Praesent sit amet velit metus.\nAliquam condimentum aliquet sem, id vestibulum ante faucibus eu. Fusce vestibulum tellus ac luctus feugiat. Fusce semper venenatis dui, in porta urna cursus sit amet.",
-    "crumbs": [
-      "About",
-      "Pages",
-      "Top section"
+      "Grants & Awards"
     ]
   },
   {
     "objectID": "pages/education.html#section",
     "href": "pages/education.html#section",
-    "title": "Top section",
+    "title": "Education",
     "section": "Section",
     "text": "Section",
     "crumbs": [
       "About",
       "Pages",
-      "Top section"
-    ]
-  },
-  {
-    "objectID": "pages/collaborators.html",
-    "href": "pages/collaborators.html",
-    "title": "Top section",
-    "section": "",
-    "text": "Ut eget lorem et odio facilisis placerat. Nam ac est elementum, ornare enim sit amet, aliquam magna. Morbi varius neque ante, non tristique velit pulvinar at. Praesent sit amet velit metus.\nAliquam condimentum aliquet sem, id vestibulum ante faucibus eu. Fusce vestibulum tellus ac luctus feugiat. Fusce semper venenatis dui, in porta urna cursus sit amet.",
-    "crumbs": [
-      "About",
-      "Pages",
-      "Top section"
+      "Education"
     ]
   },
   {
     "objectID": "pages/collaborators.html#section",
     "href": "pages/collaborators.html#section",
-    "title": "Top section",
+    "title": "Collaborators",
     "section": "Section",
     "text": "Section",
     "crumbs": [
       "About",
       "Pages",
-      "Top section"
+      "Collaborators"
     ]
   },
   {
@@ -322,51 +238,27 @@
     ]
   },
   {
-    "objectID": "pages/about.html",
-    "href": "pages/about.html",
-    "title": "About me",
-    "section": "",
-    "text": "Ut eget lorem et odio facilisis placerat. Nam ac est elementum, ornare enim sit amet, aliquam magna. Morbi varius neque ante, non tristique velit pulvinar at. Praesent sit amet velit metus.\nAliquam condimentum aliquet sem, id vestibulum ante faucibus eu. Fusce vestibulum tellus ac luctus feugiat. Fusce semper venenatis dui, in porta urna cursus sit amet.",
-    "crumbs": [
-      "About",
-      "Pages",
-      "About me"
-    ]
-  },
-  {
     "objectID": "pages/about.html#career-goals",
     "href": "pages/about.html#career-goals",
-    "title": "About me",
+    "title": "Grants & Awards",
     "section": "Career goals",
     "text": "Career goals",
     "crumbs": [
       "About",
       "Pages",
-      "About me"
+      "Grants & Awards"
     ]
   },
   {
     "objectID": "pages/about.html#follow-me",
     "href": "pages/about.html#follow-me",
-    "title": "About me",
+    "title": "Grants & Awards",
     "section": "Follow me",
     "text": "Follow me",
     "crumbs": [
       "About",
       "Pages",
-      "About me"
-    ]
-  },
-  {
-    "objectID": "pages/blog.html",
-    "href": "pages/blog.html",
-    "title": "Blog",
-    "section": "",
-    "text": "As we learn and experiment, we end up doing a lot of work that doesn’t actually make it into any final product. I often think about the time that went into that work, and I wonder if anyone else has ever tried to solve the same problem before or since. How many times have we quietly reinvented the wheel?\nThis is my random collection of musings, templates, code snippets, and other bits and pieces that I’ve created over the years but don’t have anywhere to publish.",
-    "crumbs": [
-      "About",
-      "Pages",
-      "Blog"
+      "Grants & Awards"
     ]
   },
   {
@@ -382,27 +274,15 @@
     ]
   },
   {
-    "objectID": "pages/contact.html",
-    "href": "pages/contact.html",
-    "title": "Top section",
-    "section": "",
-    "text": "Ut eget lorem et odio facilisis placerat. Nam ac est elementum, ornare enim sit amet, aliquam magna. Morbi varius neque ante, non tristique velit pulvinar at. Praesent sit amet velit metus.\nAliquam condimentum aliquet sem, id vestibulum ante faucibus eu. Fusce vestibulum tellus ac luctus feugiat. Fusce semper venenatis dui, in porta urna cursus sit amet.",
-    "crumbs": [
-      "About",
-      "Pages",
-      "Top section"
-    ]
-  },
-  {
     "objectID": "pages/contact.html#section",
     "href": "pages/contact.html#section",
-    "title": "Top section",
+    "title": "Contact",
     "section": "Section",
     "text": "Section",
     "crumbs": [
       "About",
       "Pages",
-      "Top section"
+      "Contact"
     ]
   },
   {
@@ -410,7 +290,7 @@
     "href": "pages/example-page.html",
     "title": "Example page (H1)",
     "section": "",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dignissim ex sit amet augue consequat, vel gravida purus ullamcorper. Etiam interdum metus in tincidunt elementum. Praesent placerat elit at eleifend eleifend. Vivamus consequat tempus sollicitudin. Pellentesque condimentum libero vel finibus pretium.\n\n\n\n\n\n\n\n\nUt eget lorem et odio facilisis placerat. Nam ac est elementum, ornare enim sit amet, aliquam magna. Morbi varius neque ante, non tristique velit pulvinar at. Praesent sit amet velit metus.\nUt vel metus quis ligula convallis sollicitudin. Etiam dapibus rhoncus nibh eget ullamcorper. Morbi enim ligula, aliquet vel libero et, egestas commodo nunc.\n\n\n\n\n\nAliquam condimentum aliquet sem, id vestibulum ante faucibus eu. Fusce vestibulum tellus ac luctus feugiat. Fusce semper venenatis dui, in porta urna cursus sit amet.\nEtiam efficitur interdum enim id pretium. In elit diam, iaculis a elit vel, sollicitudin ultricies magna. Etiam efficitur interdum enim id pretium. In elit diam, iaculis a elit vel, sollicitudin ultricies magna.\n\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nThis is a ‘note’ callout block.\n\n\n\n\n\nCode and link appearance inline: ggplot() and geom_point() require package ggplot2, which is available from CRAN.\n\nlibrary(ggplot2)\nggplot(iris, aes(x = Sepal.Length, Sepal.Width, colour = as.factor(Species))) +\n    geom_point() +\n    theme_classic() +\n    theme(legend.position = \"none\")\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIs this an ordered list?\nWho knows, honestly\nI think so!\n\n\n\n\nThis is italics, and this is bold.\n\n\nProbably not.\n\n\n\n\n\n\n\nColumn-body (default)\n\n\n\n\nColumn-body-outset\n\n\n\n\nColumn-body-inset\n\n\n\n\nColumn-page\n\n\n\n\nColumn-page-outset\n\n\n\n\nColumn-page\n\n\n\n\nColumn-screen\n\n\n\n\nColumn-screen-outset\n\n\n\n\nColumn-screen-inset",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dignissim ex sit amet augue consequat, vel gravida purus ullamcorper. Etiam interdum metus in tincidunt elementum. Praesent placerat elit at eleifend eleifend. Vivamus consequat tempus sollicitudin. Pellentesque condimentum libero vel finibus pretium.",
     "crumbs": [
       "About",
       "Pages",
@@ -421,8 +301,8 @@
     "objectID": "pages/example-page.html#a-grid-layout-h2",
     "href": "pages/example-page.html#a-grid-layout-h2",
     "title": "Example page (H1)",
-    "section": "",
-    "text": "Ut eget lorem et odio facilisis placerat. Nam ac est elementum, ornare enim sit amet, aliquam magna. Morbi varius neque ante, non tristique velit pulvinar at. Praesent sit amet velit metus.\nUt vel metus quis ligula convallis sollicitudin. Etiam dapibus rhoncus nibh eget ullamcorper. Morbi enim ligula, aliquet vel libero et, egestas commodo nunc.\n\n\n\n\n\nAliquam condimentum aliquet sem, id vestibulum ante faucibus eu. Fusce vestibulum tellus ac luctus feugiat. Fusce semper venenatis dui, in porta urna cursus sit amet.\nEtiam efficitur interdum enim id pretium. In elit diam, iaculis a elit vel, sollicitudin ultricies magna. Etiam efficitur interdum enim id pretium. In elit diam, iaculis a elit vel, sollicitudin ultricies magna.\n\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nThis is a ‘note’ callout block.",
+    "section": "A grid layout (H2)",
+    "text": "A grid layout (H2)\n\n\n\n\n\nFirst grid row (H3)\nUt eget lorem et odio facilisis placerat. Nam ac est elementum, ornare enim sit amet, aliquam magna. Morbi varius neque ante, non tristique velit pulvinar at. Praesent sit amet velit metus.\nUt vel metus quis ligula convallis sollicitudin. Etiam dapibus rhoncus nibh eget ullamcorper. Morbi enim ligula, aliquet vel libero et, egestas commodo nunc.\n\n\n\n\nSecond grid row (H3)\nAliquam condimentum aliquet sem, id vestibulum ante faucibus eu. Fusce vestibulum tellus ac luctus feugiat. Fusce semper venenatis dui, in porta urna cursus sit amet.\nEtiam efficitur interdum enim id pretium. In elit diam, iaculis a elit vel, sollicitudin ultricies magna. Etiam efficitur interdum enim id pretium. In elit diam, iaculis a elit vel, sollicitudin ultricies magna.\n\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nThis is a ‘note’ callout block.",
     "crumbs": [
       "About",
       "Pages",
@@ -433,8 +313,8 @@
     "objectID": "pages/example-page.html#code-and-links-h2",
     "href": "pages/example-page.html#code-and-links-h2",
     "title": "Example page (H1)",
-    "section": "",
-    "text": "Code and link appearance inline: ggplot() and geom_point() require package ggplot2, which is available from CRAN.\n\nlibrary(ggplot2)\nggplot(iris, aes(x = Sepal.Length, Sepal.Width, colour = as.factor(Species))) +\n    geom_point() +\n    theme_classic() +\n    theme(legend.position = \"none\")",
+    "section": "Code and links (H2)",
+    "text": "Code and links (H2)\nCode and link appearance inline: ggplot() and geom_point() require package ggplot2, which is available from CRAN.\n\nlibrary(ggplot2)\nggplot(iris, aes(x = Sepal.Length, Sepal.Width, colour = as.factor(Species))) +\n    geom_point() +\n    theme_classic() +\n    theme(legend.position = \"none\")",
     "crumbs": [
       "About",
       "Pages",
@@ -445,8 +325,8 @@
     "objectID": "pages/example-page.html#different-formatting-h2",
     "href": "pages/example-page.html#different-formatting-h2",
     "title": "Example page (H1)",
-    "section": "",
-    "text": "Is this an ordered list?\nWho knows, honestly\nI think so!\n\n\n\n\nThis is italics, and this is bold.\n\n\nProbably not.",
+    "section": "Different formatting (H2)",
+    "text": "Different formatting (H2)\n\nLists (H3)\n\nIs this an ordered list?\nWho knows, honestly\nI think so!\n\n\n\nMore formatting (H4)\nThis is italics, and this is bold.\n\nWould I even use this (H5)\nProbably not.",
     "crumbs": [
       "About",
       "Pages",
@@ -457,8 +337,8 @@
     "objectID": "pages/example-page.html#columns-and-screens-h2",
     "href": "pages/example-page.html#columns-and-screens-h2",
     "title": "Example page (H1)",
-    "section": "",
-    "text": "Column-body (default)\n\n\n\n\nColumn-body-outset\n\n\n\n\nColumn-body-inset\n\n\n\n\nColumn-page\n\n\n\n\nColumn-page-outset\n\n\n\n\nColumn-page\n\n\n\n\nColumn-screen\n\n\n\n\nColumn-screen-outset\n\n\n\n\nColumn-screen-inset",
+    "section": "Columns and screens (H2)",
+    "text": "Columns and screens (H2)\n\n\nColumn-body (default)\n\n\n\n\nColumn-body-outset\n\n\n\n\nColumn-body-inset\n\n\n\n\nColumn-page\n\n\n\n\nColumn-page-outset\n\n\n\n\nColumn-page\n\n\n\n\nColumn-screen\n\n\n\n\nColumn-screen-outset\n\n\n\n\nColumn-screen-inset",
     "crumbs": [
       "About",
       "Pages",
@@ -466,99 +346,51 @@
     ]
   },
   {
-    "objectID": "pages/interests.html",
-    "href": "pages/interests.html",
-    "title": "Top section",
-    "section": "",
-    "text": "Ut eget lorem et odio facilisis placerat. Nam ac est elementum, ornare enim sit amet, aliquam magna. Morbi varius neque ante, non tristique velit pulvinar at. Praesent sit amet velit metus.\nAliquam condimentum aliquet sem, id vestibulum ante faucibus eu. Fusce vestibulum tellus ac luctus feugiat. Fusce semper venenatis dui, in porta urna cursus sit amet.",
-    "crumbs": [
-      "About",
-      "Pages",
-      "Top section"
-    ]
-  },
-  {
     "objectID": "pages/interests.html#section",
     "href": "pages/interests.html#section",
-    "title": "Top section",
+    "title": "Interests",
     "section": "Section",
     "text": "Section",
     "crumbs": [
       "About",
       "Pages",
-      "Top section"
-    ]
-  },
-  {
-    "objectID": "pages/phd-research.html",
-    "href": "pages/phd-research.html",
-    "title": "Top section",
-    "section": "",
-    "text": "Ut eget lorem et odio facilisis placerat. Nam ac est elementum, ornare enim sit amet, aliquam magna. Morbi varius neque ante, non tristique velit pulvinar at. Praesent sit amet velit metus.\nAliquam condimentum aliquet sem, id vestibulum ante faucibus eu. Fusce vestibulum tellus ac luctus feugiat. Fusce semper venenatis dui, in porta urna cursus sit amet.",
-    "crumbs": [
-      "About",
-      "Pages",
-      "Top section"
+      "Interests"
     ]
   },
   {
     "objectID": "pages/phd-research.html#section",
     "href": "pages/phd-research.html#section",
-    "title": "Top section",
+    "title": "PhD Research",
     "section": "Section",
     "text": "Section",
     "crumbs": [
       "About",
       "Pages",
-      "Top section"
+      "PhD Research"
     ]
   },
   {
-    "objectID": "pages/publications.html",
-    "href": "pages/publications.html",
-    "title": "Top section",
-    "section": "",
-    "text": "Ut eget lorem et odio facilisis placerat. Nam ac est elementum, ornare enim sit amet, aliquam magna. Morbi varius neque ante, non tristique velit pulvinar at. Praesent sit amet velit metus.\nAliquam condimentum aliquet sem, id vestibulum ante faucibus eu. Fusce vestibulum tellus ac luctus feugiat. Fusce semper venenatis dui, in porta urna cursus sit amet.",
+    "objectID": "pages/publications.html#peer-reviewed-articles",
+    "href": "pages/publications.html#peer-reviewed-articles",
+    "title": "Publications",
+    "section": "Peer-reviewed articles",
+    "text": "Peer-reviewed articles\n\n\n\n\n\n\n\nHigh prevalence of vaterite in sagittal otoliths causes hearing impairment in farmed fish\nTormey Reimer, Tim Dempster, Fletcher Warren-Myers, Arne J. Jensen, Stephen E. Swearer\nScientific Reports, 2016\n\n\nThe rapid growth of aquaculture raises questions about the welfare status of mass-produced species. Sagittal otoliths are primary hearing structures in the inner ear of all teleost (bony) fishes and are normally composed of aragonite, though abnormal vaterite replacement is sometimes seen in the wild. We provide the first widespread evaluation of the prevalence of vaterite in otoliths, showing that farmed fish have levels of vaterite replacement over 10 times… Read more\n\n\n\n\n\n\n\nRapid growth causes abnormal vaterite formation in farmed fish otoliths\nTormey Reimer, Tim Dempster, Anna Wargelius, Per Gunnar Fjelldal, Tom Hansen, Kevin A. Glover, Monica F. Solberg, Stephen E. Swearer\nJournal of Evolutionary Biology, 2017\n\n\nSagittal otoliths are essential components of the sensory organs that enable all teleost fish to hear and maintain balance, and are primarily composed of calcium carbonate. A deformity, where aragonite (the normal crystal form) is replaced with vaterite, was first noted over 50 years ago but its underlying cause is unresolved. We evaluated the prevalence of vateritic otoliths from two captive rearing studies which suggested that fast growth, due to environmental… Read more",
     "crumbs": [
       "About",
       "Pages",
-      "Top section"
-    ]
-  },
-  {
-    "objectID": "pages/publications.html#section",
-    "href": "pages/publications.html#section",
-    "title": "Top section",
-    "section": "Section",
-    "text": "Section",
-    "crumbs": [
-      "About",
-      "Pages",
-      "Top section"
-    ]
-  },
-  {
-    "objectID": "pages/skills.html",
-    "href": "pages/skills.html",
-    "title": "Top section",
-    "section": "",
-    "text": "Ut eget lorem et odio facilisis placerat. Nam ac est elementum, ornare enim sit amet, aliquam magna. Morbi varius neque ante, non tristique velit pulvinar at. Praesent sit amet velit metus.\nAliquam condimentum aliquet sem, id vestibulum ante faucibus eu. Fusce vestibulum tellus ac luctus feugiat. Fusce semper venenatis dui, in porta urna cursus sit amet.",
-    "crumbs": [
-      "About",
-      "Pages",
-      "Top section"
+      "Publications"
     ]
   },
   {
     "objectID": "pages/skills.html#section",
     "href": "pages/skills.html#section",
-    "title": "Top section",
+    "title": "Skills",
     "section": "Section",
     "text": "Section",
     "crumbs": [
       "About",
       "Pages",
-      "Top section"
+      "Skills"
     ]
   }
 ]
