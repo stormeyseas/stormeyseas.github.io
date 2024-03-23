@@ -15,7 +15,7 @@ profile:
 website:
   title: "Tormey E. Reimer"
   description: "Welcome to my personal website."
-  favicon: resources/icons/water-solid-dark.svg
+  favicon: resources/icons/water-solid-light.svg
   site-url: https://www.drtreimer.com
   repo-url: https://github.com/stormeyseas/stormeyseas.github.io
   reader-mode: false

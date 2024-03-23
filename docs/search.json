@@ -107,7 +107,7 @@
     "href": "index.html#recent-publications",
     "title": "Dr Tormey Reimer",
     "section": "Recent publications",
-    "text": "Recent publications\n\n\n\n\n\n\n\nHigh prevalence of vaterite in sagittal otoliths causes hearing impairment in farmed fish\nTormey Reimer, Tim Dempster, Fletcher Warren-Myers, Arne J. Jensen, Stephen E. Swearer\nScientific Reports, 2016\n\n\nThe rapid growth of aquaculture raises questions about the welfare status of mass-produced species. Sagittal otoliths are primary hearing structures in the inner ear of all teleost (bony) fishes and are normally composed of aragonite, though abnormal vaterite replacement is sometimes seen in the wild. We provide the first widespread evaluation of the prevalence of vaterite in otoliths, showing that farmed fish have levels of vaterite replacement over 10 times… Read more\n\n\n\n\n\n\n\nRapid growth causes abnormal vaterite formation in farmed fish otoliths\nTormey Reimer, Tim Dempster, Anna Wargelius, Per Gunnar Fjelldal, Tom Hansen, Kevin A. Glover, Monica F. Solberg, Stephen E. Swearer\nJournal of Evolutionary Biology, 2017\n\n\nSagittal otoliths are essential components of the sensory organs that enable all teleost fish to hear and maintain balance, and are primarily composed of calcium carbonate. A deformity, where aragonite (the normal crystal form) is replaced with vaterite, was first noted over 50 years ago but its underlying cause is unresolved. We evaluated the prevalence of vateritic otoliths from two captive rearing studies which suggested that fast growth, due to environmental… Read more"
+    "text": "Recent publications\n\n\n\n\n\n\n\nHigh prevalence of vaterite in sagittal otoliths causes hearing impairment in farmed fish\nTormey Reimer, Tim Dempster, Fletcher Warren-Myers, Arne J. Jensen, Stephen E. Swearer\nScientific Reports, 2016\n\n\nThe rapid growth of aquaculture raises questions about the welfare status of mass-produced species. Sagittal otoliths are primary hearing structures in the inner ear of all teleost (bony) fishes and are normally composed of aragonite, though abnormal vaterite replacement is sometimes seen in the wild. We provide the first widespread evaluation of the prevalence of vaterite in otoliths, showing that farmed fish have levels of vaterite replacement over 10 times… Read more\n\n\n\n\n\n\n\nRapid growth causes abnormal vaterite formation in farmed fish otoliths\nTormey Reimer, Tim Dempster, Anna Wargelius, Per Gunnar Fjelldal, Tom Hansen, Kevin A. Glover, Monica F. Solberg, Stephen E. Swearer\nJournal of Evolutionary Biology, 2017\n\n\nSagittal otoliths are essential components of the sensory organs that enable all teleost fish to hear and maintain balance, and are primarily composed of calcium carbonate. A deformity, where aragonite (the normal crystal form) is replaced with vaterite, was first noted over 50 years ago but its underlying cause is unresolved. We evaluated the prevalence of vateritic otoliths from two captive rearing studies which suggested that fast growth, due to environmental… Read more\n\n\n\nSee all publications"
   },
   {
     "objectID": "index.html#follow-me",
@@ -121,7 +121,7 @@
     "href": "index.html#coming-soon---my-blog",
     "title": "Dr Tormey Reimer",
     "section": "Coming soon - my blog!",
-    "text": "Coming soon - my blog!"
+    "text": "Coming soon - my blog!\n\n\n\n\n\nTitle\n\n\nSome quick example text to build on the card title and make up the bulk of the card’s content.\n\nRead more"
   },
   {
     "objectID": "index.html#get-in-touch",
@@ -240,25 +240,25 @@
   {
     "objectID": "pages/about.html#career-goals",
     "href": "pages/about.html#career-goals",
-    "title": "Grants & Awards",
+    "title": "About Me",
     "section": "Career goals",
     "text": "Career goals",
     "crumbs": [
       "About",
       "Pages",
-      "Grants & Awards"
+      "About Me"
     ]
   },
   {
     "objectID": "pages/about.html#follow-me",
     "href": "pages/about.html#follow-me",
-    "title": "Grants & Awards",
+    "title": "About Me",
     "section": "Follow me",
     "text": "Follow me",
     "crumbs": [
       "About",
       "Pages",
-      "Grants & Awards"
+      "About Me"
     ]
   },
   {
@@ -392,5 +392,26 @@
       "Pages",
       "Skills"
     ]
+  },
+  {
+    "objectID": "index.html#section",
+    "href": "index.html#section",
+    "title": "Dr Tormey Reimer",
+    "section": "",
+    "text": "About"
+  },
+  {
+    "objectID": "index.html#check-out-my-blog",
+    "href": "index.html#check-out-my-blog",
+    "title": "Dr Tormey Reimer",
+    "section": "Check out my blog!",
+    "text": "Check out my blog!\n\n\n\n\n\nTitle text title text title text\n\n\nSome quick example text to build on the card title and make up the bulk of the card’s content.\n\nRead more"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Tormey E. Reimer",
+    "section": "",
+    "text": "# Dr Tormey Reimer {.hero-text-homepage}"
   }
 ]

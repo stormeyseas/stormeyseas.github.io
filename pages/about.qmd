@@ -1,12 +1,12 @@
 ---
-pagetitle: Grants & Awards | (Soon-to-be) Dr Tormey Reimer
+pagetitle: About Me | (Soon-to-be) Dr Tormey Reimer
 description-meta: |
     Description to go here!
 sidebar: false
 ---
 
 ::: {.column-screen .hero-img .hero-strip-page .align-items-end}
-# Grants & Awards {.hero-text-page}
+# About Me {.hero-text-page}
 :::
 
 :::::: {.grid .justify-content-space-evenly .text-center}
@@ -17,9 +17,9 @@ sidebar: false
 ::::: {.g-col-8 .align-self-center}
 # About me
 
-Ut eget lorem et odio facilisis placerat. Nam ac est elementum, ornare enim sit amet, aliquam magna. Morbi varius neque ante, non tristique velit pulvinar at. Praesent sit amet velit metus.
-
-Aliquam condimentum aliquet sem, id vestibulum ante faucibus eu. Fusce vestibulum tellus ac luctus feugiat. Fusce semper venenatis dui, in porta urna cursus sit amet.
+Coming from an ecology background, I've always been interested in the relationships between natural and human communities. 
+Through my studies I discovered that I have a real knack for learning new systems and an intense curiosity about the inner working of dynamic and statistical models. 
+Now, I use a wide variety of modelling techniques to understand how humans impact natural systems, and to provide guidance on how to manage those impacts. 
 :::::
 ::::::
 
