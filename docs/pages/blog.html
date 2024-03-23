@@ -8,7 +8,7 @@
 
 <meta name="description" content="<p>Description to go here!</p>">
 
-<title>Service | (Soon-to-be) Dr Tormey Reimer</title>
+<title>Blog | (Soon-to-be) Dr Tormey Reimer</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,6 +32,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
 <link href="../resources/icons/water-solid-light.svg" rel="icon" type="image/svg+xml">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -69,7 +71,65 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-date','listing-title','listing-description','listing-categories','listing-author',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../resources/styling/styles.css">
 </head>
@@ -108,7 +168,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../pages/blog.html"> 
+    <a class="nav-link active" href="../pages/blog.html" aria-current="page"> 
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
@@ -134,49 +194,113 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="service" class="level1 hero-text-page column-screen hero-img hero-strip-page align-items-end">
-<h1 class="hero-text-page">Service</h1>
+<section id="blog" class="level1 hero-text-page column-screen hero-img hero-strip-page align-items-end">
+<h1 class="hero-text-page">Blog</h1>
 </section>
-<div class="grid justify-content-space-evenly text-center">
-<div class="g-col-4 align-self-center">
-<p><img src="https://via.placeholder.com/500x450.png" class="img-fluid"></p>
-</div>
-<section id="top-section" class="level1 g-col-8 align-self-center">
-<h1>Top section</h1>
-<p>Ut eget lorem et odio facilisis placerat. Nam ac est elementum, ornare enim sit amet, aliquam magna. Morbi varius neque ante, non tristique velit pulvinar at. Praesent sit amet velit metus.</p>
-<p>Aliquam condimentum aliquet sem, id vestibulum ante faucibus eu. Fusce vestibulum tellus ac luctus feugiat. Fusce semper venenatis dui, in porta urna cursus sit amet.</p>
+<section id="welcome-to-my-blog" class="level2">
+<h2 data-anchor-id="welcome-to-my-blog">Welcome to my blog!</h2>
+<p>As we learn and experiment, we end up doing a lot of work that doesn’t actually make it into any final product. I often think about the time that went into that work, and I wonder if anyone else has ever tried to solve the same problem before or since. How many times have we quietly reinvented the wheel?</p>
+<p>This is my random collection of musings, templates, code snippets, and other bits and pieces that I’ve created over the years but don’t have anywhere to publish.</p>
+
+
+
 </section>
+
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Order By</option>
+       <option value="index" data-direction="asc">Default</option>
+         <option value="listing-title" data-direction="asc">
+          Title
+        </option>
+         <option value="listing-date-sort" data-direction="asc">
+          Date - Oldest
+        </option>
+         <option value="listing-date-sort" data-direction="desc">
+          Date - Newest
+        </option>
+         <option value="listing-author" data-direction="asc">
+          Author
+        </option>
+     </select>
+  </div>
 </div>
-<div class="line-behind column-screen-inset">
-<div class="span">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="introduction,blog,website" data-listing-date-sort="1711112400000" data-listing-file-modified-sort="1711161026631" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="86">
+<a href="../blog-posts/intro.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../resources/images/Bruny.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Welcome to my blog!
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('introduction'); return false;">
+introduction
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('blog'); return false;">
+blog
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('website'); return false;">
+website
+</div>
+</div>
+<div class="card-text listing-description">
+<p>Why did I do it? Will I stick to it with any kind of regularity? Let’s find out!</p>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Tormey Reimer
+</div>
+<div class="listing-date">
+Mar 23, 2024
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="Example,ggplot2" data-listing-date-sort="1707656400000" data-listing-file-modified-sort="1710930360568" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="103">
+<a href="../blog-posts/example.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Laying out figures with ggplot2
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Example'); return false;">
+Example
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('ggplot2'); return false;">
+ggplot2
+</div>
+</div>
+<div class="card-text listing-description">
+This is a test post. In this post, I try out different functionalities in the hope of making a template.
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
 
 </div>
-<section id="section" class="level2">
-<h2 data-anchor-id="section">Section</h2>
-</section>
-</div>
-<div class="grid justify-content-space-evenly" style="font-weight:250;">
-<div class="g-col-6 align-self-center">
-<ul>
-<li>Ut eget lorem et odio facilisis placerat. Nam ac est elementum, ornare enim sit amet, aliquam magna.</li>
-<li>Morbi varius neque ante, non tristique velit pulvinar at. Praesent sit amet velit metus.</li>
-<li>Aliquam condimentum aliquet sem, id vestibulum ante faucibus eu.</li>
-<li>Fusce vestibulum tellus ac luctus feugiat. Fusce semper venenatis dui, in porta urna cursus sit amet.</li>
-</ul>
-</div>
-<div class="g-col-6 align-self-center">
-<ul>
-<li>Ut eget lorem et odio facilisis placerat. Nam ac est elementum, ornare enim sit amet, aliquam magna.</li>
-<li>Morbi varius neque ante, non tristique velit pulvinar at. Praesent sit amet velit metus.</li>
-<li>Aliquam condimentum aliquet sem, id vestibulum ante faucibus eu.</li>
-<li>Fusce vestibulum tellus ac luctus feugiat. Fusce semper venenatis dui, in porta urna cursus sit amet.</li>
-</ul>
+<div class="listing-date">
+Feb 12, 2024
 </div>
 </div>
-
-
-
-</main> <!-- /main -->
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

@@ -6,7 +6,7 @@ sidebar: false
 ---
 
 ::: {.column-screen .hero-img .hero-strip-page .align-items-end}
-# About Me {.hero-text-page}
+# 
 :::
 
 :::::: {.grid .justify-content-space-evenly .text-center}

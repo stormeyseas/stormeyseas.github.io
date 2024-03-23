@@ -24,11 +24,23 @@
     ]
   },
   {
-    "objectID": "pages/projects.html#section",
-    "href": "pages/projects.html#section",
+    "objectID": "pages/projects.html#currently-working-on",
+    "href": "pages/projects.html#currently-working-on",
     "title": "Projects",
-    "section": "Section",
-    "text": "Section",
+    "section": "Currently working on",
+    "text": "Currently working on\n\n\n\n\n\nThis website\nWhat could be a better use of my time as I wait for feedback on my PhD thesis than slowly moving more and more of my life into RStudio? I designed and built this whole website using Quarto.\nSo why did I do this at all?\nDon’t get me wrong, I like all the various tools and services available to researchers nowadays. But when you’re expected to keep you ResearchGate, GoogleScholar, WebOfScience, LinkedIn, Mendeley/Zotero and OrcID profiles up to date (not to mention your various lab websites, institutional platforms, journal accounts, and whatever we eventually decide to replace Twitter with) it can all get a bit much. I really wanted a central place to consolidate all my stuff, so that anyone who wants to find information on me, my projects or my work can come straight to the source.\n\n\n\n\n\n\n\nUpcoming projects\n\n\n\n\n\nUt eget lorem et odio facilisis placerat. Nam ac est elementum, ornare enim sit amet, aliquam magna.\nMorbi varius neque ante, non tristique velit pulvinar at. Praesent sit amet velit metus.\nAliquam condimentum aliquet sem, id vestibulum ante faucibus eu.\nFusce vestibulum tellus ac luctus feugiat. Fusce semper venenatis dui, in porta urna cursus sit amet.\n\n\n\n\nUt eget lorem et odio facilisis placerat. Nam ac est elementum, ornare enim sit amet, aliquam magna.\nMorbi varius neque ante, non tristique velit pulvinar at. Praesent sit amet velit metus.\nAliquam condimentum aliquet sem, id vestibulum ante faucibus eu.\nFusce vestibulum tellus ac luctus feugiat. Fusce semper venenatis dui, in porta urna cursus sit amet.",
+    "crumbs": [
+      "About",
+      "Pages",
+      "Projects"
+    ]
+  },
+  {
+    "objectID": "pages/projects.html#upcoming-projects",
+    "href": "pages/projects.html#upcoming-projects",
+    "title": "Projects",
+    "section": "Upcoming projects",
+    "text": "Upcoming projects",
     "crumbs": [
       "About",
       "Pages",
@@ -96,11 +108,11 @@
     ]
   },
   {
-    "objectID": "index.html#current-project",
-    "href": "index.html#current-project",
+    "objectID": "index.html#my-current-project",
+    "href": "index.html#my-current-project",
     "title": "Dr Tormey Reimer",
-    "section": "Current project",
-    "text": "Current project\n\n\n\n\n\nThis website\nI know I’m supposed to be a scientist, but I also designed and built this whole website. And the best part? It was all done in R! Contact me if you want to know how you can move even more of your life into RStudio.\n\nMore projects"
+    "section": "My Current project",
+    "text": "My Current project\n\n\n\n\n\nThis website\nWhat could be a better use of my time as I wait for feedback on my PhD thesis than slowly moving more and more of my life into RStudio? I designed and built this whole website using Quarto.\n\nMore projects"
   },
   {
     "objectID": "index.html#recent-publications",
@@ -110,18 +122,11 @@
     "text": "Recent publications\n\n\n\n\n\n\n\nHigh prevalence of vaterite in sagittal otoliths causes hearing impairment in farmed fish\nTormey Reimer, Tim Dempster, Fletcher Warren-Myers, Arne J. Jensen, Stephen E. Swearer\nScientific Reports, 2016\n\n\nThe rapid growth of aquaculture raises questions about the welfare status of mass-produced species. Sagittal otoliths are primary hearing structures in the inner ear of all teleost (bony) fishes and are normally composed of aragonite, though abnormal vaterite replacement is sometimes seen in the wild. We provide the first widespread evaluation of the prevalence of vaterite in otoliths, showing that farmed fish have levels of vaterite replacement over 10 times… Read more\n\n\n\n\n\n\n\nRapid growth causes abnormal vaterite formation in farmed fish otoliths\nTormey Reimer, Tim Dempster, Anna Wargelius, Per Gunnar Fjelldal, Tom Hansen, Kevin A. Glover, Monica F. Solberg, Stephen E. Swearer\nJournal of Evolutionary Biology, 2017\n\n\nSagittal otoliths are essential components of the sensory organs that enable all teleost fish to hear and maintain balance, and are primarily composed of calcium carbonate. A deformity, where aragonite (the normal crystal form) is replaced with vaterite, was first noted over 50 years ago but its underlying cause is unresolved. We evaluated the prevalence of vateritic otoliths from two captive rearing studies which suggested that fast growth, due to environmental… Read more\n\n\n\nSee all publications"
   },
   {
-    "objectID": "index.html#follow-me",
-    "href": "index.html#follow-me",
+    "objectID": "index.html#check-out-my-blog",
+    "href": "index.html#check-out-my-blog",
     "title": "Dr Tormey Reimer",
-    "section": "Follow me",
-    "text": "Follow me"
-  },
-  {
-    "objectID": "index.html#coming-soon---my-blog",
-    "href": "index.html#coming-soon---my-blog",
-    "title": "Dr Tormey Reimer",
-    "section": "Coming soon - my blog!",
-    "text": "Coming soon - my blog!\n\n\n\n\n\nTitle\n\n\nSome quick example text to build on the card title and make up the bulk of the card’s content.\n\nRead more"
+    "section": "Check out my blog!",
+    "text": "Check out my blog!\n\n\n\n\n\nTitle text title text title text\n\n\nSome quick example text to build on the card title and make up the bulk of the card’s content.\n\nRead more"
   },
   {
     "objectID": "index.html#get-in-touch",
@@ -131,80 +136,8 @@
     "text": "Get in touch\n\n\n\n\n\n\n\n\n\nI’m currently working and responding to emails, messages, heartfelt letters, and good vibes. Feel free to reach out!\n\nContact me"
   },
   {
-    "objectID": "blog_posts/example-blog-post.html",
-    "href": "blog_posts/example-blog-post.html",
-    "title": "Laying out figures with ggplot2",
-    "section": "",
-    "text": "Previously was using a combination of R, Powerpoint, and Latex to lay out figures.\nHowever, it was a very finicking process. If I’m going to be using Quarto/R for most things would be nice to do things all in one place.\nI really want to enable other students/academics to do things without reinventing the wheel.\n\n\nI like to use pacman (the package manager) because its function p_load acts like library() if the package is already installed and install.packages() if it isn’t. You can also pass all your package names to it as a single vector.\n\ninstall.packages(\"pacman\", repos=\"https://cran.r-project.org\", update = TRUE)\n\n# Basic plotting packages\npacman::p_load(\"ggplot2\", update = TRUE)\n\n# All the packages we need for laying out plots\npacman::p_load(\"grid\", \"gridExtra\", \"gtable\", \"cowplot\", \"multipanelfigure\", \"egg\", \"patchwork\", update = TRUE)\n\n# Extra stuff\npacman::p_load(\"ggpubr\", \"ggplotify\", \"tidyverse\", update = TRUE)\n\nSo these are the packages I want to compare. A lot of the inspiration for this work came from the egg vignettes (here and here), so make sure to check those out if you want further information.\n\n\n\nPackage\nVersion\nFunction(s)\nCompatible with ggsave()\nAlignment\n\n\n\n\nr cookbook (grid)\n4.3.0\nmultiplot\nno\nno\n\n\ngridExtra\n2.3\ngrid.arrange\nyes\nno\n\n\ngtable\n0.3.4\nmulti_panel_figure\nyes\nyes\n\n\ncowplot\n1.1.3\nplot_grid\nyes*\nyes*\n\n\nmultipanelfigure\n2.1.5\nmulti_panel_figure\nyes\nyes\n\n\negg\n0.4.5\nggarrange\nyes\nyes\n\n\npatchwork\n1.2.0\nplot_layout\nyes\nyes\n\n\n\n\n\n\nFirst I’m going to set up a dummy plot that will act as our tester going forward. I’m deliberately going to make it pretty complex to make sure I can demonstrate all the features we might want. I’ll be using data from the Bureau of Meteorology that I downloaded and cleaned up. The data I used is available here, and if you want to generate a similar dataset the code I used is here.\n\np.temp.9am = \n  ggplot(data = subset(weather.times, Time == \"Morning\"), \n         aes(x = Date, y = Temp.C, color = WindDir, shape = Time)) +\n  geom_point() + \n  scale_x_date(name = \"Month\", date_labels = \"%b\") +\n  theme_classic() + theme(legend.position = \"none\")\n\np.temp.3pm = \n  ggplot(data = subset(weather.times, Time == \"Morning\"), \n         aes(x = Date, y = Temp.C, color = WindDir, shape = Time)) +\n  geom_point() + \n  scale_x_date(name = \"Month\", date_labels = \"%b\") +\n  theme_classic() + theme(legend.position = \"none\")\n\n\n\n\nLaying two plots out, side by side, is easy with basically any of these packages. The most basic way is probably with the confusingly named custom function multiplot, which is built in base packages and defined in R Cookbook.\n\nmultiplot(p.temp.9am, p.temp.3pm, cols = 2)\n\n\n\n\n\n\n\n\nYou can also achieve the same thing with functions already built into the packages gridExtra, ggpubr and egg, which are built on top of the basic grid package:\n\n\n\n\n\ngridExtra::grid.arrange(\n  p.temp.9am, p.temp.3pm, \n  nrow = 2)\n\n\n\n\n\n\n\n\n\n\n\n\nggpubr::ggarrange(\n  p.temp.9am, p.temp.3pm, \n  nrow = 2)\n\n\n\n\n\n\n\n\n\n\n\n\negg::ggarrange(\n  p.temp.9am, p.temp.3pm, \n  nrow = 2)\n\n\n\n\n\n\n\n\n\n\n\nHowever, have a look at the figures above. Doesn’t it bother you that the axis titles, labels and tick-marks are repeated over multiple figures? It bothers me. It especially bothers me when I’m trying to squeeze a lot of information into one page. Repeated information isn’t just redundant, it’s actively detrimental to your audience’s understanding of your data. Personally, if I was going to plot those two figures together in a paper, I would remove their common axis (y if they’re side-by-side, x if they’re stacked).\n\n\n\nThe simplest way to do achieve this is to remove the offending elements from the plots themselves. I like to do this with theme environment shortcuts, which take advantage of ggplot2’s modular structure and can make your code a lot less verbose. For example:\n\nno.x = theme(axis.title.x = element_blank(), axis.text.x = element_blank())\nno.y = theme(axis.title.y = element_blank(), axis.text.y = element_blank())\n\nYou can then plot your figures much more neatly, and you’ll get exactly the same results using gridExtra::grid.arrange and ggpubr::ggarrange. However, you’ll get a different result when you use egg::ggarrange, and in fact egg::ggarrange is slightly superior in this regard. It might be easier to see if we switch away from the actual plot and look at the “bones”:\n\nlemme_see_dem_bones = function(plot){\n  bonegrob = egg::expose_layout(plot, draw = F)\n  boneplot = ggpubr::as_ggplot(bonegrob)\n  return(boneplot)\n}\n\n# Functions ggpubr::as_ggplot() ggplotify::as.ggplot()\n\nexpose_layout allows you to see how the different plot elements are being parsed by whatever package you’re using.\n\n\n\n\n\ngridExtra::grid.arrange(\n  p.temp.9am + no.x, \n  p.temp.3pm, \n  nrow = 2)\n\n\n\n\n\n\n\n\n\n\n\ngridExtra::grid.arrange(\n  lemme_see_dem_bones(p.temp.9am + no.x), \n  lemme_see_dem_bones(p.temp.3pm), \n  nrow = 2)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nggpubr::ggarrange(\n  p.temp.9am + no.x, \n  p.temp.3pm, \n  nrow = 2)\n\n\n\n\n\n\n\n\n\n\n\nggpubr::ggarrange(\n  lemme_see_dem_bones(p.temp.9am + no.x), \n  lemme_see_dem_bones(p.temp.3pm), \n  nrow = 2)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\negg::ggarrange(\n  p.temp.9am + no.x, \n  p.temp.3pm, \n  nrow = 2)\n\n\n\n\n\n\n\n\n\n\n\neg = egg::ggarrange(\n  p.temp.9am + no.x, \n  p.temp.3pm, \n  nrow = 2)\n\nexpose_layout(eg)\n\n\n\n\nYou might have already noticed some problems with this approach. For one thing, it’s pretty finicky and a bit of a time-trap. You’re essentially manually removing bits of each plot to fit the image in your head, and before you know it you’ll have spent 6 hours trying to get a figure to look right. For another, the sub-figures above are actually slightly different sizes. The axes titles take up part of the plot area allotted to each sub-figure, so removing them causes the rest of the plot area to expand to fill it. Not ideal.\nEven worse, it’s standard practice to label subfigures within the plot area. grid.arrange is a little too simple function, but the two ggarrange functions (in egg and ggpubr) will do it for you pretty easily. However, they are not flexible about where those labels are placed within the plot area, and this is especially obvious when illustrating with a 4-panel figure:\n\n# WH = c(4, 3)\n\n# egg::ggarrange(\n#   ggplotify::as.ggplot(\n#     egg::set_panel_size(p.temp.9am + no.x, width = unit(WH[1], \"in\"), height = unit(WH[2], \"in\"))\n#     ),\n#   ggplotify::as.ggplot(\n#     egg::set_panel_size(p.temp.9am + no.x + no.y, width = unit(WH[1], \"in\"), height = unit(WH[2], \"in\"))\n#     ),\n#   ggplotify::as.ggplot(\n#     egg::set_panel_size(p.temp.3pm, width = unit(WH[1], \"in\"), height = unit(WH[2], \"in\"))\n#     ),\n#   ggplotify::as.ggplot(\n#     egg::set_panel_size(p.temp.3pm + no.y, width = unit(WH[1], \"in\"), height = unit(WH[2], \"in\"))\n#     ),\n#   nrow = 2, ncol = 2, labels = c(\"A\", \"B\", \"C\", \"D\"))\n\negg::ggarrange(p.temp.9am + no.x, \n               p.temp.9am + no.x + no.y, \n               p.temp.3pm, \n               p.temp.3pm + no.y, \n               ncol = 2, nrow = 2,\n               widths = c(1, 1), heights = c(1, 1), \n               labels = c(\"A\", \"B\", \"C\", \"D\"),\n               label.args = list(gp = gpar(fontfamily = \"sans\", \n                                           fontsize = 12, fontface = \"bold\"), \n                                 x = unit(1.95, \"cm\"), vjust = 1, hjust = 1), \n               draw = T)\n\n\n\n\n\n\n\n\nEw.\n\ngtab = gtable_matrix(name = NULL,\n                     grobs = matrix(list(grob.1, grob.1), nrow = 1), \n                     widths = unit(c(1, 1), \"null\"), \n                     heights = unit(1, \"null\"))\n\ng1 = expose_layout(dummy.1) \n\ngtab = gtable_matrix(name = NULL, \n                     grobs = matrix(list(g1, g1), nrow = 1), \n                     widths = unit(c(1, 1), \"null\"), \n                     heights = unit(1, \"null\"))\n\ngrid.draw(gtab)",
-    "crumbs": [
-      "About",
-      "Blog Posts",
-      "Laying out figures with ggplot2"
-    ]
-  },
-  {
-    "objectID": "blog_posts/example-blog-post.html#why",
-    "href": "blog_posts/example-blog-post.html#why",
-    "title": "Laying out figures with ggplot2",
-    "section": "",
-    "text": "Previously was using a combination of R, Powerpoint, and Latex to lay out figures.\nHowever, it was a very finicking process. If I’m going to be using Quarto/R for most things would be nice to do things all in one place.\nI really want to enable other students/academics to do things without reinventing the wheel.\n\n\nI like to use pacman (the package manager) because its function p_load acts like library() if the package is already installed and install.packages() if it isn’t. You can also pass all your package names to it as a single vector.\n\ninstall.packages(\"pacman\", repos=\"https://cran.r-project.org\", update = TRUE)\n\n# Basic plotting packages\npacman::p_load(\"ggplot2\", update = TRUE)\n\n# All the packages we need for laying out plots\npacman::p_load(\"grid\", \"gridExtra\", \"gtable\", \"cowplot\", \"multipanelfigure\", \"egg\", \"patchwork\", update = TRUE)\n\n# Extra stuff\npacman::p_load(\"ggpubr\", \"ggplotify\", \"tidyverse\", update = TRUE)\n\nSo these are the packages I want to compare. A lot of the inspiration for this work came from the egg vignettes (here and here), so make sure to check those out if you want further information.\n\n\n\nPackage\nVersion\nFunction(s)\nCompatible with ggsave()\nAlignment\n\n\n\n\nr cookbook (grid)\n4.3.0\nmultiplot\nno\nno\n\n\ngridExtra\n2.3\ngrid.arrange\nyes\nno\n\n\ngtable\n0.3.4\nmulti_panel_figure\nyes\nyes\n\n\ncowplot\n1.1.3\nplot_grid\nyes*\nyes*\n\n\nmultipanelfigure\n2.1.5\nmulti_panel_figure\nyes\nyes\n\n\negg\n0.4.5\nggarrange\nyes\nyes\n\n\npatchwork\n1.2.0\nplot_layout\nyes\nyes\n\n\n\n\n\n\nFirst I’m going to set up a dummy plot that will act as our tester going forward. I’m deliberately going to make it pretty complex to make sure I can demonstrate all the features we might want. I’ll be using data from the Bureau of Meteorology that I downloaded and cleaned up. The data I used is available here, and if you want to generate a similar dataset the code I used is here.\n\np.temp.9am = \n  ggplot(data = subset(weather.times, Time == \"Morning\"), \n         aes(x = Date, y = Temp.C, color = WindDir, shape = Time)) +\n  geom_point() + \n  scale_x_date(name = \"Month\", date_labels = \"%b\") +\n  theme_classic() + theme(legend.position = \"none\")\n\np.temp.3pm = \n  ggplot(data = subset(weather.times, Time == \"Morning\"), \n         aes(x = Date, y = Temp.C, color = WindDir, shape = Time)) +\n  geom_point() + \n  scale_x_date(name = \"Month\", date_labels = \"%b\") +\n  theme_classic() + theme(legend.position = \"none\")",
-    "crumbs": [
-      "About",
-      "Blog Posts",
-      "Laying out figures with ggplot2"
-    ]
-  },
-  {
-    "objectID": "blog_posts/example-blog-post.html#basics",
-    "href": "blog_posts/example-blog-post.html#basics",
-    "title": "Laying out figures with ggplot2",
-    "section": "",
-    "text": "Laying two plots out, side by side, is easy with basically any of these packages. The most basic way is probably with the confusingly named custom function multiplot, which is built in base packages and defined in R Cookbook.\n\nmultiplot(p.temp.9am, p.temp.3pm, cols = 2)\n\n\n\n\n\n\n\n\nYou can also achieve the same thing with functions already built into the packages gridExtra, ggpubr and egg, which are built on top of the basic grid package:\n\n\n\n\n\ngridExtra::grid.arrange(\n  p.temp.9am, p.temp.3pm, \n  nrow = 2)\n\n\n\n\n\n\n\n\n\n\n\n\nggpubr::ggarrange(\n  p.temp.9am, p.temp.3pm, \n  nrow = 2)\n\n\n\n\n\n\n\n\n\n\n\n\negg::ggarrange(\n  p.temp.9am, p.temp.3pm, \n  nrow = 2)\n\n\n\n\n\n\n\n\n\n\n\nHowever, have a look at the figures above. Doesn’t it bother you that the axis titles, labels and tick-marks are repeated over multiple figures? It bothers me. It especially bothers me when I’m trying to squeeze a lot of information into one page. Repeated information isn’t just redundant, it’s actively detrimental to your audience’s understanding of your data. Personally, if I was going to plot those two figures together in a paper, I would remove their common axis (y if they’re side-by-side, x if they’re stacked).",
-    "crumbs": [
-      "About",
-      "Blog Posts",
-      "Laying out figures with ggplot2"
-    ]
-  },
-  {
-    "objectID": "blog_posts/example-blog-post.html#adjustments-for-subfigures",
-    "href": "blog_posts/example-blog-post.html#adjustments-for-subfigures",
-    "title": "Laying out figures with ggplot2",
-    "section": "",
-    "text": "The simplest way to do achieve this is to remove the offending elements from the plots themselves. I like to do this with theme environment shortcuts, which take advantage of ggplot2’s modular structure and can make your code a lot less verbose. For example:\n\nno.x = theme(axis.title.x = element_blank(), axis.text.x = element_blank())\nno.y = theme(axis.title.y = element_blank(), axis.text.y = element_blank())\n\nYou can then plot your figures much more neatly, and you’ll get exactly the same results using gridExtra::grid.arrange and ggpubr::ggarrange. However, you’ll get a different result when you use egg::ggarrange, and in fact egg::ggarrange is slightly superior in this regard. It might be easier to see if we switch away from the actual plot and look at the “bones”:\n\nlemme_see_dem_bones = function(plot){\n  bonegrob = egg::expose_layout(plot, draw = F)\n  boneplot = ggpubr::as_ggplot(bonegrob)\n  return(boneplot)\n}\n\n# Functions ggpubr::as_ggplot() ggplotify::as.ggplot()\n\nexpose_layout allows you to see how the different plot elements are being parsed by whatever package you’re using.\n\n\n\n\n\ngridExtra::grid.arrange(\n  p.temp.9am + no.x, \n  p.temp.3pm, \n  nrow = 2)\n\n\n\n\n\n\n\n\n\n\n\ngridExtra::grid.arrange(\n  lemme_see_dem_bones(p.temp.9am + no.x), \n  lemme_see_dem_bones(p.temp.3pm), \n  nrow = 2)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nggpubr::ggarrange(\n  p.temp.9am + no.x, \n  p.temp.3pm, \n  nrow = 2)\n\n\n\n\n\n\n\n\n\n\n\nggpubr::ggarrange(\n  lemme_see_dem_bones(p.temp.9am + no.x), \n  lemme_see_dem_bones(p.temp.3pm), \n  nrow = 2)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\negg::ggarrange(\n  p.temp.9am + no.x, \n  p.temp.3pm, \n  nrow = 2)\n\n\n\n\n\n\n\n\n\n\n\neg = egg::ggarrange(\n  p.temp.9am + no.x, \n  p.temp.3pm, \n  nrow = 2)\n\nexpose_layout(eg)\n\n\n\n\nYou might have already noticed some problems with this approach. For one thing, it’s pretty finicky and a bit of a time-trap. You’re essentially manually removing bits of each plot to fit the image in your head, and before you know it you’ll have spent 6 hours trying to get a figure to look right. For another, the sub-figures above are actually slightly different sizes. The axes titles take up part of the plot area allotted to each sub-figure, so removing them causes the rest of the plot area to expand to fill it. Not ideal.\nEven worse, it’s standard practice to label subfigures within the plot area. grid.arrange is a little too simple function, but the two ggarrange functions (in egg and ggpubr) will do it for you pretty easily. However, they are not flexible about where those labels are placed within the plot area, and this is especially obvious when illustrating with a 4-panel figure:\n\n# WH = c(4, 3)\n\n# egg::ggarrange(\n#   ggplotify::as.ggplot(\n#     egg::set_panel_size(p.temp.9am + no.x, width = unit(WH[1], \"in\"), height = unit(WH[2], \"in\"))\n#     ),\n#   ggplotify::as.ggplot(\n#     egg::set_panel_size(p.temp.9am + no.x + no.y, width = unit(WH[1], \"in\"), height = unit(WH[2], \"in\"))\n#     ),\n#   ggplotify::as.ggplot(\n#     egg::set_panel_size(p.temp.3pm, width = unit(WH[1], \"in\"), height = unit(WH[2], \"in\"))\n#     ),\n#   ggplotify::as.ggplot(\n#     egg::set_panel_size(p.temp.3pm + no.y, width = unit(WH[1], \"in\"), height = unit(WH[2], \"in\"))\n#     ),\n#   nrow = 2, ncol = 2, labels = c(\"A\", \"B\", \"C\", \"D\"))\n\negg::ggarrange(p.temp.9am + no.x, \n               p.temp.9am + no.x + no.y, \n               p.temp.3pm, \n               p.temp.3pm + no.y, \n               ncol = 2, nrow = 2,\n               widths = c(1, 1), heights = c(1, 1), \n               labels = c(\"A\", \"B\", \"C\", \"D\"),\n               label.args = list(gp = gpar(fontfamily = \"sans\", \n                                           fontsize = 12, fontface = \"bold\"), \n                                 x = unit(1.95, \"cm\"), vjust = 1, hjust = 1), \n               draw = T)\n\n\n\n\n\n\n\n\nEw.\n\ngtab = gtable_matrix(name = NULL,\n                     grobs = matrix(list(grob.1, grob.1), nrow = 1), \n                     widths = unit(c(1, 1), \"null\"), \n                     heights = unit(1, \"null\"))\n\ng1 = expose_layout(dummy.1) \n\ngtab = gtable_matrix(name = NULL, \n                     grobs = matrix(list(g1, g1), nrow = 1), \n                     widths = unit(c(1, 1), \"null\"), \n                     heights = unit(1, \"null\"))\n\ngrid.draw(gtab)",
-    "crumbs": [
-      "About",
-      "Blog Posts",
-      "Laying out figures with ggplot2"
-    ]
-  },
-  {
-    "objectID": "blog_posts/example-blog-post.html#create-ggplot-from-grob",
-    "href": "blog_posts/example-blog-post.html#create-ggplot-from-grob",
-    "title": "Laying out figures with ggplot2",
-    "section": "Create ggplot from grob",
-    "text": "Create ggplot from grob\n\nggplotify::as.ggplot(g1)\n\negg::ggarrange(ggplotify::as.ggplot(g1), ggplotify::as.ggplot(g1), nrow = 1)",
-    "crumbs": [
-      "About",
-      "Blog Posts",
-      "Laying out figures with ggplot2"
-    ]
-  },
-  {
-    "objectID": "blog_posts/example-blog-post.html#the-egg-package",
-    "href": "blog_posts/example-blog-post.html#the-egg-package",
-    "title": "Laying out figures with ggplot2",
-    "section": "The egg package",
-    "text": "The egg package\n\n# https://cran.r-project.org/web/packages/egg/vignettes/Ecosystem.html\n\nlayout_matrix = rbind(c(1, 2, 3), c(1, 4, 4))\n\negg::ggarrange(ggplot(), ggplot(), ggplot(), ggplot(), \n               # ncol = 3, nrow = 2, \n               widths = c(1, 1, 1, 2), heights = c(2, 1, 1, 1), \n               labels = c(\"A\", \"B\", \"C\", \"D\"),\n               label.args = list(gp = gpar(fontfamily = \"sans\", \n                                           fontsize = 12, fontface = \"bold\"), \n                                 x = unit(1.95, \"cm\"), vjust = 1, hjust = 1), \n               draw = T)\n\ng1 = gtable_frame(ggplotGrob(ggplot()), width = unit(1, \"null\"), height = unit(2, \"null\"), debug = TRUE)\ng2 = gtable_frame(ggplotGrob(ggplot()), width = unit(1, \"null\"), height = unit(1, \"null\"), debug = TRUE)\ng3 = gtable_frame(ggplotGrob(ggplot()), width = unit(1, \"null\"), height = unit(1, \"null\"), debug = TRUE)\ng4 = gtable_frame(ggplotGrob(ggplot()), width = unit(2, \"null\"), height = unit(1, \"null\"), debug = TRUE)\n\ng23 = gtable_frame(gtable_cbind(gtable_frame(ggplotGrob(ggplot())), \n                                gtable_frame(ggplotGrob(ggplot()))), \n                   width = unit(2, \"null\"), height = unit(1, \"null\"))\ng234 = gtable_frame(gtable_rbind(g23, \n                                 gtable_frame(ggplotGrob(ggplot()))), \n                    width = unit(2, \"null\"), height = unit(2, \"null\"))\ngcomb = gtable_frame(gtable_cbind(gtable_frame(ggplotGrob(ggplot())),\n                                  g234),\n                     width = unit(3, \"null\"), height = unit(2, \"null\"))\n\ngrid.newpage()\ngrid.draw(gcomb)",
-    "crumbs": [
-      "About",
-      "Blog Posts",
-      "Laying out figures with ggplot2"
-    ]
-  },
-  {
-    "objectID": "blog_posts/example.html",
-    "href": "blog_posts/example.html",
+    "objectID": "blog-posts/example.html",
+    "href": "blog-posts/example.html",
     "title": "Laying out figures with ggplot2",
     "section": "",
     "text": "Previously was using a combination of R, Powerpoint, and Latex to lay out figures.\nHowever, it was a very finicking process. If I’m going to be using Quarto/R for most things would be nice to do things all in one place.\nI really want to enable other students/academics to do things without reinventing the wheel.\n\nI like to use pacman (the package manager) because its function p_load acts like library() if the package is already installed and install.packages() if it isn’t. You can also pass all your package names to it as a single vector.",
@@ -215,8 +148,8 @@
     ]
   },
   {
-    "objectID": "blog_posts/example.html#why",
-    "href": "blog_posts/example.html#why",
+    "objectID": "blog-posts/example.html#why",
+    "href": "blog-posts/example.html#why",
     "title": "Laying out figures with ggplot2",
     "section": "",
     "text": "Previously was using a combination of R, Powerpoint, and Latex to lay out figures.\nHowever, it was a very finicking process. If I’m going to be using Quarto/R for most things would be nice to do things all in one place.\nI really want to enable other students/academics to do things without reinventing the wheel.\n\nI like to use pacman (the package manager) because its function p_load acts like library() if the package is already installed and install.packages() if it isn’t. You can also pass all your package names to it as a single vector.",
@@ -224,6 +157,30 @@
       "About",
       "Blog Posts",
       "Laying out figures with ggplot2"
+    ]
+  },
+  {
+    "objectID": "blog-posts/intro.html",
+    "href": "blog-posts/intro.html",
+    "title": "Welcome to my blog!",
+    "section": "",
+    "text": "I don’t know about you, but in the course of my research I do a lot of things that don’t make it to the final product.\nput in that PHD comic where the guy wasted a day in his pyjamas\nBut that’s not actually wasted time, is it? The “real” work wouldn’t happen without it, and a lot of it is necessary for our own learning process. So much of that work is thrown away, and unless someone happens to ask us about it\nLet’s not reinvent the wheel.",
+    "crumbs": [
+      "About",
+      "Blog Posts",
+      "Welcome to my blog!"
+    ]
+  },
+  {
+    "objectID": "blog-posts/intro.html#lets-start-a-blog",
+    "href": "blog-posts/intro.html#lets-start-a-blog",
+    "title": "Welcome to my blog!",
+    "section": "",
+    "text": "I don’t know about you, but in the course of my research I do a lot of things that don’t make it to the final product.\nput in that PHD comic where the guy wasted a day in his pyjamas\nBut that’s not actually wasted time, is it? The “real” work wouldn’t happen without it, and a lot of it is necessary for our own learning process. So much of that work is thrown away, and unless someone happens to ask us about it\nLet’s not reinvent the wheel.",
+    "crumbs": [
+      "About",
+      "Blog Posts",
+      "Welcome to my blog!"
     ]
   },
   {
@@ -240,33 +197,33 @@
   {
     "objectID": "pages/about.html#career-goals",
     "href": "pages/about.html#career-goals",
-    "title": "About Me",
+    "title": "",
     "section": "Career goals",
     "text": "Career goals",
     "crumbs": [
       "About",
       "Pages",
-      "About Me"
+      "About me"
     ]
   },
   {
     "objectID": "pages/about.html#follow-me",
     "href": "pages/about.html#follow-me",
-    "title": "About Me",
+    "title": "",
     "section": "Follow me",
     "text": "Follow me",
     "crumbs": [
       "About",
       "Pages",
-      "About Me"
+      "About me"
     ]
   },
   {
-    "objectID": "pages/blog.html#section",
-    "href": "pages/blog.html#section",
+    "objectID": "pages/blog.html#welcome-to-my-blog",
+    "href": "pages/blog.html#welcome-to-my-blog",
     "title": "Blog",
-    "section": "Section",
-    "text": "Section",
+    "section": "Welcome to my blog!",
+    "text": "Welcome to my blog!\nAs we learn and experiment, we end up doing a lot of work that doesn’t actually make it into any final product. I often think about the time that went into that work, and I wonder if anyone else has ever tried to solve the same problem before or since. How many times have we quietly reinvented the wheel?\nThis is my random collection of musings, templates, code snippets, and other bits and pieces that I’ve created over the years but don’t have anywhere to publish.",
     "crumbs": [
       "About",
       "Pages",
@@ -392,26 +349,5 @@
       "Pages",
       "Skills"
     ]
-  },
-  {
-    "objectID": "index.html#section",
-    "href": "index.html#section",
-    "title": "Dr Tormey Reimer",
-    "section": "",
-    "text": "About"
-  },
-  {
-    "objectID": "index.html#check-out-my-blog",
-    "href": "index.html#check-out-my-blog",
-    "title": "Dr Tormey Reimer",
-    "section": "Check out my blog!",
-    "text": "Check out my blog!\n\n\n\n\n\nTitle text title text title text\n\n\nSome quick example text to build on the card title and make up the bulk of the card’s content.\n\nRead more"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Tormey E. Reimer",
-    "section": "",
-    "text": "# Dr Tormey Reimer {.hero-text-homepage}"
   }
 ]
