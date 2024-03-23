@@ -8,24 +8,27 @@ sidebar: false
 # Projects {.hero-text-page}
 :::
 
+## Currently working on
 :::::: {.grid .justify-content-space-evenly .text-center}
 ::::: {.g-col-4 .align-self-center}
-![](https://via.placeholder.com/500x450)
+![](resources/images/personal-website.jpg){fig-alt="Screenshot of the website you're on right now... so meta!"}
 :::::
 
 ::::: {.g-col-8 .align-self-center}
-# Top section
+### This website
 
-Ut eget lorem et odio facilisis placerat. Nam ac est elementum, ornare enim sit amet, aliquam magna. Morbi varius neque ante, non tristique velit pulvinar at. Praesent sit amet velit metus.
+What could be a better use of my time as I wait for feedback on my PhD thesis than slowly moving more and more of my life into RStudio? I designed and built this whole website using Quarto.
 
-Aliquam condimentum aliquet sem, id vestibulum ante faucibus eu. Fusce vestibulum tellus ac luctus feugiat. Fusce semper venenatis dui, in porta urna cursus sit amet.
+So why did I do this at all?
+
+Don't get me wrong, I like all the various tools and services available to researchers nowadays. But when you're expected to keep you ResearchGate, GoogleScholar, WebOfScience, LinkedIn, Mendeley/Zotero and OrcID profiles up to date (not to mention your various lab websites, institutional platforms, journal accounts, and whatever we eventually decide to replace Twitter with) it can all get a bit much. I really wanted a central place to consolidate all my **stuff**, so that anyone who wants to find information on me, my projects or my work can come straight to the source. 
 :::::
 ::::::
 
 ::: {.line-behind .column-screen-inset}
 ::: span
 :::
-## Section
+## Upcoming projects
 :::
 
 :::::: {.grid .justify-content-space-evenly style="font-weight:250;"}
