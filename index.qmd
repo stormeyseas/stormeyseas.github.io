@@ -4,27 +4,9 @@ pagetitle: Home | (Soon-to-be) Dr Tormey Reimer
 description-meta: |
     (Soon-to-be) Dr Tormey Reimer is a computational biologist using her broad-ranging skills in simulations and statistics to help assess and manage marine resource sustainability.
 ---
-
-::::: {.column-screen .hero-img .hero-strip-homepage}
-::: {.overlay-container #soon-to-be-1}
-![](resources/images/soon-to-be.png)
+::: {.column-screen .no-gaps}
+![](resources/images/hero-lg.png)
 :::
-
-:::: {.grid .align-items-center}
-::: .g-col
-::: {.p .hero-text-homepage}
- 
-:::
-:::
-
-::: {.g-col-10 style="flex: 1 1 0;"}
-# Dr Tormey Reimer {.hero-text-homepage}
-:::
-
-::: .g-col
-:::
-::::
-:::::
 
 ::: spacer-2rem
 :::
@@ -122,7 +104,7 @@ abs.2 = paste(ifelse(is.na(stringr::word(abstract, 1:70)), abstract, stringr::wo
 ::::::
 
 ::: text-center
-[See all publications](papublications.qmd){.btn .btn-primary}
+[See all publications](pages/publications.qmd){.btn .btn-primary}
 :::
 
 ## Check out my blog!
@@ -130,14 +112,14 @@ abs.2 = paste(ifelse(is.na(stringr::word(abstract, 1:70)), abstract, stringr::wo
 :::::: {.grid .justify-content-space-evenly .px-2}
 ::::: {.g-col-4 .align-self-center}
 :::: card
-![](https://via.placeholder.com/285x180){.card-img-top fig-alt="Image"}
+![](resources/images/Bruny.jpg){.card-img-top fig-alt="Just a cute pic of me"}
 
 ::: card-title
-#### Title text title text title text
+#### Welcome to my blog!
 :::
 
 ::: card-text
-Some quick example text to build on the card title and make up the bulk of the card's content.
+Why did I do it? Will I stick to it with any kind of regularity? Let's find out!
 
 ::: text-center
 [Read more](pages/blog.qmd){.btn .btn-secondary}
@@ -205,7 +187,7 @@ Some quick example text to build on the card title and make up the bulk of the c
 
 ::::: {.g-col-8 .align-self-center}
 ::: {.content-visible when-profile="active"}
-I'm currently working and responding to emails, messages, heartfelt letters, and good vibes. Feel free to reach out!
+I'm currently working and should respond to emails, messages, heartfelt letters, and good vibes. Feel free to reach out!
 :::
 
 ::: {.content-hidden unless-meta="status.inactive"}

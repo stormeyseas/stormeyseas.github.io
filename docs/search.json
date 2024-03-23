@@ -26,25 +26,25 @@
   {
     "objectID": "pages/projects.html#currently-working-on",
     "href": "pages/projects.html#currently-working-on",
-    "title": "Projects",
+    "title": "Tormey E. Reimer",
     "section": "Currently working on",
-    "text": "Currently working on\n\n\n\n\n\nThis website\nWhat could be a better use of my time as I wait for feedback on my PhD thesis than slowly moving more and more of my life into RStudio? I designed and built this whole website using Quarto.\nSo why did I do this at all?\nDon’t get me wrong, I like all the various tools and services available to researchers nowadays. But when you’re expected to keep you ResearchGate, GoogleScholar, WebOfScience, LinkedIn, Mendeley/Zotero and OrcID profiles up to date (not to mention your various lab websites, institutional platforms, journal accounts, and whatever we eventually decide to replace Twitter with) it can all get a bit much. I really wanted a central place to consolidate all my stuff, so that anyone who wants to find information on me, my projects or my work can come straight to the source.\n\n\n\n\n\n\n\nUpcoming projects\n\n\n\n\n\nUt eget lorem et odio facilisis placerat. Nam ac est elementum, ornare enim sit amet, aliquam magna.\nMorbi varius neque ante, non tristique velit pulvinar at. Praesent sit amet velit metus.\nAliquam condimentum aliquet sem, id vestibulum ante faucibus eu.\nFusce vestibulum tellus ac luctus feugiat. Fusce semper venenatis dui, in porta urna cursus sit amet.\n\n\n\n\nUt eget lorem et odio facilisis placerat. Nam ac est elementum, ornare enim sit amet, aliquam magna.\nMorbi varius neque ante, non tristique velit pulvinar at. Praesent sit amet velit metus.\nAliquam condimentum aliquet sem, id vestibulum ante faucibus eu.\nFusce vestibulum tellus ac luctus feugiat. Fusce semper venenatis dui, in porta urna cursus sit amet.",
+    "text": "Currently working on\n\n\n\n\n\nThis website\nWhat could be a better use of my time as I wait for feedback on my PhD thesis than slowly moving more and more of my life into RStudio? I designed and built this whole website using Quarto.\n\n\nSo why did I do this at all?\nDon’t get me wrong, I like all the various tools and services available to researchers nowadays. But when you’re expected to keep you ResearchGate, GoogleScholar, WebOfScience, LinkedIn, Mendeley/Zotero and OrcID profiles up to date (not to mention your various lab websites, institutional platforms, journal accounts, and whatever we eventually decide to replace Twitter with) it can all get a bit much.\nI really wanted a central place to consolidate all my stuff. Anyone who wants to find information on me, my projects, or my work can now come straight to the source.",
     "crumbs": [
       "About",
       "Pages",
-      "Projects"
+      "Currently working on"
     ]
   },
   {
     "objectID": "pages/projects.html#upcoming-projects",
     "href": "pages/projects.html#upcoming-projects",
-    "title": "Projects",
+    "title": "Tormey E. Reimer",
     "section": "Upcoming projects",
-    "text": "Upcoming projects",
+    "text": "Upcoming projects\nRight now I’m working on a website for the Fish Size Project Lab and re-vanping the Sustainable Inland Fisheries website. I’ll also be trying to update my blog regularly in the coming weeks, so stay tuned!",
     "crumbs": [
       "About",
       "Pages",
-      "Projects"
+      "Currently working on"
     ]
   },
   {
@@ -110,78 +110,30 @@
   {
     "objectID": "index.html#my-current-project",
     "href": "index.html#my-current-project",
-    "title": "Dr Tormey Reimer",
+    "title": "Tormey E. Reimer",
     "section": "My Current project",
     "text": "My Current project\n\n\n\n\n\nThis website\nWhat could be a better use of my time as I wait for feedback on my PhD thesis than slowly moving more and more of my life into RStudio? I designed and built this whole website using Quarto.\n\nMore projects"
   },
   {
     "objectID": "index.html#recent-publications",
     "href": "index.html#recent-publications",
-    "title": "Dr Tormey Reimer",
+    "title": "Tormey E. Reimer",
     "section": "Recent publications",
     "text": "Recent publications\n\n\n\n\n\n\n\nHigh prevalence of vaterite in sagittal otoliths causes hearing impairment in farmed fish\nTormey Reimer, Tim Dempster, Fletcher Warren-Myers, Arne J. Jensen, Stephen E. Swearer\nScientific Reports, 2016\n\n\nThe rapid growth of aquaculture raises questions about the welfare status of mass-produced species. Sagittal otoliths are primary hearing structures in the inner ear of all teleost (bony) fishes and are normally composed of aragonite, though abnormal vaterite replacement is sometimes seen in the wild. We provide the first widespread evaluation of the prevalence of vaterite in otoliths, showing that farmed fish have levels of vaterite replacement over 10 times… Read more\n\n\n\n\n\n\n\nRapid growth causes abnormal vaterite formation in farmed fish otoliths\nTormey Reimer, Tim Dempster, Anna Wargelius, Per Gunnar Fjelldal, Tom Hansen, Kevin A. Glover, Monica F. Solberg, Stephen E. Swearer\nJournal of Evolutionary Biology, 2017\n\n\nSagittal otoliths are essential components of the sensory organs that enable all teleost fish to hear and maintain balance, and are primarily composed of calcium carbonate. A deformity, where aragonite (the normal crystal form) is replaced with vaterite, was first noted over 50 years ago but its underlying cause is unresolved. We evaluated the prevalence of vateritic otoliths from two captive rearing studies which suggested that fast growth, due to environmental… Read more\n\n\n\nSee all publications"
   },
   {
     "objectID": "index.html#check-out-my-blog",
     "href": "index.html#check-out-my-blog",
-    "title": "Dr Tormey Reimer",
+    "title": "Tormey E. Reimer",
     "section": "Check out my blog!",
-    "text": "Check out my blog!\n\n\n\n\n\nTitle text title text title text\n\n\nSome quick example text to build on the card title and make up the bulk of the card’s content.\n\nRead more"
+    "text": "Check out my blog!\n\n\n\n\n\nWelcome to my blog!\n\n\nWhy did I do it? Will I stick to it with any kind of regularity? Let’s find out!\n\nRead more"
   },
   {
     "objectID": "index.html#get-in-touch",
     "href": "index.html#get-in-touch",
-    "title": "Dr Tormey Reimer",
+    "title": "Tormey E. Reimer",
     "section": "Get in touch",
-    "text": "Get in touch\n\n\n\n\n\n\n\n\n\nI’m currently working and responding to emails, messages, heartfelt letters, and good vibes. Feel free to reach out!\n\nContact me"
-  },
-  {
-    "objectID": "blog-posts/example.html",
-    "href": "blog-posts/example.html",
-    "title": "Laying out figures with ggplot2",
-    "section": "",
-    "text": "Previously was using a combination of R, Powerpoint, and Latex to lay out figures.\nHowever, it was a very finicking process. If I’m going to be using Quarto/R for most things would be nice to do things all in one place.\nI really want to enable other students/academics to do things without reinventing the wheel.\n\nI like to use pacman (the package manager) because its function p_load acts like library() if the package is already installed and install.packages() if it isn’t. You can also pass all your package names to it as a single vector.",
-    "crumbs": [
-      "About",
-      "Blog Posts",
-      "Laying out figures with ggplot2"
-    ]
-  },
-  {
-    "objectID": "blog-posts/example.html#why",
-    "href": "blog-posts/example.html#why",
-    "title": "Laying out figures with ggplot2",
-    "section": "",
-    "text": "Previously was using a combination of R, Powerpoint, and Latex to lay out figures.\nHowever, it was a very finicking process. If I’m going to be using Quarto/R for most things would be nice to do things all in one place.\nI really want to enable other students/academics to do things without reinventing the wheel.\n\nI like to use pacman (the package manager) because its function p_load acts like library() if the package is already installed and install.packages() if it isn’t. You can also pass all your package names to it as a single vector.",
-    "crumbs": [
-      "About",
-      "Blog Posts",
-      "Laying out figures with ggplot2"
-    ]
-  },
-  {
-    "objectID": "blog-posts/intro.html",
-    "href": "blog-posts/intro.html",
-    "title": "Welcome to my blog!",
-    "section": "",
-    "text": "I don’t know about you, but in the course of my research I do a lot of things that don’t make it to the final product.\nput in that PHD comic where the guy wasted a day in his pyjamas\nBut that’s not actually wasted time, is it? The “real” work wouldn’t happen without it, and a lot of it is necessary for our own learning process. So much of that work is thrown away, and unless someone happens to ask us about it\nLet’s not reinvent the wheel.",
-    "crumbs": [
-      "About",
-      "Blog Posts",
-      "Welcome to my blog!"
-    ]
-  },
-  {
-    "objectID": "blog-posts/intro.html#lets-start-a-blog",
-    "href": "blog-posts/intro.html#lets-start-a-blog",
-    "title": "Welcome to my blog!",
-    "section": "",
-    "text": "I don’t know about you, but in the course of my research I do a lot of things that don’t make it to the final product.\nput in that PHD comic where the guy wasted a day in his pyjamas\nBut that’s not actually wasted time, is it? The “real” work wouldn’t happen without it, and a lot of it is necessary for our own learning process. So much of that work is thrown away, and unless someone happens to ask us about it\nLet’s not reinvent the wheel.",
-    "crumbs": [
-      "About",
-      "Blog Posts",
-      "Welcome to my blog!"
-    ]
+    "text": "Get in touch\n\n\n\n\n\n\n\n\n\nI’m currently working and should respond to emails, messages, heartfelt letters, and good vibes. Feel free to reach out!\n\nContact me"
   },
   {
     "objectID": "footer.html",
@@ -195,21 +147,9 @@
     ]
   },
   {
-    "objectID": "pages/about.html#career-goals",
-    "href": "pages/about.html#career-goals",
-    "title": "",
-    "section": "Career goals",
-    "text": "Career goals",
-    "crumbs": [
-      "About",
-      "Pages",
-      "About me"
-    ]
-  },
-  {
     "objectID": "pages/about.html#follow-me",
     "href": "pages/about.html#follow-me",
-    "title": "",
+    "title": "About me",
     "section": "Follow me",
     "text": "Follow me",
     "crumbs": [
@@ -221,25 +161,37 @@
   {
     "objectID": "pages/blog.html#welcome-to-my-blog",
     "href": "pages/blog.html#welcome-to-my-blog",
-    "title": "Blog",
+    "title": "Tormey E. Reimer",
     "section": "Welcome to my blog!",
     "text": "Welcome to my blog!\nAs we learn and experiment, we end up doing a lot of work that doesn’t actually make it into any final product. I often think about the time that went into that work, and I wonder if anyone else has ever tried to solve the same problem before or since. How many times have we quietly reinvented the wheel?\nThis is my random collection of musings, templates, code snippets, and other bits and pieces that I’ve created over the years but don’t have anywhere to publish.",
     "crumbs": [
       "About",
       "Pages",
-      "Blog"
+      "Welcome to my blog!"
     ]
   },
   {
-    "objectID": "pages/contact.html#section",
-    "href": "pages/contact.html#section",
-    "title": "Contact",
-    "section": "Section",
-    "text": "Section",
+    "objectID": "pages/contact.html#get-in-touch",
+    "href": "pages/contact.html#get-in-touch",
+    "title": "Tormey E. Reimer",
+    "section": "Get in touch",
+    "text": "Get in touch\n\n\n\n\n\n\n\n\n\nI’m currently working and should respond to emails, messages, heartfelt letters, and good vibes. Feel free to reach out!\n\nEmail me",
     "crumbs": [
       "About",
       "Pages",
-      "Contact"
+      "Get in touch"
+    ]
+  },
+  {
+    "objectID": "pages/contact.html#follow-me",
+    "href": "pages/contact.html#follow-me",
+    "title": "Tormey E. Reimer",
+    "section": "Follow me",
+    "text": "Follow me",
+    "crumbs": [
+      "About",
+      "Pages",
+      "Get in touch"
     ]
   },
   {

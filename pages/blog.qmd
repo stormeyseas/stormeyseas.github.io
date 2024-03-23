@@ -13,9 +13,8 @@ listing:
   filter-ui: false
 title-block-banner: false
 ---
-
-::: {.column-screen .hero-img .hero-strip-page .align-items-end}
-# Blog {.hero-text-page}
+::: {.column-screen .no-gaps}
+![](../resources/images/Matre_5x1.jpg)
 :::
 
 ## Welcome to my blog!

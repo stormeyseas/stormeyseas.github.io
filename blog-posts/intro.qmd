@@ -12,11 +12,11 @@ description: |
 ---
 ## Let's start a blog!
 
-I don't know about you, but in the course of my research I do a lot of things that don't make it to the final product.
+<!-- I don't know about you, but in the course of my research I do a lot of things that don't make it to the final product. -->
 
-**put in that PHD comic where the guy wasted a day in his pyjamas**
+<!-- **put in that PHD comic where the guy wasted a day in his pyjamas** -->
 
-But that's **not** actually wasted time, is it? The "real" work wouldn't happen without it, and a lot of it is necessary for our own learning process. 
-So much of that work is thrown away, and unless someone happens to ask us about it
+<!-- But that's **not** actually wasted time, is it? The "real" work wouldn't happen without it, and a lot of it is necessary for our own learning process.  -->
+<!-- So much of that work is thrown away, and unless someone happens to ask us about it -->
 
-Let's not reinvent the wheel.
+<!-- Let's not reinvent the wheel. -->

@@ -206,6 +206,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   font-weight: 450;
   text-transform: uppercase;
   text-align: center;
+  width: 100%;
 }
 .h2, h2, .h3, h3 {
   color: $primary !important;
@@ -213,6 +214,8 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   font-weight: 400;
   text-transform: uppercase;
   width: 100%;
+}
+.h1, h2, h1 {
   border-bottom: 2.5px solid $primary;
 }
 .h2, h2 {
@@ -296,12 +299,14 @@ h4 a:hover, h5 a:hover, {
   height: $hero-height;
 }
 .hero-text-homepage {
-  height: $hero-height;
-  font-size: min(calc($hero-height * 0.3), 10vw) !important;
+  font-family: "GFS Neohellenic", sans-serif !important;
+  //height: $hero-height;
+  font-size: calc($hero-height) !important;
   text-align: center;
+  text-transform: uppercase;
   color: $white !important;
-  padding: 2.5%;
-  line-height: 115%;
+  font-weight: 450;
+  width: 100%;
 }
 .overlay-container {
   padding: 0 !important;
@@ -325,7 +330,7 @@ h4 a:hover, h5 a:hover, {
 
 // Hero banners for other pages
 .hero-strip-page {
-  height: calc($hero-height / 2);
+  height: calc($hero-height * 0.7);
 }
 .hero-text-page  {
   height: calc($hero-height / 2);

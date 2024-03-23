@@ -4,48 +4,44 @@ description-meta: |
     Description to go here!
 sidebar: false
 ---
-::: {.column-screen .hero-img .hero-strip-page .align-items-end}
-# Projects {.hero-text-page}
+::: {.column-screen .no-gaps}
+![](../resources/images/Matre_5x1.jpg)
 :::
 
 ## Currently working on
-:::::: {.grid .justify-content-space-evenly .text-center}
-::::: {.g-col-4 .align-self-center}
-![](resources/images/personal-website.jpg){fig-alt="Screenshot of the website you're on right now... so meta!"}
+:::::: {.grid .justify-content-space-evenly}
+::::: {.g-col-4 .align-self-center .text-center}
+![](../resources/images/personal-website.jpg){fig-alt="Screenshot of the website you're on right now... so meta!" style="border: solid 1px var(--bs-primary);"}
 :::::
 
-::::: {.g-col-8 .align-self-center}
+::::: {.g-col-8 .align-self-center .text-center}
 ### This website
 
 What could be a better use of my time as I wait for feedback on my PhD thesis than slowly moving more and more of my life into RStudio? I designed and built this whole website using Quarto.
+:::::
 
-So why did I do this at all?
+::::: {.g-col-12 .align-self-center}
+#### So why did I do this at all?
 
-Don't get me wrong, I like all the various tools and services available to researchers nowadays. But when you're expected to keep you ResearchGate, GoogleScholar, WebOfScience, LinkedIn, Mendeley/Zotero and OrcID profiles up to date (not to mention your various lab websites, institutional platforms, journal accounts, and whatever we eventually decide to replace Twitter with) it can all get a bit much. I really wanted a central place to consolidate all my **stuff**, so that anyone who wants to find information on me, my projects or my work can come straight to the source. 
+Don't get me wrong, I like all the various tools and services available to researchers nowadays. But when you're expected to keep you ResearchGate, GoogleScholar, WebOfScience, LinkedIn, Mendeley/Zotero and OrcID profiles up to date (not to mention your various lab websites, institutional platforms, journal accounts, and whatever we eventually decide to replace Twitter with) it can all get a bit much.
+
+I really wanted a central place to consolidate all my **stuff**. Anyone who wants to find information on me, my projects, or my work can now come straight to the source. 
 :::::
 ::::::
 
-::: {.line-behind .column-screen-inset}
-::: span
-:::
 ## Upcoming projects
-:::
 
-:::::: {.grid .justify-content-space-evenly style="font-weight:250;"}
-::::: {.g-col-6 .align-self-center}
-- Ut eget lorem et odio facilisis placerat. Nam ac est elementum, ornare enim sit amet, aliquam magna. 
-- Morbi varius neque ante, non tristique velit pulvinar at. Praesent sit amet velit metus.
-- Aliquam condimentum aliquet sem, id vestibulum ante faucibus eu. 
-- Fusce vestibulum tellus ac luctus feugiat. Fusce semper venenatis dui, in porta urna cursus sit amet.
-:::::
+Right now I'm working on a website for the [Fish Size Project Lab](https://fishsizeproject.github.io/lab_website/) and re-vanping the [Sustainable Inland Fisheries](https://sif.lt) website. I'll also be trying to update my [blog](blog.qmd) regularly in the coming weeks, so stay tuned!
 
-::::: {.g-col-6 .align-self-center}
-- Ut eget lorem et odio facilisis placerat. Nam ac est elementum, ornare enim sit amet, aliquam magna. 
-- Morbi varius neque ante, non tristique velit pulvinar at. Praesent sit amet velit metus.
-- Aliquam condimentum aliquet sem, id vestibulum ante faucibus eu. 
-- Fusce vestibulum tellus ac luctus feugiat. Fusce semper venenatis dui, in porta urna cursus sit amet.
-:::::
-::::::
+<!-- :::::: {.grid .justify-content-space-evenly style="font-weight:250;"} -->
+<!-- ::::: {.g-col-6 .align-self-center} -->
+<!-- - More blog posts -->
+<!-- ::::: -->
+
+<!-- ::::: {.g-col-6 .align-self-center} -->
+
+<!-- ::::: -->
+<!-- :::::: -->
 
 
 

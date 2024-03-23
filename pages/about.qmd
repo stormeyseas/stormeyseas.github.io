@@ -4,52 +4,48 @@ description-meta: |
     Description to go here!
 sidebar: false
 ---
-
-::: {.column-screen .hero-img .hero-strip-page .align-items-end}
-# 
+::: {.column-screen .no-gaps}
+![](../resources/images/Matre_5x1.jpg)
 :::
+
+# About me
 
 :::::: {.grid .justify-content-space-evenly .text-center}
 ::::: {.g-col-4 .align-self-center}
-![](https://via.placeholder.com/500x450)
+![](../resources/images/Hawaii-Catalina (2) - Copy.jpg)
 :::::
 
 ::::: {.g-col-8 .align-self-center}
-# About me
-
 Coming from an ecology background, I've always been interested in the relationships between natural and human communities. 
 Through my studies I discovered that I have a real knack for learning new systems and an intense curiosity about the inner working of dynamic and statistical models. 
+
 Now, I use a wide variety of modelling techniques to understand how humans impact natural systems, and to provide guidance on how to manage those impacts. 
+
+::: text-center
+[Contact me](contact.qmd){.btn .btn-primary}
+:::
 :::::
 ::::::
 
-::: {.line-behind .column-screen-inset}
-::: span
-:::
-## Career goals
-:::
+<!-- ## Career goals -->
 
-:::::: {.grid .justify-content-space-evenly style="font-weight:250;"}
-::::: {.g-col-6 .align-self-center}
-- Ut eget lorem et odio facilisis placerat. Nam ac est elementum, ornare enim sit amet, aliquam magna. 
-- Morbi varius neque ante, non tristique velit pulvinar at. Praesent sit amet velit metus.
-- Aliquam condimentum aliquet sem, id vestibulum ante faucibus eu. 
-- Fusce vestibulum tellus ac luctus feugiat. Fusce semper venenatis dui, in porta urna cursus sit amet.
-:::::
+<!-- :::::: {.grid .justify-content-space-evenly style="font-weight:250;"} -->
+<!-- ::::: {.g-col-6 .align-self-center} -->
+<!-- - Ut eget lorem et odio facilisis placerat. Nam ac est elementum, ornare enim sit amet, aliquam magna.  -->
+<!-- - Morbi varius neque ante, non tristique velit pulvinar at. Praesent sit amet velit metus. -->
+<!-- - Aliquam condimentum aliquet sem, id vestibulum ante faucibus eu.  -->
+<!-- - Fusce vestibulum tellus ac luctus feugiat. Fusce semper venenatis dui, in porta urna cursus sit amet. -->
+<!-- ::::: -->
 
-::::: {.g-col-6 .align-self-center}
-- Ut eget lorem et odio facilisis placerat. Nam ac est elementum, ornare enim sit amet, aliquam magna. 
-- Morbi varius neque ante, non tristique velit pulvinar at. Praesent sit amet velit metus.
-- Aliquam condimentum aliquet sem, id vestibulum ante faucibus eu. 
-- Fusce vestibulum tellus ac luctus feugiat. Fusce semper venenatis dui, in porta urna cursus sit amet.
-:::::
-::::::
+<!-- ::::: {.g-col-6 .align-self-center} -->
+<!-- - Ut eget lorem et odio facilisis placerat. Nam ac est elementum, ornare enim sit amet, aliquam magna.  -->
+<!-- - Morbi varius neque ante, non tristique velit pulvinar at. Praesent sit amet velit metus. -->
+<!-- - Aliquam condimentum aliquet sem, id vestibulum ante faucibus eu.  -->
+<!-- - Fusce vestibulum tellus ac luctus feugiat. Fusce semper venenatis dui, in porta urna cursus sit amet. -->
+<!-- ::::: -->
+<!-- :::::: -->
 
-::: {.line-behind .column-screen-inset}
-::: span
-:::
 ## Follow me
-:::
 
 :::::: {.grid .justify-content-space-evenly .text-center}
 ::::: {.g-col-2 .align-self-center}

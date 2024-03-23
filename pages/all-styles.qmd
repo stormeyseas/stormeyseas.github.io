@@ -22,19 +22,19 @@ sidebar: false
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dignissim ex sit amet augue consequat, vel gravida purus ullamcorper. Etiam interdum metus in tincidunt elementum. Praesent placerat elit at eleifend eleifend. Vivamus consequat tempus sollicitudin. Pellentesque condimentum libero vel finibus pretium.
 
-[Link styling](pages/all-styles.qmd)
+[Link styling](all-styles.qmd)
 
-[Primary](pages/all-styles.qmd){.btn .btn-primary}
+[Primary](all-styles.qmd){.btn .btn-primary}
 
-[Secondary](pages/all-styles.qmd){.btn .btn-secondary}
+[Secondary](all-styles.qmd){.btn .btn-secondary}
 
-[Accent1](pages/all-styles.qmd){.btn .btn-accent1}
+[Accent1](all-styles.qmd){.btn .btn-accent1}
 
-[Accent2](pages/all-styles.qmd){.btn .btn-accent2}
+[Accent2](all-styles.qmd){.btn .btn-accent2}
 
-[Light](pages/all-styles.qmd){.btn .btn-light}
+[Light](all-styles.qmd){.btn .btn-light}
 
-[Dark](pages/all-styles.qmd){.btn .btn-dark}
+[Dark](all-styles.qmd){.btn .btn-dark}
 
 ```{r}
 #| include: true
@@ -80,7 +80,7 @@ Title {.card-title}
 Some quick example text to build on the card title and make up the bulk of the card's content.
 
 ::: text-center
-[Read more](pages/blog.qmd){.btn .btn-primary}
+[Read more](blog.qmd){.btn .btn-primary}
 :::
 :::
 ::::
@@ -96,7 +96,7 @@ Title {.card-title}
 Some quick example text to build on the card title and make up the bulk of the card's content.
 
 ::: text-center
-[Read more](pages/blog.qmd){.btn .btn-primary}
+[Read more](blog.qmd){.btn .btn-primary}
 :::
 :::
 ::::
@@ -112,7 +112,7 @@ Title {.card-title}
 Some quick example text to build on the card title and make up the bulk of the card's content.
 
 ::: text-center
-[Read more](pages/blog.qmd){.btn .btn-primary}
+[Read more](blog.qmd){.btn .btn-primary}
 :::
 :::
 ::::

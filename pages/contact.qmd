@@ -4,43 +4,72 @@ description-meta: |
     Description to go here!
 sidebar: false
 ---
-::: {.column-screen .hero-img .hero-strip-page .align-items-end}
-# Contact {.hero-text-page}
+::: {.column-screen .no-gaps}
+![](../resources/images/Matre_5x1.jpg)
 :::
 
-:::::: {.grid .justify-content-space-evenly .text-center}
+## Get in touch
+
+:::::: {.grid .justify-content-space-evenly}
 ::::: {.g-col-4 .align-self-center}
-![](https://via.placeholder.com/500x450)
+::: {.content-visible when-profile="active"}
+![](/resources/icons/status-active.png){width="40%" fig-align="center" fig-alt="Active!"}
+:::
+
+::: {.content-hidden unless-meta="status.inactive"}
+![](/resources/icons/status-inactive.png){width="40%" fig-align="center" fig-alt="Active!"}
+:::
+
+::: {.content-hidden unless-meta="status.semiactive"}
+![](/resources/icons/status-semiactive.png){width="40%" fig-align="center" fig-alt="Active!"}
+:::
 :::::
 
 ::::: {.g-col-8 .align-self-center}
-# Top section
+::: {.content-visible when-profile="active"}
+I'm currently working and should respond to emails, messages, heartfelt letters, and good vibes. Feel free to reach out!
+:::
 
-Ut eget lorem et odio facilisis placerat. Nam ac est elementum, ornare enim sit amet, aliquam magna. Morbi varius neque ante, non tristique velit pulvinar at. Praesent sit amet velit metus.
+::: {.content-hidden unless-meta="status.inactive"}
+I'm not currently working or responding to emails. Maybe I'm on holiday. You can send me a message but it might be a while before you get a reply.
+:::
 
-Aliquam condimentum aliquet sem, id vestibulum ante faucibus eu. Fusce vestibulum tellus ac luctus feugiat. Fusce semper venenatis dui, in porta urna cursus sit amet.
+::: {.content-hidden unless-meta="status.semiactive"}
+I'm currently working but will probably be slow to respond to emails - I might be somewhere with limited internet access, or maybe I'm just very busy. You can still send me a message but it might be a while before you get a reply.
+:::
+
+:::: text-center
+[Email me](mailto:tormey.reimer@utas.edu.au){.btn .btn-primary}
+::::
+
 :::::
 ::::::
 
-::: {.line-behind .column-screen-inset}
-::: span
-:::
-## Section
-:::
+## Follow me
 
-:::::: {.grid .justify-content-space-evenly style="font-weight:250;"}
-::::: {.g-col-6 .align-self-center}
-- Ut eget lorem et odio facilisis placerat. Nam ac est elementum, ornare enim sit amet, aliquam magna. 
-- Morbi varius neque ante, non tristique velit pulvinar at. Praesent sit amet velit metus.
-- Aliquam condimentum aliquet sem, id vestibulum ante faucibus eu. 
-- Fusce vestibulum tellus ac luctus feugiat. Fusce semper venenatis dui, in porta urna cursus sit amet.
+:::::: {.grid .justify-content-space-evenly .text-center}
+::::: {.g-col-2 .align-self-center}
+[![](../resources/icons/google-scholar-dark.svg){fig-alt="Link to my Google Scholar" width="60%"}](https://scholar.google.com/citations?hl=en&user=H45vLccAAAAJ&view_op=list_works&gmla=AKKJWFctSeG1-RPdHM1Sm6zw_pddPbBW_Q-LL5Oj-bJgbK4mEgjr4lTM7hprsdR1hMk-s2grckZTOogim9ha4lHJ)
 :::::
 
-::::: {.g-col-6 .align-self-center}
-- Ut eget lorem et odio facilisis placerat. Nam ac est elementum, ornare enim sit amet, aliquam magna. 
-- Morbi varius neque ante, non tristique velit pulvinar at. Praesent sit amet velit metus.
-- Aliquam condimentum aliquet sem, id vestibulum ante faucibus eu. 
-- Fusce vestibulum tellus ac luctus feugiat. Fusce semper venenatis dui, in porta urna cursus sit amet.
+::::: {.g-col-2 .align-self-center}
+[![](../resources/icons/linkedin-dark.svg){fig-alt="Link to my LinkedIn" width="60%"}](https://au.linkedin.com/in/tormey-reimer)
+:::::
+
+::::: {.g-col-2 .align-self-center}
+[![](../resources/icons/orcid-dark.svg){fig-alt="Link to my OrCID" width="60%"}](https://orcid.org/0000-0002-5983-2798)
+:::::
+
+::::: {.g-col-2 .align-self-center}
+[![](../resources/icons/researchgate-dark.svg){fig-alt="Link to my ResearchGate" width="60%"}](https://www.researchgate.net/profile/Tormey-Reimer)
+:::::
+
+::::: {.g-col-2 .align-self-center}
+[![](../resources/icons/landmark-solid-dark.svg){fig-alt="Link to my current institution" width="60%"}](https://marinesocioecology.org/team/tormey-reimer/)
+:::::
+
+::::: {.g-col-2 .align-self-center}
+[![](../resources/icons/github-dark.svg){fig-alt="Link to my Github" width="60%"}](https://github.com/stormeyseas)
 :::::
 ::::::
 
