@@ -69,8 +69,8 @@ website:
         #   href: pages/example-page.qmd
       - text: Publications
         href: pages/publications.qmd
-      # - text: Blog
-      #   href: pages/blog.qmd
+      - text: Blog
+        href: pages/blog.qmd
       - text: Contact
         href: pages/contact.qmd
     toggle-position: right # The position of the collapsed navbar toggle when in responsive mode

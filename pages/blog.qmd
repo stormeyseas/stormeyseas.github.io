@@ -4,14 +4,13 @@ description-meta: |
     Description to go here!
 sidebar: false
 listing:
-  contents: /../blog_posts
-  sort: "date desc"
+  contents: blog-posts
+  sort: date desc
   type: default
   categories: true
   sort-ui: false
   filter-ui: false
 # page-layout: full
-# title-block-banner: false
 ---
 
 ::: {.column-screen .hero-img .hero-strip-page .align-items-end}
