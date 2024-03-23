@@ -303,6 +303,25 @@ h4 a:hover, h5 a:hover, {
   padding: 2.5%;
   line-height: 115%;
 }
+.overlay-container {
+  padding: 0 !important;
+  margin: 0 !important;
+  object-fit: contain;
+  //object-position: -50% 0;
+  overflow: visible;
+}
+#soon-to-be-1 {
+  position: absolute;
+  zindex: 100;
+  top: calc($hero-height * 0.25);
+  left: 12.5vw;
+  width: 20vw;
+  height: auto;
+  transform: rotate(-15deg)
+  //background-color: transparent;
+  //animation: move 4s ease infinite;
+  //animation-delay: 1s;
+}
 
 // Hero banners for other pages
 .hero-strip-page {
@@ -310,11 +329,11 @@ h4 a:hover, h5 a:hover, {
 }
 .hero-text-page  {
   height: calc($hero-height / 2);
-  font-size: min(calc(7.55vw), 100px) !important;
+  font-size: min(calc($hero-height * 0.5 * 0.3), 5vw) !important;
   text-align: center;
   color: $white !important;
   padding: 2.5%;
-  line-height: 115%;
+  line-height: 100%;
 }
 
 // Card stuff

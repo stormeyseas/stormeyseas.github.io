@@ -6,6 +6,10 @@ description-meta: |
 ---
 
 ::::: {.column-screen .hero-img .hero-strip-homepage}
+::: {.overlay-container #soon-to-be-1}
+![](resources/images/soon-to-be.png)
+:::
+
 :::: {.grid .align-items-center}
 ::: .g-col
 ::: {.p .hero-text-homepage}
@@ -51,17 +55,17 @@ description-meta: |
 :::::
 ::::::
 
-## Current project
+## My Current project
 
 :::::: {.grid .justify-content-space-evenly}
 ::::: {.g-col-4 .align-self-center}
-![](resources/images/personal-website.jpg){fig-alt="Screenshot of the website you're on right now... so meta!"}
+![](resources/images/personal-website.jpg){fig-alt="Screenshot of the website you're on right now... so meta!" style="border: solid 1px var(--bs-primary);"}
 :::::
 
 ::::: {.g-col-8 .align-self-center}
 ### This website
 
-I know I'm supposed to be a scientist, but I also designed and built this whole website. And the best part? It was all done in R! Contact me if you want to know how you can move even more of your life into RStudio. 
+What could be a better use of my time as I wait for feedback on my PhD thesis than slowly moving more and more of my life into RStudio? I designed and built this whole website using Quarto.
 
 :::: text-center
 [More projects](pages/projects.qmd){.btn .btn-primary}
