@@ -108,11 +108,11 @@
     ]
   },
   {
-    "objectID": "index.html#my-current-project",
-    "href": "index.html#my-current-project",
+    "objectID": "index.html",
+    "href": "index.html",
     "title": "Tormey E. Reimer",
-    "section": "My Current project",
-    "text": "My Current project\n\n\n\n\n\nThis website\nWhat could be a better use of my time as I wait for feedback on my PhD thesis than slowly moving more and more of my life into RStudio? I designed and built this whole website using Quarto.\n\nMore projects"
+    "section": "",
+    "text": "::: {.line-behind .column-screen-inset} ::: span ::: ## My Current project"
   },
   {
     "objectID": "index.html#recent-publications",

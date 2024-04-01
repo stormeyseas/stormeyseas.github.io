@@ -1,6 +1,5 @@
 /* css styles */
 
-<<<<<<< HEAD
 /* Clear the defaults first */
 .p, p {
   font-family: Lexend;
@@ -111,8 +110,6 @@ div.line-behind {
   z-index: -1;
 }
 
-=======
->>>>>>> main
 /* Text spacing */
 .vertical-center, vertical-center {
   margin: 0;
