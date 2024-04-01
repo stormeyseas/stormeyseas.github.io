@@ -1,22 +1,32 @@
 ---
-title: "Welcome to my blog!"
-date: "03-23-2024"
-image: "/resources/images/Bruny.jpg"
+title: "An updated IMAS PhD Thesis Tempate"
+date: "04-02-2024"
+image: "pics/UTAS_IMAS_PhD_Thesis_Template_2023.pdf-page_1.jpg"
 categories: 
-  - "introduction"
-  - "blog"
-  - "website"
+  - "Latex"
+  - "Thesis"
+  - "github"
 author: 'Tormey Reimer'
 description: |
-    Why did I do it? Will I stick to it with any kind of regularity? Let's find out!
+    TBD
 ---
-## Let's start a blog!
+<!-- ## My Latex journey -->
 
-<!-- I don't know about you, but in the course of my research I do a lot of things that don't make it to the final product. -->
+<!-- ## A glorious legacy -->
 
-<!-- **put in that PHD comic where the guy wasted a day in his pyjamas** -->
+<!-- ## Guide to using the template -->
 
-<!-- But that's **not** actually wasted time, is it? The "real" work wouldn't happen without it, and a lot of it is necessary for our own learning process.  -->
-<!-- So much of that work is thrown away, and unless someone happens to ask us about it -->
+<!-- ## Full feature list -->
 
-<!-- Let's not reinvent the wheel. -->
+<!-- ### Required pages -->
+
+<!-- ### Acronyms -->
+
+<!-- ### Citations -->
+
+<!-- - APA7 citation -->
+<!-- - Citation aliases -->
+
+<!-- ### Little useful commands -->
+
+<!-- - Species -->
