@@ -111,57 +111,7 @@ div.line-behind {
 }
 
 /* Text spacing */
-
-.cell-code, cell-code {
-  background-color: var(--bs-gray-300);
-  border: 1px solid var(--bs-gray-600);
-}
-
-/** Changes to default navbar **/
-
-.navbar {
-  font-size: 1.25em;
-  letter-spacing: 120%;
-  line-height: 125%;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-
-.navbar-brand {
-  width: 2em;
-}
-
-.navbar-brand > img {
-  width: 100%;
-}
-
-/** Changes to default footer layout **/
-
-.nav-footer {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-} 
-
-.footer, footer {
-  margin: 0px;
-}
-
-.nav-footer a {
-  display: inline-block;
-}
-
-.nav-footer-center {
-  flex-grow: 0;
-}
-
-code {
-  font-size:1em;
-  color: var(--bs-code-color);
-  background-color:var(--bs-code-bg);
-}
-
-.vertical-center,
-vertical-center {
+.vertical-center, vertical-center {
   margin: 0;
   position: absolute;
   top: 50%;
@@ -182,27 +132,6 @@ vertical-center {
   padding-left:.5em;
   padding-right:.5em
 }
-
-.callout-note {
-  background-color: #007da7;
-}
-
-.callout-important {
-  background-color: #5bc0de;
-}
-
-.callout-tip {
-  background-color: #43ac6a;
-}
-
-.callout-caution {
-  background-color: #e99002;
-}
-
-.callout-warning {
-  background-color: transparent;
-}
-
 .greybox {
   background-color: var(--bs-gray-200);
   border: solid var(--bs-primary) 1px;
