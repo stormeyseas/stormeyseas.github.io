@@ -1,0 +1,121 @@
+---
+# All options for the HTML format: https://quarto.org/docs/reference/formats/html.html
+pagetitle: Styles
+description-meta: |
+    What are you even doing here?
+sidebar: false
+---
+
+::: {.column-screen .hero-img .hero-strip .align-items-end}
+# Dr Tormey Reimer {.maintitle .hero-strip-text}
+:::
+
+## H2 Text
+
+### H3 Text
+
+#### H4 Text
+
+##### H5 Text
+
+###### H6 Text
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dignissim ex sit amet augue consequat, vel gravida purus ullamcorper. Etiam interdum metus in tincidunt elementum. Praesent placerat elit at eleifend eleifend. Vivamus consequat tempus sollicitudin. Pellentesque condimentum libero vel finibus pretium.
+
+[Link styling](all-styles.qmd)
+
+[Primary](all-styles.qmd){.btn .btn-primary}
+
+[Secondary](all-styles.qmd){.btn .btn-secondary}
+
+[Accent1](all-styles.qmd){.btn .btn-accent1}
+
+[Accent2](all-styles.qmd){.btn .btn-accent2}
+
+[Light](all-styles.qmd){.btn .btn-light}
+
+[Dark](all-styles.qmd){.btn .btn-dark}
+
+```{r}
+#| include: true
+
+# This is what code comments look like!
+print("This is what code looks like!")
+```
+
+:::::: {.grid .justify-content-space-evenly .text-center}
+::::: {.g-col-2 .align-self-center}
+[![](/resources/icons/google-scholar-dark.svg){fig-alt="Link to my Google Scholar" width="60%"}](https://scholar.google.com/citations?hl=en&user=H45vLccAAAAJ&view_op=list_works&gmla=AKKJWFctSeG1-RPdHM1Sm6zw_pddPbBW_Q-LL5Oj-bJgbK4mEgjr4lTM7hprsdR1hMk-s2grckZTOogim9ha4lHJ)
+:::::
+
+::::: {.g-col-2 .align-self-center}
+[![](/resources/icons/linkedin-dark.svg){fig-alt="Link to my LinkedIn" width="60%"}](https://au.linkedin.com/in/tormey-reimer)
+:::::
+
+::::: {.g-col-2 .align-self-center}
+[![](/resources/icons/orcid-dark.svg){fig-alt="Link to my OrCID" width="60%"}](https://orcid.org/0000-0002-5983-2798)
+:::::
+
+::::: {.g-col-2 .align-self-center}
+[![](/resources/icons/researchgate-dark.svg){fig-alt="Link to my ResearchGate" width="60%"}](https://www.researchgate.net/profile/Tormey-Reimer)
+:::::
+
+::::: {.g-col-2 .align-self-center}
+[![](/resources/icons/landmark-solid-dark.svg){fig-alt="Link to my current institution" width="60%"}](https://marinesocioecology.org/team/tormey-reimer/)
+:::::
+
+::::: {.g-col-2 .align-self-center}
+[![](/resources/icons/github-dark.svg){fig-alt="Link to my Github" width="60%"}](https://github.com/stormeyseas)
+:::::
+::::::
+
+:::::: {.grid .justify-content-space-evenly .px-2 .align-items-center .justify-contents-space-evenly}
+::::: {.g-col-4 .align-self-center}
+:::: card
+![](https://via.placeholder.com/285x180){.card-img-top fig-alt="Image"}
+
+Title {.card-title}
+
+::: card-text
+Some quick example text to build on the card title and make up the bulk of the card's content.
+
+::: text-center
+[Read more](blog.qmd){.btn .btn-primary}
+:::
+:::
+::::
+:::::
+
+::::: {.g-col-4 .align-self-center}
+:::: card
+![](https://via.placeholder.com/285x180){.card-img-top fig-alt="Image"}
+
+Title {.card-title}
+
+::: card-text
+Some quick example text to build on the card title and make up the bulk of the card's content.
+
+::: text-center
+[Read more](blog.qmd){.btn .btn-primary}
+:::
+:::
+::::
+:::::
+
+::::: {.g-col-4 .align-self-center}
+:::: card
+![](https://via.placeholder.com/285x180){.card-img-top fig-alt="Image"}
+
+Title {.card-title}
+
+::: card-text
+Some quick example text to build on the card title and make up the bulk of the card's content.
+
+::: text-center
+[Read more](blog.qmd){.btn .btn-primary}
+:::
+:::
+::::
+:::::
+::::::
+

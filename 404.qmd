@@ -1,7 +1,8 @@
 ---
 permalink: "/404.html"
-format: html
-sidebar: false
+pagetitle: Page not found! | (Soon-to-be) Dr Tormey Reimer
+description-meta: |
+    You lost, friend?
 ---
 
 ::: text-center

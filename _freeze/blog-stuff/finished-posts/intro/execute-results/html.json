@@ -1,0 +1,15 @@
+{
+  "hash": "66583ae26b60f24a51363929e976972a",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Welcome to my blog!\"\ndate: \"03-23-2024\"\ncategories: [\"introduction\", \"blog\", \"website\"]\ndescription: |\n    Why did I do it? Will I stick to it with any kind of regularity? Let's find out!\nexecute:\n  # eval: true # Evaluate the code chunk (if false, just shows the code in the output)\n  # echo: true # Include the source code in output\n  output: true # Include the results of executing the code in the output (true, false, or asis to indicate that the output is raw markdown and should not have any of Quarto’s standard enclosing markdown)\n  message: false\n  warning: false # Include warnings in the output\n  error: false # Include errors in the output (errors might still halt processing of the document)\n  # include: true # whether any output (code or results) will be shown (but code still runs)\neditor_options: \n  chunk_output_type: inline\nknitr:\n  opts_chunk: \n    fig.align: \"center\"\n    fig-width: 8\n    fig-asp: 0.75\n    code-overflow: wrap\n    \nmetadata-files: [\"../metadata.yml\"]\n---\n\n\n# Let's start a blog!\n\nI don't know about you, but in the course of my research I do a lot of things that don't make it to the final product.\n\n**put in that PHD comic where the guy wasted a day in his pyjamas**\n\nBut that's **not** actually wasted time, is it? The \"real\" work wouldn't happen without it, and a lot of it is necessary for our own learning process. \nSo much of that work is thrown away, and unless someone happens to ask us about it\n\nLet's not reinvent the wheel.\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

@@ -15,11 +15,11 @@ profile:
 website:
   title: "Tormey E. Reimer"
   description: "Welcome to my personal website."
-  favicon: resources/icons/water-solid-dark.svg
+  favicon: resources/icons/water-solid-light.svg
   site-url: https://www.drtreimer.com
   repo-url: https://github.com/stormeyseas/stormeyseas.github.io
-  reader-mode: false # Displays a ‘reader-mode’ tool which allows users to hide the sidebar and table of contents when viewing a page.
-  # Create a bunch of different sidebars and put a "dummy" one on the homepage.
+  reader-mode: false
+  # Allows some pages to have a sidebar
   sidebar: 
     - id: sidebar1 
       # title: " "
@@ -37,74 +37,72 @@ website:
     collapse: true
     # List of items for the each section of the navbar (left, right, center)
     right: 
-      - text: "Home"
+      - text: Home
         href: index.qmd
-      - text: "About"
+      - text: About
         href: pages/about.qmd
-        menu: 
-        - text: "Education"
-          href: pages/education.qmd
-          menu: 
-          - text: "PhD Research"
-            href: pages/phd-research.qmd
-          - text: "Master's Degree"
-            href: pages/masters-degree.qmd
-        - text: "Skills"
-          href: pages/skills.qmd
-          menu: 
-          - text: "Grants & Awards"
-            href: pages/grants-awards.qmd
-          - text: "Service"
-            href: pages/service.qmd
-        - text: "Interests"
-          href: pages/interests.qmd
-      - text: "Projects"
+        # menu: 
+        # - text: Education
+        #   href: pages/education.qmd
+        #   menu: 
+        #   - text: PhD Research
+        #     href: pages/phd-research.qmd
+        #   - text: "Master's Degree"
+        #     href: pages/masters-degree.qmd
+        # - text: Skills
+        #   href: pages/skills.qmd
+        #   menu: 
+        #   - text: Grants & Awards
+        #     href: pages/grants-awards.qmd
+        #   - text: Service
+        #     href: pages/service.qmd
+        # - text: Interests
+        #   href: pages/interests.qmd
+      - text: Projects
         href: pages/projects.qmd
-        menu: 
-        - text: "Timeline"
-          href: pages/timeline.qmd
-        - text: "Collaborators"
-          href: pages/collaborators.qmd
+        # menu: 
+        # - text: Timeline
+        #   href: pages/timeline.qmd
+        # - text: Collaborators
+        #   href: pages/collaborators.qmd
         # - text: "Teaching"
         #   href: pages/example-page.qmd
-      - text: "Publications"
+      - text: Publications
         href: pages/publications.qmd
-      - text: "Blog"
+      - text: Blog
         href: pages/blog.qmd
-      - text: "Contact"
+      - text: Contact
         href: pages/contact.qmd
     toggle-position: right # The position of the collapsed navbar toggle when in responsive mode
-  page-navigation: false # Provide next and previous article links in footer
+  page-navigation: false
   back-to-top-navigation: false
-  # Page footer. Text content or page footer definition. I want some links behind cute icons here
   page-footer:
     left: |
-      [![](/resources/icons/envelope-solid-light.svg){fig-alt="tormey.reimer@utas.edu.au" fig-align="center" height="1.5em" fig-valign="top" margin-left="5px" margin-right="10px"}](mailto:tormey.reimer@utas.edu.au) [tormey.reimer@utas.edu.au](mailto:tormey.reimer@utas.edu.au)<br>
+      [</i><img src="/resources/icons/envelope-solid-light.svg" class="img-fluid" style="height: 1.5em; valign: middle;">](mailto:tormey.reimer@utas.edu.au) [tormey.reimer@utas.edu.au](mailto:tormey.reimer@utas.edu.au)<br>
       [![](/resources/icons/researchgate-light.svg){fig-alt="ResearchGate" fig-align="center" height="1.5em" fig-valign="top" margin-left="10px" margin-right="10px"}](https://www.researchgate.net/profile/Tormey-Reimer)
       [![](/resources/icons/orcid-light.svg){fig-alt="OrcID" fig-align="center" height="1.5em" fig-valign="top" margin-left="10px" margin-right="10px"}](https://orcid.org/0000-0002-5983-2798)
       [![](/resources/icons/linkedin-light.svg){fig-alt="LinkedIN" fig-align="center" height="1.5em" fig-valign="top" margin-left="10px" margin-right="10px"}](https://au.linkedin.com/in/tormey-reimer)
       [![](/resources/icons/google-scholar-light.svg){fig-alt="GoogleScholar" fig-align="center" height="1.5em" fig-valign="top" margin-left="10px" margin-right="10px"}](https://scholar.google.com.au/citations?user=H45vLccAAAAJ&hl=en)
       [![](/resources/icons/github-light.svg){fig-alt="Github" fig-align="center" height="1.5em" fig-valign="top" margin-left="10px" margin-right="10px"}](https://github.com)
     right: |
-      <i>I acknowledge the traditional owners of the land on which I live and work.<br>
-      Sovereignty was never ceded </i>
-      ![](/resources/pictures/Australian_Aboriginal_Flag.png){margin-left=10px height=1em fig-valign=top fig-align=center}
+      <i>I acknowledge the traditional owners of the land on which we live and work.<br>
+      Sovereignty was never ceded </i><img src="/resources/images/Australian_Aboriginal_Flag.png" class="img-fluid" style="height: 1em;">
+      <br><br><br>
+      Website created by [ME](/pages/projects.qmd)!
     background: dark
     foreground: light
 
 format:
   html:
     theme:
-      light: [yeti, resources/styling/yeti.scss]
-      dark: [yeti, resources/styling/yeti.scss]
+      light: resources/styling/my-theme.scss
+      dark: resources/styling/my-theme.scss
     css: resources/styling/styles.css
     page-layout: full
     grid:
-      sidebar-width: 350px
-      body-width: 1450px
-      margin-width: 100px
+      sidebar-width: 225px
+      body-width: 1500px
+      margin-width: 75px
       gutter-width: 1.5em
     toc: false
     fig-responsive: true
-    # include-after-body:
-    #   file: theming/footer.qmd

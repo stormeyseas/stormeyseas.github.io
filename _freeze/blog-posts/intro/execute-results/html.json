@@ -1,0 +1,15 @@
+{
+  "hash": "3dcd154e935e8f06be1169725c45a005",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Welcome to my blog!\"\ndate: \"03-23-2024\"\ncategories: [\"introduction\", \"blog\", \"website\"]\nauthor: 'Tormey Reimer'\ndescription: |\n    Why did I do it? Will I stick to it with any kind of regularity? Let's find out!\n\nexecute:\n  eval: true # Evaluate the code chunk (if false, just shows the code in the output)\n  echo: true # Include the source code in output\n  output: true # Include results (true or false). Set \"asis\" for raw markdown.\n  message: false # Include (non-warning) messages in the output\n  warning: false # Include warnings in the output\n  error: false # Include errors in the output (errors might still halt processing of the document)\n  include: true # whether any output (code or results) will be shown (but code still runs)\n\neditor_options: \n  chunk_output_type: inline\n\nknitr:\n  opts_chunk: \n    fig.align: \"center\"\n    fig-width: 8\n    fig-asp: 0.75\n    code-overflow: wrap\n\n# metadata-files: [\"../metadata.yml\"]\n\ntoc: true\ntoc-depth: 3\ntoc-location: left\n\npage-layout: article\nsidebar: false\ngrid:\n  sidebar-width: 250px\n  body-width: 1250px\n  margin-width: 150px\n  gutter-width: 2em\n---\n\n\n# Let's start a blog!\n\nI don't know about you, but in the course of my research I do a lot of things that don't make it to the final product.\n\n**put in that PHD comic where the guy wasted a day in his pyjamas**\n\nBut that's **not** actually wasted time, is it? The \"real\" work wouldn't happen without it, and a lot of it is necessary for our own learning process. \nSo much of that work is thrown away, and unless someone happens to ask us about it\n\nLet's not reinvent the wheel.\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

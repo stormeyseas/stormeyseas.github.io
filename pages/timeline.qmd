@@ -1,8 +1,12 @@
 ---
-format: html
-toc: false
+pagetitle: Timeline | (Soon-to-be) Dr Tormey Reimer
+description-meta: |
+    Description to go here!
 sidebar: false
 ---
+::: {.column-screen .hero-img .hero-strip-page .align-items-end}
+# Timeline {.hero-text-page}
+:::
 
 :::::: {.grid .justify-content-space-evenly .text-center}
 ::::: {.g-col-4 .align-self-center}
@@ -10,7 +14,7 @@ sidebar: false
 :::::
 
 ::::: {.g-col-8 .align-self-center}
-# Top section
+## Top section
 
 Ut eget lorem et odio facilisis placerat. Nam ac est elementum, ornare enim sit amet, aliquam magna. Morbi varius neque ante, non tristique velit pulvinar at. Praesent sit amet velit metus.
 
@@ -21,7 +25,7 @@ Aliquam condimentum aliquet sem, id vestibulum ante faucibus eu. Fusce vestibulu
 ::: {.line-behind .column-screen-inset}
 ::: span
 :::
-## Section
+### Section
 :::
 
 :::::: {.grid .justify-content-space-evenly style="font-weight:250;"}

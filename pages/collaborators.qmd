@@ -1,8 +1,12 @@
 ---
-format: html
-toc: false
+pagetitle: Collaborators | (Soon-to-be) Dr Tormey Reimer
+description-meta: |
+    Description to go here!
 sidebar: false
 ---
+::: {.column-screen .hero-img .hero-strip-page .align-items-end}
+# Collaborators {.hero-text-page}
+:::
 
 :::::: {.grid .justify-content-space-evenly .text-center}
 ::::: {.g-col-4 .align-self-center}

@@ -1,42 +1,24 @@
 ---
-title: "Blog"
+pagetitle: Blog | (Soon-to-be) Dr Tormey Reimer
+description-meta: |
+    Description to go here!
 sidebar: false
 listing:
-  contents: /../blog_posts
+  contents: "/../blog-posts/*.qmd"
+  fields: [image, date, title, description, categories, author]
   sort: "date desc"
-  type: default
-  categories: true
-  sort-ui: false
+  type: grid
+  categories: false
+  sort-ui: true
   filter-ui: false
-page-layout: full
 title-block-banner: false
 ---
+::: {.column-screen .no-gaps}
+![](../resources/images/Matre_5x1.jpg)
+:::
 
----
-format: html
-toc: false
-sidebar: false
----
-
-:::::: {.grid .justify-content-space-evenly .text-center}
-::::: {.g-col-4 .align-self-center}
-![](https://via.placeholder.com/500x450)
-:::::
-
-::::: {.g-col-8 .align-self-center}
-# Top section
+## Welcome to my blog!
 
 As we learn and experiment, we end up doing a lot of work that doesn't actually make it into any final product. I often think about the time that went into that work, and I wonder if anyone else has ever tried to solve the same problem before or since. How many times have we quietly reinvented the wheel?
 
 This is my random collection of musings, templates, code snippets, and other bits and pieces that I've created over the years but don't have anywhere to publish. 
-:::::
-::::::
-
-::: {.line-behind .column-screen-inset}
-::: span
-:::
-## Section
-:::
-
-
-

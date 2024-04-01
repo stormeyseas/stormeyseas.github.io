@@ -1,0 +1,30 @@
+---
+title: "Welcome to my blog!"
+date: "03-23-2024"
+image: "/resources/images/Bruny.jpg"
+categories: 
+  - "introduction"
+  - "blog"
+  - "website"
+author: 'Tormey Reimer'
+description: |
+    Why did I do it? Will I stick to it with any kind of regularity? Let's find out!
+---
+<!-- ## What's this all about? -->
+
+<!-- I don't know about you, but in the course of my research I do a lot of things that don't make it into the final product. -->
+
+<!-- It almost became an intrusive thought process: "If I knew this six months ago this would have taken me a day instead of a month. If only I could go back, I wouldn't waste all that time!" -->
+
+<!-- ::: text-center -->
+<!-- ![https://phdcomics.com/comics/archive.php?comicid=2024](pics/phd091418s.gif){width=50% fig-alt="A PhD student's daughter wants to be a Doctor of Philosophy when she grows up so she can sit in her pyjamas and do nothing all day just like Daddy!" .lightbox} -->
+<!-- ![https://phdcomics.com/comics/archive.php?comicid=2026](pics/phd092118s.gif){width=50% fig-alt="The student concedes that yeah, he does work in his pyjamas a lot, and yeah, a lot of his work on a day-to-day basis amounts to nothing, oh god is this my life" .lightbox} -->
+<!-- ::: -->
+
+<!-- **put in that PHD comic where the guy wasted a day in his pyjamas** -->
+
+<!-- But it's **not** actually wasted time, is it? The "real" work wouldn't happen without it, and a lot of it is necessary for our own learning process. -->
+
+<!-- So much of that work is thrown away, and unless someone happens to ask us about it -->
+
+<!-- Let's not reinvent the wheel. -->
