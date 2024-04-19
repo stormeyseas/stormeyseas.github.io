@@ -1,0 +1,34 @@
+---
+title: "An updated IMAS PhD Thesis Tempate"
+date: "04-02-2024"
+image: "pics/UTAS_IMAS_PhD_Thesis_Template_2023.pdf-page_1.jpg"
+categories: 
+  - "Latex"
+  - "Thesis"
+  - "github"
+author: 'Tormey Reimer'
+description: |
+    TBD
+---
+### My Latex journey
+
+I was first introduced to Latex in the first year of my PhD via an introductory lecture organised by a couple of third-year PhD students. I was immediately enamored with the 
+
+<!-- ### A glorious legacy -->
+
+<!-- ### A guide to using this template -->
+
+<!-- ### Full feature list -->
+
+<!-- #### Required pages -->
+
+<!-- #### Acronyms -->
+
+<!-- #### Citations -->
+
+<!-- - APA7 citation -->
+<!-- - Citation aliases -->
+
+<!-- #### Little useful commands -->
+
+<!-- - Species -->

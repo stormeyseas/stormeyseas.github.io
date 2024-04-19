@@ -2,8 +2,7 @@
   {
     "listing": "/pages/blog.html",
     "items": [
-      "/blog-posts/intro.html",
-      "/blog-posts/latex-thesis-template.html"
+      "/blog-posts/1-intro.html"
     ]
   }
 ]
