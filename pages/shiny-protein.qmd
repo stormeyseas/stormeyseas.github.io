@@ -17,10 +17,16 @@ sidebar: false
 
 library(ggplot2)
 library(plotly)
+library(tidyverse)
 ```
 
 ```{r data}
-df.pro <- read.csv(file = "/blog-posts/data-files/protein.csv")
+df.pro <- read.csv(file = "blog-posts/data-files/protein.csv")
+df.pro$type <- c(rep("seafood", 4), rep("meat", 11), rep("other", 3), rep("dairy", 3), rep("dairy alt", 3), rep("dairy", 4), "seafood", rep("other", 2), "legumes", "other", rep("legumes", 3), rep("nuts", 4), rep("grains", 2))
+df.pro <- df.pro %>% 
+    mutate(type = as.factor(type),
+           protein.g = protein.100g*unit.kg*0.01*1000, # g protein in the package
+           price.100g.protein = 100*unit.price/protein.g)
 ```
 
 ```{r protein comparison}
@@ -28,14 +34,47 @@ df.pro <- read.csv(file = "/blog-posts/data-files/protein.csv")
 #| warning: false
 
 p <- ggplot(df.pro, 
-            aes(x = protein.100g, 
-                y = price.kg)) +
+            aes(label = shortname, 
+                x = protein.100g, 
+                y = price.kg,
+                color = type)) +
     geom_point() +
+    geom_text(hjust = "left", nudge_x = 0.25, nudge_y = 0.75, size = 2.5) +
+    
     theme_classic() +
-    theme(legend.position = "none")
+    theme(legend.position = "none") +
+    labs(x = "Protein density (g protein per 100 g of food)",
+        y = "Price per 100 g of food (AUD)")
 
-ggplotly(p)
+p
 ```
+
+```{r protein comparison 2}
+#| fig-align: center
+#| warning: false
+
+# Average daily consumption recommendation is 60g per day
+df.pro <- df.pro %>% 
+    mutate(weight.60g.protein = 100*60/protein.100g, # how much to eat per day
+           price.60g.protein = price.100g.protein*(60/100) # how much that would cost
+               )
+
+p2 <- ggplot(df.pro, 
+            aes(label = shortname, 
+                x = weight.60g.protein, 
+                y = price.60g.protein,
+                color = type)) +
+    geom_point() +
+    geom_text(hjust = "left", nudge_x = 0.25, nudge_y = 0.75, size = 2.5) +
+    
+    theme_classic() +
+    theme(legend.position = "none") +
+    labs(x = "Weight to eat for 60g protein per day",
+        y = "Price of 60g of protein (AUD)")
+
+p
+```
+
 
 ### Data detail and sources
 
