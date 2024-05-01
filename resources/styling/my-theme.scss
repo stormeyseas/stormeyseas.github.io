@@ -60,14 +60,13 @@ $border-radius-sm:            0 !default;
 
 $font-family-sans-serif:      "Lexend", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
 
-$body-font-size:              1.15rem;
+$body-font-size:              1rem;
 $body-font-weight:            250;
 
 //$headings-font-weight:        300 !default;
 $headings-background-color:   transparent;
 $headings-font-weight:        350;
-$h6-font-size:                $body-font-size * 1.1;
-$h5-font-size:                $h6-font-size * 1.5;
+$h5-font-size:                $body-font-size * 1.5;
 $h4-font-size:                $h5-font-size * 1.2;
 $h3-font-size:                $h4-font-size * 1.2;
 $h2-font-size:                $h3-font-size * 1.45;
