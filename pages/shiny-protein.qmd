@@ -3,6 +3,8 @@ pagetitle: Example page (H1) | (Soon-to-be) Dr Tormey Reimer
 description-meta: |
     Description to go here!
 sidebar: false
+execute: 
+  eval: false
 ---
 ::: {.column-screen .no-gaps}
 ![](../resources/images/Matre_5x1.jpg)
