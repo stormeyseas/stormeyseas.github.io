@@ -29,7 +29,7 @@ description-meta: |
 :::::
 
 ::::: {.g-col-4 .g-col-lg-2}
-[![](resources/icons/landmark-solid-dark.svg){fig-alt="Link to my current institution" width="50%"}](https://marinesocioecology.org/team/tormey-reimer/)
+[![](resources/icons/landmark-solid-dark.svg){fig-alt="Link to my institution" width="50%"}](https://marinesocioecology.org/team/tormey-reimer/)
 :::::
 
 ::::: {.g-col-4 .g-col-lg-2}
