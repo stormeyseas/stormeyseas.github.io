@@ -4,9 +4,11 @@ description-meta: |
     Description to go here!
 sidebar: false
 ---
-::: {.column-screen .hero-img .hero-strip-page .align-items-end}
-# Example page (H1) {.hero-text-page}
+::: {.column-screen .no-gaps}
+![](../resources/images/Matre_5x1.jpg)
 :::
+
+# Example page (H1)
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dignissim ex sit amet augue consequat, vel gravida purus ullamcorper. Etiam interdum metus in tincidunt elementum. Praesent placerat elit at eleifend eleifend. Vivamus consequat tempus sollicitudin. Pellentesque condimentum libero vel finibus pretium.
 

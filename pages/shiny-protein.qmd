@@ -1,0 +1,124 @@
+---
+pagetitle: Example page (H1) | (Soon-to-be) Dr Tormey Reimer
+description-meta: |
+    Description to go here!
+sidebar: false
+execute: 
+  eval: false
+---
+::: {.column-screen .no-gaps}
+![](../resources/images/Matre_5x1.jpg)
+:::
+
+# Proteins
+
+- I found a comparison of protein content vs price per gram for a bunch of different foods online, BUT the comparison was for US foods and prices and it looked heinous
+
+```{r setup}
+#| include: false
+
+library(ggplot2)
+library(plotly)
+library(tidyverse)
+```
+
+```{r data}
+df.pro <- read.csv(file = "blog-posts/data-files/protein.csv")
+df.pro$type <- c(rep("seafood", 4), rep("meat", 11), rep("other", 3), rep("dairy", 3), rep("dairy alt", 3), rep("dairy", 4), "seafood", rep("other", 2), "legumes", "other", rep("legumes", 3), rep("nuts", 4), rep("grains", 2))
+df.pro <- df.pro %>% 
+    mutate(type = as.factor(type),
+           protein.g = protein.100g*unit.kg*0.01*1000, # g protein in the package
+           price.100g.protein = 100*unit.price/protein.g)
+```
+
+```{r protein comparison}
+#| fig-align: center
+#| warning: false
+
+p <- ggplot(df.pro, 
+            aes(label = shortname, 
+                x = protein.100g, 
+                y = price.kg,
+                color = type)) +
+    geom_point() +
+    geom_text(hjust = "left", nudge_x = 0.25, nudge_y = 0.75, size = 2.5) +
+    
+    theme_classic() +
+    theme(legend.position = "none") +
+    labs(x = "Protein density (g protein per 100 g of food)",
+        y = "Price per 100 g of food (AUD)")
+
+p
+```
+
+```{r protein comparison 2}
+#| fig-align: center
+#| warning: false
+
+# Average daily consumption recommendation is 60g per day
+df.pro <- df.pro %>% 
+    mutate(weight.60g.protein = 100*60/protein.100g, # how much to eat per day
+           price.60g.protein = price.100g.protein*(60/100) # how much that would cost
+               )
+
+p2 <- ggplot(df.pro, 
+            aes(label = shortname, 
+                x = weight.60g.protein, 
+                y = price.60g.protein,
+                color = type)) +
+    geom_point() +
+    geom_text(hjust = "left", nudge_x = 0.25, nudge_y = 0.75, size = 2.5) +
+    
+    theme_classic() +
+    theme(legend.position = "none") +
+    labs(x = "Weight to eat for 60g protein per day",
+        y = "Price of 60g of protein (AUD)")
+
+p
+```
+
+
+### Data detail and sources
+
+I shop at Woolies mostly, so I've primarily relied on Woolworths products and prices for this comparison. In order to get consistent and realistic prices I've tried to use generically-branded versions of products coming in ~1kg packaging and stick to products produced in Australia rather than imported. I know you care about these things, you *nerd*.
+
+| Data point name | Product link | Date sourced |
+|---|---|---|
+<!-- Meats -->
+| Mince | [Woolworths Beaf Mince 1kg](https://www.woolworths.com.au/shop/productdetails/577864/woolworths-beef-mince) |  |
+| Lean mince | [Woolworths Lean Beef Mince 1kg ](https://www.woolworths.com.au/shop/productdetails/577862/woolworths-lean-beef-mince) | 26-04-2024 |
+| Some kind of steak? |  |  |
+| Chicken breast | [Woolworths Rspca Approved Chicken Breast Fillet Min. 250g](https://www.woolworths.com.au/shop/productdetails/25734/woolworths-rspca-approved-chicken-breast-fillet) |  |
+| Chicken thigh |  |  |
+| Lamb rib |  |  |
+| Lamb chop |  |  |
+| Pork leg roast |  |  |
+| Bacon |  |  |
+<!-- Dairy etc -->
+| Full-cream milk |  |  |
+| Skim milk |  |  |
+| Soy milk |  |  |
+| Almond milk |  |  |
+| Oat milk |  |  |
+| Mozarella cheese |  |  |
+| Tasty cheese |  |  |
+| Light tasty cheese |  |  |
+<!-- Nuts & legumes -->
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+<!-- Pantry stuff -->
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+

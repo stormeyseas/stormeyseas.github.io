@@ -19,6 +19,6 @@ title-block-banner: false
 
 ## Welcome to my blog!
 
-As we learn and experiment, we end up doing a lot of work that doesn't actually make it into any final product. I often think about the time that went into that work, and I wonder if anyone else has ever tried to solve the same problem before or since. How many times have we quietly reinvented the wheel?
+As we learn and experiment, we end up doing a lot of work that doesn't actually make it into any final product. I often think about the time that went into that work, and I wonder if anyone else has ever tried to solve the same problem before... or since. How many times have we quietly reinvented the wheel?
 
 This is my random collection of musings, templates, code snippets, and other bits and pieces that I've created over the years but don't have anywhere to publish. 

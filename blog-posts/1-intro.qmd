@@ -1,0 +1,45 @@
+---
+title: "Welcome to my blog!"
+date: "04-19-2024"
+image: "/resources/images/Bruny.jpg"
+categories: 
+  - "introduction"
+  - "blog"
+  - "website"
+author: 'Tormey Reimer'
+description: |
+    Why did I do it? Will I stick to it with any kind of regularity? Let's find out!
+---
+
+### Wasted time and invaluable junk
+
+I don't know about you, but in the course of my PhD research I ended up doing a lot of things that didn't seem to make it into the final product.
+
+Thoughts about the time spent on that work almost became intrusive: "If I knew how to do this six months ago, this next part would have taken me a day instead of a month. If only I could go back, I wouldn't waste all that time!"
+
+::: text-center
+![https://phdcomics.com/comics/archive.php?comicid=2024](pics/phd091418s.gif){width=50% fig-alt="A PhD student's daughter wants to be a Doctor of Philosophy when she grows up so she can sit in her pyjamas and do nothing all day just like Daddy!" .lightbox}
+![https://phdcomics.com/comics/archive.php?comicid=2026](pics/phd092118s.gif){width=50% fig-alt="The student concedes that yeah, he does work in his pyjamas a lot, and yeah, a lot of his work on a day-to-day basis amounts to nothing, oh god is this my life" .lightbox}
+:::
+
+But it's not really wasted time, is it? I firmly believe that the most valuable "final product" of a PhD project is not the thesis, or a paper, or any particular research, but *you as a reasearcher*. 
+And in the production of *you as a researcher*, the time spent clumsily figuring things out is absolutely necessary. 
+
+Still, it feels wrong to leave it at that. 
+<!-- I'm not sure why, but something about being in an academic environment makes me feel like I should (or should be able to) solve all my problems by myself.  -->
+<!-- I used to spend hours trying to figure out how to do things, fully aware that the answers were just an email away if I chose to reach out.  -->
+<!-- Sometimes these would be simple problems, sometimes they would be complex, and sometimes they would be impossible - but that's besides the point. The point is this: if I'd just let go of my ego I would have asked someone for help, and been undeniably better off for it. -->
+The learning experience was valuable, sure, but now the experience has been learned from and all the junk left over is just cluttering up my already cluttered brain. 
+I have nowhere to put it, and unless someone very specifically asks me for it, it might never be unearthed again. 
+
+Which makes me wonder: how many others have solved the same problem before, or since? How many times have we all quietly, and independently, reinvented the wheel? 
+
+The first time I visited my Master's supervisor in February 2011, he had a to-do list written on a whiteboard in his office without about 20 items on it. I remember thinking that a whiteboard was a brilliant idea! Surely it allowed him to easily remove, change, or re-order his items at any time (you have to remember that this was before productivity apps were a billion-dollar industry - most uni students didn't even take their laptops to lectures). 
+I was a little disappointed that no tasks relating to my project were ever added to the list, but it ended up being a good thing. 
+The last time I visited his office in December of 2013, that whiteboard was still there and that to-do list still had the same 20 items on it. He'd probably need industrial solvent to rub them off now.
+
+But he was also the supervisor who told me that everyone researcher has a drawer full of unfinished projects and unanalysed data. 
+He introduced me to a researcher who had been collecting fish otolith (earbone) samples for decades, and who was willing to send those samples to me to use in my research. Why had he been collecting them for so long? No reason! What was he planning to do with them before I came along? Nothing! As far as I can tell, he was just collecting for the sake of it, and if someone came along and gave his samples a purpose, all the better.
+
+The point of this long and rambling story is to try and express why I feel like I need a place to put all my random musings, code snippets, and other unpublishable miscellany. It's a way of pulling the information out of my brain and laying it out in a searchable format for the benefit of all. Neat!
+
