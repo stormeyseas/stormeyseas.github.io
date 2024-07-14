@@ -176,12 +176,12 @@ $hero-height: calc(50vh - 80px);
   font-style: normal;
   line-height: 115%;
   padding: 0.5em 0.5rem 0.5em 0.5rem;
-  &:first-child {
+  /* &:first-child {
     padding-top: 1em;
   }
   &:last-child {
     padding-bottom: 1em;
-  }
+  } */
 }
 .no-gaps > p {
   padding: 0;
@@ -278,6 +278,15 @@ h4 a:hover, h5 a:hover, {
 }
 .nav-footer-center {
   flex-grow: 0;
+}
+@media(max-width: 768px) {
+  .nav-footer-left {
+    margin-bottom:1em;
+    flex:100%;
+  }
+  .nav-footer-left {
+    text-align: center;
+  }
 }
 
 // Hero image 
