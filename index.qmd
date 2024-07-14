@@ -1,41 +1,38 @@
 ---
 # All options for the HTML format: https://quarto.org/docs/reference/formats/html.html
-pagetitle: Home | (Soon-to-be) Dr Tormey Reimer
+pagetitle: "Home | Dr Tormey Reimer"
 description-meta: |
-    (Soon-to-be) Dr Tormey Reimer is a computational biologist using her broad-ranging skills in simulations and statistics to help assess and manage marine resource sustainability.
+    Dr Tormey Reimer is a computational biologist using her broad-ranging skills in simulations and statistics to help assess and manage marine resource sustainability.
 ---
 ::: {.column-screen .no-gaps}
 ![](resources/images/hero-lg-compressed.png)
 :::
 
-::: spacer-2rem
-:::
-
-:::::: {.grid .justify-content-space-evenly .align-items-center .text-center}
-::::: {.g-col-4 .g-col-lg-2}
+::: {.grid .justify-content-space-evenly .align-items-center .text-center .m-4 .py-1}
+:::: {.g-col-4 .g-col-xl-2 .m-2 .p-0}
 [![](resources/icons/google-scholar-dark.svg){fig-alt="Link to my Google Scholar" width="50%"}](https://scholar.google.com/citations?hl=en&user=H45vLccAAAAJ&view_op=list_works&gmla=AKKJWFctSeG1-RPdHM1Sm6zw_pddPbBW_Q-LL5Oj-bJgbK4mEgjr4lTM7hprsdR1hMk-s2grckZTOogim9ha4lHJ)
-:::::
+::::
 
-::::: {.g-col-4 .g-col-lg-2}
+:::: {.g-col-4 .g-col-xl-2 .m-2 .p-0}
 [![](resources/icons/linkedin-dark.svg){fig-alt="Link to my LinkedIn" width="50%"}](https://au.linkedin.com/in/tormey-reimer)
-:::::
+::::
 
-::::: {.g-col-4 .g-col-lg-2}
+:::: {.g-col-4 .g-col-xl-2 .m-2 .p-0}
 [![](resources/icons/orcid-dark.svg){fig-alt="Link to my OrCID" width="50%"}](https://orcid.org/0000-0002-5983-2798)
-:::::
+::::
 
-::::: {.g-col-4 .g-col-lg-2}
+:::: {.g-col-4 .g-col-xl-2 .m-2 .p-0}
 [![](resources/icons/researchgate-dark.svg){fig-alt="Link to my ResearchGate" width="50%"}](https://www.researchgate.net/profile/Tormey-Reimer)
-:::::
+::::
 
-::::: {.g-col-4 .g-col-lg-2}
+:::: {.g-col-4 .g-col-xl-2 .m-2 .p-0}
 [![](resources/icons/landmark-solid-dark.svg){fig-alt="Link to my institution" width="50%"}](https://marinesocioecology.org/team/tormey-reimer/)
-:::::
+::::
 
-::::: {.g-col-4 .g-col-lg-2}
+:::: {.g-col-4 .g-col-xl-2 .m-2 .p-0}
 [![](resources/icons/github-dark.svg){fig-alt="Link to my Github" width="50%"}](https://github.com/stormeyseas)
-:::::
-::::::
+::::
+:::
 
 ## My Current project
 
