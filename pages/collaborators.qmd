@@ -8,6 +8,8 @@ sidebar: false
 # Collaborators {.hero-text-page}
 :::
 
+* https://marinesocioecology.org/team/tormey-reimer/
+
 :::::: {.grid .justify-content-space-evenly .text-center}
 ::::: {.g-col-4 .align-self-center}
 ![](https://via.placeholder.com/500x450)

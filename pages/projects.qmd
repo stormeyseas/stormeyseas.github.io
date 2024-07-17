@@ -23,7 +23,13 @@ What could be a better use of my time as I wait for feedback on my PhD thesis th
 :::: {.g-col-12 .align-self-center}
 #### So why did I do this at all?
 
-Don't get me wrong, I like all the various tools and services available to researchers nowadays. But when you're expected to keep you ResearchGate, GoogleScholar, WebOfScience, LinkedIn, Mendeley/Zotero and OrcID profiles up to date (not to mention your various lab websites, institutional platforms, journal accounts, and whatever we eventually decide to replace Twitter with) it can all get a bit much.
+Don't get me wrong, I like all the various tools and services available to researchers nowadays. But when you're expected to keep your 
+[ResearchGate](https://www.researchgate.net/profile/Tormey-Reimer), 
+[GoogleScholar](https://scholar.google.com/citations?user=H45vLccAAAAJ&hl=en), 
+[WebOfScience](https://www.webofscience.com/wos/author/record/AGU-1273-2022), 
+[LinkedIn](https://au.linkedin.com/in/tormey-reimer) and 
+[OrcID](https://orcid.org/0000-0002-5983-2798) 
+profiles up to date (not to mention your various lab websites, institutional platforms, journal accounts, and whatever we eventually decide to replace Twitter with) it can all get a bit much.
 
 I really wanted a central place to consolidate all my **stuff**. Anyone who wants to find information on me, my projects, or my work can now come straight to the source. 
 ::::
