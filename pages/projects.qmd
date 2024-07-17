@@ -1,7 +1,7 @@
 ---
 pagetitle: Projects | (Soon-to-be) Dr Tormey Reimer
 description-meta: |
-    Description to go here!
+  See what I'm currently working on!
 sidebar: false
 ---
 ::: {.column-screen .no-gaps}
@@ -9,19 +9,44 @@ sidebar: false
 :::
 
 ## Currently working on
-::: {.grid .justify-content-space-evenly}
-:::: {.g-col-4 .align-self-center .text-center}
+
+::: {.grid .justify-content-space-evenly .align-items-center}
+:::: {.g-col-12 .g-col-lg-4 .text-center}
+![](../resources/images/loading.gif)
+::::
+
+:::: {.g-col-12 .g-col-lg-8 .text-center}
+### Coming soon...
+
+<!-- Brief description -->
+::::
+
+:::: g-col-12
+#### Project details
+
+Not yet...
+
+<!-- details -->
+::::
+:::
+
+## Past projects
+
+::: {.grid .justify-content-space-evenly .align-items-center}
+:::: {.g-col-12 .g-col-lg-4 .text-center}
 ![](../resources/images/personal-website.jpg){fig-alt="Screenshot of the website you're on right now... so meta!" style="border: solid 1px var(--bs-primary);"}
 ::::
 
-:::: {.g-col-8 .align-self-center .text-center}
+:::: {.g-col-12 .g-col-lg-8 .text-center}
 ### This website
 
 What could be a better use of my time as I wait for feedback on my PhD thesis than slowly moving more and more of my life into RStudio? I designed and built this whole website using Quarto.
+
+While the site is *technically* done, I'll continue to update it now and then as I have the time. In particular I want to stay up to date on my [blog](blog.qmd).
 ::::
 
-:::: {.g-col-12 .align-self-center}
-#### So why did I do this at all?
+:::: g-col-12
+#### Why did I do this?
 
 Don't get me wrong, I like all the various tools and services available to researchers nowadays. But when you're expected to keep your 
 [ResearchGate](https://www.researchgate.net/profile/Tormey-Reimer), 
@@ -33,21 +58,37 @@ profiles up to date (not to mention your various lab websites, institutional pla
 
 I really wanted a central place to consolidate all my **stuff**. Anyone who wants to find information on me, my projects, or my work can now come straight to the source. 
 ::::
+
+:::: {.g-col-12 .g-col-lg-6 .align-items-top .no-gaps}
+::::: {.g-col-12 .img-container .no-gaps}
+![](../resources/images/FishSizeHomepage.png){fig-alt="Screenshot of the FishSizeProject website"}
+::::: 
+
+::::: g-col-12
+### FishSize Project Lab
+
+The whole reason I learned to use Quarto is because the [FishSize Project Lab](https://fishsizeproject.org/) was looking for someone to revamp their website. It was a steep learning curve but I think the website looks pretty good now!
+::::: 
+::::
+
+:::: {.g-col-12 .g-col-lg-6 .align-items-top}
+::::: {.g-col-12 .img-container .no-gaps}
+![](../resources/images/BigFishHomepage.png){fig-alt="Screenshot of the BigFish website"}
+
+::::: 
+
+::::: g-col-12
+### BigFish
+
+After working on the FishSize Project Lab website I got to work on the much more ambitious [BigFish game website](https://bigfishcardgame.com/) project. This one really stretched the capabilities of Quarto and forced me to properly learn the intricacies of CSS and SASS. 
+::::: 
+::::
 :::
 
 ## Upcoming projects
 
-Right now I'm working on a website for the [Fish Size Project Lab](https://fishsizeproject.github.io/lab_website/) and re-vanping the [Sustainable Inland Fisheries](https://sif.lt) website. I'll also be trying to update my [blog](blog.qmd) regularly in the coming weeks, so stay tuned!
+I'm pretty slammed with work right now... so rather than lining up more projects I'm going to take a nap.
 
-<!-- :::::: {.grid .justify-content-space-evenly style="font-weight:250;"} -->
-<!-- ::::: {.g-col-6 .align-self-center} -->
-<!-- - More blog posts -->
-<!-- ::::: -->
-
-<!-- ::::: {.g-col-6 .align-self-center} -->
-
-<!-- ::::: -->
-<!-- :::::: -->
 
 
 
