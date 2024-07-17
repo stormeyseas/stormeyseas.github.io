@@ -141,6 +141,12 @@ $hero-height: calc(50vh - 80px);
 
 /*-- scss:rules --*/
 
+// Images
+.img-container {
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
 // Fonts
 .gfs-neohellenic-regular {
   font-family: "GFS Neohellenic", sans-serif;
@@ -175,13 +181,6 @@ $hero-height: calc(50vh - 80px);
   font-weight: $body-font-weight;
   font-style: normal;
   line-height: 115%;
-  padding: 0.5em 0.5rem 0.5em 0.5rem;
-  /* &:first-child {
-    padding-top: 1em;
-  }
-  &:last-child {
-    padding-bottom: 1em;
-  } */
 }
 .no-gaps > p {
   padding: 0;
