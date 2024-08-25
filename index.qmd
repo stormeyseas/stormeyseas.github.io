@@ -38,13 +38,13 @@ description-meta: |
 
 :::::: {.grid .justify-content-space-evenly}
 ::::: {.g-col-4 .align-self-center}
-![](resources/images/personal-website.jpg){fig-alt="Screenshot of the website you're on right now... so meta!" style="border: solid 1px var(--bs-primary);"}
+![](../resources/images/Asparagopsis.jpg){fig-alt="A photo of an _Asparagopsis_ gametophyte I found on the internet"}
 :::::
 
 ::::: {.g-col-8 .align-self-center}
-### This website
+### Investigating the bioremediation potential of seaweed aquaculture across Australia
 
-What could be a better use of my time as I wait for feedback on my PhD thesis than slowly moving more and more of my life into RStudio? I designed and built this whole website using Quarto.
+I am currently working with [Katie Cresswell](https://discover.utas.edu.au/katie.cresswell) on an [FRDC-funcded project](https://www.frdc.com.au/project/2023-193) to investigate the bioremediation potential of native seaweed aquaculture across Australia. 
 
 :::: text-center
 [More projects](pages/projects.qmd){.btn .btn-primary}
