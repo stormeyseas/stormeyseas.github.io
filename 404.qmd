@@ -9,7 +9,7 @@ description-meta: |
 # Yup, that's a 404.
 :::
 
-![](resources/pictures/scruffy.png){fig-align="center" width="45%" style="max-width:450px;"}
+![](resources/images/scruffy.png){fig-align="center" width="45%" style="max-width:450px;"}
 
 ::: {.h3 .text-center}
 Fire me if'n you dare.

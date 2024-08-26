@@ -176,7 +176,7 @@
     "href": "blog-posts/drafts/2-latex-thesis-template-2.html",
     "title": "An updated IMAS PhD Thesis Tempate",
     "section": "",
-    "text": "I’m currently working on a full feature list for the template version of the Latex document I used for my IMAS PhD thesis. Watch this space!",
+    "text": "I’m currently working on a full feature list for the template version of the Latex document I used for my IMAS PhD thesis, which you can find here. Watch this space for updates!",
     "crumbs": [
       "About",
       "Blog Posts",
@@ -189,7 +189,7 @@
     "href": "blog-posts/drafts/2-latex-thesis-template-2.html#structure-of-the-template",
     "title": "An updated IMAS PhD Thesis Tempate",
     "section": "Structure of the template",
-    "text": "Structure of the template\nI tried to arrange this template so as to make it as simple as possible to work on dynamically and change it for your needs. The file structure is as follows, and you can click on many of the sections below to jump to the relevant explainer section. You can also jump to the How do I…? section to get details of some of the smaller functions that really make this template useful.\n|– README.md |– bind_thesis.tex |– chapters |– C1_chapterone.tex |– C2_chaptertwo.tex |– …. |– figures |– C1_chapterone |– myfigure_1.png |– … |– C2_chaptertwo |– myfigure_2.png |– … |– big_tables |– 1_bigtableone.tex |– 2_bigtabletwo.tex |– …. |– references |– thesis_refs_biblatex.bib |– manual_refs.bib |– citation_aliases.tex |– other_content |– acknowledgements.tex |– acronyms.tex |– coauthorship.tex |– dedication.tex |– general_abstract.tex |– thesis_quote.tex |– technical |– new_commands.tex |– formatting |– appendices.tex |– general_intro.tex |– reflist.tex |– tocs.tex |– titlepage_logos |– IMAS_logo.jpg |– UTAS_logo.png |– imasphdthesis.sty |– modified_apacite.bst",
+    "text": "Structure of the template\nI tried to arrange this template so as to make it as simple as possible to work on dynamically and change it for your needs. The file structure is as follows, and you can click on many of the sections below to jump to the relevant explainer section. You can also jump to the How do I…? section to get details of some of the smaller functions that really make this template useful.\n|– README.md |– bind_thesis.tex |– chapters  |– C1_chapterone.tex  |– C2_chaptertwo.tex  |– …. |– figures  |– C1_chapterone   |– myfigure_1.png   |– …  |– C2_chaptertwo  |– myfigure_2.png   |– … |– big_tables  |– 1_bigtableone.tex  |– 2_bigtabletwo.tex  |– …. |– references  |– thesis_refs_biblatex.bib  |– manual_refs.bib\n |– citation_aliases.tex |– other_content  |– acknowledgements.tex  |– acronyms.tex  |– coauthorship.tex  |– dedication.tex  |– general_abstract.tex  |– thesis_quote.tex |– technical  |– new_commands.tex  |– formatting   |– appendices.tex  |– general_intro.tex  |– reflist.tex  |– tocs.tex  |– titlepage_logos   |– IMAS_logo.jpg   UTAS_logo.png  |– imasphdthesis.sty  |– modified_apacite.bst",
     "crumbs": [
       "About",
       "Blog Posts",
@@ -387,6 +387,123 @@
       "About",
       "Pages",
       "Current project"
+    ]
+  },
+  {
+    "objectID": "blog-posts/drafts/2-latex-thesis-template-2.html#sec-modified-apa",
+    "href": "blog-posts/drafts/2-latex-thesis-template-2.html#sec-modified-apa",
+    "title": "An updated IMAS PhD Thesis Tempate",
+    "section": "Modified APA citation style",
+    "text": "Modified APA citation style",
+    "crumbs": [
+      "About",
+      "Blog Posts",
+      "Drafts",
+      "An updated IMAS PhD Thesis Tempate"
+    ]
+  },
+  {
+    "objectID": "blog-posts/drafts/2-latex-thesis-template-2.html#welcome",
+    "href": "blog-posts/drafts/2-latex-thesis-template-2.html#welcome",
+    "title": "An updated IMAS PhD Thesis Tempate",
+    "section": "Welcome!",
+    "text": "Welcome!\nWelcome to my IMAS UTAS PhD thesis template! Don’t be afraid, it’s all going to be ok. I was first introduced to Latex in the first year of my PhD via an introductory lecture organised by a couple of third-year PhD students. I was immediately enamored with the whole process, and I was excited to try something new. Word is good and all, but when you’re only two chapters in and it freezes for ten minutes every time you want to open thesis_final_v4_FINAL.doc you’ll be praying to every god you’ve ever heard of for a better solution.\n\n\n\nStructure of the template\nI tried to arrange this template so as to make it as simple as possible to work on dynamically and change it for your needs. The file structure is as follows, and you can click on many of the sections below to jump to the relevant explainer section. You can also jump to the How do I…? section to get details of some of the smaller functions that really make this template useful.\n|– README.md |– bind_thesis.tex |– chapters  |– C1_chapterone.tex  |– C2_chaptertwo.tex  |– …. |– figures  |– C1_chapterone   |– myfigure_1.png   |– …  |– C2_chaptertwo  |– myfigure_2.png   |– … |– big_tables  |– 1_bigtableone.tex  |– 2_bigtabletwo.tex  |– …. |– references  |– thesis_refs_biblatex.bib  |– manual_refs.bib  |– citation_aliases.tex |– other_content  |– acknowledgements.tex  |– acronyms.tex  |– coauthorship.tex  |– dedication.tex  |– general_abstract.tex  |– thesis_quote.tex |– technical  |– new_commands.tex  |– formatting   |– appendices.tex  |– general_intro.tex  |– reflist.tex  |– tocs.tex  |– titlepage_logos   |– IMAS_logo.jpg   UTAS_logo.png  |– imasphdthesis.sty  |– modified_apacite.bst",
+    "crumbs": [
+      "About",
+      "Blog Posts",
+      "Drafts",
+      "An updated IMAS PhD Thesis Tempate"
+    ]
+  },
+  {
+    "objectID": "blog-posts/drafts/2-latex-thesis-template-2.html#sec-bind-thesis-document",
+    "href": "blog-posts/drafts/2-latex-thesis-template-2.html#sec-bind-thesis-document",
+    "title": "An updated IMAS PhD Thesis Tempate",
+    "section": "Main document",
+    "text": "Main document\nThe main document is “bind_thesis.tex”, where all the other pieces are compiled in the correct order to create the final document. Fundametally, when you compile your Overleaf project, Latex is reading bind_thesis.tex one line at a time, top to bottom. When bind_thesis.tex calls another file with\nor , that whole file is read top-to-bottom before the next line of bind_thesis.tex. All other files in the project are at some point called by bind_thesis.tex.\nThis makes it very convenient for compiling large documents, because you can exclude an entire chapter without editing that chapter at all, by just commenting out one line of code. It’s also pretty good for troubleshooting, as you can isolate large chunks of code one at a time to isolate the source of errors.",
+    "crumbs": [
+      "About",
+      "Blog Posts",
+      "Drafts",
+      "An updated IMAS PhD Thesis Tempate"
+    ]
+  },
+  {
+    "objectID": "blog-posts/drafts/2-latex-thesis-template-2.html#sec-chapter-files",
+    "href": "blog-posts/drafts/2-latex-thesis-template-2.html#sec-chapter-files",
+    "title": "An updated IMAS PhD Thesis Tempate",
+    "section": "Chapter and appendix files",
+    "text": "Chapter and appendix files\nEach chapter and appendix has its own .tex file within the chapters/ or appendices/ directory. It’s not strictly necessary to stick to 1 chapter = 1 file, but I found it easier to work that way.\nYou’ll notice that within bind_thesis.tex the content of each chapter is called seperately to its title. This is because I like to comment out chapters I’m not currently working on while still having the chapter numbers, Figures and Tables referenced correctly.",
+    "crumbs": [
+      "About",
+      "Blog Posts",
+      "Drafts",
+      "An updated IMAS PhD Thesis Tempate"
+    ]
+  },
+  {
+    "objectID": "blog-posts/drafts/2-latex-thesis-template-2.html#sec-figures",
+    "href": "blog-posts/drafts/2-latex-thesis-template-2.html#sec-figures",
+    "title": "An updated IMAS PhD Thesis Tempate",
+    "section": "Figures",
+    "text": "Figures\nThe code for figures within chapters is contained within the chapter .tex files themselves, as you’ll see. However, figure files (ie the actual pictures) are arranged in folder (one per chapter) under the figures/ directory. This was done to avoid clogging up the chapters/ directory with old copies of files. I also found it very convenient towards the end of my PhD to import an entire folder of a chapter’s figures into Overleaf, letting Overleaf determine which ones were new, rather than selectively uploading figures I’d made minor tweaks to.",
+    "crumbs": [
+      "About",
+      "Blog Posts",
+      "Drafts",
+      "An updated IMAS PhD Thesis Tempate"
+    ]
+  },
+  {
+    "objectID": "blog-posts/drafts/2-latex-thesis-template-2.html#sec-tables",
+    "href": "blog-posts/drafts/2-latex-thesis-template-2.html#sec-tables",
+    "title": "An updated IMAS PhD Thesis Tempate",
+    "section": "Tables",
+    "text": "Tables\nLike figures, the code for small tables is contained within the chapter .tex. However for big (i.e. multi-page) tables I found that the code was getting in my way while I tried to focus on chapter writing, so I seperated these big tables into their own special directory called big_tables/.\nIn my case these big tables were not sub-categorised into chapters like the figures, instead I named the files by their chapter number so they would sort themselves nicely. Note that this naming structure has no bearing on where the tables appear in the thesis, it’s purely to make them easy to fine. If you had a lot of big tables you might find it easier to seperate them by chapter.",
+    "crumbs": [
+      "About",
+      "Blog Posts",
+      "Drafts",
+      "An updated IMAS PhD Thesis Tempate"
+    ]
+  },
+  {
+    "objectID": "blog-posts/drafts/2-latex-thesis-template-2.html#sec-other-content",
+    "href": "blog-posts/drafts/2-latex-thesis-template-2.html#sec-other-content",
+    "title": "An updated IMAS PhD Thesis Tempate",
+    "section": "Other content",
+    "text": "Other content\n\nThe other_content/ directory is where all the extra (non-research) content goes that will eventually be placed into the thesis. It’s here that you’ll find your acknowledgements, dedication, coathorship, and acronyms sections, as well as the files that contain all your reference list data.",
+    "crumbs": [
+      "About",
+      "Blog Posts",
+      "Drafts",
+      "An updated IMAS PhD Thesis Tempate"
+    ]
+  },
+  {
+    "objectID": "blog-posts/drafts/2-latex-thesis-template-2.html#sec-technical-content",
+    "href": "blog-posts/drafts/2-latex-thesis-template-2.html#sec-technical-content",
+    "title": "An updated IMAS PhD Thesis Tempate",
+    "section": "Technical files",
+    "text": "Technical files\n\nFinally, the technical/ directly is where all the behind-the-scenes action is. imasphdthesis.sty is where most of the required formatting and package loading happens, while the formatting/ directory contains the fine-tuned formatting that happens for each individual chapter.\n\n\nModified APA citation style",
+    "crumbs": [
+      "About",
+      "Blog Posts",
+      "Drafts",
+      "An updated IMAS PhD Thesis Tempate"
+    ]
+  },
+  {
+    "objectID": "blog-posts/drafts/2-latex-thesis-template-2.html#sec-how-do-i",
+    "href": "blog-posts/drafts/2-latex-thesis-template-2.html#sec-how-do-i",
+    "title": "An updated IMAS PhD Thesis Tempate",
+    "section": "How do I…?",
+    "text": "How do I…?\n\nDefining and using acronyms\nThis template uses the acronyms package. The major features being used within the template are below, but if you want to dive into all the possibilities you can check out the package documentation here. If you’re looking to use acronyms for in-text citations (i.e. using “FAO (2003)” instead of “Food and Agriculture Organisation (2003)”) see ?@sec-citation-aliases on citation aliases.\nAll acronyms used in the entire thesis are defined within the other_content/acronyms.tex file, like so:\n\\acro{hab}[HAB]{harmful algal bloom}\nEach acronym is given a unique name that’s easy to reference within the text. The standard command to use an acronym is . Using this command adds , defines it in full in the text the first time, and uses the abbreviated form subsequent times. You can then use them in text with the following commands:\n\n\n\n\n\n\n\nCommand\nResult\n\n\n\n\n\nThis inserts the acronym into the text, either in the short or long version depending on whether it’s been used in this chapter yet. It also adds the acronym to the list of acronyms in the preface if it wasn’t there already.\n\n\n\nThis does the same as , except it uses the\n\n\n\n\n\n\n\n\n\n\n\n\nPlurals and articles\nWhen you use in the text, you’re never quite sure if the final product will show the long or short name, and this can create pluralisation problems. For instance, if you write the plural manually as “Work on s is important”, you might get the nice sentence “Work on HABs is important” or the ugly sentence “Work on harmful algal bloom (HAB)s is important”.\nThe neat way to solve this is by defining custom pluralisations within the acronyms package, then using the command in text. For instance, you can put the following code in\n\\acro{ena}[ENA]{ecological network analysis}\n    \\acroplural{ena}[]{ecological network analyses}\nYou can do a lot more with the acronyms package (like adding different pluralisations for the long and short versions of an acronym) which you can find in the package documentation here.\nTo use an acronym within the text, use the command along with the unique acronym name.\n\n\nAPA7 citation and modified apacite {#sec-apacite}\ncitation aliases {#sec-citation-aliases}",
+    "crumbs": [
+      "About",
+      "Blog Posts",
+      "Drafts",
+      "An updated IMAS PhD Thesis Tempate"
     ]
   }
 ]
