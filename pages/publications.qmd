@@ -4,7 +4,7 @@ description-meta: |
     Collection of publications in peer-reviewed journals and other media authored by (soon-to-be) Dr Tormey Reimer.
 sidebar: false
 ---
-::: {.column-screen .no-gaps}
+::: {.column-screen .no-gaps style="margin-bottom: 2rem;"}
 ![](../resources/images/Matre_5x1.jpg)
 :::
 

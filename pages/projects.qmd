@@ -4,11 +4,11 @@ description-meta: |
   See what I'm currently working on!
 sidebar: false
 ---
-::: {.column-screen .no-gaps}
+::: {.column-screen .no-gaps style="margin-bottom: 2rem;"}
 ![](../resources/images/Matre_5x1.jpg)
 :::
 
-## Currently working on
+## Current project
 
 ::: {.grid .justify-content-space-evenly .align-items-center}
 :::: {.g-col-12 .g-col-lg-4 .text-center}

@@ -32,7 +32,7 @@
     "crumbs": [
       "About",
       "Pages",
-      "Currently working on"
+      "Current project"
     ]
   },
   {
@@ -44,7 +44,7 @@
     "crumbs": [
       "About",
       "Pages",
-      "Currently working on"
+      "Current project"
     ]
   },
   {
@@ -56,7 +56,7 @@
     "crumbs": [
       "About",
       "Pages",
-      "Currently working on"
+      "Current project"
     ]
   },
   {
@@ -375,6 +375,18 @@
       "About",
       "Pages",
       "Skills"
+    ]
+  },
+  {
+    "objectID": "pages/projects.html#current-project",
+    "href": "pages/projects.html#current-project",
+    "title": "Tormey E. Reimer",
+    "section": "Current project",
+    "text": "Current project\n\n\n\n\n\nInvestigating the bioremediation potential of seaweed aquaculture across Australia\nI am currently working with Katie Cresswell on an FRDC-funcded project to investigate the bioremediation potential of native seaweed aquaculture across Australia.\n\n\nProject details\nMacroalgae farms can be used to remove excess nutrients (primarily nitrogen) from coastal marine waters. Despite having a rich diversity of native macroalgae species, the seaweed farming industry in Australia is in its infancy. Demand for seaweed and seaweed-derived products continues to increase, however, and native Australian genera like Asparagopsis are of particular interest.\nThis project is using a macroalgae growth model created by Scott Hadley that I further developed during my PhD to assess the bioremediation potential of a number of Australian macroalgae species in a culture setting. In addition to using my own expertise and the knowledge available within IMAS, I am also working with the Australian Sustainable Seaweed Alliance to incorporate famers’ perspectives and knowledge into the modelling effort.",
+    "crumbs": [
+      "About",
+      "Pages",
+      "Current project"
     ]
   }
 ]

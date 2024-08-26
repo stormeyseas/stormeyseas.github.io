@@ -38,7 +38,7 @@ description-meta: |
 
 :::::: {.grid .justify-content-space-evenly}
 ::::: {.g-col-4 .align-self-center}
-![](../resources/images/Asparagopsis.jpg){fig-alt="A photo of an _Asparagopsis_ gametophyte I found on the internet"}
+![](resources/images/Asparagopsis.jpg){fig-alt="A photo of an _Asparagopsis_ gametophyte I found on the internet"}
 :::::
 
 ::::: {.g-col-8 .align-self-center}

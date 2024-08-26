@@ -13,7 +13,7 @@ listing:
   filter-ui: false
 title-block-banner: false
 ---
-::: {.column-screen .no-gaps}
+::: {.column-screen .no-gaps style="margin-bottom: 2rem;"}
 ![](../resources/images/Matre_5x1.jpg)
 :::
 
