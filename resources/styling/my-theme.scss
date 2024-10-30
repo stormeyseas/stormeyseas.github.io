@@ -60,12 +60,12 @@ $border-radius-sm:            0 !default;
 
 $font-family-sans-serif:      "Lexend", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
 
-$body-font-size:              1.05rem;
+$body-font-size:              1.25rem;
 $body-font-weight:            250;
 
 $headings-background-color:   transparent;
 $headings-font-weight:        350;
-$h5-font-size:                $body-font-size * 1.5;
+$h5-font-size:                $body-font-size * 1.25;
 $h4-font-size:                $h5-font-size * 1.25;
 $h3-font-size:                $h4-font-size * 1.05;
 $h2-font-size:                $h3-font-size * 1.4;
@@ -163,6 +163,7 @@ $hero-height: calc(50vh - 80px);
   font-weight: 300;
   font-style: normal;
 }
+/*
 .soon-to-be {
   content: "Soon-to-be";
   font-family: "Allison", cursive;
@@ -171,6 +172,7 @@ $hero-height: calc(50vh - 80px);
   color: $white;
   z-index: 100;
 }
+*/
 
 // Regular text
 .p, p {
@@ -179,12 +181,22 @@ $hero-height: calc(50vh - 80px);
   font-optical-sizing: auto;
   font-weight: $body-font-weight;
   font-style: normal;
-  line-height: 115%;
+  //line-height: 130%;
   padding: 0.65em 0.5rem 0em 0.5rem;
 }
 .no-gaps > p {
   padding: 0;
   margin: 0;
+}
+
+// Figure caption text
+.figure {
+  margin: auto;
+  text-align: center;
+}
+.panel-caption, .figure-caption, .subfigure-caption, .table-caption, figcaption, caption {
+  font-size: $body-font-size*0.85;
+  color: $primary;
 }
 
 // Headings
@@ -413,6 +425,7 @@ h4 a:hover, h5 a:hover, {
 
 // Buttons
 .btn {
+  font-size: $body-font-size*1.05;
   &-primary {
     color: $white;
     background-color: $primary; 

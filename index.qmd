@@ -44,7 +44,7 @@ description-meta: |
 ::::: {.g-col-8 .align-self-center}
 ### Investigating the bioremediation potential of seaweed aquaculture across Australia
 
-I am currently working with [Katie Cresswell](https://discover.utas.edu.au/katie.cresswell) on an [FRDC-funcded project](https://www.frdc.com.au/project/2023-193) to investigate the bioremediation potential of native seaweed aquaculture across Australia. 
+I am currently working with [Katie Cresswell](https://discover.utas.edu.au/katie.cresswell) on an [FRDC-funded project](https://www.frdc.com.au/project/2023-193) to investigate the bioremediation potential of native seaweed aquaculture across Australia. 
 
 :::: text-center
 [More projects](pages/projects.qmd){.btn .btn-primary}
@@ -109,7 +109,7 @@ abs.2 = paste(ifelse(is.na(stringr::word(abstract, 1:70)), abstract, stringr::wo
 :::::: {.grid .justify-content-space-evenly .px-2}
 ::::: {.g-col-4 .align-self-center}
 :::: card
-![](resources/images/Bruny.jpg){.card-img-top fig-alt="Just a cute pic of me"}
+![](resources/images/Bruny5x4.jpg){.card-img-top fig-alt="Just a cute pic of me"}
 
 ::: card-title
 #### Welcome to my blog!
@@ -119,7 +119,7 @@ abs.2 = paste(ifelse(is.na(stringr::word(abstract, 1:70)), abstract, stringr::wo
 Why did I do it? Will I stick to it with any kind of regularity? Let's find out!
 
 ::: text-center
-[Read more](pages/blog.qmd){.btn .btn-secondary}
+[Read more](pages/blog.qmd){.btn .btn-primary}
 :::
 :::
 
@@ -184,7 +184,7 @@ Why did I do it? Will I stick to it with any kind of regularity? Let's find out!
 
 ::::: {.g-col-8 .align-self-center}
 ::: {.content-visible when-profile="active"}
-I'm currently working and should respond to emails, messages, heartfelt letters, and good vibes. Feel free to reach out!
+I'm currently working at home in Melbourne, Australia. I should be fairly responsive to emails, messages, heartfelt letters, and good vibes. Feel free to reach out!
 :::
 
 ::: {.content-hidden unless-meta="status.inactive"}
@@ -192,7 +192,7 @@ I'm not currently working or responding to emails. Maybe I'm on holiday. You can
 :::
 
 ::: {.content-hidden unless-meta="status.semiactive"}
-I'm currently working but will probably be slow to respond to emails - I might be somewhere with limited internet access, or maybe I'm just very busy. You can still send me a message but it might be a while before you get a reply.
+I'm currently working from home in Melbourne, Australia but I might be slow to respond to emails - maybe I'm somewhere with limited internet access, or maybe I'm just very busy. You can still send me a message but it might be a while before you get a reply.
 :::
 
 :::: text-center

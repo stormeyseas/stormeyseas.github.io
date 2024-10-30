@@ -1,9 +1,0 @@
----
-format: html
----
-
-::: {.column-screen .footer-container}
-# Testing testing
-
-Testing 
-:::
