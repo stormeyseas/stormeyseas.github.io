@@ -1,0 +1,49 @@
+---
+title: "Ocean Hack Week 2024"
+date: "30-10-2024"
+image: "pics/OHW_kickoff.jpg"
+categories: 
+  - "python"
+  - "events"
+  - "github"
+  - "R"
+author: 'Tormey Reimer'
+description: |
+    I attended Ocean Hack Week (24-30 August 2024) and had a great time!
+---
+
+::: {.grid .align-items-center .justify-items-evenly}
+:::::: g-col-7
+A few weeks ago I attended [Ocean Hack Week](https://oceanhackweek.org/) at the ANU Kioloa Campus in NSW. 
+
+Denisse Fierro and Nick Mortimer did a fantastic job of organising, and I really liked the format of working on projects interspersed with relevant tutorials. I chose a project based in the R `shiny` package, basically using the whole OHW as an excuse to teach myself `shiny`. I also liked the variety of activities that balanced the focus of the week (staring at computers) with beach walks and social activities. 
+::::::
+
+:::::: g-col-5
+![We all immediately got a sense for what a kook Nick was when he met us absurdly early at the airport with this energy](pics/OHW_kickoff.jpg){fig-alt="A group of us at the airport with Nick smiling like a maniac"}
+::::::
+:::
+
+Honestly, I was a little nervous about attending a "hack week" event. It seems like the sort of thing that only serious hardcore programmers attend, you know? But the vibe wasn't like that at all. I was probably one of 2 or 3 people with advanced experience in R, and while others had more experience in Python it wasn't a huge deal and we could still communicate at the same level about how to solve ocean-related problems. My only real criticism of the week is that there was a planned workshop that didn't end up happening and it was the one I was most looking forward to - basically an introduction to machine learning in the context of ocean data. Oh well, maybe next time!
+
+![All my clothes smell like smoke now](pics/OHW_fire.jpg){width=50% fig-alt="A bunch of us sitting around the outdoor fire at night"}
+
+::: {.grid .align-items-center .justify-items-evenly}
+:::::: g-col-7
+It's a well-known fact among small-conference aficionados (like myself) that every organiser has their own "thing" - a pet activity that makes their conference just a little different. I've attended conferences where that "thing" has been wine tastings (highly recommend) or group runs at dawn (less good), but this time the activity was karaoke. 
+
+Nick brought a karaoke machine loaded with every song under the sun, so one highlight of my week was absolutely shredding my voice on _Don't Stop Believing_ and getting some laughs with a comedy rendition of _What's Going On_. 
+::::::
+
+:::::: g-col-5
+![I got exactly zero pictures of me working and exactly one picture of the karaoke, so you know where my priorities are at.](pics/OHW_karaoke.jpg){fig-alt="The karaoke machine's lyrics read: Send in your skeletons, sing as their bones"}
+::::::
+:::
+
+But in between screaming my voice hoarse and picking up waaaaay too many shells on the beach, I did actually make some cool changes to a model comparison and selection tool for [FishMIP](https://fishmip.org/) and made some friends too. Looking forward to OHW2025!
+
+![One of the beaches we walked on - I picked up over 30 baby abalone shells!](pics/kioloa_beach.jpg){width=70% fig-alt="Beach panorama"}
+
+
+
+

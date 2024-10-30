@@ -126,24 +126,24 @@ Why did I do it? Will I stick to it with any kind of regularity? Let's find out!
 ::::
 :::::
 
-<!-- ::::: {.g-col-4 .align-self-center} -->
-<!-- :::: card -->
-<!-- ![](https://via.placeholder.com/285x180){.card-img-top fig-alt="Image"} -->
+::::: {.g-col-4 .align-self-center}
+:::: card
+![](blog-posts/pics/kioloa_1_5x4.jpg){.card-img-top fig-alt="The NSW Kioloa campus"}
 
-<!-- ::: card-title -->
-<!-- Title -->
-<!-- ::: -->
+::: card-title
+#### Ocean Hack Week 2024
+:::
 
-<!-- ::: card-text -->
-<!-- Some quick example text to build on the card title and make up the bulk of the card's content. -->
+::: card-text
+I attended Ocean Hack Week (24-30 August 2024) and had a great time!
 
-<!-- ::: text-center -->
-<!-- [Read more](pages/blog.qmd){.btn .btn-primary} -->
-<!-- ::: -->
-<!-- ::: -->
+::: text-center
+[Read more](pages/blog.qmd){.btn .btn-primary}
+:::
+:::
 
-<!-- :::: -->
-<!-- ::::: -->
+::::
+:::::
 
 <!-- ::::: {.g-col-4 .align-self-center} -->
 <!-- :::: card -->
