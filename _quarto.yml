@@ -84,12 +84,12 @@ website:
       [![](/resources/icons/linkedin-light.svg){fig-alt="LinkedIN" fig-align="center" height="1.5em" fig-valign="top" margin-left="10px" margin-right="10px"}](https://au.linkedin.com/in/tormey-reimer)
       [![](/resources/icons/google-scholar-light.svg){fig-alt="GoogleScholar" fig-align="center" height="1.5em" fig-valign="top" margin-left="10px" margin-right="10px"}](https://scholar.google.com.au/citations?user=H45vLccAAAAJ&hl=en)
       [![](/resources/icons/github-light.svg){fig-alt="Github" fig-align="center" height="1.5em" fig-valign="top" margin-left="10px" margin-right="10px"}](https://github.com)
+      <br><br>
+      Website created by [ME](/pages/projects.qmd)!
     right: |
       <i>I live and work on the land of the Wurundjeri people.<br>
       IMAS is built on the land of the Muwinina people, which the Palawa people continue to care for today.<br>
       Sovereignty was never ceded </i><img src="/resources/images/Australian_Aboriginal_Flag.png" class="img-fluid" style="height: 1em;">
-      <br><br><br>
-      Website created by [ME](/pages/projects.qmd)!
     background: dark
     foreground: light
 

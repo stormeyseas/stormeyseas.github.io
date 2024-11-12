@@ -27,7 +27,7 @@ sidebar: false
 
 ::::: {.g-col-8 .align-self-center}
 ::: {.content-visible when-profile="active"}
-I'm currently working and should respond to emails, messages, heartfelt letters, and good vibes. Feel free to reach out!
+I'm currently working at home in Melbourne, Australia. I should be fairly responsive to emails, messages, heartfelt letters, and good vibes. Feel free to reach out!
 :::
 
 ::: {.content-hidden unless-meta="status.inactive"}
@@ -35,7 +35,7 @@ I'm not currently working or responding to emails. Maybe I'm on holiday. You can
 :::
 
 ::: {.content-hidden unless-meta="status.semiactive"}
-I'm currently working but will probably be slow to respond to emails - I might be somewhere with limited internet access, or maybe I'm just very busy. You can still send me a message but it might be a while before you get a reply.
+I'm currently working but I might be slow to respond to emails. Maybe I'm somewhere with limited internet access, or maybe I'm just very busy. You can still send me a message but it might be a while before you get a reply.
 :::
 
 :::: text-center

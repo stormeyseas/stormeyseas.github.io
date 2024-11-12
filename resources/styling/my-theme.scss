@@ -60,13 +60,14 @@ $border-radius-sm:            0 !default;
 
 $font-family-sans-serif:      "Lexend", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
 
-$body-font-size:              1.25rem;
+$body-font-size:              1.1rem;
+$font-size-sm:                $body-font-size * 0.85;
 $body-font-weight:            250;
 
 $headings-background-color:   transparent;
 $headings-font-weight:        350;
-$h5-font-size:                $body-font-size * 1.25;
-$h4-font-size:                $h5-font-size * 1.25;
+$h5-font-size:                $body-font-size * 1.45;
+$h4-font-size:                $h5-font-size * 1.2;
 $h3-font-size:                $h4-font-size * 1.05;
 $h2-font-size:                $h3-font-size * 1.4;
 $h1-font-size:                $h2-font-size * 1.2;
@@ -174,21 +175,6 @@ $hero-height: calc(50vh - 80px);
 }
 */
 
-// Regular text
-.p, p {
-  font-size: $body-font-size;
-  font-family: "Lexend", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: $body-font-weight;
-  font-style: normal;
-  //line-height: 130%;
-  padding: 0.65em 0.5rem 0em 0.5rem;
-}
-.no-gaps > p {
-  padding: 0;
-  margin: 0;
-}
-
 // Figure caption text
 .figure {
   margin: auto;
@@ -281,10 +267,14 @@ h4 a:hover, h5 a:hover, {
 // Changes to default footer
 .nav-footer {
   padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
+  padding-bottom: 1.25rem;
+  font-size: $font-size-sm;
 } 
 .footer, footer {
   margin: 0px;
+}
+.nav-footer p {
+  font-size: $font-size-sm;
 }
 .nav-footer a {
   display: inline-block;
@@ -362,10 +352,10 @@ h4 a:hover, h5 a:hover, {
   line-height: 100%;
 }
 
-// Card stuff
+// Card stuff listing-title
 .card-title {
   margin-top: .75rem;
-  font-size: 1.25em;
+  // font-size: 1.25em;
 }
 
 // Navbar & menus
@@ -697,6 +687,21 @@ label, .control-label, .help-block, .checkbox, .radio, .form-control-feedback {
 .popover-header {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
+}
+
+// Regular text
+.p, p {
+  font-size: $body-font-size;
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: $body-font-weight;
+  font-style: normal;
+  //line-height: 130%;
+  padding: 0.65em 0.5rem 0em 0.5rem;
+}
+.no-gaps > p {
+  padding: 0;
+  margin: 0;
 }
 
 

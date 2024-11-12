@@ -57,44 +57,48 @@ I am currently working with [Katie Cresswell](https://discover.utas.edu.au/katie
 :::::: {.grid .justify-content-space-evenly .align-items-center}
 ::::: {.g-col-12 .g-col-md-6}
 :::: {.grid .justify-content-space-evenly .align-items-center}
-::: {.g-col-6 .no-gaps}
+::: {.g-col-12}
+#### [High prevalence of vaterite in sagittal otoliths causes hearing impairment in farmed fish](https://doi.org/10.1038/srep25249)
+:::
+
+::: {.g-col-6}
 ![](resources/pdf-images/High prevalence of vaterite.jpg){fig-alt="Scientific Reports snapshot"}
 :::
 
 ::: {.g-col-6}
-##### [High prevalence of vaterite in sagittal otoliths causes hearing impairment in farmed fish](https://doi.org/10.1038/srep25249)
-
 Tormey Reimer, Tim Dempster, Fletcher Warren-Myers, Arne J. Jensen, Stephen E. Swearer
 
 *Scientific Reports*, 2016
 :::
 ::::
 ```{r include=FALSE}
-abstract = "The rapid growth of aquaculture raises questions about the welfare status of mass-produced species. Sagittal otoliths are primary hearing structures in the inner ear of all teleost (bony) fishes and are normally composed of aragonite, though abnormal vaterite replacement is sometimes seen in the wild. We provide the first widespread evaluation of the prevalence of vaterite in otoliths, showing that farmed fish have levels of vaterite replacement over 10 times higher than wild fish, regardless of species. We confirm this observation with extensive sampling of wild and farmed Atlantic salmon in Norway, the world’s largest producer and verify that vateritic otoliths are common in farmed salmon worldwide..."
+abstract <- "The rapid growth of aquaculture raises questions about the welfare status of mass-produced species. Sagittal otoliths are primary hearing structures in the inner ear of all teleost (bony) fishes and are normally composed of aragonite, though abnormal vaterite replacement is sometimes seen in the wild. We provide the first widespread evaluation of the prevalence of vaterite in otoliths, showing that farmed fish have levels of vaterite replacement over 10 times higher than wild fish, regardless of species. We confirm this observation with extensive sampling of wild and farmed Atlantic salmon in Norway, the world’s largest producer and verify that vateritic otoliths are common in farmed salmon worldwide..."
 
-abs.1 = paste(ifelse(is.na(stringr::word(abstract, 1:70)), abstract, stringr::word(abstract, 1:70)), collapse = " ")
+abs.1 = paste(ifelse(is.na(stringr::word(abstract, 1:60)), abstract, stringr::word(abstract, 1:60)), collapse = " ")
 ```
 `r abs.1`... [Read more](https://doi.org/10.1038/srep25249)
 :::::
 
 ::::: {.g-col-12 .g-col-md-6}
 :::: {.grid .justify-content-space-evenly .align-items-center}
-::: {.g-col-6 .no-gaps}
+::: {.g-col-12}
+#### [Rapid growth causes abnormal vaterite formation in farmed fish otoliths](https://doi.org/10.1242/jeb.148056)
+:::
+
+::: {.g-col-6}
 ![](resources/pdf-images/Rapid growth causes.jpg){fig-alt="Journal of Evolutionary Biology snapshot"}
 :::
 
 ::: {.g-col-6}
-##### [Rapid growth causes abnormal vaterite formation in farmed fish otoliths](https://doi.org/10.1242/jeb.148056)
-
 Tormey Reimer, Tim Dempster, Anna Wargelius, Per Gunnar Fjelldal, Tom Hansen, Kevin A. Glover, Monica F. Solberg, Stephen E. Swearer
 
 *Journal of Evolutionary Biology*, 2017
 :::
 ::::
 ```{r include=FALSE}
-abstract = "Sagittal otoliths are essential components of the sensory organs that enable all teleost fish to hear and maintain balance, and are primarily composed of calcium carbonate. A deformity, where aragonite (the normal crystal form) is replaced with vaterite, was first noted over 50 years ago but its underlying cause is unresolved. We evaluated the prevalence of vateritic otoliths from two captive rearing studies which suggested that fast growth, due to environmental rather than genetic control, led to vaterite development..."
+abstract <- "Sagittal otoliths are essential components of the sensory organs that enable all teleost fish to hear and maintain balance, and are primarily composed of calcium carbonate. A deformity, where aragonite (the normal crystal form) is replaced with vaterite, was first noted over 50 years ago but its underlying cause is unresolved. We evaluated the prevalence of vateritic otoliths from two captive rearing studies which suggested that fast growth, due to environmental rather than genetic control, led to vaterite development..."
 
-abs.2 = paste(ifelse(is.na(stringr::word(abstract, 1:70)), abstract, stringr::word(abstract, 1:70)), collapse = " ")
+abs.2 = paste(ifelse(is.na(stringr::word(abstract, 1:60)), abstract, stringr::word(abstract, 1:60)), collapse = " ")
 ```
 `r abs.2`... [Read more](https://doi.org/10.1242/jeb.148056)
 :::::
@@ -192,7 +196,7 @@ I'm not currently working or responding to emails. Maybe I'm on holiday. You can
 :::
 
 ::: {.content-hidden unless-meta="status.semiactive"}
-I'm currently working from home in Melbourne, Australia but I might be slow to respond to emails - maybe I'm somewhere with limited internet access, or maybe I'm just very busy. You can still send me a message but it might be a while before you get a reply.
+I'm currently working but I might be slow to respond to emails. Maybe I'm somewhere with limited internet access, or maybe I'm just very busy. You can still send me a message but it might be a while before you get a reply.
 :::
 
 :::: text-center
