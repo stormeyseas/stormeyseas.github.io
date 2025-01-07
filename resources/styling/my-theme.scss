@@ -298,8 +298,7 @@ h4 a:hover, h5 a:hover, {
   padding-top: 0px;
 }
 .hero-img {
-    background-image: url("resources/images/Matre_3x1.jpg");
-    background-position: center;
+    background-image: url("resources/images/Matre_4x1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
@@ -309,47 +308,39 @@ h4 a:hover, h5 a:hover, {
 .hero-strip-homepage {
   height: $hero-height;
 }
-.hero-text-homepage {
+
+.hero-text {
   font-family: "GFS Neohellenic", sans-serif !important;
-  //height: $hero-height;
-  font-size: calc($hero-height) !important;
   text-align: center;
   text-transform: uppercase;
-  color: $white !important;
   font-weight: 450;
   width: 100%;
+  line-height: 100%;
+  
+  &-homepage {
+    font-size: calc($hero-height * 0.25) !important;
+    color: $white !important;
+    border-bottom: none;
+    padding-top: 0.675em;
+  }
+  &-page {
+    font-size: min(calc($hero-height * 0.25 * 0.7), 5vw) !important;
+    color: $white !important;
+    border-bottom: none;
+    padding-top: 0.65em;
+  }
 }
+
 .overlay-container {
   padding: 0 !important;
   margin: 0 !important;
   object-fit: contain;
-  //object-position: -50% 0;
   overflow: visible;
-}
-#soon-to-be-1 {
-  position: absolute;
-  zindex: 100;
-  top: calc($hero-height * 0.25);
-  left: 12.5vw;
-  width: 20vw;
-  height: auto;
-  transform: rotate(-15deg)
-  //background-color: transparent;
-  //animation: move 4s ease infinite;
-  //animation-delay: 1s;
 }
 
 // Hero banners for other pages
 .hero-strip-page {
   height: calc($hero-height * 0.7);
-}
-.hero-text-page  {
-  height: calc($hero-height / 2);
-  font-size: min(calc($hero-height * 0.5 * 0.3), 5vw) !important;
-  text-align: center;
-  color: $white !important;
-  padding: 2.5%;
-  line-height: 100%;
 }
 
 // Card stuff listing-title

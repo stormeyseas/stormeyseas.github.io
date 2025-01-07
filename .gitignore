@@ -5,6 +5,7 @@
 # Session Data files
 .RData
 .RDataTmp
+.Rprofile
 
 # User-specific files
 .Ruserdata
@@ -50,5 +51,6 @@ po/*~
 # RStudio Connect folder
 rsconnect/
 
+# Quarto files
 /.quarto/
-.Rprofile
+
