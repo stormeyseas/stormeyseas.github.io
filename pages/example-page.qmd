@@ -1,11 +1,11 @@
 ---
-pagetitle: Example page (H1) | (Soon-to-be) Dr Tormey Reimer
+pagetitle: Example page (H1) | Dr Tormey Reimer
 description-meta: |
     Description to go here!
 sidebar: false
 ---
-::: {.column-screen .no-gaps style="margin-bottom: 2rem;"}
-![](../resources/images/Matre_5x1.jpg)
+::: {.column-screen .hero-img .hero-strip-page .align-items-end}
+# Dr Tormey Reimer {.maintitle .hero-text-page}
 :::
 
 # Example page (H1)

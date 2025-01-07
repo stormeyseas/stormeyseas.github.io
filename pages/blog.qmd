@@ -1,7 +1,7 @@
 ---
-pagetitle: Blog | (Soon-to-be) Dr Tormey Reimer
+pagetitle: Blog | Dr Tormey Reimer
 description-meta: |
-    Description to go here!
+    This is really just a thought-dump for all my random ideas, musings and side-projects.
 sidebar: false
 listing:
   contents: "/../blog-posts/*.qmd"
@@ -13,8 +13,8 @@ listing:
   filter-ui: false
 title-block-banner: false
 ---
-::: {.column-screen .no-gaps style="margin-bottom: 2rem;"}
-![](../resources/images/Matre_5x1.jpg)
+::: {.column-screen .hero-img .hero-strip-page .align-items-end}
+# Dr Tormey Reimer {.maintitle .hero-text-page}
 :::
 
 ## Welcome to my blog!

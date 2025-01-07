@@ -1,11 +1,11 @@
 ---
-pagetitle: Collaborators | (Soon-to-be) Dr Tormey Reimer
+pagetitle: Collaborators | Dr Tormey Reimer
 description-meta: |
     Description to go here!
 sidebar: false
 ---
 ::: {.column-screen .hero-img .hero-strip-page .align-items-end}
-# Collaborators {.hero-text-page}
+# Dr Tormey Reimer {.maintitle .hero-text-page}
 :::
 
 * https://marinesocioecology.org/team/tormey-reimer/

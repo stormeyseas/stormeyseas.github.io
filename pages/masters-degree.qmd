@@ -1,12 +1,11 @@
 ---
-pagetitle: |
-    Master's Research | (Soon-to-be) Dr Tormey Reimer
+pagetitle: Master's Research | Dr Tormey Reimer
 description-meta: |
     Description to go here!
 sidebar: false
 ---
 ::: {.column-screen .hero-img .hero-strip-page .align-items-end}
-# Master's Research {.hero-text-page}
+# Dr Tormey Reimer {.maintitle .hero-text-page}
 :::
 
 Stuff to put here:

@@ -5,9 +5,8 @@ description-meta: |
     What are you even doing here?
 sidebar: false
 ---
-
-::: {.column-screen .hero-img .hero-strip .align-items-end}
-# Dr Tormey Reimer {.maintitle .hero-strip-text}
+::: {.column-screen .hero-img .hero-strip-page .align-items-end}
+# Dr Tormey Reimer {.maintitle .hero-text-page}
 :::
 
 ## H2 Text

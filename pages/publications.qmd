@@ -1,11 +1,11 @@
 ---
-pagetitle: Publications | (Soon-to-be) Dr Tormey Reimer
+pagetitle: Publications | Dr Tormey Reimer
 description-meta: |
-    Collection of publications in peer-reviewed journals and other media authored by (soon-to-be) Dr Tormey Reimer.
+    Collection of my publications in peer-reviewed journals and other media.
 sidebar: false
 ---
-::: {.column-screen .no-gaps style="margin-bottom: 2rem;"}
-![](../resources/images/Matre_5x1.jpg)
+::: {.column-screen .hero-img .hero-strip-page .align-items-end}
+# Dr Tormey Reimer {.maintitle .hero-text-page}
 :::
 
 # Publications

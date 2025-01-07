@@ -1,11 +1,11 @@
 ---
-pagetitle: Skills | (Soon-to-be) Dr Tormey Reimer
+pagetitle: Skills | Dr Tormey Reimer
 description-meta: |
     Description to go here!
 sidebar: false
 ---
 ::: {.column-screen .hero-img .hero-strip-page .align-items-end}
-# Skills {.hero-text-page}
+# Dr Tormey Reimer {.maintitle .hero-text-page}
 :::
 
 :::::: {.grid .justify-content-space-evenly .text-center}

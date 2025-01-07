@@ -1,11 +1,11 @@
 ---
-pagetitle: Contact | (Soon-to-be) Dr Tormey Reimer
+pagetitle: Contact | Dr Tormey Reimer
 description-meta: |
-    Description to go here!
+    Get in touch with me here.
 sidebar: false
 ---
-::: {.column-screen .no-gaps style="margin-bottom: 2rem;"}
-![](../resources/images/Matre_5x1.jpg)
+::: {.column-screen .hero-img .hero-strip-page .align-items-end}
+# Dr Tormey Reimer {.maintitle .hero-text-page}
 :::
 
 ## Get in touch
