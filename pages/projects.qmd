@@ -18,7 +18,7 @@ sidebar: false
 :::: {.g-col-12 .g-col-lg-8 .text-center}
 ### Investigating the bioremediation potential of seaweed aquaculture across Australia
 
-I am currently working with [Katie Cresswell](https://discover.utas.edu.au/katie.cresswell) on an [FRDC-funcded project](https://www.frdc.com.au/project/2023-193) to investigate the bioremediation potential of native seaweed aquaculture across Australia. 
+I am currently working with [Katie Cresswell](https://discover.utas.edu.au/katie.cresswell) on an [FRDC-funded project](https://www.frdc.com.au/project/2023-193) to investigate the bioremediation potential of native seaweed aquaculture across Australia. 
 ::::
 
 :::: g-col-12
