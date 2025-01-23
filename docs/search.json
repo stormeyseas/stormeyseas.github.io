@@ -1,19 +1,7 @@
 [
   {
-    "objectID": "pages/timeline.html#top-section",
-    "href": "pages/timeline.html#top-section",
-    "title": "Dr Tormey Reimer",
-    "section": "Top section",
-    "text": "Top section\nUt eget lorem et odio facilisis placerat. Nam ac est elementum, ornare enim sit amet, aliquam magna. Morbi varius neque ante, non tristique velit pulvinar at. Praesent sit amet velit metus.\nAliquam condimentum aliquet sem, id vestibulum ante faucibus eu. Fusce vestibulum tellus ac luctus feugiat. Fusce semper venenatis dui, in porta urna cursus sit amet.",
-    "crumbs": [
-      "About",
-      "Pages",
-      "Dr Tormey Reimer"
-    ]
-  },
-  {
-    "objectID": "pages/service.html#section",
-    "href": "pages/service.html#section",
+    "objectID": "pages/skills.html#section",
+    "href": "pages/skills.html#section",
     "title": "Dr Tormey Reimer",
     "section": "Section",
     "text": "Section",
@@ -24,11 +12,11 @@
     ]
   },
   {
-    "objectID": "pages/projects.html#current-projects",
-    "href": "pages/projects.html#current-projects",
+    "objectID": "pages/publications.html#peer-reviewed-articles",
+    "href": "pages/publications.html#peer-reviewed-articles",
     "title": "Dr Tormey Reimer",
-    "section": "Current projects",
-    "text": "Current projects\n\n\n\n\n\nInvestigating the bioremediation potential of seaweed aquaculture across Australia\nI am currently working with Dr Katie Cresswell on an FRDC-funded project to investigate the bioremediation potential of native seaweed aquaculture across Australia.\n\n\nProject details\nMacroalgae farms can be used to remove excess nutrients (primarily nitrogen) from coastal marine waters. Despite having a rich diversity of native macroalgae species, the seaweed farming industry in Australia is in its infancy. Demand for seaweed and seaweed-derived products continues to increase, however, and native Australian genera like Asparagopsis are of particular interest.\nThis project is using a macroalgae growth model created by Scott Hadley that I further developed during my PhD to assess the bioremediation potential of a number of Australian macroalgae species in a culture setting. In addition to using my own expertise and the knowledge available within IMAS, I am also working with the Australian Sustainable Seaweed Alliance to incorporate famers’ perspectives and knowledge into the modelling effort.\n\n\nOptimising feeds to support ecosystem-based aquaculture\nI will soon be working with Professor Julia Blanchard on an ARC Linkage Grant developing new ways of assessing the environmental and social impacts of alternate sources of protein in fish food.\n\n\n\n\n\nProject details\nThis project aims to assess the global and local consequences of changing feeds in aquaculture by developing a new interdisciplinary sustainability assessment framework. The project expects to generate new methods to understand and predict local farm-to-ecosystem changes and global environmental footprints under contrasting feed and climate scenarios by integrating field data with novel experiments, modelling techniques and global mapping of terrestrial and marine feed raw materials and their impacts. Expected outcomes include new methods to assess ecological, social and economic trade-offs under different feeds to inform decision making in support of an ecosystem-based approach to aquaculture spanning global to local scales.",
+    "section": "Peer-reviewed articles",
+    "text": "Peer-reviewed articles\n\n\n\n\n\n\n\nHigh prevalence of vaterite in sagittal otoliths causes hearing impairment in farmed fish\nTormey Reimer, Tim Dempster, Fletcher Warren-Myers, Arne J. Jensen, Stephen E. Swearer\nScientific Reports, 2016\n\n\nThe rapid growth of aquaculture raises questions about the welfare status of mass-produced species. Sagittal otoliths are primary hearing structures in the inner ear of all teleost (bony) fishes and are normally composed of aragonite, though abnormal vaterite replacement is sometimes seen in the wild. We provide the first widespread evaluation of the prevalence of vaterite in otoliths, showing that farmed fish have levels of vaterite replacement over 10 times… Read more\n\n\n\n\n\n\n\nRapid growth causes abnormal vaterite formation in farmed fish otoliths\nTormey Reimer, Tim Dempster, Anna Wargelius, Per Gunnar Fjelldal, Tom Hansen, Kevin A. Glover, Monica F. Solberg, Stephen E. Swearer\nJournal of Evolutionary Biology, 2017\n\n\nSagittal otoliths are essential components of the sensory organs that enable all teleost fish to hear and maintain balance, and are primarily composed of calcium carbonate. A deformity, where aragonite (the normal crystal form) is replaced with vaterite, was first noted over 50 years ago but its underlying cause is unresolved. We evaluated the prevalence of vateritic otoliths from two captive rearing studies which suggested that fast growth, due to environmental… Read more",
     "crumbs": [
       "About",
       "Pages",
@@ -36,11 +24,11 @@
     ]
   },
   {
-    "objectID": "pages/projects.html#past-projects",
-    "href": "pages/projects.html#past-projects",
+    "objectID": "pages/publications.html#other-media",
+    "href": "pages/publications.html#other-media",
     "title": "Dr Tormey Reimer",
-    "section": "Past projects",
-    "text": "Past projects\n\n\n\n\n\nThis website\nWhat could be a better use of my time as I wait for feedback on my PhD thesis than slowly moving more and more of my life into RStudio? I designed and built this whole website using Quarto.\nWhile the site is technically done, I’ll continue to update it now and then as I have the time. In particular I want to stay up to date on my blog.\n\n\nWhy did I do this?\nDon’t get me wrong, I like all the various tools and services available to researchers nowadays. But when you’re expected to keep your ResearchGate, GoogleScholar, WebOfScience, LinkedIn and OrcID profiles up to date (not to mention your various lab websites, institutional platforms, journal accounts, and whatever we eventually decide to replace Twitter with) it can all get a bit much.\nI really wanted a central place to consolidate all my stuff. Anyone who wants to find information on me, my projects, or my work can now come straight to the source.\n\n\n\n\n\n\nFishSize Project Lab\nThe whole reason I learned to use Quarto is because the FishSize Project Lab was looking for someone to revamp their website. It was a steep learning curve but I think the website looks pretty good now!\n\n\n\n\n\n\n\nBigFish\nAfter working on the FishSize Project Lab website I got to work on the much more ambitious BigFish game website project. This one really stretched the capabilities of Quarto and forced me to properly learn the intricacies of CSS and SASS.",
+    "section": "Other media",
+    "text": "Other media\n\n\n\n\n\nListen up: many farmed fish are hard of hearing – here’s why it matters\nTim Dempster, Stephen E. Swearer, Tormey Reimer\nThe Conversation, May 3, 2016\nThe swift rise of aquaculture as a major supplier of protein to the world is a remarkable story of rapid domestication of marine and freshwater animals.\nJust a few years ago, the world produced more tonnage of farmed fish than it did beef. With billions of farmed fish now in production systems, the lives fish lead and their welfare status have… Read more",
     "crumbs": [
       "About",
       "Pages",
@@ -48,32 +36,8 @@
     ]
   },
   {
-    "objectID": "pages/projects.html#upcoming-projects",
-    "href": "pages/projects.html#upcoming-projects",
-    "title": "Dr Tormey Reimer",
-    "section": "Upcoming projects",
-    "text": "Upcoming projects\nI’m pretty slammed with work right now… but I really should be publishing work from my thesis. I’ll get to it soon!",
-    "crumbs": [
-      "About",
-      "Pages",
-      "Dr Tormey Reimer"
-    ]
-  },
-  {
-    "objectID": "pages/masters-degree.html",
-    "href": "pages/masters-degree.html",
-    "title": "Dr Tormey Reimer",
-    "section": "",
-    "text": "Stuff to put here: * https://aquaculture.org.au/tormey-reimer",
-    "crumbs": [
-      "About",
-      "Pages",
-      "Dr Tormey Reimer"
-    ]
-  },
-  {
-    "objectID": "pages/masters-degree.html#section",
-    "href": "pages/masters-degree.html#section",
+    "objectID": "pages/phd-research.html#section",
+    "href": "pages/phd-research.html#section",
     "title": "Dr Tormey Reimer",
     "section": "Section",
     "text": "Section",
@@ -84,11 +48,11 @@
     ]
   },
   {
-    "objectID": "pages/grants-awards.html#section",
-    "href": "pages/grants-awards.html#section",
+    "objectID": "pages/contact.html#get-in-touch",
+    "href": "pages/contact.html#get-in-touch",
     "title": "Dr Tormey Reimer",
-    "section": "Section",
-    "text": "Section",
+    "section": "Get in touch",
+    "text": "Get in touch\n\n\n\n\n\n\n\n\n\nI’m currently working at home in Melbourne, Australia. I should be fairly responsive to emails, messages, heartfelt letters, and good vibes. Feel free to reach out!\n\nEmail me",
     "crumbs": [
       "About",
       "Pages",
@@ -96,23 +60,11 @@
     ]
   },
   {
-    "objectID": "pages/education.html#section",
-    "href": "pages/education.html#section",
+    "objectID": "pages/contact.html#follow-me",
+    "href": "pages/contact.html#follow-me",
     "title": "Dr Tormey Reimer",
-    "section": "Section",
-    "text": "Section",
-    "crumbs": [
-      "About",
-      "Pages",
-      "Dr Tormey Reimer"
-    ]
-  },
-  {
-    "objectID": "pages/collaborators.html#section",
-    "href": "pages/collaborators.html#section",
-    "title": "Dr Tormey Reimer",
-    "section": "Section",
-    "text": "Section",
+    "section": "Follow me",
+    "text": "Follow me",
     "crumbs": [
       "About",
       "Pages",
@@ -325,80 +277,8 @@
     ]
   },
   {
-    "objectID": "pages/contact.html#get-in-touch",
-    "href": "pages/contact.html#get-in-touch",
-    "title": "Dr Tormey Reimer",
-    "section": "Get in touch",
-    "text": "Get in touch\n\n\n\n\n\n\n\n\n\nI’m currently working at home in Melbourne, Australia. I should be fairly responsive to emails, messages, heartfelt letters, and good vibes. Feel free to reach out!\n\nEmail me",
-    "crumbs": [
-      "About",
-      "Pages",
-      "Dr Tormey Reimer"
-    ]
-  },
-  {
-    "objectID": "pages/contact.html#follow-me",
-    "href": "pages/contact.html#follow-me",
-    "title": "Dr Tormey Reimer",
-    "section": "Follow me",
-    "text": "Follow me",
-    "crumbs": [
-      "About",
-      "Pages",
-      "Dr Tormey Reimer"
-    ]
-  },
-  {
-    "objectID": "pages/example-page.html#a-grid-layout-h2",
-    "href": "pages/example-page.html#a-grid-layout-h2",
-    "title": "Dr Tormey Reimer",
-    "section": "A grid layout (H2)",
-    "text": "A grid layout (H2)\n\n\n\n\n\nFirst grid row (H3)\nUt eget lorem et odio facilisis placerat. Nam ac est elementum, ornare enim sit amet, aliquam magna. Morbi varius neque ante, non tristique velit pulvinar at. Praesent sit amet velit metus.\nUt vel metus quis ligula convallis sollicitudin. Etiam dapibus rhoncus nibh eget ullamcorper. Morbi enim ligula, aliquet vel libero et, egestas commodo nunc.\n\n\n\n\nSecond grid row (H3)\nAliquam condimentum aliquet sem, id vestibulum ante faucibus eu. Fusce vestibulum tellus ac luctus feugiat. Fusce semper venenatis dui, in porta urna cursus sit amet.\nEtiam efficitur interdum enim id pretium. In elit diam, iaculis a elit vel, sollicitudin ultricies magna. Etiam efficitur interdum enim id pretium. In elit diam, iaculis a elit vel, sollicitudin ultricies magna.\n\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nThis is a ‘note’ callout block.",
-    "crumbs": [
-      "About",
-      "Pages",
-      "Dr Tormey Reimer"
-    ]
-  },
-  {
-    "objectID": "pages/example-page.html#code-and-links-h2",
-    "href": "pages/example-page.html#code-and-links-h2",
-    "title": "Dr Tormey Reimer",
-    "section": "Code and links (H2)",
-    "text": "Code and links (H2)\nCode and link appearance inline: ggplot() and geom_point() require package ggplot2, which is available from CRAN.\n\nlibrary(ggplot2)\nggplot(iris, aes(x = Sepal.Length, Sepal.Width, colour = as.factor(Species))) +\n    geom_point() +\n    theme_classic() +\n    theme(legend.position = \"none\")",
-    "crumbs": [
-      "About",
-      "Pages",
-      "Dr Tormey Reimer"
-    ]
-  },
-  {
-    "objectID": "pages/example-page.html#different-formatting-h2",
-    "href": "pages/example-page.html#different-formatting-h2",
-    "title": "Dr Tormey Reimer",
-    "section": "Different formatting (H2)",
-    "text": "Different formatting (H2)\n\nLists (H3)\n\nIs this an ordered list?\nWho knows, honestly\nI think so!\n\n\n\nMore formatting (H4)\nThis is italics, and this is bold.\n\nWould I even use this (H5)\nProbably not.",
-    "crumbs": [
-      "About",
-      "Pages",
-      "Dr Tormey Reimer"
-    ]
-  },
-  {
-    "objectID": "pages/example-page.html#columns-and-screens-h2",
-    "href": "pages/example-page.html#columns-and-screens-h2",
-    "title": "Dr Tormey Reimer",
-    "section": "Columns and screens (H2)",
-    "text": "Columns and screens (H2)\n\n\nColumn-body (default)\n\n\n\n\nColumn-body-outset\n\n\n\n\nColumn-body-inset\n\n\n\n\nColumn-page\n\n\n\n\nColumn-page-outset\n\n\n\n\nColumn-page\n\n\n\n\nColumn-screen\n\n\n\n\nColumn-screen-outset\n\n\n\n\nColumn-screen-inset",
-    "crumbs": [
-      "About",
-      "Pages",
-      "Dr Tormey Reimer"
-    ]
-  },
-  {
-    "objectID": "pages/interests.html#section",
-    "href": "pages/interests.html#section",
+    "objectID": "pages/grants-awards.html#section",
+    "href": "pages/grants-awards.html#section",
     "title": "Dr Tormey Reimer",
     "section": "Section",
     "text": "Section",
@@ -409,11 +289,11 @@
     ]
   },
   {
-    "objectID": "pages/phd-research.html#section",
-    "href": "pages/phd-research.html#section",
+    "objectID": "pages/projects.html#current-projects",
+    "href": "pages/projects.html#current-projects",
     "title": "Dr Tormey Reimer",
-    "section": "Section",
-    "text": "Section",
+    "section": "Current projects",
+    "text": "Current projects\n\n\n\n\n\nInvestigating the bioremediation potential of seaweed aquaculture across Australia\nI am currently working with Dr Katie Cresswell on an FRDC-funded project to investigate the bioremediation potential of native seaweed aquaculture across Australia.\n\n\nProject details\nMacroalgae farms can be used to remove excess nutrients (primarily nitrogen) from coastal marine waters. Despite having a rich diversity of native macroalgae species, the seaweed farming industry in Australia is in its infancy. Demand for seaweed and seaweed-derived products continues to increase, however, and native Australian genera like Asparagopsis are of particular interest.\nThis project is using a macroalgae growth model created by Scott Hadley that I further developed during my PhD to assess the bioremediation potential of a number of Australian macroalgae species in a culture setting. In addition to using my own expertise and the knowledge available within IMAS, I am also working with the Australian Sustainable Seaweed Alliance to incorporate famers’ perspectives and knowledge into the modelling effort.\n\n\nOptimising feeds to support ecosystem-based aquaculture\nI will soon be working with Professor Julia Blanchard on an ARC Linkage Grant developing new ways of assessing the environmental and social impacts of alternate sources of protein in fish food.\n\n\n\n\n\nProject details\nThis project aims to assess the global and local consequences of changing feeds in aquaculture by developing a new interdisciplinary sustainability assessment framework. The project expects to generate new methods to understand and predict local farm-to-ecosystem changes and global environmental footprints under contrasting feed and climate scenarios by integrating field data with novel experiments, modelling techniques and global mapping of terrestrial and marine feed raw materials and their impacts. Expected outcomes include new methods to assess ecological, social and economic trade-offs under different feeds to inform decision making in support of an ecosystem-based approach to aquaculture spanning global to local scales.",
     "crumbs": [
       "About",
       "Pages",
@@ -421,11 +301,11 @@
     ]
   },
   {
-    "objectID": "pages/publications.html#peer-reviewed-articles",
-    "href": "pages/publications.html#peer-reviewed-articles",
+    "objectID": "pages/projects.html#past-projects",
+    "href": "pages/projects.html#past-projects",
     "title": "Dr Tormey Reimer",
-    "section": "Peer-reviewed articles",
-    "text": "Peer-reviewed articles\n\n\n\n\n\n\n\nHigh prevalence of vaterite in sagittal otoliths causes hearing impairment in farmed fish\nTormey Reimer, Tim Dempster, Fletcher Warren-Myers, Arne J. Jensen, Stephen E. Swearer\nScientific Reports, 2016\n\n\nThe rapid growth of aquaculture raises questions about the welfare status of mass-produced species. Sagittal otoliths are primary hearing structures in the inner ear of all teleost (bony) fishes and are normally composed of aragonite, though abnormal vaterite replacement is sometimes seen in the wild. We provide the first widespread evaluation of the prevalence of vaterite in otoliths, showing that farmed fish have levels of vaterite replacement over 10 times… Read more\n\n\n\n\n\n\n\nRapid growth causes abnormal vaterite formation in farmed fish otoliths\nTormey Reimer, Tim Dempster, Anna Wargelius, Per Gunnar Fjelldal, Tom Hansen, Kevin A. Glover, Monica F. Solberg, Stephen E. Swearer\nJournal of Evolutionary Biology, 2017\n\n\nSagittal otoliths are essential components of the sensory organs that enable all teleost fish to hear and maintain balance, and are primarily composed of calcium carbonate. A deformity, where aragonite (the normal crystal form) is replaced with vaterite, was first noted over 50 years ago but its underlying cause is unresolved. We evaluated the prevalence of vateritic otoliths from two captive rearing studies which suggested that fast growth, due to environmental… Read more",
+    "section": "Past projects",
+    "text": "Past projects\n\n\n\n\n\nThis website\nWhat could be a better use of my time as I wait for feedback on my PhD thesis than slowly moving more and more of my life into RStudio? I designed and built this whole website using Quarto.\nWhile the site is technically done, I’ll continue to update it now and then as I have the time. In particular I want to stay up to date on my blog.\n\n\nWhy did I do this?\nDon’t get me wrong, I like all the various tools and services available to researchers nowadays. But when you’re expected to keep your ResearchGate, GoogleScholar, WebOfScience, LinkedIn and OrcID profiles up to date (not to mention your various lab websites, institutional platforms, journal accounts, and whatever we eventually decide to replace Twitter with) it can all get a bit much.\nI really wanted a central place to consolidate all my stuff. Anyone who wants to find information on me, my projects, or my work can now come straight to the source.\n\n\n\n\n\n\nFishSize Project Lab\nThe whole reason I learned to use Quarto is because the FishSize Project Lab was looking for someone to revamp their website. It was a steep learning curve but I think the website looks pretty good now!\n\n\n\n\n\n\n\nBigFish\nAfter working on the FishSize Project Lab website I got to work on the much more ambitious BigFish game website project. This one really stretched the capabilities of Quarto and forced me to properly learn the intricacies of CSS and SASS.",
     "crumbs": [
       "About",
       "Pages",
@@ -433,11 +313,11 @@
     ]
   },
   {
-    "objectID": "pages/publications.html#other-media",
-    "href": "pages/publications.html#other-media",
+    "objectID": "pages/projects.html#upcoming-projects",
+    "href": "pages/projects.html#upcoming-projects",
     "title": "Dr Tormey Reimer",
-    "section": "Other media",
-    "text": "Other media\n\n\n\n\n\nListen up: many farmed fish are hard of hearing – here’s why it matters\nTim Dempster, Stephen E. Swearer, Tormey Reimer\nThe Conversation, May 3, 2016\nThe swift rise of aquaculture as a major supplier of protein to the world is a remarkable story of rapid domestication of marine and freshwater animals.\nJust a few years ago, the world produced more tonnage of farmed fish than it did beef. With billions of farmed fish now in production systems, the lives fish lead and their welfare status have… Read more",
+    "section": "Upcoming projects",
+    "text": "Upcoming projects\nI’m pretty slammed with work right now… but I really should be publishing work from my thesis. I’ll get to it soon!",
     "crumbs": [
       "About",
       "Pages",
@@ -445,8 +325,8 @@
     ]
   },
   {
-    "objectID": "pages/skills.html#section",
-    "href": "pages/skills.html#section",
+    "objectID": "pages/service.html#section",
+    "href": "pages/service.html#section",
     "title": "Dr Tormey Reimer",
     "section": "Section",
     "text": "Section",
