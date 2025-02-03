@@ -9,11 +9,11 @@ library(macrogrow)
 
 # Default data ----------------------------------------------------------------------------------------------------
 spec_data <- tibble::tribble(
-  ~species, ~code, ~x, ~y, ~img,
-  "A. armata", "aa", 1, 5, "images/Asparagopsis.jpg",
-  "A. taxiformis", "at", 2, 2, "images/Asparagopsis.jpg",
-  "Ulva", "ul", 3, 6, "images/Asparagopsis.jpg",
-  "Ecklonia", "ec", 4, 3, "images/Asparagopsis.jpg"
+  ~species,        ~code, ~x, ~y, ~img,
+  "A. armata",     "aa",  1,  5,  "images/Asparagopsis.jpg",
+  "A. taxiformis", "at",  2,  2,  "images/Asparagopsis.jpg",
+  "Ulva",          "ul",  3,  6,  "images/Asparagopsis.jpg",
+  "Ecklonia",      "ec",  4,  3,  "images/Asparagopsis.jpg"
 ) %>% 
   mutate(species = as.factor(species))
 
@@ -54,13 +54,14 @@ function(input, output, session) {
     if (input$species == spec_data$species[1]) {list(src = "resources/images/Asparagopsis.jpg", height = "75%")} else
     if (input$species == spec_data$species[2]) {list(src = "resources/images/Asparagopsis.jpg", height = "75%")} else
     if (input$species == spec_data$species[3]) {list(src = "resources/images/Asparagopsis.jpg", height = "75%")} else
-    if (input$species == spec_data$species[4]) {list(src = "resources/images/Asparagopsis.jpg", height = "75%")},
-      deleteFile = FALSE
-  })
+    if (input$species == spec_data$species[4]) {list(src = "resources/images/Asparagopsis.jpg", height = "75%")}
+  },
+  deleteFile = F
+  )
   
-  uiOutput({
-    img(height = 240, width = 300, src = selectedData()$img)
-  })
+  # uiOutput({
+  #   img(height = 240, width = 300, src = selectedData()$img)
+  # })
   
   # Temperature panel ---------------------------------------------------------------------------------------------
   ## Get input ----------------------------------------------------------------------------------------------------
