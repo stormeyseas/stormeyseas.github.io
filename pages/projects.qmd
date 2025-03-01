@@ -12,7 +12,7 @@ sidebar: false
 
 ::: {.grid .justify-content-space-evenly .align-items-center}
 :::: {.g-col-12 .g-col-lg-4 .text-center}
-![](../resources/images/Asparagopsis.jpg){fig-alt="A photo of an _Asparagopsis_ gametophyte I found on the internet"}
+![](../resources/images/Asparagopsis.jpg){fig-alt="A photo of an _Asparagopsis_ gametophyte I found on the internet!"}
 ::::
 
 :::: {.g-col-12 .g-col-lg-8 .text-center}
@@ -32,7 +32,7 @@ This project is using a macroalgae growth model created by Scott Hadley that I f
 :::: {.g-col-12 .g-col-lg-8 .text-center}
 ### Optimising feeds to support ecosystem-based aquaculture
 
-I will soon be working with [Professor Julia Blanchard](https://discover.utas.edu.au/Julia.Blanchard) on an ARC Linkage Grant developing new ways of assessing the environmental and social impacts of alternate sources of protein in fish food.
+I will soon be working with [Professor Julia Blanchard](https://discover.utas.edu.au/Julia.Blanchard) on an ARC Linkage Grant developing new ways of assessing the environmental and social impacts of alternate sources of protein in fish food. See the full project and the latest research outputs [here](https://sustainableaquafeedsproject.org/).
 ::::
 
 :::: {.g-col-12 .g-col-lg-4 .text-center}
