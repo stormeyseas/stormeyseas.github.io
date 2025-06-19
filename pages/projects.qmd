@@ -12,31 +12,13 @@ sidebar: false
 
 ::: {.grid .justify-content-space-evenly .align-items-center}
 :::: {.g-col-12 .g-col-lg-4 .text-center}
-![](../resources/images/Asparagopsis.jpg){fig-alt="A photo of an _Asparagopsis_ gametophyte I found on the internet!"}
-::::
-
-:::: {.g-col-12 .g-col-lg-8 .text-center}
-### Investigating the bioremediation potential of seaweed aquaculture across Australia
-
-I am currently working with [Dr Katie Cresswell](https://discover.utas.edu.au/katie.cresswell) on an [FRDC-funded project](https://www.frdc.com.au/project/2023-193) to investigate the bioremediation potential of native seaweed aquaculture across Australia.
-::::
-
-:::: g-col-12
-#### Project details
-
-Macroalgae farms can be used to remove excess nutrients (primarily nitrogen) from coastal marine waters. Despite having a rich diversity of native macroalgae species, the seaweed farming industry in Australia is in its infancy. Demand for seaweed and seaweed-derived products continues to increase, however, and native Australian genera like [_Asparagopsis_](https://www.abc.net.au/news/rural/2022-06-30/asparagopsis-methane-reducing-seaweed-sold-in-australia/101198580?utm_campaign=abc_news_web&utm_content=link&utm_medium=content_shared&utm_source=abc_news_web) are of particular interest.
-
-This project is using a macroalgae growth model created by Scott Hadley that I further developed during my PhD to assess the bioremediation potential of a number of Australian macroalgae species in a culture setting. In addition to using my own expertise and the knowledge available within IMAS, I am also working with the [Australian Sustainable Seaweed Alliance](https://www.seaweedalliance.org.au/) to incorporate famers' perspectives and knowledge into the modelling effort.
+![](../resources/images/aquafeed.jpg){fig-alt="Aquafeed pellets being fed to a pen of fish"}
 ::::
 
 :::: {.g-col-12 .g-col-lg-8 .text-center}
 ### Optimising feeds to support ecosystem-based aquaculture
 
-I will soon be working with [Professor Julia Blanchard](https://discover.utas.edu.au/Julia.Blanchard) on an ARC Linkage Grant developing new ways of assessing the environmental and social impacts of alternate sources of protein in fish food. See the full project and the latest research outputs [here](https://sustainableaquafeedsproject.org/).
-::::
-
-:::: {.g-col-12 .g-col-lg-4 .text-center}
-![](../resources/images/aquafeed.jpg){fig-alt="Aquafeed pellets being fed to a pen of fish"}
+I am current working with [Professor Julia Blanchard](https://discover.utas.edu.au/Julia.Blanchard) on an ARC Linkage Grant developing new ways of assessing the environmental impacts of alternate sources of protein in fish food. See the full project and the latest research outputs [here](https://sustainableaquafeedsproject.org/).
 ::::
 
 :::: g-col-12
@@ -49,6 +31,26 @@ This project aims to assess the global and local consequences of changing feeds 
 ## Past projects
 
 ::: {.grid .justify-content-space-evenly .align-items-center}
+:::: {.g-col-12 .g-col-lg-4 .text-center}
+![](../resources/images/Asparagopsis.jpg){fig-alt="A photo of an _Asparagopsis_ gametophyte I found on the internet"}
+::::
+
+:::: {.g-col-12 .g-col-lg-8 .text-center}
+### Investigating the bioremediation potential of seaweed aquaculture across Australia
+
+I worked with [Dr Katie Cresswell](https://discover.utas.edu.au/katie.cresswell) on an [FRDC-funded project](https://www.frdc.com.au/project/2023-193) to investigate the bioremediation potential of native seaweed aquaculture across Australia.
+::::
+
+:::: g-col-12
+#### Project details
+
+Macroalgae farms can be used to remove excess nutrients (primarily nitrogen) from coastal marine waters. Despite having a rich diversity of native macroalgae species, the seaweed farming industry in Australia is in its infancy. Demand for seaweed and seaweed-derived products continues to increase, however, and native Australian genera like [_Asparagopsis_](https://www.abc.net.au/news/rural/2022-06-30/asparagopsis-methane-reducing-seaweed-sold-in-australia/101198580?utm_campaign=abc_news_web&utm_content=link&utm_medium=content_shared&utm_source=abc_news_web) are of particular interest.
+
+This project used a macroalgae growth model created by Scott Hadley that I further developed during my PhD to assess the bioremediation potential of a number of Australian macroalgae species in a culture setting. In addition to using my own expertise and the knowledge available within IMAS, I also worked with the [Australian Sustainable Seaweed Alliance](https://www.seaweedalliance.org.au/) to incorporate famers' perspectives and knowledge into the modelling effort.
+::::
+:::
+
+::: {.grid .justify-content-space-evenly .align-items-center .spacer-4em}
 :::: {.g-col-12 .g-col-lg-4 .text-center}
 ![](../resources/images/personal-website.jpg){fig-alt="Screenshot of the website you're on right now... so meta!" style="border: solid 1px var(--bs-primary);"}
 ::::

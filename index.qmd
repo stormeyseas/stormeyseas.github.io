@@ -3,6 +3,12 @@
 pagetitle: "Home | Dr Tormey Reimer"
 description-meta: |
     Dr Tormey Reimer is a computational biologist using her broad-ranging skills in simulations and statistics to help assess and manage marine resource sustainability.
+keywords: computational biology, marine science, sustainability, bioremediation, seaweed aquaculture
+author-meta: Dr Tormey Reimer
+twitter:
+  creator: "@stormeyseas"
+  card-style: summary_large_image
+  image: "resources/images/Bruny5x4.jpg"
 ---
 
 ::: {.column-screen .hero-img .hero-strip-homepage .align-items-end}
@@ -39,13 +45,13 @@ description-meta: |
 
 :::::: {.grid .justify-content-space-evenly}
 ::::: {.g-col-4 .align-self-center}
-![](resources/images/Asparagopsis.jpg){fig-alt="A photo of an _Asparagopsis_ gametophyte I found on the internet"}
+![](../resources/images/aquafeed.jpg){fig-alt="Aquafeed pellets being fed to a pen of fish"}
 :::::
 
 ::::: {.g-col-8 .align-self-center}
-### Investigating the bioremediation potential of seaweed aquaculture across Australia
+### Optimising feeds to support ecosystem-based aquaculture
 
-I am currently working with [Katie Cresswell](https://discover.utas.edu.au/katie.cresswell) on an [FRDC-funded project](https://www.frdc.com.au/project/2023-193) to investigate the bioremediation potential of native seaweed aquaculture across Australia. 
+I am current working with [Professor Julia Blanchard](https://discover.utas.edu.au/Julia.Blanchard) on an ARC Linkage Grant developing new ways of assessing the environmental impacts of alternate sources of protein in fish food. See the full project and the latest research outputs [here](https://sustainableaquafeedsproject.org/).
 
 :::: text-center
 [More projects](pages/projects.qmd){.btn .btn-primary}
@@ -114,7 +120,7 @@ abs.2 = paste(ifelse(is.na(stringr::word(abstract, 1:60)), abstract, stringr::wo
 :::::: {.grid .justify-content-space-evenly .px-2}
 ::::: {.g-col-4 .align-self-center}
 :::: card
-![](resources/images/Bruny5x4.jpg){.card-img-top fig-alt="Just a cute pic of me"}
+![](resources/images/Bruny5x4.jpg){.card-img-top fig-alt="Profile photo of Dr Tormey Reimer at Bruny Island"}
 
 ::: card-title
 #### Welcome to my blog!
@@ -133,7 +139,7 @@ Why did I do it? Will I stick to it with any kind of regularity? Let's find out!
 
 ::::: {.g-col-4 .align-self-center}
 :::: card
-![](blog-posts/pics/kioloa_1_5x4.jpg){.card-img-top fig-alt="The NSW Kioloa campus"}
+![](blog-posts/pics/kioloa_1_5x4.jpg){.card-img-top fig-alt="Scenic view of the NSW Kioloa coastal campus"}
 
 ::: card-title
 #### Ocean Hack Week 2024
@@ -147,27 +153,21 @@ I attended Ocean Hack Week (24-30 August 2024) and had a great time!
 :::
 :::
 
-::::
-:::::
-
 <!-- ::::: {.g-col-4 .align-self-center} -->
 <!-- :::: card -->
-<!-- ![](https://via.placeholder.com/285x180){.card-img-top fig-alt="Image"} -->
+<!-- ![](resources/images/coding.jpg){.card-img-top fig-alt="Computer screen showing data analysis code"} -->
 
 <!-- ::: card-title -->
-<!-- Title -->
+<!-- #### From Data to Insights -->
 <!-- ::: -->
 
 <!-- ::: card-text -->
-<!-- Some quick example text to build on the card title and make up the bulk of the card's content. -->
+<!-- Exploring how I use computational methods to understand marine ecosystems. -->
 
 <!-- ::: text-center -->
 <!-- [Read more](pages/blog.qmd){.btn .btn-primary} -->
 <!-- ::: -->
 <!-- ::: -->
-
-<!-- :::: -->
-<!-- ::::: -->
 ::::::
 
 ## Get in touch

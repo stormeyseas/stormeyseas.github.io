@@ -1,0 +1,7 @@
+library(yaml)
+library(knitr)
+library(rmarkdown)
+library(gitcreds)
+library(usethis)
+library(testthat)
+library(devtools)
