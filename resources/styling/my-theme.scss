@@ -304,6 +304,11 @@ h4 a:hover, h5 a:hover, {
     background-position: 50% 50%;
 }
 
+// Remove space between hero image and navbar
+#title-block-header {
+  margin-block-end: 0;
+}
+
 // Homepage
 .hero-strip-homepage {
   height: $hero-height;

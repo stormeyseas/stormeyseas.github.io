@@ -13,12 +13,13 @@ profile:
   group: [active, inactive, semiactive]
 
 website:
-  title: "Tormey E. Reimer"
+  title: "Dr Tormey Reimer"
   description: "Welcome to my personal website."
   favicon: resources/icons/water-solid-light.svg
   site-url: https://www.drtreimer.com
   repo-url: https://github.com/stormeyseas/stormeyseas.github.io
   reader-mode: false
+  bread-crumbs: false
   # Allows some pages to have a sidebar
   sidebar: 
     - id: sidebar1 
@@ -41,32 +42,8 @@ website:
         href: index.qmd
       - text: About
         href: pages/about.qmd
-        # menu: 
-        # - text: Education
-        #   href: pages/education.qmd
-        #   menu: 
-        #   - text: PhD Research
-        #     href: pages/phd-research.qmd
-        #   - text: "Master's Degree"
-        #     href: pages/masters-degree.qmd
-        # - text: Skills
-        #   href: pages/skills.qmd
-        #   menu: 
-        #   - text: Grants & Awards
-        #     href: pages/grants-awards.qmd
-        #   - text: Service
-        #     href: pages/service.qmd
-        # - text: Interests
-        #   href: pages/interests.qmd
       - text: Projects
         href: pages/projects.qmd
-        # menu: 
-        # - text: Timeline
-        #   href: pages/timeline.qmd
-        # - text: Collaborators
-        #   href: pages/collaborators.qmd
-        # - text: "Teaching"
-        #   href: pages/example-page.qmd
       - text: Publications
         href: pages/publications.qmd
       - text: Blog
@@ -89,7 +66,7 @@ website:
     right: |
       <i>I live and work on the land of the Wurundjeri people.<br>
       IMAS is built on the land of the Muwinina people, which the Palawa people continue to care for today.<br>
-      Sovereignty was never ceded </i><img src="/resources/images/Australian_Aboriginal_Flag.png" class="img-fluid" style="height: 1em;">
+      Sovereignty was never ceded  </i><img src="/resources/images/Australian_Aboriginal_Flag.png" class="img-fluid" style="height: 1em;">
     background: dark
     foreground: light
 

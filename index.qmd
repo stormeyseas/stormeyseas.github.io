@@ -1,9 +1,9 @@
 ---
 # All options for the HTML format: https://quarto.org/docs/reference/formats/html.html
-pagetitle: "Home | Dr Tormey Reimer"
+pagetitle: |
+  Home | Dr Tormey Reimer
 description-meta: |
     Dr Tormey Reimer is a computational biologist using her broad-ranging skills in simulations and statistics to help assess and manage marine resource sustainability.
-keywords: computational biology, marine science, sustainability, bioremediation, seaweed aquaculture
 author-meta: Dr Tormey Reimer
 twitter:
   creator: "@stormeyseas"
@@ -117,58 +117,48 @@ abs.2 = paste(ifelse(is.na(stringr::word(abstract, 1:60)), abstract, stringr::wo
 
 ## Check out my blog!
 
-:::::: {.grid .justify-content-space-evenly .px-2}
-::::: {.g-col-4 .align-self-center}
-:::: card
+::::::::::: {.grid .justify-content-space-evenly .px-2}
+::::::::: {.g-col-4 .align-self-center}
+::::::: card
 ![](resources/images/Bruny5x4.jpg){.card-img-top fig-alt="Profile photo of Dr Tormey Reimer at Bruny Island"}
 
-::: card-title
+::::: card-title
 #### Welcome to my blog!
-:::
+:::::
 
-::: card-text
+::::: card-text
 Why did I do it? Will I stick to it with any kind of regularity? Let's find out!
 
 ::: text-center
 [Read more](pages/blog.qmd){.btn .btn-primary}
 :::
-:::
-
-::::
 :::::
+<!-- card end -->
+:::::::
+<!-- column end -->
+:::::::::
 
-::::: {.g-col-4 .align-self-center}
-:::: card
+::::::::: {.g-col-4 .align-self-center}
+::::::: card
 ![](blog-posts/pics/kioloa_1_5x4.jpg){.card-img-top fig-alt="Scenic view of the NSW Kioloa coastal campus"}
 
 ::: card-title
 #### Ocean Hack Week 2024
 :::
 
-::: card-text
+::::: card-text
 I attended Ocean Hack Week (24-30 August 2024) and had a great time!
 
 ::: text-center
 [Read more](pages/blog.qmd){.btn .btn-primary}
 :::
-:::
-
-<!-- ::::: {.g-col-4 .align-self-center} -->
-<!-- :::: card -->
-<!-- ![](resources/images/coding.jpg){.card-img-top fig-alt="Computer screen showing data analysis code"} -->
-
-<!-- ::: card-title -->
-<!-- #### From Data to Insights -->
-<!-- ::: -->
-
-<!-- ::: card-text -->
-<!-- Exploring how I use computational methods to understand marine ecosystems. -->
-
-<!-- ::: text-center -->
-<!-- [Read more](pages/blog.qmd){.btn .btn-primary} -->
-<!-- ::: -->
-<!-- ::: -->
-::::::
+:::::
+<!-- card end -->
+:::::::
+<!-- column end -->
+:::::::::
+<!-- grid end -->
+:::::::::::
 
 ## Get in touch
 

@@ -1,5 +1,6 @@
 ---
-pagetitle: Projects | Dr Tormey Reimer
+pagetitle: |
+  Projects | Dr Tormey Reimer
 description-meta: |
   See what I'm currently working on!
 sidebar: false
@@ -50,7 +51,7 @@ This project used a macroalgae growth model created by Scott Hadley that I furth
 ::::
 :::
 
-::: {.grid .justify-content-space-evenly .align-items-center .spacer-4em}
+::: {.grid .justify-content-space-evenly .align-items-center .my-4 .py-4}
 :::: {.g-col-12 .g-col-lg-4 .text-center}
 ![](../resources/images/personal-website.jpg){fig-alt="Screenshot of the website you're on right now... so meta!" style="border: solid 1px var(--bs-primary);"}
 ::::
@@ -77,7 +78,7 @@ profiles up to date (not to mention your various lab websites, institutional pla
 I really wanted a central place to consolidate all my **stuff**. Anyone who wants to find information on me, my projects, or my work can now come straight to the source. 
 ::::
 
-:::: {.g-col-12 .g-col-lg-6 .align-items-top .no-gaps}
+:::: {.g-col-12 .g-col-lg-6 .align-items-top .no-gaps .my-4}
 ::::: {.g-col-12 .img-container .no-gaps}
 ![](../resources/images/FishSizeHomepage.png){fig-alt="Screenshot of the FishSizeProject website"}
 ::::: 

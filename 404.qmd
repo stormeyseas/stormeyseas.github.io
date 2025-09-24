@@ -1,6 +1,6 @@
 ---
 permalink: "/404.html"
-pagetitle: Page not found! | (Soon-to-be) Dr Tormey Reimer
+pagetitle: Page not found! | Dr Tormey Reimer
 description-meta: |
     You lost, friend?
 ---
