@@ -44,15 +44,15 @@ website:
       - text: Home
         href: index.qmd
       - text: About
-        href: pages/about.qmd
+        href: about.qmd
       - text: Projects
-        href: pages/projects.qmd
+        href: projects.qmd
       - text: Publications
-        href: pages/publications.qmd
+        href: publications.qmd
       - text: Blog
-        href: pages/blog.qmd
+        href: blog.qmd
       - text: Contact
-        href: pages/contact.qmd
+        href: contact.qmd
     toggle-position: right # The position of the collapsed navbar toggle when in responsive mode
   page-navigation: false
   back-to-top-navigation: false
@@ -65,7 +65,7 @@ website:
       [![](/resources/icons/google-scholar-light.svg){fig-alt="GoogleScholar" fig-align="center" height="1.5em" fig-valign="top" margin-left="10px" margin-right="10px"}](https://scholar.google.com.au/citations?user=H45vLccAAAAJ&hl=en)
       [![](/resources/icons/github-light.svg){fig-alt="Github" fig-align="center" height="1.5em" fig-valign="top" margin-left="10px" margin-right="10px"}](https://github.com)
       <br><br>
-      Website created by [me](/pages/projects.qmd#sec-this-website)!
+      Website created by [me](/projects.qmd#sec-this-website)!
     right: |
       <i>I live and work on the land of the Wurundjeri people.<br>
       IMAS is built on the land of the Muwinina people, which the Palawa people continue to care for today.<br>

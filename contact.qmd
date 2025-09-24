@@ -14,15 +14,15 @@ sidebar: false
 :::::: {.grid .justify-content-space-evenly}
 ::::: {.g-col-4 .align-self-center}
 ::: {.content-visible when-profile="active"}
-![](/resources/icons/status-active.png){width="40%" fig-align="center" fig-alt="Active!"}
+![](resources/icons/status-active.png){width="40%" fig-align="center" fig-alt="Active!"}
 :::
 
 ::: {.content-hidden unless-meta="status.inactive"}
-![](/resources/icons/status-inactive.png){width="40%" fig-align="center" fig-alt="Active!"}
+![](resources/icons/status-inactive.png){width="40%" fig-align="center" fig-alt="Active!"}
 :::
 
 ::: {.content-hidden unless-meta="status.semiactive"}
-![](/resources/icons/status-semiactive.png){width="40%" fig-align="center" fig-alt="Active!"}
+![](resources/icons/status-semiactive.png){width="40%" fig-align="center" fig-alt="Active!"}
 :::
 :::::
 
@@ -50,27 +50,27 @@ I'm currently working but I might be slow to respond to emails. Maybe I'm somewh
 
 :::::: {.grid .justify-content-space-evenly .text-center}
 ::::: {.g-col-2 .align-self-center}
-[![](../resources/icons/google-scholar-dark.svg){fig-alt="Link to my Google Scholar" width="60%"}](https://scholar.google.com/citations?hl=en&user=H45vLccAAAAJ&view_op=list_works&gmla=AKKJWFctSeG1-RPdHM1Sm6zw_pddPbBW_Q-LL5Oj-bJgbK4mEgjr4lTM7hprsdR1hMk-s2grckZTOogim9ha4lHJ)
+[![](resources/icons/google-scholar-dark.svg){fig-alt="Link to my Google Scholar" width="60%"}](https://scholar.google.com/citations?hl=en&user=H45vLccAAAAJ&view_op=list_works&gmla=AKKJWFctSeG1-RPdHM1Sm6zw_pddPbBW_Q-LL5Oj-bJgbK4mEgjr4lTM7hprsdR1hMk-s2grckZTOogim9ha4lHJ)
 :::::
 
 ::::: {.g-col-2 .align-self-center}
-[![](../resources/icons/linkedin-dark.svg){fig-alt="Link to my LinkedIn" width="60%"}](https://au.linkedin.com/in/tormey-reimer)
+[![](resources/icons/linkedin-dark.svg){fig-alt="Link to my LinkedIn" width="60%"}](https://au.linkedin.com/in/tormey-reimer)
 :::::
 
 ::::: {.g-col-2 .align-self-center}
-[![](../resources/icons/orcid-dark.svg){fig-alt="Link to my OrCID" width="60%"}](https://orcid.org/0000-0002-5983-2798)
+[![](resources/icons/orcid-dark.svg){fig-alt="Link to my OrCID" width="60%"}](https://orcid.org/0000-0002-5983-2798)
 :::::
 
 ::::: {.g-col-2 .align-self-center}
-[![](../resources/icons/researchgate-dark.svg){fig-alt="Link to my ResearchGate" width="60%"}](https://www.researchgate.net/profile/Tormey-Reimer)
+[![](resources/icons/researchgate-dark.svg){fig-alt="Link to my ResearchGate" width="60%"}](https://www.researchgate.net/profile/Tormey-Reimer)
 :::::
 
 ::::: {.g-col-2 .align-self-center}
-[![](../resources/icons/landmark-solid-dark.svg){fig-alt="Link to my current institution" width="60%"}](https://marinesocioecology.org/team/tormey-reimer/)
+[![](resources/icons/landmark-solid-dark.svg){fig-alt="Link to my current institution" width="60%"}](https://marinesocioecology.org/team/tormey-reimer/)
 :::::
 
 ::::: {.g-col-2 .align-self-center}
-[![](../resources/icons/github-dark.svg){fig-alt="Link to my Github" width="60%"}](https://github.com/stormeyseas)
+[![](resources/icons/github-dark.svg){fig-alt="Link to my Github" width="60%"}](https://github.com/stormeyseas)
 :::::
 ::::::
 
