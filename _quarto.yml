@@ -2,6 +2,9 @@
 project:
   type: website
   output-dir: docs
+  resources: 
+    - CNAME
+    - .nojekyll
   preview: 
     browser: true
 execute:
@@ -62,7 +65,7 @@ website:
       [![](/resources/icons/google-scholar-light.svg){fig-alt="GoogleScholar" fig-align="center" height="1.5em" fig-valign="top" margin-left="10px" margin-right="10px"}](https://scholar.google.com.au/citations?user=H45vLccAAAAJ&hl=en)
       [![](/resources/icons/github-light.svg){fig-alt="Github" fig-align="center" height="1.5em" fig-valign="top" margin-left="10px" margin-right="10px"}](https://github.com)
       <br><br>
-      Website created by [ME](/pages/projects.qmd#sec-this-website)!
+      Website created by [me](/pages/projects.qmd#sec-this-website)!
     right: |
       <i>I live and work on the land of the Wurundjeri people.<br>
       IMAS is built on the land of the Muwinina people, which the Palawa people continue to care for today.<br>
