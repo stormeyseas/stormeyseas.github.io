@@ -1,14 +1,9 @@
 ---
 # All options for the HTML format: https://quarto.org/docs/reference/formats/html.html
-pagetitle: |
-  Home | Dr Tormey Reimer
+pagetitle: "Home | Dr Tormey Reimer"
 description-meta: |
-    Dr Tormey Reimer is a computational biologist using her broad-ranging skills in simulations and statistics to help assess and manage marine resource sustainability.
+  Dr Tormey Reimer is a computational biologist using her broad-ranging skills in simulations and statistics to help assess and manage marine resource sustainability.
 author-meta: Dr Tormey Reimer
-twitter:
-  creator: "@stormeyseas"
-  card-style: summary_large_image
-  image: "resources/images/Bruny5x4.jpg"
 ---
 
 ::: {.column-screen .hero-img .hero-strip-homepage .align-items-end}
