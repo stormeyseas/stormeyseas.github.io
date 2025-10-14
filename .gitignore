@@ -56,3 +56,4 @@ rsconnect/
 docs/*
 
 **/*.quarto_ipynb
+docs/*
