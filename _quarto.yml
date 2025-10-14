@@ -3,8 +3,8 @@ project:
   type: website
   output-dir: docs
   resources:
-    - "CNAME"
-    - ".nojekyll"
+    - CNAME
+    # - .nojekyll
   preview: 
     browser: true
 execute:
