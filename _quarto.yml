@@ -2,9 +2,9 @@
 project:
   type: website
   output-dir: docs
-  resources: 
-    - CNAME
-    - .nojekyll
+  resources:
+    - "CNAME"
+    - ".nojekyll"
   preview: 
     browser: true
 execute:
