@@ -49,7 +49,7 @@ author-meta: Dr Tormey Reimer
 I am current working with [Professor Julia Blanchard](https://discover.utas.edu.au/Julia.Blanchard) on an ARC Linkage Grant developing new ways of assessing the environmental impacts of alternate sources of protein in fish food. See the full project and the latest research outputs [here](https://sustainableaquafeedsproject.org/).
 
 :::: text-center
-[More projects](projects.qmd){.btn .btn-primary}
+[More projects](pages/projects.qmd){.btn .btn-primary}
 ::::
 :::::
 ::::::
@@ -107,7 +107,7 @@ abs.2 = paste(ifelse(is.na(stringr::word(abstract, 1:60)), abstract, stringr::wo
 ::::::
 
 ::: text-center
-[See all publications](publications.qmd){.btn .btn-primary}
+[See all publications](pages/publications.qmd){.btn .btn-primary}
 :::
 
 ## Check out my blog!
@@ -125,7 +125,7 @@ abs.2 = paste(ifelse(is.na(stringr::word(abstract, 1:60)), abstract, stringr::wo
 Why did I do it? Will I stick to it with any kind of regularity? Let's find out!
 
 ::: text-center
-[Read more](blog.qmd){.btn .btn-primary}
+[Read more](pages/blog.qmd){.btn .btn-primary}
 :::
 :::::
 <!-- card end -->
@@ -145,7 +145,7 @@ Why did I do it? Will I stick to it with any kind of regularity? Let's find out!
 I attended Ocean Hack Week (24-30 August 2024) and had a great time!
 
 ::: text-center
-[Read more](blog.qmd){.btn .btn-primary}
+[Read more](pages/blog.qmd){.btn .btn-primary}
 :::
 :::::
 <!-- card end -->
@@ -186,7 +186,7 @@ I'm currently working but I might be slow to respond to emails. Maybe I'm somewh
 :::
 
 :::: text-center
-[Contact me](contact.qmd){.btn .btn-primary}
+[Contact me](pages/contact.qmd){.btn .btn-primary}
 ::::
 
 :::::
