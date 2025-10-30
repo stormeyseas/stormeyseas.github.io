@@ -40,7 +40,7 @@ author-meta: Dr Tormey Reimer
 
 :::::: {.grid .justify-content-space-evenly}
 ::::: {.g-col-4 .align-self-center}
-![](../resources/images/aquafeed.jpg){fig-alt="Aquafeed pellets being fed to a pen of fish"}
+![](resources/images/aquafeed.jpg){fig-alt="Aquafeed pellets being fed to a pen of fish"}
 :::::
 
 ::::: {.g-col-8 .align-self-center}
