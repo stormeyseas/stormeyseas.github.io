@@ -88,7 +88,7 @@ $dropdown-divider-bg:               rgba($black, .1) !default;
 // Navbar
 $navbar-bg:                         $primary;
 $navbar-fg:                         $light;
-$navbar-hl:                         lighten($light, 20%);
+$navbar-hl:                         lighten($light, 30%);
 
 $btn-border-radius:                 0;
 
@@ -259,6 +259,9 @@ h4 a:hover, h5 a:hover, {
   & .navbar-brand-logo {
     width: 100%;
   }
+}
+.nav-item {
+  padding-right: 0.75em;
 }
 .navbar-brand .navbar-brand-logo > a > img {
   width: 100%;
