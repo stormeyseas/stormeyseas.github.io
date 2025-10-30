@@ -48,7 +48,4 @@ rsconnect/
 
 # Quarto files
 /.quarto/
-docs/*
-
 **/*.quarto_ipynb
-docs/*
