@@ -12,27 +12,27 @@ author-meta: Dr Tormey Reimer
 
 ::: {.grid .justify-content-space-evenly .align-items-center .text-center .m-4 .py-1}
 :::: {.g-col-4 .g-col-xl-2 .m-2 .p-0}
-[![](resources/icons/google-scholar-dark.svg){fig-alt="Link to my Google Scholar" width="50%"}](https://scholar.google.com/citations?hl=en&user=H45vLccAAAAJ&view_op=list_works&gmla=AKKJWFctSeG1-RPdHM1Sm6zw_pddPbBW_Q-LL5Oj-bJgbK4mEgjr4lTM7hprsdR1hMk-s2grckZTOogim9ha4lHJ)
+[![](resources/icons/google-scholar-dark.svg){fig-alt="Link to my Google Scholar" width="50%"}](https://scholar.google.com/citations?hl=en&user=H45vLccAAAAJ&view_op=list_works&gmla=AKKJWFctSeG1-RPdHM1Sm6zw_pddPbBW_Q-LL5Oj-bJgbK4mEgjr4lTM7hprsdR1hMk-s2grckZTOogim9ha4lHJ){target="_blank"}
 ::::
 
 :::: {.g-col-4 .g-col-xl-2 .m-2 .p-0}
-[![](resources/icons/linkedin-dark.svg){fig-alt="Link to my LinkedIn" width="50%"}](https://au.linkedin.com/in/tormey-reimer)
+[![](resources/icons/linkedin-dark.svg){fig-alt="Link to my LinkedIn" width="50%"}](https://au.linkedin.com/in/tormey-reimer){target="_blank"}
 ::::
 
 :::: {.g-col-4 .g-col-xl-2 .m-2 .p-0}
-[![](resources/icons/orcid-dark.svg){fig-alt="Link to my OrCID" width="50%"}](https://orcid.org/0000-0002-5983-2798)
+[![](resources/icons/orcid-dark.svg){fig-alt="Link to my OrCID" width="50%"}](https://orcid.org/0000-0002-5983-2798){target="_blank"}
 ::::
 
 :::: {.g-col-4 .g-col-xl-2 .m-2 .p-0}
-[![](resources/icons/researchgate-dark.svg){fig-alt="Link to my ResearchGate" width="50%"}](https://www.researchgate.net/profile/Tormey-Reimer)
+[![](resources/icons/researchgate-dark.svg){fig-alt="Link to my ResearchGate" width="50%"}](https://www.researchgate.net/profile/Tormey-Reimer){target="_blank"}
 ::::
 
 :::: {.g-col-4 .g-col-xl-2 .m-2 .p-0}
-[![](resources/icons/landmark-solid-dark.svg){fig-alt="Link to my institution" width="50%"}](https://marinesocioecology.org/team/tormey-reimer/)
+[![](resources/icons/landmark-solid-dark.svg){fig-alt="Link to my institution" width="50%"}](https://marinesocioecology.org/team/tormey-reimer/){target="_blank"}
 ::::
 
 :::: {.g-col-4 .g-col-xl-2 .m-2 .p-0}
-[![](resources/icons/github-dark.svg){fig-alt="Link to my Github" width="50%"}](https://github.com/stormeyseas)
+[![](resources/icons/github-dark.svg){fig-alt="Link to my Github" width="50%"}](https://github.com/stormeyseas){target="_blank"}
 ::::
 :::
 
@@ -46,7 +46,7 @@ author-meta: Dr Tormey Reimer
 ::::: {.g-col-8 .align-self-center}
 ### Optimising feeds to support ecosystem-based aquaculture
 
-I am current working with [Professor Julia Blanchard](https://discover.utas.edu.au/Julia.Blanchard) on an ARC Linkage Grant developing new ways of assessing the environmental impacts of alternate sources of protein in fish food. See the full project and the latest research outputs [here](https://sustainableaquafeedsproject.org/).
+I am current working with [Professor Julia Blanchard](https://discover.utas.edu.au/Julia.Blanchard){target="_blank"} on an ARC Linkage Grant developing new ways of assessing the environmental impacts of alternate sources of protein in fish food. See the full project and the latest research outputs [here](https://sustainableaquafeedsproject.org/){target="_blank"}.
 
 :::: text-center
 [More projects](pages/projects.qmd){.btn .btn-primary}
@@ -60,7 +60,7 @@ I am current working with [Professor Julia Blanchard](https://discover.utas.edu.
 ::::: {.g-col-12 .g-col-md-6}
 :::: {.grid .justify-content-space-evenly .align-items-center}
 ::: {.g-col-12}
-#### [High prevalence of vaterite in sagittal otoliths causes hearing impairment in farmed fish](https://doi.org/10.1038/srep25249)
+#### [High prevalence of vaterite in sagittal otoliths causes hearing impairment in farmed fish](https://doi.org/10.1038/srep25249){target="_blank"}
 :::
 
 ::: {.g-col-6}
@@ -76,15 +76,15 @@ Tormey Reimer, Tim Dempster, Fletcher Warren-Myers, Arne J. Jensen, Stephen E. S
 ```{r include=FALSE}
 abstract <- "The rapid growth of aquaculture raises questions about the welfare status of mass-produced species. Sagittal otoliths are primary hearing structures in the inner ear of all teleost (bony) fishes and are normally composed of aragonite, though abnormal vaterite replacement is sometimes seen in the wild. We provide the first widespread evaluation of the prevalence of vaterite in otoliths, showing that farmed fish have levels of vaterite replacement over 10 times higher than wild fish, regardless of species. We confirm this observation with extensive sampling of wild and farmed Atlantic salmon in Norway, the world’s largest producer and verify that vateritic otoliths are common in farmed salmon worldwide..."
 
-abs.1 = paste(ifelse(is.na(stringr::word(abstract, 1:60)), abstract, stringr::word(abstract, 1:60)), collapse = " ")
+abs.1 <- paste(ifelse(is.na(stringr::word(abstract, 1:60)), abstract, stringr::word(abstract, 1:60)), collapse = " ")
 ```
-`r abs.1`... [Read more](https://doi.org/10.1038/srep25249)
+`r abs.1`... [Read more](https://doi.org/10.1038/srep25249){target="_blank"}
 :::::
 
 ::::: {.g-col-12 .g-col-md-6}
 :::: {.grid .justify-content-space-evenly .align-items-center}
 ::: {.g-col-12}
-#### [Rapid growth causes abnormal vaterite formation in farmed fish otoliths](https://doi.org/10.1242/jeb.148056)
+#### [Rapid growth causes abnormal vaterite formation in farmed fish otoliths](https://doi.org/10.1242/jeb.148056){target="_blank"}
 :::
 
 ::: {.g-col-6}
@@ -100,9 +100,9 @@ Tormey Reimer, Tim Dempster, Anna Wargelius, Per Gunnar Fjelldal, Tom Hansen, Ke
 ```{r include=FALSE}
 abstract <- "Sagittal otoliths are essential components of the sensory organs that enable all teleost fish to hear and maintain balance, and are primarily composed of calcium carbonate. A deformity, where aragonite (the normal crystal form) is replaced with vaterite, was first noted over 50 years ago but its underlying cause is unresolved. We evaluated the prevalence of vateritic otoliths from two captive rearing studies which suggested that fast growth, due to environmental rather than genetic control, led to vaterite development..."
 
-abs.2 = paste(ifelse(is.na(stringr::word(abstract, 1:60)), abstract, stringr::word(abstract, 1:60)), collapse = " ")
+abs.2 <- paste(ifelse(is.na(stringr::word(abstract, 1:60)), abstract, stringr::word(abstract, 1:60)), collapse = " ")
 ```
-`r abs.2`... [Read more](https://doi.org/10.1242/jeb.148056)
+`r abs.2`... [Read more](https://doi.org/10.1242/jeb.148056){target="_blank"}
 :::::
 ::::::
 

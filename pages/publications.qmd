@@ -23,7 +23,7 @@ Here I'll be collecting written pieces that I've published in peer-reviewed jour
 :::
 
 ::: {.g-col-6}
-#### [High prevalence of vaterite in sagittal otoliths causes hearing impairment in farmed fish](https://doi.org/10.1038/srep25249)
+#### [High prevalence of vaterite in sagittal otoliths causes hearing impairment in farmed fish](https://doi.org/10.1038/srep25249){target="_blank"}
 
 Tormey Reimer, Tim Dempster, Fletcher Warren-Myers, Arne J. Jensen, Stephen E. Swearer
 
@@ -38,7 +38,7 @@ abstract = "The rapid growth of aquaculture raises questions about the welfare s
 
 abs.1 = paste(ifelse(is.na(stringr::word(abstract, 1:70)), abstract, stringr::word(abstract, 1:70)), collapse = " ")
 ```
-`r abs.1`... [Read more](https://doi.org/10.1038/srep25249)
+`r abs.1`... [Read more](https://doi.org/10.1038/srep25249){target="_blank"}
 :::::
 
 ::::: {.g-col-12 .g-col-md-6}
@@ -48,7 +48,7 @@ abs.1 = paste(ifelse(is.na(stringr::word(abstract, 1:70)), abstract, stringr::wo
 :::
 
 ::: {.g-col-6}
-#### [Rapid growth causes abnormal vaterite formation in farmed fish otoliths](https://doi.org/10.1242/jeb.148056)
+#### [Rapid growth causes abnormal vaterite formation in farmed fish otoliths](https://doi.org/10.1242/jeb.148056){target="_blank"}
 
 Tormey Reimer, Tim Dempster, Anna Wargelius, Per Gunnar Fjelldal, Tom Hansen, Kevin A. Glover, Monica F. Solberg, Stephen E. Swearer
 
@@ -63,7 +63,7 @@ abstract = "Sagittal otoliths are essential components of the sensory organs tha
 
 abs.2 = paste(ifelse(is.na(stringr::word(abstract, 1:70)), abstract, stringr::word(abstract, 1:70)), collapse = " ")
 ```
-`r abs.2`... [Read more](https://doi.org/10.1242/jeb.148056)
+`r abs.2`... [Read more](https://doi.org/10.1242/jeb.148056){target="_blank"}
 :::::
 ::::::
 
@@ -75,7 +75,7 @@ abs.2 = paste(ifelse(is.na(stringr::word(abstract, 1:70)), abstract, stringr::wo
 :::
 
 ::: {.g-col-12 .g-col-md-9}
-#### [Listen up: many farmed fish are hard of hearing – here’s why it matters](https://theconversation.com/listen-up-many-farmed-fish-are-hard-of-hearing-heres-why-it-matters-58587)
+#### [Listen up: many farmed fish are hard of hearing – here’s why it matters](https://theconversation.com/listen-up-many-farmed-fish-are-hard-of-hearing-heres-why-it-matters-58587){target="_blank"}
 
 Tim Dempster, Stephen E. Swearer, Tormey Reimer
 
@@ -93,6 +93,6 @@ In this context, research we published this week has revealed that half of the w
 
 abs.2 = paste(ifelse(is.na(stringr::word(abstract, 1:60)), abstract, stringr::word(abstract, 1:60)), collapse = " ")
 ```
-`r abs.2`... [Read more](https://theconversation.com/listen-up-many-farmed-fish-are-hard-of-hearing-heres-why-it-matters-58587)
+`r abs.2`... [Read more](https://theconversation.com/listen-up-many-farmed-fish-are-hard-of-hearing-heres-why-it-matters-58587){target="_blank"}
 :::
 ::::
