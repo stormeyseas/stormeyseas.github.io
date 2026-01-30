@@ -19,7 +19,7 @@ Here I'll be collecting written pieces that I've published in peer-reviewed jour
 ::::: {.g-col-12 .g-col-md-6}
 :::: {.grid .justify-content-space-evenly .align-items-center}
 ::: {.g-col-6 .no-gaps}
-![](resources/pdf-images/High prevalence of vaterite.jpg){fig-alt="Scientific Reports snapshot"}
+![](/resources/pdf-images/High prevalence of vaterite.jpg){fig-alt="Scientific Reports snapshot"}
 :::
 
 ::: {.g-col-6}
@@ -44,7 +44,7 @@ abs.1 = paste(ifelse(is.na(stringr::word(abstract, 1:70)), abstract, stringr::wo
 ::::: {.g-col-12 .g-col-md-6}
 :::: {.grid .justify-content-space-evenly .align-items-center}
 ::: {.g-col-6 .no-gaps}
-![](resources/pdf-images/Rapid growth causes.jpg){fig-alt="Journal of Evolutionary Biology snapshot"}
+![](/resources/pdf-images/Rapid growth causes.jpg){fig-alt="Journal of Evolutionary Biology snapshot"}
 :::
 
 ::: {.g-col-6}
@@ -71,7 +71,7 @@ abs.2 = paste(ifelse(is.na(stringr::word(abstract, 1:70)), abstract, stringr::wo
 
 :::: {.grid .justify-content-space-evenly .align-items-center}
 ::: {.g-col-12 .g-col-md-3 .no-gaps}
-![](resources/images/conversation-farmed-fish.jpg){fig-alt="Conversation article screenshot"}
+![](/resources/images/conversation-farmed-fish.jpg){fig-alt="Conversation article screenshot"}
 :::
 
 ::: {.g-col-12 .g-col-md-9}

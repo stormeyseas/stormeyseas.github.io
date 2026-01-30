@@ -13,7 +13,7 @@ sidebar: false
 
 ::: {.grid .justify-content-space-evenly .align-items-center}
 :::: {.g-col-12 .g-col-lg-4 .text-center}
-![](resources/images/aquafeed.jpg){fig-alt="Aquafeed pellets being fed to a pen of fish"}
+![](/resources/images/aquafeed.jpg){fig-alt="Aquafeed pellets being fed to a pen of fish"}
 ::::
 
 :::: {.g-col-12 .g-col-lg-8 .text-center}
@@ -33,7 +33,7 @@ This project aims to assess the global and local consequences of changing feeds 
 
 ::: {.grid .justify-content-space-evenly .align-items-center}
 :::: {.g-col-12 .g-col-lg-4 .text-center}
-![](resources/images/Asparagopsis.jpg){fig-alt="A photo of an _Asparagopsis_ gametophyte I found on the internet"}
+![](/resources/images/Asparagopsis.jpg){fig-alt="A photo of an _Asparagopsis_ gametophyte I found on the internet"}
 ::::
 
 :::: {.g-col-12 .g-col-lg-8 .text-center}
@@ -53,7 +53,7 @@ This project used a macroalgae growth model created by Scott Hadley that I furth
 
 ::: {.grid .justify-content-space-evenly .align-items-center .my-4 .py-4}
 :::: {.g-col-12 .g-col-lg-4 .text-center}
-![](resources/images/personal-website.jpg){fig-alt="Screenshot of the website you're on right now... so meta!" style="border: solid 1px var(--bs-primary);"}
+![](/resources/images/personal-website.jpg){fig-alt="Screenshot of the website you're on right now... so meta!" style="border: solid 1px var(--bs-primary);"}
 ::::
 
 :::: {.g-col-12 .g-col-lg-8 .text-center}
@@ -80,7 +80,7 @@ I really wanted a central place to consolidate all my **stuff**. Anyone who want
 
 :::: {.g-col-12 .g-col-lg-6 .align-items-top .no-gaps .my-4}
 ::::: {.g-col-12 .img-container .no-gaps}
-![](resources/images/FishSizeHomepage.png){fig-alt="Screenshot of the FishSizeProject website"}
+![](/resources/images/FishSizeHomepage.png){fig-alt="Screenshot of the FishSizeProject website"}
 ::::: 
 
 ::::: g-col-12
@@ -92,7 +92,7 @@ The whole reason I learned to use Quarto is because the [FishSize Project Lab](h
 
 :::: {.g-col-12 .g-col-lg-6 .align-items-top}
 ::::: {.g-col-12 .img-container .no-gaps}
-![](resources/images/BigFishHomepage.png){fig-alt="Screenshot of the BigFish website"}
+![](/resources/images/BigFishHomepage.png){fig-alt="Screenshot of the BigFish website"}
 
 ::::: 
 

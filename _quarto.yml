@@ -48,8 +48,10 @@ website:
         href: pages/projects.qmd
       - text: Publications
         href: pages/publications.qmd
-      - text: macrogrow
-        href: http://drtreimer.com/macrogrow
+      - text: Tools
+        menu:
+        - text: macrogrow
+          href: http://drtreimer.com/macrogrow
         target: _blank
       - text: Blog
         href: pages/blog.qmd
