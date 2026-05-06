@@ -11,15 +11,44 @@ sidebar: false
 
 # Publications
 
-Here I'll be collecting written pieces that I've published in peer-reviewed journals or news outlets. If you're looking for details of a talk I've given at a conference, please [contact me](contact.qmd). 
+Here I'm collecting written pieces that I've published in peer-reviewed journals or news outlets. If you're looking for details of a talk I've given at a conference, please [contact me](contact.qmd). 
 
 ## Peer-reviewed articles
 
+<!-- Articles grid -->
 :::::: {.grid .justify-content-space-evenly .align-items-center}
+
+<!-- Single article grid -->
 ::::: {.g-col-12 .g-col-md-6}
 :::: {.grid .justify-content-space-evenly .align-items-center}
 ::: {.g-col-6 .no-gaps}
-![](/resources/pdf-images/High prevalence of vaterite.jpg){fig-alt="Scientific Reports snapshot"}
+![](/resources/pub-images/Modelling Asparagopsis (4).jpg){fig-alt="Ecological Modelling snapshot"}
+:::
+
+::: {.g-col-6}
+#### [Modelling *Asparagopsis* nitrogen bioremediation efficiency in Australian coastal environments](10.1016/j.ecolmodel.2026.111623){target="_blank"}
+
+Tormey Reimer, Katherine A. Cresswell, Kate M. Fraser, Camille A. White, Scott A. Hadley
+
+*Ecological Modelling*, 2026
+:::
+::::
+```{r}
+#| label: Modelling asparagopsis abstract
+#| include: FALSE
+
+abstract <- "Coastal nitrogen enrichment poses a growing threat to marine ecosystems, and macroalgae cultivation has been identified as a promising bioremediation strategy in Australian coastal waters. Recent interest in cultivating *Asparagopsis* species as additives to livestock feeds presents an opportunity to leverage a commercial industry for ecosystem-based management goals, but the bioremediative potential of these species remain largely uncharacterised. An existing nitrogen-based macroalgae growth model is here adapted and parameterised for *Asparagopsis armata* and *Asparagopsis taxiformis*, and growth and nitrogen removal are modelled in coastal waters around Australia in both natural and supplemented conditions. Despite their low uptake rate of nitrogen, particularly nitrate, both *Asparagopsis* species effectively remove nitrogen in constantly supplemented conditions due to their high internal tissue concentration. These results offer a spatially explicit, adaptable, and freely available framework for assessing *Asparagopsis* cultivation sites for dual commercial and bioremediation purposes across Australian coastal waters while highlighting key physiological knowledge gaps that can be addressed to refine future bioremediation predictions."
+
+abs.1 = paste(ifelse(is.na(stringr::word(abstract, 1:70)), abstract, stringr::word(abstract, 1:70)), collapse = " ")
+```
+`r abs.1`... [Read more](10.1016/j.ecolmodel.2026.111623){target="_blank"}
+:::::
+
+<!-- Single article grid -->
+::::: {.g-col-12 .g-col-md-6}
+:::: {.grid .justify-content-space-evenly .align-items-center}
+::: {.g-col-6 .no-gaps}
+![](/resources/pub-images/High prevalence of vaterite.jpg){fig-alt="Scientific Reports snapshot"}
 :::
 
 ::: {.g-col-6}
@@ -41,10 +70,11 @@ abs.1 = paste(ifelse(is.na(stringr::word(abstract, 1:70)), abstract, stringr::wo
 `r abs.1`... [Read more](https://doi.org/10.1038/srep25249){target="_blank"}
 :::::
 
+<!-- Single article grid -->
 ::::: {.g-col-12 .g-col-md-6}
 :::: {.grid .justify-content-space-evenly .align-items-center}
 ::: {.g-col-6 .no-gaps}
-![](/resources/pdf-images/Rapid growth causes.jpg){fig-alt="Journal of Evolutionary Biology snapshot"}
+![](/resources/pub-images/Rapid growth causes.jpg){fig-alt="Journal of Evolutionary Biology snapshot"}
 :::
 
 ::: {.g-col-6}
