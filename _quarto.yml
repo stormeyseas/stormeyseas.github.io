@@ -12,7 +12,7 @@ anchor-sections: false
   
 profile: 
   default: active
-  group: [active, inactive, semiactive]
+  group: [active, active-hobart, inactive, semiactive]
 
 website:
   title: "Dr Tormey Reimer"
@@ -31,11 +31,15 @@ website:
       contents: "auto"
       background: light
       foreground: light
+  open-graph:
+    image: resources/icons/water-solid-dark.svg
 
 # Navbar options (see https://quarto.org/docs/reference/projects/websites.html#navbar)
   navbar: 
     title: false
     logo: /resources/icons/water-solid-light.svg
+    logo-alt: "Home"
+    logo-href: /index.html
     pinned: false
     collapse: true
     # List of items for the each section of the navbar (left, right, center)
