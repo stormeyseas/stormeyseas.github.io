@@ -66,7 +66,7 @@ I'm currently working but I might be slow to respond to emails. Maybe I'm somewh
 :::::
 
 ::::: {.g-col-2 .align-self-center}
-[![](/resources/icons/landmark-solid-dark.svg){fig-alt="Link to my current institution" width="60%"}](https://marinesocioecology.org/team/tormey-reimer/){target="_blank"}
+[![](/resources/icons/landmark-solid-dark.svg){fig-alt="Link to my current institution" width="60%"}](https://sustainableaquafeedsproject.org/){target="_blank"}
 :::::
 
 ::::: {.g-col-2 .align-self-center}
