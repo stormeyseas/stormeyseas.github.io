@@ -17,6 +17,10 @@ sidebar: false
 ![](/resources/icons/status-active.png){width="40%" fig-align="center" fig-alt="Active!"}
 :::
 
+::: {.content-visible when-profile="active-hobart"}
+![](/resources/icons/status-active.png){width="40%" fig-align="center" fig-alt="Active!"}
+:::
+
 ::: {.content-hidden unless-meta="status.inactive"}
 ![](/resources/icons/status-inactive.png){width="40%" fig-align="center" fig-alt="Active!"}
 :::
@@ -28,7 +32,11 @@ sidebar: false
 
 ::::: {.g-col-8 .align-self-center}
 ::: {.content-visible when-profile="active"}
-I'm currently working at home in Melbourne, Australia. I should be fairly responsive to emails, messages, heartfelt letters, and good vibes. Feel free to reach out!
+I'm currently working from my home in Naarm (Melbourne), Australia. I should be fairly responsive to emails, messages, heartfelt letters, and good vibes. Feel free to reach out!
+:::
+
+::: {.content-visible when-profile="active-hobart"}
+I'm currently working in Nipaluna (Hobart), Australia. I should be fairly responsive to emails, messages, heartfelt letters, and good vibes. Feel free to reach out!
 :::
 
 ::: {.content-hidden unless-meta="status.inactive"}
