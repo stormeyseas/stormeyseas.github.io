@@ -1,8 +1,6 @@
 ---
-pagetitle: |
-  Projects | Dr Tormey Reimer
-description-meta: |
-  See what I'm currently working on!
+pagetitle: "Projects | Dr Tormey Reimer"
+description-meta: "See what I'm currently working on!"
 sidebar: false
 ---
 ::: {.column-screen .hero-img .hero-strip-page .align-items-end}
@@ -40,6 +38,7 @@ This project aims to assess the global and local consequences of changing feeds 
 ### Investigating the bioremediation potential of seaweed aquaculture across Australia
 
 I worked with [Dr Katie Cresswell](https://discover.utas.edu.au/katie.cresswell){target="_blank"} on an [FRDC-funded project](https://www.frdc.com.au/project/2023-193){target="_blank"} to investigate the bioremediation potential of native seaweed aquaculture across Australia.
+We published this work as "[Modelling *Asparagopsis* nitrogen bioremediation efficiency in Australian coastal environments](10.1016/j.ecolmodel.2026.111623){target="_blank"}", and you can find the macroalgae growth functions as an R package [here](http://drtreimer.com/macrogrow){target="_blank"}.
 ::::
 
 :::: g-col-12
@@ -57,11 +56,11 @@ This project used a macroalgae growth model created by Scott Hadley that I furth
 ::::
 
 :::: {.g-col-12 .g-col-lg-8 .text-center}
-### This website {#sec-this-website}
+### Websites {#sec-websites}
 
 What could be a better use of my time as I wait for feedback on my PhD thesis than slowly moving more and more of my life into RStudio? I designed and built this whole website using Quarto.
-
-While the site is *technically* done, I'll continue to update it now and then as I have the time. In particular I want to stay up to date on my [blog](blog.qmd).
+While the site is *technically* done, I'll continue to update it now and then as I have the time. 
+<!-- In particular I want to stay up to date on my [blog](blog.qmd). -->
 ::::
 
 :::: g-col-12

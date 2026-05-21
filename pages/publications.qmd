@@ -1,8 +1,6 @@
 ---
-pagetitle: |
-  Publications | Dr Tormey Reimer
-description-meta: |
-  Collection of my publications in peer-reviewed journals and other media.
+pagetitle: "Publications | Dr Tormey Reimer"
+description-meta: "A collection of my publications in peer-reviewed journals and other media."
 sidebar: false
 ---
 ::: {.column-screen .hero-img .hero-strip-page .align-items-end}

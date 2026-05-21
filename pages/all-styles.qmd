@@ -1,8 +1,7 @@
 ---
 # All options for the HTML format: https://quarto.org/docs/reference/formats/html.html
-pagetitle: Styles
-description-meta: |
-    What are you even doing here?
+pagetitle: "Styles"
+description-meta: "What are you even doing here?"
 sidebar: false
 ---
 ::: {.column-screen .hero-img .hero-strip-page .align-items-end}

@@ -1,8 +1,6 @@
 ---
-pagetitle: |
-  About Me | Dr Tormey Reimer
-description-meta: |
-    I am a computational biologist and a huge dork.
+pagetitle: "About Me | Dr Tormey Reimer"
+description-meta: "I am a computational biologist and a huge dork."
 sidebar: false
 ---
 ::: {.column-screen .hero-img .hero-strip-page .align-items-end}

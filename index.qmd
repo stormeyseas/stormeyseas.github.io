@@ -1,8 +1,7 @@
 ---
 # All options for the HTML format: https://quarto.org/docs/reference/formats/html.html
 pagetitle: "Home | Dr Tormey Reimer"
-description-meta: |
-  Dr Tormey Reimer is a computational biologist using her broad-ranging skills in simulations and statistics to help assess and manage marine resource sustainability.
+description-meta: "Dr Tormey Reimer is a computational biologist using her broad-ranging skills in simulations and statistics to help assess and manage marine resource sustainability."
 author-meta: Dr Tormey Reimer
 ---
 
@@ -163,6 +162,10 @@ I attended Ocean Hack Week (24-30 August 2024) and had a great time!
 ![](./resources/icons/status-active.png){width="40%" fig-align="center" fig-alt="Active!"}
 :::
 
+::: {.content-visible when-profile="hobart"}
+![](./resources/icons/status-active.png){width="40%" fig-align="center" fig-alt="Active (in Hobart)!"}
+:::
+
 ::: {.content-hidden unless-meta="status.inactive"}
 ![](./resources/icons/status-inactive.png){width="40%" fig-align="center" fig-alt="Active!"}
 :::
@@ -174,7 +177,11 @@ I attended Ocean Hack Week (24-30 August 2024) and had a great time!
 
 ::::: {.g-col-8 .align-self-center}
 ::: {.content-visible when-profile="active"}
-I'm currently working at home in Melbourne, Australia. I should be fairly responsive to emails, messages, heartfelt letters, and good vibes. Feel free to reach out!
+I'm currently working at home in Melbourne (Naarm), Australia. I should be fairly responsive to emails, messages, heartfelt letters, and good vibes. Feel free to reach out!
+:::
+
+::: {.content-visible when-profile="hobart"}
+I'm currently working in Hobart (Nipaluna), Australia. I should be fairly responsive to emails, messages, heartfelt letters, and good vibes. Feel free to reach out, or come see me in the waterfront IMAS building!
 :::
 
 ::: {.content-hidden unless-meta="status.inactive"}

@@ -1,8 +1,6 @@
 ---
-pagetitle: |
-  Blog | Dr Tormey Reimer
-description-meta: |
-  This is really just a thought-dump for all my random ideas, musings and side-projects.
+pagetitle: "Blog | Dr Tormey Reimer"
+description-meta: "This is really just a thought-dump for all my random ideas, musings and side-projects."
 sidebar: false
 listing:
   contents: "../blog-posts/*.qmd"

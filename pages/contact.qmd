@@ -1,8 +1,6 @@
 ---
-pagetitle: |
-  Contact | Dr Tormey Reimer
-description-meta: |
-  Get in touch with me here.
+pagetitle: "Contact | Dr Tormey Reimer"
+description-meta: "Get in touch with me here."
 sidebar: false
 ---
 ::: {.column-screen .hero-img .hero-strip-page .align-items-end}
@@ -17,7 +15,7 @@ sidebar: false
 ![](/resources/icons/status-active.png){width="40%" fig-align="center" fig-alt="Active!"}
 :::
 
-::: {.content-visible when-profile="active-hobart"}
+::: {.content-visible when-profile="hobart"}
 ![](/resources/icons/status-active.png){width="40%" fig-align="center" fig-alt="Active!"}
 :::
 
@@ -32,11 +30,11 @@ sidebar: false
 
 ::::: {.g-col-8 .align-self-center}
 ::: {.content-visible when-profile="active"}
-I'm currently working from my home in Naarm (Melbourne), Australia. I should be fairly responsive to emails, messages, heartfelt letters, and good vibes. Feel free to reach out!
+I'm currently working from my home in Melbourne (Naarm), Australia. I should be fairly responsive to emails, messages, heartfelt letters, and good vibes. Feel free to reach out!
 :::
 
-::: {.content-visible when-profile="active-hobart"}
-I'm currently working in Nipaluna (Hobart), Australia. I should be fairly responsive to emails, messages, heartfelt letters, and good vibes. Feel free to reach out!
+::: {.content-visible when-profile="hobart"}
+I'm currently working in Hobart (Nipaluna), Australia. I should be fairly responsive to emails, messages, heartfelt letters, and good vibes. Feel free to reach out, or come see me in the waterfront IMAS building!
 :::
 
 ::: {.content-hidden unless-meta="status.inactive"}

@@ -11,8 +11,8 @@ execute:
 anchor-sections: false
   
 profile: 
-  default: active
-  group: [active, active-hobart, inactive, semiactive]
+  default: hobart
+  group: [active, hobart, inactive, semiactive]
 
 website:
   title: "Dr Tormey Reimer"
@@ -54,9 +54,9 @@ website:
         href: pages/publications.qmd
       - text: Tools
         menu:
-        - text: macrogrow
+        - text: macrogrow R package
           href: http://drtreimer.com/macrogrow
-        target: _blank
+          target: _blank
       - text: Blog
         href: pages/blog.qmd
       - text: Contact
@@ -76,8 +76,7 @@ website:
       Website created by [me](/pages/projects.qmd#sec-this-website)!
     right: |
       <i>I live and work in Naarm, on the land of the Wurundjeri people.<br>
-      IMAS is built in Nipaluna on the land of the Muwinina people, which the Palawa people continue to care for today.<br>
-      Sovereignty was never ceded  </i><img src="/resources/images/Australian_Aboriginal_Flag.png" class="img-fluid" style="height: 1em;">
+      IMAS is built in Nipaluna on the land of the Muwinina people, which the Palawa people continue to care for today. Sovereignty was never ceded  </i><img src="/resources/images/Australian_Aboriginal_Flag.png" class="img-fluid" style="height: 1em;">
     background: dark
     foreground: light
 
