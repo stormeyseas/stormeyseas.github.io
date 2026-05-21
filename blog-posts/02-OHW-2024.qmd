@@ -1,6 +1,6 @@
 ---
 title: "Ocean Hack Week 2024"
-date: "30-10-2024"
+date: "10-30-2024"
 image: "pics/OHW_kickoff.jpg"
 categories: 
   - "python"
@@ -43,7 +43,3 @@ Nick brought a karaoke machine loaded with every song under the sun, so one high
 But in between screaming my voice hoarse and picking up waaaaay too many shells on the beach, I did actually make some cool changes to a model comparison and selection tool for [FishMIP](https://fishmip.org/) and made some friends too. Looking forward to OHW2025!
 
 ![One of the beaches we walked on - I picked up over 30 baby abalone shells!](pics/kioloa_beach.jpg){width=70% fig-alt="Beach panorama"}
-
-
-
-

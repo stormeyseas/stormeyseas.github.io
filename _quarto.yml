@@ -57,6 +57,8 @@ website:
         - text: macrogrow R package
           href: http://drtreimer.com/macrogrow
           target: _blank
+        - text: The IMAS PhD Thesis Latex Template
+          href: blog-posts/03-latex-thesis-template.qmd
       - text: Blog
         href: pages/blog.qmd
       - text: Contact

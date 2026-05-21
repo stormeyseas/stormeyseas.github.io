@@ -1,0 +1,24 @@
+---
+title: "The IMAS PhD Thesis Latex Template"
+date: "08-26-2025"
+image: "pics/UTAS_IMAS_PhD_Thesis_Template_2023.pdf-page_1.jpg"
+categories: 
+  - "Latex"
+  - "Thesis"
+  - "github"
+author: 'Tormey Reimer'
+description: |
+    During my Phd I created a Latex thesis template for the thesis. This blog is a work in progress, so if you have any specific questions about the template please email me!
+---
+
+## Welcome!
+
+Welcome to my IMAS UTAS PhD thesis template! Don't be afraid, it's all going to be ok. 
+
+You'll find the thesis template [**HERE**](https://github.com/stormeyseas/UTAS-IMAS-PhD-Thesis-Template-2023). The easiest way to use it is to just download the whole thing as a zip folder and upload it into [Overleaf](https://www.overleaf.com/){target="_blank"}.
+
+I've haven't quite got around to making a full feature list for the thesis template yet, but I'm working on it. If you have any questions about the template please [email me](../pages/contact.qmd)!
+
+Feel free to fork the repository or make whatever changes you like within your own copy of the thesis template. You don't need to credit me (or any of my predecessors) within the thesis. I only ask that if you create your own version of the thesis template on Github that's based on my work, you mention me in the repo readme.
+
+Happy writing!
