@@ -74,8 +74,9 @@ website:
       [![](/resources/icons/linkedin-light.svg){fig-alt="LinkedIN" fig-align="center" height="1.5em" fig-valign="top" margin-left="10px" margin-right="10px"}](https://au.linkedin.com/in/tormey-reimer)
       [![](/resources/icons/google-scholar-light.svg){fig-alt="GoogleScholar" fig-align="center" height="1.5em" fig-valign="top" margin-left="10px" margin-right="10px"}](https://scholar.google.com.au/citations?user=H45vLccAAAAJ&hl=en)
       [![](/resources/icons/github-light.svg){fig-alt="Github" fig-align="center" height="1.5em" fig-valign="top" margin-left="10px" margin-right="10px"}](https://github.com/stormeyseas)
-      <br><br>
+      <br>
       Website created by [me](/pages/projects.qmd#sec-this-website)!
+      <button id="crazy-mode-btn" title="Activate hell">😈</button>
     right: |
       <i>I live and work in Naarm, on the land of the Wurundjeri people.<br>
       IMAS is built in Nipaluna on the land of the Muwinina people, which the Palawa people continue to care for today. Sovereignty was never ceded  </i><img src="/resources/images/Australian_Aboriginal_Flag.png" class="img-fluid" style="height: 1em;">
@@ -87,7 +88,12 @@ format:
     theme:
       light: resources/styling/my-theme.scss
       dark: resources/styling/my-theme-dark.scss
-    css: resources/styling/styles.css
+    css:
+      - resources/styling/styles.css
+      - resources/styling/crazy-mode.css
+    include-after-body:
+      text: |
+        <script src="/resources/styling/crazy-mode.js"></script>
     page-layout: full
     grid:
       sidebar-width: 225px
