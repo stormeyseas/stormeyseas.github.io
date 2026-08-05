@@ -59,7 +59,7 @@ I am current working with [Professor Julia Blanchard](https://discover.utas.edu.
 ::::: {.g-col-12 .g-col-md-6}
 :::: {.grid .justify-content-space-evenly .align-items-center}
 ::: {.g-col-12}
-#### [Modelling *Asparagopsis* nitrogen bioremediation efficiency in Australian coastal environments](10.1016/j.ecolmodel.2026.111623){target="_blank"}
+#### [Modelling *Asparagopsis* nitrogen bioremediation efficiency in Australian coastal environments](https://doi.org/10.1016/j.ecolmodel.2026.111623){target="_blank"}
 :::
 
 ::: {.g-col-6}
@@ -70,6 +70,11 @@ I am current working with [Professor Julia Blanchard](https://discover.utas.edu.
 Tormey Reimer, Katherine A. Cresswell, Kate M. Fraser, Camille A. White, Scott A. Hadley
 
 *Ecological Modelling*, 2026
+
+* [Published paper](https://doi.org/10.1016/j.ecolmodel.2026.111623)
+* [Detailed documentation](https://drtreimer.com/modelling-asparagopsis/)
+* [Github repository](https://github.com/stormeyseas/modelling-asparagopsis)
+
 :::
 ::::
 ```{r include=FALSE}
@@ -77,7 +82,7 @@ abstract <- "Coastal nitrogen enrichment poses a growing threat to marine ecosys
 
 abs.1 <- paste(ifelse(is.na(stringr::word(abstract, 1:55)), abstract, stringr::word(abstract, 1:55)), collapse = " ")
 ```
-`r abs.1`... [Read more](10.1016/j.ecolmodel.2026.111623){target="_blank"}
+`r abs.1`... [Read more](https://doi.org/10.1016/j.ecolmodel.2026.111623){target="_blank"}
 :::::
 
 ::::: {.g-col-12 .g-col-md-6}
@@ -109,9 +114,63 @@ abs.2 <- paste(ifelse(is.na(stringr::word(abstract, 1:60)), abstract, stringr::w
 [See all publications](pages/publications.qmd){.btn .btn-primary}
 :::
 
+<!-- ## Tools -->
+
+<!-- ::::::::::: {.grid .justify-content-space-evenly .px-2} -->
+<!-- ::::::::: {.g-col-4 .align-self-center} -->
+<!-- ::::::: card -->
+<!-- ::::: card-title -->
+<!-- #### Title -->
+<!-- ::::: -->
+
+<!-- ::::: card-text -->
+<!-- Text text text -->
+
+<!-- ::: text-center -->
+<!-- [View](index.qmd){.btn .btn-primary} -->
+<!-- ::: -->
+<!-- ::::: -->
+<!-- ::::::: -->
+<!-- ::::::::: -->
+
+<!-- ::::::::: {.g-col-4 .align-self-center} -->
+<!-- ::::::: card -->
+<!-- ::::: card-title -->
+<!-- #### Title -->
+<!-- ::::: -->
+
+<!-- ::::: card-text -->
+<!-- Text text text -->
+
+<!-- ::: text-center -->
+<!-- [View](index.qmd){.btn .btn-primary} -->
+<!-- ::: -->
+<!-- ::::: -->
+<!-- ::::::: -->
+<!-- ::::::::: -->
+<!-- ::::::::::: -->
+
 ## Check out my blog!
 
 ::::::::::: {.grid .justify-content-space-evenly .px-2}
+::::::::: {.g-col-4 .align-self-center}
+::::::: card
+![](blog-posts/pics/UTAS_IMAS_PhD_Thesis_Template_2023.pdf-page_1_5x4.jpg){.card-img-top fig-alt="The IMAS Utas thesis template"}
+
+::: card-title
+#### The IMAS PhD Thesis Template
+:::
+
+::::: card-text
+During my Phd I created a Latex thesis template for the thesis, and I want to make it free to use.
+
+::: text-center
+[Read more](pages/blog.qmd){.btn .btn-primary}
+:::
+:::::
+:::::::
+:::::::::
+
 ::::::::: {.g-col-4 .align-self-center}
 ::::::: card
 ![](resources/images/Bruny5x4.jpg){.card-img-top fig-alt="Profile photo of Dr Tormey Reimer at Bruny Island"}
@@ -127,9 +186,7 @@ Why did I do it? Will I stick to it with any kind of regularity? Let's find out!
 [Read more](pages/blog.qmd){.btn .btn-primary}
 :::
 :::::
-<!-- card end -->
 :::::::
-<!-- column end -->
 :::::::::
 
 ::::::::: {.g-col-4 .align-self-center}
@@ -147,10 +204,9 @@ I attended Ocean Hack Week (24-30 August 2024) and had a great time!
 [Read more](pages/blog.qmd){.btn .btn-primary}
 :::
 :::::
-<!-- card end -->
 :::::::
-<!-- column end -->
 :::::::::
+
 <!-- grid end -->
 :::::::::::
 

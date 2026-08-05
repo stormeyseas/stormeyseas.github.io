@@ -29,6 +29,11 @@ Here I'm collecting written pieces that I've published in peer-reviewed journals
 Tormey Reimer, Katherine A. Cresswell, Kate M. Fraser, Camille A. White, Scott A. Hadley
 
 *Ecological Modelling*, 2026
+
+* [Published paper](https://doi.org/10.1016/j.ecolmodel.2026.111623)
+* [Detailed documentation](https://drtreimer.com/modelling-asparagopsis/)
+* [Github repository](https://github.com/stormeyseas/modelling-asparagopsis)
+
 :::
 ::::
 ```{r}
