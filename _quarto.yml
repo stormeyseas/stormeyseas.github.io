@@ -86,7 +86,7 @@ format:
   html:
     theme:
       light: resources/styling/my-theme.scss
-      dark: resources/styling/my-theme.scss
+      dark: resources/styling/my-theme-dark.scss
     css: resources/styling/styles.css
     page-layout: full
     grid:
