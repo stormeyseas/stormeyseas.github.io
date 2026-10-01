@@ -24,15 +24,15 @@ Here I'm collecting written pieces that I've published in peer-reviewed journals
 :::
 
 ::: {.g-col-6}
-#### [Modelling *Asparagopsis* nitrogen bioremediation efficiency in Australian coastal environments](10.1016/j.ecolmodel.2026.111623){target="_blank"}
+#### [Modelling *Asparagopsis* nitrogen bioremediation efficiency in Australian coastal environments](https://doi.org/10.1016/j.ecolmodel.2026.111623){target="_blank"}
 
 Tormey Reimer, Katherine A. Cresswell, Kate M. Fraser, Camille A. White, Scott A. Hadley
 
 *Ecological Modelling*, 2026
 
-* [Published paper](https://doi.org/10.1016/j.ecolmodel.2026.111623)
-* [Detailed documentation](https://drtreimer.com/modelling-asparagopsis/)
-* [Github repository](https://github.com/stormeyseas/modelling-asparagopsis)
+* [Published paper](https://doi.org/10.1016/j.ecolmodel.2026.111623){target="_blank"}
+* [Detailed documentation](https://drtreimer.com/modelling-asparagopsis/){target="_blank"}
+* [Github repository](https://github.com/stormeyseas/modelling-asparagopsis){target="_blank"}
 
 :::
 ::::
@@ -44,7 +44,7 @@ abstract <- "Coastal nitrogen enrichment poses a growing threat to marine ecosys
 
 abs.1 = paste(ifelse(is.na(stringr::word(abstract, 1:70)), abstract, stringr::word(abstract, 1:70)), collapse = " ")
 ```
-`r abs.1`... [Read more](10.1016/j.ecolmodel.2026.111623){target="_blank"}
+`r abs.1`... [Read more](https://doi.org/10.1016/j.ecolmodel.2026.111623){target="_blank"}
 :::::
 
 <!-- Single article grid -->
