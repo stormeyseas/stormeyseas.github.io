@@ -88,25 +88,25 @@ abs.1 <- paste(ifelse(is.na(stringr::word(abstract, 1:55)), abstract, stringr::w
 ::::: {.g-col-12 .g-col-md-6}
 :::: {.grid .justify-content-space-evenly .align-items-center}
 ::: {.g-col-12}
-#### [Rapid growth causes abnormal vaterite formation in farmed fish otoliths](https://doi.org/10.1242/jeb.148056){target="_blank"}
+#### [Uncharted links from mining to fed animal systems: a scoping review](https://doi.org/10.1038/s44264-026-00193-2){target="_blank"}
 :::
 
 ::: {.g-col-6}
-![](resources/pub-images/Rapid growth causes.jpg){fig-alt="Journal of Evolutionary Biology snapshot"}
+![](/resources/pub-images/Penrose et al. 2026 - Uncharted links from mining to fed animal systems_Page_6.jpg){fig-alt="Uncharted links snapshot"}
 :::
 
 ::: {.g-col-6}
-Tormey Reimer, Tim Dempster, Anna Wargelius, Per Gunnar Fjelldal, Tom Hansen, Kevin A. Glover, Monica F. Solberg, Stephen E. Swearer
+Beth Penrose, Xin Zhan, Tormey Reimer, Gage Clawson, Gianluca Amoroso, Sowdamini Sesha Prasad, Chris G. Carter, Julia L. Blanchard & Richard S. Cottrell
 
-*Journal of Evolutionary Biology*, 2017
+*npj Sustainable Aquaculture*, 2026
 :::
 ::::
 ```{r include=FALSE}
-abstract <- "Sagittal otoliths are essential components of the sensory organs that enable all teleost fish to hear and maintain balance, and are primarily composed of calcium carbonate. A deformity, where aragonite (the normal crystal form) is replaced with vaterite, was first noted over 50 years ago but its underlying cause is unresolved. We evaluated the prevalence of vateritic otoliths from two captive rearing studies which suggested that fast growth, due to environmental rather than genetic control, led to vaterite development..."
+abstract <- "Animal-source foods are an increasingly large part of human diets worldwide, with feed production representing the primary driver of environmental impacts in farmed animal systems. While much attention has focused on agricultural and fisheries-based feed ingredients, the role of mineral supplements - a critical feed component - remains largely overlooked in sustainability assessments. We reviewed over 100 peer-reviewed Life Cycle Assessment (LCA) studies of cattle, pigs, chickens, fish, and crustaceans to evaluate how mineral supplements are represented. Nearly two-thirds of studies excluded minerals entirely, with exclusion highest in aquaculture. While approximately a third of studies modelled impacts from minerals, two-thirds of these relied on proxies such as calcium carbonate rather than modelling the premixes specified in feed formulations. Only one eighth of the studies accurately modelled the actual mineral supplements used. This underrepresentation is problematic because minerals are predominately sourced from mining, which embeds considerable environmental pressures, including land use change and greenhouse gas emissions. Moreover, species-specific mineral requirements are poorly captured by proxies. Excluding or misrepresenting minerals undermines the accuracy of environmental footprint assessments and limits understanding of the true impacts of global animal food production. We recommend improved documentation and integration of mineral supplements sourcing in future studies to strengthen the reliability of sustainability assessments for farmed animal feeds."
 
 abs.2 <- paste(ifelse(is.na(stringr::word(abstract, 1:60)), abstract, stringr::word(abstract, 1:60)), collapse = " ")
 ```
-`r abs.2`... [Read more](https://doi.org/10.1242/jeb.148056){target="_blank"}
+`r abs.2`... [Read more](https://doi.org/10.1038/s44264-026-00193-2){target="_blank"}
 :::::
 ::::::
 
